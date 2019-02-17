@@ -1,3 +1,8 @@
+# ignore all files without a dot
+*
+!*/
+!*.*
+
 # Prerequisites
 *.d
 
