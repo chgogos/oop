@@ -21,6 +21,6 @@ int main(){
     Circle c3{3.5};
     std::cout << c3.get_area() << std::endl;
     const Circle c4{4.5}; 
-    std::cout << c4.get_area() << std::endl; // since c4 is const, in order to call get_area(), get_area() shoulf be const also
+    std::cout << c4.get_area() << std::endl; // since c4 is const, in order to call get_area(), get_area() should be const also
     return 0;
 }
