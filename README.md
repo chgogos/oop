@@ -12,7 +12,9 @@
 * Δέσμευση και αποδέσμευση μνήμης στην C++ [dynamic3.cpp](./cpp_playground/ex001/dynamic3.cpp)
 * Αναφορές (references) [references.cpp](./cpp_playground/ex001/references.cpp)
 * Κλήση με τιμή (call by value), κλήση με αναφορά (call by reference) [calls.cpp](./cpp_playground/ex001/calls.cpp)
-* Παράδειγμα απλής κλάσης και διάσπασης του κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex002/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex002/Rectangle.cpp), [Main.cpp](./cpp_playground/ex002/Main.cpp)
+* Παράδειγμα απλής κλάσης (μόνο με δημόσια μέλη) και διάσπασης του κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex002/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex002/Rectangle.cpp), [Main.cpp](./cpp_playground/ex002/Main.cpp)
+* Ενθυλάκωση, ορισμός ιδιωτικών (private) μελών [Main.cpp](./cpp_playground/ex003/Main.cpp)
+* Η χρήση του const σε δηλώσεις μεταβλητών αντικειμένων και σε συναρτήσεις μέλη κλάσεων [Main.cpp](./cpp_playground/ex004/Main.cpp)
 
 ## Βασικές αρχές OOP
 
