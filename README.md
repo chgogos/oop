@@ -1,20 +1,38 @@
-# Object Oriented Programming (with C++)
+# Αντικειμενοστραφής Προγραμματισμός (OOP=Object Oriented Programming) με χρήση της C++
 
-## Core principles
+    Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
+    Γκόγκος Χρήστος
 
-* Abstraction
-* Encapsulation
-* Polymorphism
-* Inheritance
+## Παραδείγματα κώδικα
 
-## Best practices
+* Παράδειγμα χρήσης δείκτη, διεύθυνσης μεταβλητής και αποαναφοράς (dereference) του δείκτη [pointers1.cpp](./cpp_playground/ex001/pointers1.cpp)
+* Δείκτες σε void [pointers2.cpp](./cpp_playground/ex001/pointers2.cpp) :fire:
+* Δέσμευση και αποδέσμευση μνήμης στην C [dynamic1.cpp](./cpp_playground/ex001/dynamic1.cpp)
+* Στατικοί και δυναμικοί πίνακες στην C [dynamic2.cpp](./cpp_playground/ex001/dynamic2.cpp)
+* Δέσμευση και αποδέσμευση μνήμης στην C++ [dynamic3.cpp](./cpp_playground/ex001/dynamic3.cpp)
+* Αναφορές (references) [references.cpp](./cpp_playground/ex001/references.cpp)
+* Κλήση με τιμή (call by value), κλήση με αναφορά (call by reference) [calls.cpp](./cpp_playground/ex001/calls.cpp)
+* Παράδειγμα απλής κλάσης και διάσπασης του κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex002/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex002/Rectangle.cpp), [Main.cpp](./cpp_playground/ex002/Main.cpp)
+
+## Βασικές αρχές OOP
+
+* Αφαίρεση (abstraction)
+* Ενθυλάκωση (encapsulation)
+* Πολυμορφισμός (polymorphism)
+* Κληρονομικότητα (inheritance)
+
+## Βέλτιστες πρακτικές
 
 * DRY (Don't Repeat Yourself)
 * YAGNI (You Ain't Gonna Need It)
 
-## Tools
+## Λογισμικά
 
-* Visual Studio Code
+* Μεταγλωττιστές για την C++
+  * gcc
+  * clang
+  
+* Visual Studio Code (Microsoft)
 
     ```console
     # Ctrl + P (quick open)
