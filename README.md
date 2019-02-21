@@ -28,11 +28,19 @@
 * DRY (Don't Repeat Yourself)
 * YAGNI (You Ain't Gonna Need It)
 
+## Ενδιαφέρουσες σελίδες
+
+* <https://isocpp.org/get-started>
+* <https://isocpp.org/std/status>
+
 ## Λογισμικά
 
 * Μεταγλωττιστές για την C++
-  * gcc
-  * clang
+  * Visual C++ 2017 Community Edition <https://visualstudio.microsoft.com/vs/features/cplusplus/>
+  * gcc <https://gcc.gnu.org/>
+    * <http://www.mingw.org/>
+    * <http://tdm-gcc.tdragon.net/>
+  * clang <http://clang.llvm.org/get_started.html>
   
 * Visual Studio Code (Microsoft)
 
