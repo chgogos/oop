@@ -6,8 +6,8 @@ class Circle{
     private: 
         double radius;
     public:
-        Circle() : radius{10.0} {}
-        Circle(double radius): radius{radius} {}
+        Circle() : radius(10.0) {}
+        Circle(double radius): radius(radius) {}
         double get_area() const {
             return PI * radius * radius;
         }

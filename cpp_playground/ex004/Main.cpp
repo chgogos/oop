@@ -8,8 +8,8 @@ class Player
 
   public:
     // constructors
-    Player() : _name{}, _score{} {} // default constructor
-    Player(std::string name, int score) : _name{name}, _score{score} {}
+    Player() : _name(), _score() {} // default constructor
+    Player(std::string name, int score) : _name(name), _score(score) {} // member initializer lists
     // Player(std::string name, int score) {
     //     _name=name; 
     //     _score=score;

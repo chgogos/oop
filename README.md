@@ -16,6 +16,10 @@
 * Διάσπαση κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex003/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex003/Rectangle.cpp), [Main.cpp](./cpp_playground/ex003/Main.cpp)
 * Ενθυλάκωση, ορισμός ιδιωτικών (private) μελών, κατασκευαστές (constructors), προκαθορισμένος κατασκευαστής [Main.cpp](./cpp_playground/ex004/Main.cpp)
 * Η χρήση του const σε δηλώσεις μεταβλητών αντικειμένων και σε συναρτήσεις μέλη κλάσεων [Main.cpp](./cpp_playground/ex005/Main.cpp)
+<!-- * Καταστροφείς (destructors)
+* Στατικές κλάσεις
+* Χώροι ονομάτων (namespaces)
+* Δείκτες σε συναρτήσεις -->
 
 ## Βασικές αρχές OOP
 
