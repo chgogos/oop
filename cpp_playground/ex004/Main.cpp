@@ -1,26 +1,56 @@
 #include <iostream>
 
-constexpr double PI = 3.14159265358979323846;
+class Player
+{
+  private:
+    std::string _name;
+    int _score;
 
-class Circle{
-    private: 
-        double radius;
-    public:
-        Circle() : radius{10.0} {}
-        Circle(double radius): radius{radius} {}
-        double get_area() const {
-            return PI * radius * radius;
-        }
+  public:
+    // constructors
+    Player() : _name{}, _score{} {} // default constructor
+    Player(std::string name, int score) : _name{name}, _score{score} {}
+    // Player(std::string name, int score) {
+    //     _name=name; 
+    //     _score=score;
+    // }
+
+    // getters - setters
+    void set_name(std::string name)
+    {
+        _name = name;
+    }
+    void set_score(int score)
+    {
+        _score = score;
+    }
+    std::string get_name()
+    {
+        return _name;
+    }
+    int get_score()
+    {
+        return _score;
+    }
+
+    void zap()
+    {
+        _score = 0;
+    }
+    void print()
+    {
+        std::cout << "Player " << _name << " score: " << _score << std::endl;
+    }
 };
 
-int main(){
-    Circle c1;
-    std::cout << c1.get_area() << std::endl;
-    Circle c2(2.5);
-    std::cout << c2.get_area() << std::endl;
-    Circle c3{3.5};
-    std::cout << c3.get_area() << std::endl;
-    const Circle c4{4.5}; 
-    std::cout << c4.get_area() << std::endl; // since c4 is const, in order to call get_area(), get_area() should be const also
+int main()
+{
+    Player p1{};
+    p1.set_name("Mario");
+    p1.set_score(100);
+    p1.zap();
+    p1.print();
+    Player p2{"Luigi", 200};
+    p2.print();
     return 0;
 }

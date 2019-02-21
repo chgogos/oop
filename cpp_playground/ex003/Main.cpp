@@ -1,56 +1,34 @@
-#include <iostream>
+#include "Rectangle.h"
 
-class Player
-{
-  private:
-    std::string _name;
-    int _score;
+int main(){
+    Rectangle r1;   // possibly unitialized member variables
+    r1.print_info(); 
+    r1.width=2;
+    r1.height=3;
+    r1.print_info();
 
-  public:
-    // constructors
-    Player() : _name{}, _score{} {} // default constructor
-    Player(std::string name, int score) : _name{name}, _score{score} {}
-    // Player(std::string name, int score) {
-    //     _name=name; 
-    //     _score=score;
-    // }
+    Rectangle r2{}; // initialize member variables to default values
+    r2.print_info();
 
-    // getters - setters
-    void set_name(std::string name)
-    {
-        _name = name;
-    }
-    void set_score(int score)
-    {
-        _score = score;
-    }
-    std::string get_name()
-    {
-        return _name;
-    }
-    int get_score()
-    {
-        return _score;
-    }
+    Rectangle r3{4,5}; 
+    r3.print_info();
 
-    void zap()
-    {
-        _score = 0;
-    }
-    void print()
-    {
-        std::cout << "Player " << _name << " score: " << _score << std::endl;
-    }
-};
+    Rectangle r4={5,6};
+    r4.print_info();
 
-int main()
-{
-    Player p1{};
-    p1.set_name("Mario");
-    p1.set_score(100);
-    p1.zap();
-    p1.print();
-    Player p2{"Luigi", 200};
-    p2.print();
-    return 0;
+    Rectangle *pr1= new Rectangle();
+    pr1->width=6;
+    pr1->height=6;
+    pr1->print_info();
+
+    Rectangle *pr2= new Rectangle(r1); // copy constructor
+    pr2->print_info();
+
+    Rectangle &rr1 = r1; // reference
+    rr1.width++;
+    rr1.print_info();
+    r1.print_info();
+
+    delete pr1;
+    delete pr2;
 }

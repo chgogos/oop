@@ -1,4 +1,26 @@
-#include "Rectangle.h"
+#include <iostream>
+
+class Rectangle
+{
+  public:
+    double width;
+    double height;
+
+    double area()
+    {
+        return width * height;
+    }
+
+    void scale(double factor)
+    {
+        width *= factor;
+    }
+
+    void print_info()
+    {
+        std::cout << "Rectangle " << this << " width=" << width << " height= " << height << " area=" << area() << std::endl;
+    }
+};
 
 int main(){
     Rectangle r1;   // possibly unitialized member variables
@@ -32,3 +54,4 @@ int main(){
     delete pr1;
     delete pr2;
 }
+
