@@ -35,7 +35,7 @@
 
 ## Παρουσιάσεις
 
-* [Modern C++ Object-Oriented Programming -  Margit ANTAL 2018](https://www.ms.sapientia.ro/~manyi/teaching/c++/CPP_v1.1.pdf)
+* [Modern C++ Object-Oriented Programming -  Margit ANTAL 2018](./ma2018/CPP_v1.1.pdf)
 
 ## Ενδιαφέρουσες σελίδες
 

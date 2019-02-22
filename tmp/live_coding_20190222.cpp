@@ -3,34 +3,32 @@
 #define PI 3.141592
 // constexpr double PI=3.141592;
 
-void test(int &x){
+void test(int &x)
+{
     x++;
 }
 
-void circle(double &r, double &a, double &p){
-    r *=2;
-    a = PI *r * r;
+void circle(double &r, double &a, double &p)
+{
+    r *= 2;
+    a = PI * r * r;
     p = 2 * PI * r;
 }
 
-int main(){
-    int x = 5, y=10;
+int main()
+{
+    int x = 5, y = 10;
     int &r = x;
     r++;
-    std::cout << r <<   std::endl;
-    std::cout << x <<   std::endl;
+    std::cout << r << std::endl;
+    std::cout << x << std::endl;
 
     test(y);
-    std::cout << y <<   std::endl;
+    std::cout << y << std::endl;
 
     double radius = 7.8, a, p;
     circle(radius, a, p);
-    std::cout << "embadon=" << a << " perimetros="<< p <<  std::endl;
-     
-    std::cin >> x;
-    const int z=x;
-    // constexpr int w = x; // can't be done
-    std::cout << z << std::endl;
-   
+    std::cout << "embadon=" << a << " perimetros=" << p << std::endl;
+
     return 0;
 }
