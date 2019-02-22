@@ -20,6 +20,6 @@ int main()
     Rectangle *r = new Rectangle();
     r->width = 7.1;
     r->height = 2.3;
-    delete r;
     std::cout << r->area() << std::endl;
+    delete r;
 }

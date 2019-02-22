@@ -33,6 +33,10 @@
 * DRY (Don't Repeat Yourself)
 * YAGNI (You Ain't Gonna Need It)
 
+## Παρουσιάσεις
+
+* [Modern C++ Object-Oriented Programming -  Margit ANTAL 2018](https://www.ms.sapientia.ro/~manyi/teaching/c++/CPP_v1.1.pdf)
+
 ## Ενδιαφέρουσες σελίδες
 
 * <https://isocpp.org/get-started>
