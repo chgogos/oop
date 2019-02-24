@@ -1,0 +1,27 @@
+{
+    "command": "g++", // change this name to something else if you'd like
+    "args": [
+        "-Wall",
+        "-o main.out",
+        "Main.cpp",     // change this to the name of the file you are choosing to compile and run, this is the only thing you will need to change
+        "-std=c++11",  // Tag to compile as c++11
+        "&&",
+        "./main.out"
+      ],
+    "isShellCommand": true,
+    "showOutput": "always",
+    "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": [
+            "relative",
+            "${workspaceRoot}"
+        ],
+        "pattern": {
+            "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+        }
+}

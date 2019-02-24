@@ -8,13 +8,19 @@ class Player
 
   public:
     // constructors
-    Player() : _name(), _score() {} // default constructor
-    Player(std::string name, int score) : _name(name), _score(score) {} // member initializer lists
+    Player() : _name(), _score() {
+        std::cout << "Calling constructor Player()" << std::endl;
+    } // default constructor
+    Player(std::string name, int score) : _name(name), _score(score) {
+        std::cout << "Calling constructor Player(string, int)" << std::endl;
+    } // member initializer lists
     // Player(std::string name, int score) {
     //     _name=name; 
     //     _score=score;
     // }
-
+    ~Player(){
+        std::cout << "Calling destructor ~Player()" << std::endl;
+    }
     // getters - setters
     void set_name(std::string name)
     {

@@ -13,7 +13,7 @@ int main() {
     std::cout << "Object example: Student1" << std::endl;
     Student s1;
     s1.print_info();
-    s1.say("I want to say something");
+    s1.say("Hello");
 
     std::cout << "Object example: Student2" << std::endl;
     Student *s2=new Student("Adam", "Smith", 20);
