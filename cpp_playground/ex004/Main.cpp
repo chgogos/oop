@@ -3,49 +3,51 @@
 class Player
 {
   private:
-    std::string _name;
-    int _score;
+    std::string name;
+    int score;
 
   public:
-    // constructors
-    Player() : _name(), _score() {
+    // default constructor explicitly defined, member initalize list
+    Player() : name(""), score(0)
+    {
         std::cout << "Calling constructor Player()" << std::endl;
-    } // default constructor
-    Player(std::string name, int score) : _name(name), _score(score) {
+    }
+    // constructor
+    Player(std::string n, int s) : name(n), score(s)
+    {
         std::cout << "Calling constructor Player(string, int)" << std::endl;
-    } // member initializer lists
-    // Player(std::string name, int score) {
-    //     _name=name; 
-    //     _score=score;
-    // }
-    ~Player(){
+    }
+    // destructor
+    ~Player()
+    {
         std::cout << "Calling destructor ~Player()" << std::endl;
     }
     // getters - setters
-    void set_name(std::string name)
-    {
-        _name = name;
-    }
-    void set_score(int score)
-    {
-        _score = score;
-    }
     std::string get_name()
     {
-        return _name;
+        return name;
     }
     int get_score()
     {
-        return _score;
+        return score;
     }
-
+    void set_name(std::string name)
+    {
+        this->name = name;
+    }
+    void set_score(int score)
+    {
+        this->score = score;
+    }
+    
+    // other member functions
     void zap()
     {
-        _score = 0;
+        score = 0;
     }
     void print()
     {
-        std::cout << "Player " << _name << " score: " << _score << std::endl;
+        std::cout << "Player " << name << " score: " << score << std::endl;
     }
 };
 

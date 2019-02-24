@@ -8,9 +8,8 @@ void test(int &x)
     x++;
 }
 
-void circle(double &r, double &a, double &p)
+void circle(const double &r, double &a, double &p)
 {
-    r *= 2;
     a = PI * r * r;
     p = 2 * PI * r;
 }
