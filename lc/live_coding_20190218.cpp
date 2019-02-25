@@ -12,10 +12,10 @@ class Rectangle
 
 int main()
 {
-    // Rectangle r1;
-    // r1.width=5.2;
-    // r1.height=4.6;
-    // std::cout << r1.area() << std::endl;
+    Rectangle r1;
+    r1.width=5.2;
+    r1.height=4.6;
+    std::cout << r1.area() << std::endl;
 
     Rectangle *r = new Rectangle();
     r->width = 7.1;

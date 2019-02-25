@@ -3,6 +3,12 @@
     Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
     Γκόγκος Χρήστος
 
+## Live coding
+
+* [2019-02-18](./lc/live_coding_20190218.cpp)
+* [2019-02-22](./lc/live_coding_20190222.cpp)
+* [2019-02-25](./lc/live_coding_20190225.cpp)
+
 ## Παραδείγματα κώδικα
 
 * Παράδειγμα χρήσης δείκτη, διεύθυνσης μεταβλητής και αποαναφοράς (dereference) του δείκτη [pointers1.cpp](./cpp_playground/ex001/pointers1.cpp)
@@ -18,6 +24,8 @@
 * Η χρήση του const σε δηλώσεις μεταβλητών αντικειμένων και σε συναρτήσεις μέλη κλάσεων [Main.cpp](./cpp_playground/ex005/Main.cpp)
 * Κατασκευαστής με default τιμή παραμέτρου, το παράδειγμα μιας στοίβας [Stack.cpp](./cpp_playground/ex007/Stack.cpp)
 * Copy constructor (shallow vs deep copy) [copy_constructor.cpp](./cpp_playground/ex010/copy_constructor.cpp)
+* Singleton design pattern [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
+* Κληρονομικότητα [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 <!-- 
 * Στατικές κλάσεις
 * Χώροι ονομάτων (namespaces)
