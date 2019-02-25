@@ -1,3 +1,6 @@
+# VSCODE
+.DS_Store
+
 # ignore all files without a dot
 *
 !*/

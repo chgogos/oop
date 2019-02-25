@@ -21,15 +21,15 @@ class Player
 
 Player::Player() : name("Mario"), score(0)
 {
-    cout << "Player " << name << " created by 1st" << endl;
+    cout << "Player " << name << " created by 1st constructor (default)" << endl;
 }
 Player::Player(string n, int s) : name(n), score(s)
 {
-    cout << "Player " << name << " created by 2nd" << endl;
+    cout << "Player " << name << " created by 2nd constructor" << endl;
 }
 Player::~Player()
 {
-    cout << "Player destructed " << name << endl;
+    cout << "Player destruction " << name << endl;
 }
 void Player::set_name(string n)
 {
@@ -61,13 +61,12 @@ int main()
     Player p3("Luigi", 200);
     p3.print_info();
 
-    Player players[10];
+    Player players[10]; // καλείται ο default constructor 10 φορές
 
     Player *p;
     p = new Player("Zelda", 20);
     // (*p).print_info();
     p->print_info();
-    delete p;
-
     p->zap();
+    delete p; // καλείται πρώτα ο destructor για αυτό το αντικείμενο 
 }
