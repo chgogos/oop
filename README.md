@@ -26,6 +26,7 @@
 * Copy constructor (shallow vs deep copy) [copy_constructor.cpp](./cpp_playground/ex010/copy_constructor.cpp)
 * Singleton design pattern [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
 * Κληρονομικότητα [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
+* Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/friend_class1.cpp)
 <!-- 
 * Στατικές κλάσεις
 * Χώροι ονομάτων (namespaces)
