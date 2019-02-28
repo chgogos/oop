@@ -30,6 +30,8 @@
 * Singleton design pattern [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
 * Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
 * Κληρονομικότητα [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
+* Απλό παράδειγμα TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2)
+  * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp)
 <!-- 
 * Χώροι ονομάτων (namespaces)
 * Δείκτες σε συναρτήσεις 
@@ -56,7 +58,7 @@
 * <https://isocpp.org/get-started>
 * <https://isocpp.org/std/status>
 
-## Λογισμικά
+## Λογισμικά - βιβλιοθήκες - εργαλεία
 
 * Μεταγλωττιστές για την C++
   * Visual C++ 2017 Community Edition <https://visualstudio.microsoft.com/vs/features/cplusplus/>
@@ -76,3 +78,6 @@
         Run in Terminal: enable
         Save All Files Before Run: enable
     Ctrl + Alt + N => compiles and executes current file
+
+* Catch2 (A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD ...)
+  * <https://github.com/catchorg/Catch2>
