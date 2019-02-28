@@ -13,26 +13,21 @@ class Player
     {
         std::cout << "Constructor Player(string) called" << std::endl;
     }
-    // copy constructor (shallow), default
-    Player(const Player &p) : name(p.name), victories(p.victories)
-    {
-        std::cout << "Copy Constructor Player(const Player&) called" << std::endl;
-    }
 
     // copy constructor (deep)
-    // Player(const Player &p) : name(p.name), victories(new std::vector<int>(p.victories->size()))
-    // {
-    //     for (int v : *(p.victories))
-    //     {
-    //         victories->push_back(v);
-    //     }
-    //     std::cout << "Copy Constructor Player(const Player&) called" << std::endl;
-    // }
+    Player(const Player &p) : name(p.name), victories(new std::vector<int>())
+    {
+        for (int v : *(p.victories))
+        {
+            victories->push_back(v);
+        }
+        std::cout << "Copy Constructor Player(const Player&) called" << std::endl;
+    }
 
     ~Player()
     {
         std::cout << "Destructor ~Player() called" << std::endl;
-        // delete victories;
+        delete victories;
     }
 
     void set_name(std::string name)
@@ -56,7 +51,6 @@ class Player
 
 int main()
 {
-
     Player p1("Mario");
     p1.add_victory(11);
     p1.add_victory(15);
