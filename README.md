@@ -8,6 +8,8 @@
 * [2019-02-18](./lc/live_coding_20190218.cpp)
 * [2019-02-22](./lc/live_coding_20190222.cpp)
 * [2019-02-25](./lc/live_coding_20190225.cpp)
+* [2019-03-01a](./lc/live_coding_20190301a.cpp)
+* [2019-03-01b](./lc/live_coding_20190301b.cpp)
 
 ## Παραδείγματα κώδικα
 
