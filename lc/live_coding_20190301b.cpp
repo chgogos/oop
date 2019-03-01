@@ -11,19 +11,18 @@ class MyClass
     {
         std::cout << "Constructor 1" << std::endl;
     }
-    // MyClass() : MyClass(0, b_()) {}
-    MyClass()  {
+
+    MyClass() : a_(0)
+    {
         std::cout << "Constructor 2 (default constructor)" << std::endl;
-        a_=0;
-        std::vector<int> x;
-        b_ = x;
     }
 
-    MyClass(const MyClass &m) : a_(m.a_), b_(m.b_) {
-        if (a_ < 0) 
-            a_ = -a_;
+    MyClass(const MyClass &m) : a_(m.a_), b_(m.b_)
+    {
         std::cout << "Constructor 3 (copy constructor)" << std::endl;
-    }    
+        if (a_ < 0)
+            a_ = -a_;
+    }
 
     void print()
     {
@@ -54,6 +53,6 @@ int main()
     obj4.print();
     std::cout << "obj5" << std::endl;
     MyClass obj5; // default constructor
-    obj5=obj2;
+    obj5 = obj2;
     obj5.print();
 }

@@ -59,30 +59,20 @@ class MyClass
 
 int main()
 {
-    MyClass obj1;        // default constructor
-    MyClass obj2(obj1);  // copy constructor
+    MyClass obj1;       // default constructor
+    MyClass obj2(obj1); // copy constructor
     MyClass obj3;       // default constructor
     obj3 = obj1;        // copy assignment
 
-    obj1.modify(0,999);
-    obj2.modify(1,888);
-    obj3.modify(9,777);
+    obj1.modify(0, 999);
+    obj2.modify(1, 888);
+    obj3.modify(9, 777);
+    std::cout << "obj1" << std::endl;
     obj1.print();
+    std::cout << "obj2" << std::endl;
     obj2.print();
+    std::cout << "obj1" << std::endl;
     obj3.print();
 
-    // MyClass obj2 = obj1; // copy constructor
-    // MyClass obj3(obj1);  // copy constructor
-    // MyClass obj4;
-    // obj4 = obj1; // copy assignment
-    // obj1.modify(0, 99);
-    // std::cout << "obj1" << std::endl;
-    // obj1.print();
-    // std::cout << "obj2" << std::endl;
-    // obj2.print();
-    // std::cout << "obj3" << std::endl;
-    // obj3.print();
-    // std::cout << "obj4" << std::endl;
-    // obj4.print();
     return 0;
 }
