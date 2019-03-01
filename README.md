@@ -36,12 +36,12 @@
 * Απλό παράδειγμα TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2)
   * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp)
 * Υπερφόρτωση τελεστών (το παράδειγμα του δυαδικού τελεστή +)
-  * Υπερφόρτωση τελεστή + με χρήση καθολικής συνάρτησης [operator_overload1](./cpp_playground/ex015/operator_overload1.cpp)
-  * Υπερφόρτωση τελεστή + με χρήση friend συνάρτησης [operator_overload3](./cpp_playground/ex015/operator_overload3.cpp)
-  * Υπερφόρτωση τελεστή + με χρήση συνάρτησης μέλους [operator_overload2](./cpp_playground/ex015/operator_overload2.cpp)
+  * Υπερφόρτωση τελεστή + με χρήση καθολικής συνάρτησης [operator_overload1.cpp](./cpp_playground/ex015/operator_overload1.cpp)
+  * Υπερφόρτωση τελεστή + με χρήση friend συνάρτησης [operator_overload3.cpp](./cpp_playground/ex015/operator_overload3.cpp)
+  * Υπερφόρτωση τελεστή + με χρήση συνάρτησης μέλους [operator_overload2.cpp](./cpp_playground/ex015/operator_overload2.cpp)
 * Υπερφόρτωση τελεστών εισόδου/εξόδου
   * Υπερφόρτωση τελεστή << και τελεστή >> με χρήση friend συναρτήσεων [io_operator_overload1.cpp](./cpp_playground/ex016/io_operator_overload1.cpp)
-* Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex016/namespaces1.cpp)
+* Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex017/namespaces1.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
