@@ -59,12 +59,26 @@
         "type_traits": "cpp",
         "typeinfo": "cpp",
         "utility": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "__tree": "cpp",
+        "cmath": "cpp",
+        "deque": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp",
+        "map": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "regex": "cpp",
+        "set": "cpp",
+        "sstream": "cpp",
+        "stack": "cpp",
+        "variant": "cpp"
     },
     "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#00b3e6",
+        "titleBar.activeBackground": "#b52e31",
         "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#00b3e6",
+        "titleBar.inactiveBackground": "#b52e31",
         "titleBar.inactiveForeground": "#e7e7e7"
     }
 }
