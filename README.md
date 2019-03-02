@@ -76,6 +76,13 @@
 * <https://isocpp.org/get-started>
 * <https://isocpp.org/std/status>
 
+## Online C++ compilers
+
+* [C++ shell](http://cpp.sh/)
+* [coliru](http://coliru.stacked-crooked.com/)
+* [compile c++ gcc online](https://rextester.com/l/cpp_online_compiler_gcc)
+* [repl.it](https://repl.it/languages/cpp)
+
 ## Λογισμικά - βιβλιοθήκες - εργαλεία
 
 * Μεταγλωττιστές για την C++

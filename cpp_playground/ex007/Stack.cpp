@@ -1,6 +1,5 @@
-// stack example (NPTEL)
-
 #include <iostream>
+#include <cstring>
 
 class Stack
 {
