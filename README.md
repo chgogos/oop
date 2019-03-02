@@ -23,12 +23,13 @@
 * Κλήση με τιμή (call by value), κλήση με αναφορά (call by reference) [calls.cpp](./cpp_playground/ex001/calls.cpp)
 * Παράδειγμα απλής κλάσης (μόνο με δημόσια μέλη) [Main.cpp](./cpp_playground/ex002/Main.cpp)
 * Διάσπαση κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex003/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex003/Rectangle.cpp), [Main.cpp](./cpp_playground/ex003/Main.cpp)
-* Ενθυλάκωση, ορισμός ιδιωτικών (private) μελών, κατασκευαστές (constructors), προκαθορισμένος κατασκευαστής [Main.cpp](./cpp_playground/ex004/Main.cpp)
+* Ενθυλάκωση, ορισμός ιδιωτικών (private) μελών, κατασκευαστές (constructors), καταστροφέας (destructor),προκαθορισμένος κατασκευαστής [Main.cpp](./cpp_playground/ex004/Main.cpp)
 * Η χρήση του const σε δηλώσεις μεταβλητών αντικειμένων και σε συναρτήσεις μέλη κλάσεων [Main.cpp](./cpp_playground/ex005/Main.cpp)
 * Κατασκευαστής με default τιμή παραμέτρου, το παράδειγμα μιας στοίβας [Stack.cpp](./cpp_playground/ex007/Stack.cpp)
 * Copy constructor (shallow vs deep copy)
   * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
   * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment
+* Αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
 * Στατικά μέλη κλάσεων [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
 * Singleton design pattern [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
 * Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
@@ -41,7 +42,7 @@
 * Υπερφόρτωση τελεστών εισόδου/εξόδου
   * Υπερφόρτωση τελεστή << και τελεστή >> με χρήση friend συναρτήσεων [io_operator_overload1.cpp](./cpp_playground/ex016/io_operator_overload1.cpp)
 * Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex017/namespaces1.cpp)
-* Κληρονομκότητα
+* Κληρονομικότητα
   * [inheritance1.cpp](./cpp_playground/ex018/inheritance1.cpp)
   * [inheritance2.cpp](./cpp_playground/ex018/inheritance2.cpp)
   * [inheritance3.cpp](./cpp_playground/ex018/inheritance3.cpp)
@@ -51,6 +52,7 @@
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
+* inline συναρτήσεις
 * -->
 
 ## Βασικές αρχές OOP

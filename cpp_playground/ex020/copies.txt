@@ -1,0 +1,16 @@
+Point constructor called
+move1
+0x7ffee468c918
+Point copy constructor called
+0x7ffee468c908
+Point copy constructor called
+0x7ffee468c910
+move2
+0x7ffee468c918
+0x7ffee468c918
+Point copy constructor called
+0x7ffee468c910
+move3
+0x7ffee468c918
+0x7ffee468c918
+0x7ffee468c918
