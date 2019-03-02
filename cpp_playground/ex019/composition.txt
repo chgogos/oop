@@ -1,0 +1,9 @@
+Engine object
+Broooooooom
+cylinders=8 cubic centimeters=1200
+Car object
+seats: 5 cylinders=8 cubic centimeters=1200
+Broooooooom
+Car object
+seats: 2 cylinders=16 cubic centimeters=2000
+Broooooooooooooooom

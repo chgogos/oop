@@ -11,13 +11,10 @@ class Engine {
         Engine(int c, double cc) : cylinders(c), cubic_centimeters(cc) {}
         
         void start(){
-            std::cout << "Broom" << std::endl;
-        }
-
-        // overload << 
-        friend std::ostream& operator<<(std::ostream &os, const Engine &e){
-            os << "cylinders=" << e.cylinders << " cubic centimeters=" << e.cubic_centimeters;
-            return os;
+            std::string s="";
+            for(int i=0;i<cylinders;i++)
+                s += "o";
+            std::cout << "Br" + s +  "m" << std::endl;
         }
 };
 
@@ -29,18 +26,9 @@ class Car : private Engine {
 
         // χρήση της συνάρτησης Engine::start σαν να πρόκειται για συνάρτηση της κλάσης Car
         using Engine::start; 
-
-        void print(){
-            std::cout << "Seats: " << seats << std::endl;
-        }
 };
 
 int main(){
-    Engine e;
-    e.start();
-    std::cout << e << std::endl;
-
     Car c;
     c.start();
-    c.print();
 }
