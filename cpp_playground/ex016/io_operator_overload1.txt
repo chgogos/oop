@@ -1,0 +1,3 @@
+Name: Nikos age: 30
+Enter a persons' name and age: Maria 25
+Name: Maria age: 25

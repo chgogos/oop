@@ -41,6 +41,7 @@
   * Υπερφόρτωση τελεστή + με χρήση συνάρτησης μέλους [operator_overload2.cpp](./cpp_playground/ex015/operator_overload2.cpp)
 * Υπερφόρτωση τελεστών εισόδου/εξόδου
   * Υπερφόρτωση τελεστή << και τελεστή >> με χρήση friend συναρτήσεων [io_operator_overload1.cpp](./cpp_playground/ex016/io_operator_overload1.cpp)
+* Μετατροπή αντικειμένου σε λεκτικό [person_to_string.cpp](./cpp_playground/ex016/person_to_string.cpp)
 * Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex017/namespaces1.cpp)
 * Κληρονομικότητα
   * [inheritance1.cpp](./cpp_playground/ex018/inheritance1.cpp)
