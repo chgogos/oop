@@ -46,7 +46,8 @@
   * [inheritance2.cpp](./cpp_playground/ex018/inheritance2.cpp)
   * [inheritance3.cpp](./cpp_playground/ex018/inheritance3.cpp)
   * [inheritance4.cpp](./cpp_playground/ex018/inheritance4.cpp)
-* Παράδειγμα κληρονομικότητας [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
+* Παράδειγμα κληρονομικότητας (σχέση ISA) [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
+* Παράδειγμα σύνθεσης - composition (σχέση HAS) [composition.cpp](./cpp_playground/ex019/composition.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
