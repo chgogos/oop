@@ -11,7 +11,7 @@ class Person
     Person() = default;
     Person(std::string n, int a) : name(n), age(a) {}
 
-    //
+    // μετατροπή Person σε std::string
     operator std::string() const
     {
         std::stringstream ss;

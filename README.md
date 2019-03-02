@@ -5,12 +5,8 @@
 
 ## Live coding
 
-* [2019-02-18](./lc/live_coding_20190218.cpp)
-* [2019-02-22](./lc/live_coding_20190222.cpp)
-* [2019-02-25](./lc/live_coding_20190225.cpp)
-* [2019-03-01a](./lc/live_coding_20190301a.cpp)
-* [2019-03-01b](./lc/live_coding_20190301b.cpp)
-* [2019-03-01c](./lc/live_coding_20190301c.cpp)
+| [2019-02-18](./lc/live_coding_20190218.cpp) | [2019-02-22](./lc/live_coding_20190222.cpp)   |
+| [2019-02-25](./lc/live_coding_20190225.cpp) | [2019-03-01a](./lc/live_coding_20190301a.cpp) [2019-03-01b](./lc/live_coding_20190301b.cpp) [2019-03-01c](./lc/live_coding_20190301c.cpp)|
 
 ## Παραδείγματα κώδικα
 
@@ -29,7 +25,7 @@
 * Copy constructor (shallow vs deep copy)
   * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
   * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment
-* Αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
+* "Αόρατες" αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
 * Στατικά μέλη κλάσεων [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
 * Singleton design pattern [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
 * Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
