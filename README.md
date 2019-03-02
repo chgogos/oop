@@ -27,7 +27,7 @@
 * Η χρήση του const σε δηλώσεις μεταβλητών αντικειμένων και σε συναρτήσεις μέλη κλάσεων [Main.cpp](./cpp_playground/ex005/Main.cpp)
 * Κατασκευαστής με default τιμή παραμέτρου, το παράδειγμα μιας στοίβας [Stack.cpp](./cpp_playground/ex007/Stack.cpp)
 * Copy constructor (shallow vs deep copy)
-  * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy και copy assignment
+  * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
   * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment
 * Στατικά μέλη κλάσεων [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
 * Singleton design pattern [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
@@ -41,7 +41,12 @@
 * Υπερφόρτωση τελεστών εισόδου/εξόδου
   * Υπερφόρτωση τελεστή << και τελεστή >> με χρήση friend συναρτήσεων [io_operator_overload1.cpp](./cpp_playground/ex016/io_operator_overload1.cpp)
 * Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex017/namespaces1.cpp)
-* Κληρονομικότητα [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
+* Κληρονομκότητα
+  * [inheritance1.cpp](./cpp_playground/ex018/inheritance1.cpp)
+  * [inheritance2.cpp](./cpp_playground/ex018/inheritance2.cpp)
+  * [inheritance3.cpp](./cpp_playground/ex018/inheritance3.cpp)
+  * [inheritance4.cpp](./cpp_playground/ex018/inheritance4.cpp)
+* Παράδειγμα κληρονομικότητας [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
@@ -58,6 +63,7 @@
 
 * DRY (Don't Repeat Yourself)
 * YAGNI (You Ain't Gonna Need It)
+  * <https://martinfowler.com/bliki/Yagni.html>
 
 ## Παρουσιάσεις
 

@@ -1,0 +1,9 @@
+Call function of obj1 (instance of BaseA)
+BaseA::func1
+a = 1
+Call functions of obj2 (instance of DerivedA)
+BaseA::func1
+a = 1
+DerivedA::func2
+a = 3
+c = 4

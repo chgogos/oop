@@ -1,0 +1,6 @@
+Constructor Base() called
+Constructor MyClass() called
+Constructor Derived() called
+Destructor ~Derived() called
+Destructor ~MyClass() called
+Destructor ~Base() called
