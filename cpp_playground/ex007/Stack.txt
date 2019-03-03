@@ -1,0 +1,7 @@
+Constructor Stack(size_t) called, created stack having size= 5
+E
+D
+C
+B
+A
+Destructor ~Stack() called

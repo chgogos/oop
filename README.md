@@ -70,14 +70,15 @@
 
 ## Συγγράμματα
 
+* [Δομές δεδομένων και αλγόριθμοι με τη C++, Γκόγκος Χρήστος](https://github.com/chgogos/ceteiep_dsa/raw/master/ceteiep_dsa_book.pdf)
 * [Εισαγωγή στη γλώσσα προγραμματισμού C++14, Σταμάτης Σταματιάδης](https://www.materials.uoc.gr/el/undergrad/courses/ETY215/notes.pdf)
-* [Δομές δεδομένων και αλγόριθμοι, Γκόγκος Χρήστος](https://github.com/chgogos/ceteiep_dsa/raw/master/ceteiep_dsa_book.pdf)
 
 ## Παρουσιάσεις
 
 * [Modern C++ Object-Oriented Programming -  Margit ANTAL 2018](./ma2018/CPP_v1.1.pdf)
 * Programming in C++ — The C++ Language, Libraries, Tools, and Other Topics by Michael Adams, Department of Electrical and Computer Engineering University of Victoria
   * [2019-02-04.pdf](https://www.ece.uvic.ca/~frodo/cppbook/downloads/lecture_slides_for_programming_in_c++-2019-02-04.pdf)
+* [C++ for C programmers - Duncan Mac-Vicar P.](https://en.opensuse.org/images/b/b9/C---for-C-programmers.pdf)
 
 ## Ενδιαφέρουσες σελίδες
 
