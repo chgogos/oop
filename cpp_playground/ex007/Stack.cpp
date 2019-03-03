@@ -8,10 +8,10 @@ class Stack
     int top_;
 
   public:
-    // constructor with default value parameter
+    // κατασκευαστής με προκαθορισμένη τιμή παραμέτρου
     Stack(size_t s = 10) : top_(-1), data_(new char[s])
     {
-        std::cout << "Constructor Stack(size_t) called, created sctak with size= " << s << std::endl;
+        std::cout << "Constructor Stack(size_t) called, created stack having size= " << s << std::endl;
     }
     ~Stack()
     {
