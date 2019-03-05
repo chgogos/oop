@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void print1(int **a, int m, int n)
+void print(int **a, int m, int n)
 {
     for (int i = 0; i < m; i++)
         for (int j = 0; j < n; j++)
@@ -22,7 +22,7 @@ int main()
             mat[i][j] = ++c;
     }
 
-    print1(mat, m, n);
+    print(mat, m, n);
 
     for (int i = 0; i < m; i++)
         delete[] mat[i];

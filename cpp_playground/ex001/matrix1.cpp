@@ -10,6 +10,7 @@ void print1(int m[3][2]){
     cout << endl;
 }
 
+// 
 void print2(int m[][2]){
     for(int i=0;i<3;i++){
         for(int j=0;j<2;j++)
