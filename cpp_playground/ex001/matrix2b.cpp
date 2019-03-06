@@ -14,10 +14,10 @@ int main()
 {
     int m = 3, n = 2;
     int c = 0;
-    int **mat = (int **)malloc(sizeof(int **) * m);
+    int **mat = (int **)malloc(sizeof(int *) * m);
     for (int i = 0; i < m; i++)
     {
-        mat[i] = (int *)malloc(sizeof(int *) * n);
+        mat[i] = (int *)malloc(sizeof(int) * n);
         for (int j = 0; j < n; j++)
             mat[i][j] = ++c;
     }
