@@ -1,23 +1,29 @@
+// δυναμικός δισδιάστατος πίνακας με malloc (C)
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
 void print(int **a, int m, int n)
 {
     for (int i = 0; i < m; i++)
+    {
         for (int j = 0; j < n; j++)
+        {
             cout << a[i][j] << " ";
-    cout << endl;
+        }
+        cout << endl;
+    }
 }
 
 int main()
 {
     int m = 3, n = 2;
     int c = 0;
-    int **mat = new int *[m];
+    int **mat = (int **)malloc(sizeof(int *) * m);
     for (int i = 0; i < m; i++)
     {
-        mat[i] = new int[n];
+        mat[i] = (int *)malloc(sizeof(int) * n);
         for (int j = 0; j < n; j++)
             mat[i][j] = ++c;
     }
@@ -25,6 +31,6 @@ int main()
     print(mat, m, n);
 
     for (int i = 0; i < m; i++)
-        delete[] mat[i];
-    delete[] mat;
+        free(mat[i]);
+    free(mat);
 }
