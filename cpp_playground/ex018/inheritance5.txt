@@ -1,0 +1,2 @@
+Derived::func(int) parameter=5
+Base::func

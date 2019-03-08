@@ -52,9 +52,17 @@
   * [inheritance2.cpp](./cpp_playground/ex018/inheritance2.cpp)
   * [inheritance3.cpp](./cpp_playground/ex018/inheritance3.cpp)
   * [inheritance4.cpp](./cpp_playground/ex018/inheritance4.cpp)
+  * [inheritance5.cpp](./cpp_playground/ex018/inheritance5.cpp)
 * Παράδειγμα κληρονομικότητας (σχέση ISA) [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 * Παράδειγμα σύνθεσης - composition (σχέση HAS) [composition.cpp](./cpp_playground/ex019/composition.cpp)
-
+* Casting
+  * [casting1.cpp](./cpp_playground/ex021/casting1.cpp)
+* Static binding vs dynamic binding (virtual συναρτήσεις)
+  * [binding1.cpp](./cpp_playground/ex021/casting1.cpp)
+* Virtual destructors
+  * [virtual_destructor.cpp](./cpp_playground/ex021/virtual_destructor.cpp)
+* Παράδειγμα πολυμορφικής ιεραρχίας, pure virtual functions, abstract classes [shapes.cpp](./cpp_playground/ex022/shapes.cpp)
+  
 <!-- 
 * Δείκτες σε συναρτήσεις 
 * inline συναρτήσεις

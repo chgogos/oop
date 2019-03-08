@@ -1,0 +1,3 @@
+draw a rectangle
+draw a triangle
+draw a circle

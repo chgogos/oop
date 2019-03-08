@@ -1,0 +1,8 @@
+Base() called
+Base() called
+Derived() called
+Base::print() 5
+Derived::print() 5 7
+~Base() called
+~Derived() called
+~Base() called
