@@ -1,0 +1,35 @@
+Student(string) constructor called for nikos
+GraduateStudent(string, double) constructor called for nikos
+Student(string) constructor called for maria
+GraduateStudent(string, double) constructor called for maria
+Student(string) constructor called for petros
+GraduateStudent(string, double) constructor called for petros
+Student(string) constructor called for christos
+GraduateStudent(string, double) constructor called for christos
+Student(string) constructor called for aristea
+PostGraduateStudent(string, string) constructor called for aristea
+Student(string) constructor called for george
+PostGraduateStudent(string, string) constructor called for george
+Student(string) constructor called for katerina
+PostGraduateStudent(string, string) constructor called for katerina
+Compute grade of graduate student nikos
+Compute grade of graduate student maria
+Compute grade of graduate student petros
+Compute grade of postgraduate student aristea
+Compute grade of postgraduate student george
+Compute grade of graduate student christos
+Compute grade of postgraduate student katerina
+~GraduateStudent() destructor called for christos
+~Student() destructor called for christos
+~PostGraduateStudent() destructor called for katerina
+~Student() destructor called for katerina
+~PostGraduateStudent() destructor called for george
+~Student() destructor called for george
+~PostGraduateStudent() destructor called for aristea
+~Student() destructor called for aristea
+~GraduateStudent() destructor called for petros
+~Student() destructor called for petros
+~GraduateStudent() destructor called for maria
+~Student() destructor called for maria
+~GraduateStudent() destructor called for nikos
+~Student() destructor called for nikos

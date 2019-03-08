@@ -12,6 +12,7 @@ class Student
     {
         std::cout << "Student(string) constructor called for " << name << std::endl;
     }
+
     ~Student()
     {
         std::cout << "~Student() destructor called for " << name << std::endl;
@@ -64,11 +65,16 @@ class PostGraduateStudent : public Student
 int main()
 {
     GraduateStudent gs1{"nikos", 19.5}, gs2{"maria", 12.3}, gs3{"petros", 13.4};
-    PostGraduateStudent pgs1{"aristea", ""}, pgs2{"george", ""};
-    Student *students[] = {&gs1, &gs2, &gs3, &pgs1, &pgs2};
+    GraduateStudent *p1 = new GraduateStudent("christos", 17.1);
+    PostGraduateStudent pgs1{"aristea", "mathematics"}, pgs2{"george", "physics"};
+    PostGraduateStudent *p2 = new PostGraduateStudent("katerina", "computer science");
+
+    Student *students[] = {&gs1, &gs2, &gs3, &pgs1, &pgs2, p1, p2};
     for (int i = 0; i < sizeof(students) / sizeof(Student *); i++)
     {
         students[i]->grade();
     }
+    delete p1;
+    delete p2;
     return 0;
 }

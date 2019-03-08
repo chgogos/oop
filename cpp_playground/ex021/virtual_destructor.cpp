@@ -9,7 +9,7 @@ class Base
     Base(int x) : px(new int(x)) {
          std::cout << "Base() called" << std::endl;
     }
-    virtual ~Base()
+    ~Base()
     {
         std::cout << "~Base() called" << std::endl;
         delete px;
