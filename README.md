@@ -61,7 +61,9 @@
   * [binding1.cpp](./cpp_playground/ex021/casting1.cpp)
 * Virtual destructors
   * [virtual_destructor.cpp](./cpp_playground/ex021/virtual_destructor.cpp)
-* Παράδειγμα πολυμορφικής ιεραρχίας, pure virtual functions, abstract classes [shapes.cpp](./cpp_playground/ex022/shapes.cpp)
+* Παραδείγματα πολυμορφικής ιεραρχίας, pure virtual functions, abstract classes 
+  * [shapes.cpp](./cpp_playground/ex022/shapes.cpp)
+  * [university.cpp](./cpp_playground/ex023/university.cpp)
   
 <!-- 
 * Δείκτες σε συναρτήσεις 
