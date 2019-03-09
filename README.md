@@ -79,11 +79,12 @@
 
 ## Βέλτιστες πρακτικές
 
+* [Software Engineering Institute CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * DRY (Don't Repeat Yourself)
 * YAGNI (You Ain't Gonna Need It)
   * <https://martinfowler.com/bliki/Yagni.html>
 
-## Συγγράμματα
+## Σημειώσεις - Συγγράμματα
 
 * [Δομές δεδομένων και αλγόριθμοι με τη C++, Γκόγκος Χρήστος](https://github.com/chgogos/ceteiep_dsa/raw/master/ceteiep_dsa_book.pdf)
 * [Εισαγωγή στη γλώσσα προγραμματισμού C++14, Σταμάτης Σταματιάδης](https://www.materials.uoc.gr/el/undergrad/courses/ETY215/notes.pdf)
