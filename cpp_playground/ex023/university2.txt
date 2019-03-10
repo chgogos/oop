@@ -1,0 +1,5 @@
+Compute grade of graduate student nikos
+Compute grade of graduate student maria
+Compute grade of graduate student petros
+Compute grade of post graduate student aristea
+Compute grade of post graduate student george

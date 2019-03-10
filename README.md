@@ -1,9 +1,11 @@
 # Αντικειμενοστραφής Προγραμματισμός (OOP=Object Oriented Programming) με χρήση της C++
 
     Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
-    Γκόγκος Χρήστος
+    Γκόγκος Χρήστος - Άρτα@2019
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
+
+    τελευταία ενημέρωση: 10/3/2019
 
 ## Live coding
 
@@ -63,10 +65,13 @@
   * [virtual_destructor.cpp](./cpp_playground/ex021/virtual_destructor.cpp)
 * Παραδείγματα πολυμορφικής ιεραρχίας, pure virtual functions, abstract classes 
   * [shapes.cpp](./cpp_playground/ex022/shapes.cpp)
-  * [university.cpp](./cpp_playground/ex023/university.cpp)
+  * [university1.cpp](./cpp_playground/ex023/university1.cpp)
+* Casting
+  * [const_cast1.cpp](./cpp_playground/ex024/const_cast1.cpp), [const_cast2.cpp](./cpp_playground/ex024/const_cast2.cpp)
   
 <!-- 
 * Δείκτες σε συναρτήσεις 
+  * [university2.c](./cpp_playground/ex023/university2.c)
 * inline συναρτήσεις
 * -->
 
@@ -80,6 +85,9 @@
 ## Βέλτιστες πρακτικές
 
 * [Software Engineering Institute CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
+* Rule of three
+  * <https://www.geeksforgeeks.org/rule-of-three-in-cpp/>
+* Rule of five
 * DRY (Don't Repeat Yourself)
 * YAGNI (You Ain't Gonna Need It)
   * <https://martinfowler.com/bliki/Yagni.html>
