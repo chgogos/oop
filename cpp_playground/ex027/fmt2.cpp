@@ -1,8 +1,8 @@
-#include "../fmt/format.h"
+#include <fmt/format.h>
 
-// compile and link (header only installation)
-// g++ fmt1.cpp ../fmt/format.cc -std=c++11
-
+// compile and link (fmt library installed in the system)
+// OSX ==> $ brew install fmt
+// g++ fmt2.cpp -std=c++11 -lfmt
 int main() {
   fmt::print("The answer is {}.\n", 42);
   fmt::print("Elapsed time: {0:.2f} seconds\n", 1.23);
