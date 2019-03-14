@@ -153,6 +153,9 @@
 * Catch2 (A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD ...)
   * <https://github.com/catchorg/Catch2>
 
-* CMAKE (an open-source, cross-platform family of tools designed to build, test and package software)
+* fmt (Small, safe and fast formatting library)
+  * <http://fmtlib.net/latest/index.html>
+
+* CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
   * <https://cmake.org/>
   * <https://github.com/pr0g/cmake-examples>
