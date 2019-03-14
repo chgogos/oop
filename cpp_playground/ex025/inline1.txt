@@ -1,0 +1,2 @@
+calling inline member function 26.01
+calling inline function 132.651

@@ -14,6 +14,7 @@
 | [2019-02-18](./lc/live_coding_20190218.cpp) | [2019-02-22](./lc/live_coding_20190222.cpp) |
 | [2019-02-25](./lc/live_coding_20190225.cpp) | [2019-03-01a](./lc/live_coding_20190301a.cpp), [2019-03-01b](./lc/live_coding_20190301b.cpp), [2019-03-01c](./lc/live_coding_20190301c.cpp)|
 | [2019-03-04a](./lc/live_coding_20190304a.cpp), [2019-03-04b](./lc/live_coding_20190304b.cpp)  |  |
+| | |
 
 ## Παραδείγματα κώδικα
 
@@ -57,7 +58,7 @@
   * [inheritance5.cpp](./cpp_playground/ex018/inheritance5.cpp)
 * Παράδειγμα κληρονομικότητας (σχέση ISA) [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 * Παράδειγμα σύνθεσης - composition (σχέση HAS) [composition.cpp](./cpp_playground/ex019/composition.cpp)
-* Casting
+* Upcasting / Downcasting
   * [casting1.cpp](./cpp_playground/ex021/casting1.cpp)
 * Static binding vs dynamic binding (virtual συναρτήσεις)
   * [binding1.cpp](./cpp_playground/ex021/casting1.cpp)
@@ -68,6 +69,9 @@
   * [university1.cpp](./cpp_playground/ex023/university1.cpp)
 * Casting
   * [const_cast1.cpp](./cpp_playground/ex024/const_cast1.cpp), [const_cast2.cpp](./cpp_playground/ex024/const_cast2.cpp)
+* Inline συναρτήσεις (απλές και συναρτήσεις μέλη)
+  * [inline1.cpp](./cpp_playground/ex025/inline1.cpp)
+* Πίνακας δεικτών προς αντικείμενα [arrays_of_pointers.cpp](./cpp_playground/ex026/arrays_of_pointers.cpp)
   
 <!-- 
 * Δείκτες σε συναρτήσεις 
