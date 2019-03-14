@@ -40,9 +40,8 @@
 * Η χρήση του static στην C [static1.cpp](./cpp_playground/ex013/static1.cpp)
 * Στατικά μέλη κλάσεων
   * [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
-  * [static_example2.cpp](./cpp_playground/ex013/static_example2.cpp)
+  * [static_example2.cpp](./cpp_playground/ex013/static_example2.cpp) (πρόσβαση με static συνάρτηση στα ιδιωτικά μέλη κλάσης)
 * Singleton design pattern [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
-* Πρόσβαση με static συνάρτηση στα ιδιωτικά μέλη κλάσης [static_example1.cpp](./cpp_playground/ex013/static_example2.cpp).
 * Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
 * Απλό παράδειγμα TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2)
   * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp)
