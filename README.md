@@ -37,7 +37,7 @@
   * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
   * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment
 * "Αόρατες" αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
-* Η χρήση του static στην C [static1.cpp](./cpp_playground/ex013/static1.cpp)
+* Η χρήση του static στη C [static1.cpp](./cpp_playground/ex013/static1.cpp)
 * Στατικά μέλη κλάσεων
   * [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
   * [static_example2.cpp](./cpp_playground/ex013/static_example2.cpp) (πρόσβαση με static συνάρτηση στα ιδιωτικά μέλη κλάσης)
@@ -122,6 +122,13 @@
 * [compile c++ gcc online](https://rextester.com/l/cpp_online_compiler_gcc)
 * [repl.it](https://repl.it/languages/cpp)
 
+## Εξάσκηση στη C++
+
+* <https://exercism.io>
+* <https://leetcode.com/>
+* <https://open.kattis.com/>
+* <https://github.com/LegalizeAdulthood/cpp-koans>
+
 ## Λογισμικά - βιβλιοθήκες - εργαλεία
 
 * Μεταγλωττιστές για την C++
@@ -145,3 +152,7 @@
 
 * Catch2 (A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD ...)
   * <https://github.com/catchorg/Catch2>
+
+* CMAKE (an open-source, cross-platform family of tools designed to build, test and package software)
+  * <https://cmake.org/>
+  * <https://github.com/pr0g/cmake-examples>
