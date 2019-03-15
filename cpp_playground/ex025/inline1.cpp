@@ -24,7 +24,7 @@ inline void cube(double v)
 
 int main()
 {
-    MyClass obj(5.1);
+    MyClass obj(5.2);
     obj.square();
     std::cout << "calling inline member function " << obj.get_x() << std::endl;
     cube(5.1);
