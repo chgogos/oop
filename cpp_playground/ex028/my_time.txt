@@ -1,0 +1,8 @@
+Enter time Α (3 values): Enter hour, minute, second 10 20 30
+Enter time Β (3 values): 10 12 50
+A + B (show result using member function)
+20:33:20
+A + B (show result using <<)
+20:33:20
+A + B (show result using string conversion)
+20:33:20

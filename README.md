@@ -15,6 +15,7 @@
 | [2019-02-25](./lc/live_coding_20190225.cpp) | [2019-03-01a](./lc/live_coding_20190301a.cpp), [2019-03-01b](./lc/live_coding_20190301b.cpp), [2019-03-01c](./lc/live_coding_20190301c.cpp)|
 | [2019-03-04a](./lc/live_coding_20190304a.cpp), [2019-03-04b](./lc/live_coding_20190304b.cpp)  |  |
 | | [2019-03-15](./lc/live_coding_20190315.cpp) |
+| | |
 
 ## Παραδείγματα κώδικα
 
@@ -52,6 +53,7 @@
 * Υπερφόρτωση τελεστών εισόδου/εξόδου
   * Υπερφόρτωση τελεστή << και τελεστή >> με χρήση friend συναρτήσεων [io_operator_overload1.cpp](./cpp_playground/ex016/io_operator_overload1.cpp)
 * Μετατροπή αντικειμένου σε λεκτικό [person_to_string.cpp](./cpp_playground/ex016/person_to_string.cpp)
+* Παράδειγμα υπερφόρτωσης τελεστών (+, <<, >>) και μετατροπής αντικειμένου σε λεκτικό για την κλάση myTime [my_time.cpp](./cpp_playground/ex028/my_time.cpp)
 * Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex017/namespaces1.cpp)
 * Κληρονομικότητα
   * [inheritance1.cpp](./cpp_playground/ex018/inheritance1.cpp)
