@@ -73,7 +73,11 @@
         "set": "cpp",
         "sstream": "cpp",
         "stack": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "queue": "cpp",
+        "*.tcc": "cpp",
+        "clocale": "cpp",
+        "unordered_map": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#b52e31",

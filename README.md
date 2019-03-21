@@ -5,7 +5,7 @@
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-    τελευταία ενημέρωση: 18/3/2019
+    τελευταία ενημέρωση: 21/3/2019
 
 ## Live coding
 
@@ -74,6 +74,7 @@
   * [university1.cpp](./cpp_playground/ex023/university1.cpp)
 * Casting
   * [const_cast1.cpp](./cpp_playground/ex024/const_cast1.cpp), [const_cast2.cpp](./cpp_playground/ex024/const_cast2.cpp)
+  * [static_cast1.cpp](./cpp_playground/ex024/static_cast1.cpp)
 * Inline συναρτήσεις (απλές και συναρτήσεις μέλη)
   * [inline1.cpp](./cpp_playground/ex025/inline1.cpp)
 * Πίνακας δεικτών προς αντικείμενα [arrays_of_pointers.cpp](./cpp_playground/ex026/arrays_of_pointers.cpp)
@@ -92,13 +93,18 @@
 
 ## Βέλτιστες πρακτικές
 
-* [Software Engineering Institute CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
-* Rule of three
-  * <https://www.geeksforgeeks.org/rule-of-three-in-cpp/>
-* Rule of five
-* DRY (Don't Repeat Yourself)
+* DRY (Don't Repeat Yourself).
+* Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
+* SRP (Single Responsibility Principle)
 * YAGNI (You Ain't Gonna Need It)
   * <https://martinfowler.com/bliki/Yagni.html>
+
+### Βέλτιστες πρακτικές στη C++
+
+* Rule of three (αν μια κλάση ορίζει destructor, τότε θα πρέπει να ορίζει copy constructor και copy assignment operator)
+  * <https://www.geeksforgeeks.org/rule-of-three-in-cpp/>
+* Rule of five (αν μια κλάση ορίζει destructor, τότε θα πρέπει να ορίζει copy constructor, copy assignment operator, move constructor και move assignment operator)
+* Rule of zero (οι κλάσεις θα πρέπει να γράφονται με τέτοιο τρόπο έτσι ώστε να μην χρειάζεται destructor, copy constructor, copy assignment operator, move constructor, move assignment operator, αλλά να χρησιμοποιούνται smart pointers και containers της STL για την αυτόματη διαχείριση των πόρων)
 
 ## Σημειώσεις - Συγγράμματα
 
@@ -130,6 +136,22 @@
 * <https://leetcode.com/>
 * <https://open.kattis.com/>
 * <https://github.com/LegalizeAdulthood/cpp-koans>
+
+## Coding styles
+
+* [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+* [C++ Coding Standards](https://gist.github.com/lefticus/10191322)
+* [Software Engineering Institute CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
+* <https://www.cs.northwestern.edu/academics/courses/211/html/c++-style.html>
+* <https://web.cs.dal.ca/~jin/3132/assignments/style.html>
+
+## Test Driven Development
+
+* [Catch2](https://github.com/catchorg/Catch2)
+* [CppUnit](http://cppunit.sourceforge.net/doc/cvs/cppunit_cookbook.html)
+* [Boost.Test](https://www.boost.org/doc/libs/1_69_0/libs/test/doc/html/index.html)
+* [CUTE](https://cute-test.com/)
+* [Google Test](https://github.com/google/googletest)
 
 ## Λογισμικά - βιβλιοθήκες - εργαλεία
 
