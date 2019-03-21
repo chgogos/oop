@@ -63,13 +63,15 @@
   * [inheritance5.cpp](./cpp_playground/ex018/inheritance5.cpp)
 * Παράδειγμα κληρονομικότητας (σχέση ISA) [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 * Παράδειγμα σύνθεσης - composition (σχέση HAS) [composition.cpp](./cpp_playground/ex019/composition.cpp)
-* Upcasting / Downcasting
-  * [casting1.cpp](./cpp_playground/ex021/casting1.cpp)
+* Upcasting (μετατροπή μιας αναφοράς ή ενός δείκτη μιας κληρονομούμενης κλάσης στην κλάση γονέα) / Downcasting (μετατροπή μιας αναφοράς ή ενός δείκτη της κλάσης γονέα σε κληρονομούμενη κλάση, το downcasting δεν επιτρέπεται αν δεν υπάρχει explicit type cast)
+  * [upcasting_downcasting.cpp](./cpp_playground/ex021/upcasting_downcasting.cpp)
+  * [upcasting1.cpp](./cpp_playground/ex021/upcasting1.cpp)
+  * [downcasting1.cpp](./cpp_playground/ex021/downcasting1.cpp)
 * Static binding vs dynamic binding (virtual συναρτήσεις)
   * [binding1.cpp](./cpp_playground/ex021/casting1.cpp)
 * Virtual destructors
   * [virtual_destructor.cpp](./cpp_playground/ex021/virtual_destructor.cpp)
-* Παραδείγματα πολυμορφικής ιεραρχίας, pure virtual functions, abstract classes 
+* Παραδείγματα πολυμορφικής ιεραρχίας, pure virtual functions, abstract classes
   * [shapes.cpp](./cpp_playground/ex022/shapes.cpp)
   * [university1.cpp](./cpp_playground/ex023/university1.cpp)
 * Casting

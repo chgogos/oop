@@ -1,0 +1,3 @@
+Derived fun2()
+Derived fun2()
+Derived fun2()
