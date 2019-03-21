@@ -1,0 +1,4 @@
+Base fun1
+Derived fun1
+A. Dynamic cast is not possible (Base cannot be converted to Derived)
+Derived fun1
