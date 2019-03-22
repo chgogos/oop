@@ -15,7 +15,7 @@
 | [2019-02-25](./lc/live_coding_20190225.cpp) | [2019-03-01a](./lc/live_coding_20190301a.cpp), [2019-03-01b](./lc/live_coding_20190301b.cpp), [2019-03-01c](./lc/live_coding_20190301c.cpp)|
 | [2019-03-04a](./lc/live_coding_20190304a.cpp), [2019-03-04b](./lc/live_coding_20190304b.cpp)  |  |
 | | [2019-03-15](./lc/live_coding_20190315.cpp) |
-| [2019-03-18](./lc/live_coding_20190318.cpp) | |
+| [2019-03-18](./lc/live_coding_20190318.cpp) | [2019-03-22a](./lc/live_coding_20190322a.cpp), [2019-03-22b](./lc/live_coding_20190322b.cpp)|
 
 ## Παραδείγματα κώδικα
 
