@@ -5,7 +5,7 @@
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-    τελευταία ενημέρωση: 21/3/2019
+    τελευταία ενημέρωση: 23/3/2019
 
 ## Live coding
 
@@ -29,6 +29,9 @@
   * Δισδιάστατος πίνακας δυναμικών διαστάσεων ως παράμετρος πίνακα [matrix2a.cpp](./cpp_playground/ex001/matrix2a.cpp), [matrix2b.cpp](./cpp_playground/ex001/matrix2b.cpp)
 * Αναφορές (references) [references.cpp](./cpp_playground/ex001/references.cpp)
 * Κλήση με τιμή (call by value), κλήση με αναφορά (call by reference) [calls.cpp](./cpp_playground/ex001/calls.cpp)
+* Απαριθμήσεις - enumerations
+  * [enum1.cpp](./cpp_playground/ex030/enum1.cpp) παλιό στυλ
+  * [enum2.cpp](./cpp_playground/ex030/enum2.cpp) νέο στυλ - enum classes
 * Παράδειγμα απλής κλάσης (μόνο με δημόσια μέλη) [Main.cpp](./cpp_playground/ex002/Main.cpp)
 * Διάσπαση κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex003/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex003/Rectangle.cpp), [Main.cpp](./cpp_playground/ex003/Main.cpp)
 * Ενθυλάκωση, ορισμός ιδιωτικών (private) μελών, κατασκευαστές (constructors), καταστροφέας (destructor), προκαθορισμένος κατασκευαστής [Main.cpp](./cpp_playground/ex004/Main.cpp)
@@ -80,6 +83,15 @@
 * Inline συναρτήσεις (απλές και συναρτήσεις μέλη)
   * [inline1.cpp](./cpp_playground/ex025/inline1.cpp)
 * Πίνακας δεικτών προς αντικείμενα [arrays_of_pointers.cpp](./cpp_playground/ex026/arrays_of_pointers.cpp)
+* Πολλαπλή κληρονομικότητα (multiple inheritance)
+  * [multiple_inheritance1.cpp](./cpp_playground/ex036/multiple_inheritance1.cpp)
+  * [multiple_inheritance2.cpp](./cpp_playground/ex036/multiple_inheritance2.cpp) επίλυση συγκρούσεων σε μέλη δεδομένων και σε μέλη συναρτήσεις
+* Χαλαρή σύζευξη (loose coupling) [coupling1.cpp](./cpp_playground/ex034/coupling1.cpp), [coupling2.cpp](./cpp_playground/ex034/coupling2.cpp)
+* Πλειάδες - tuples [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp), [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
+* std::to_string [to_string.cpp](./cpp_playground/ex033/to_string.cpp)
+* Παραδείγματα χρήσης της βιβλιοθήκης fmt
+  * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
+  * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
   
 <!-- 
 * Δείκτες σε συναρτήσεις 
