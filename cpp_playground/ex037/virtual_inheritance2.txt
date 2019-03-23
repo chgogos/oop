@@ -1,0 +1,12 @@
+Person(string) constructor called
+Teacher(string, string) constructor called
+Student(string, int) constructor called
+TeachingAssistant(string, string, int) constructor called
+name: petros semester: 1 specialty: programming PAYED [size of object = 80 bytes]
+Teaching Assistant says: Hello
+Person(string) constructor called
+Student(string, int) constructor called
+Student says: Hello
+Person(string) constructor called
+Teacher(string, string) constructor called
+Professor says: hello
