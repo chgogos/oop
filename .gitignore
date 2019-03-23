@@ -1,5 +1,8 @@
 # VSCODE
-.DS_Store
+*.DS_Store
+*.ipch
+*.bin
+/ipch
 
 # ignore all files without a dot
 *
