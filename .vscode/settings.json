@@ -77,7 +77,8 @@
         "queue": "cpp",
         "*.tcc": "cpp",
         "clocale": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "thread": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#b52e31",

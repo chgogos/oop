@@ -110,6 +110,15 @@
   * [stack.hpp](./cpp_playground/ex040/stack.hpp)
   * [reverse_string.cpp](./cpp_playground/ex040/reverse_string.cpp) χρήση της στοίβας για αντιστροφή συμβολοσειράς
   * [postfix_evaluation.cpp](./cpp_playground/ex040/postfix_evaluation.cpp) χρήση της στοίβας για υπολογισμό postfix έκφρασης
+* Smart pointers
+  * [unique_pointer1.cpp](./cpp_playground/ex041/unique_pointer1.cpp)
+  * [shared_pointer1.cpp](./cpp_playground/ex041/shared_pointer1.cpp)
+  * [weak_pointer1.cpp](./cpp_playground/ex041/weak_pointer1.cpp)
+* Implicit conversions με βάση τους constructors μιας κλάσης και η χρήση του explicit
+  * [implicit_conversion1.cpp](./cpp_playground/ex042/implicit_conversion1.cpp)
+  * [explicit1.cpp](./cpp_playground/ex042/explcit1.cpp)
+* Xρονομέτρηση κώδικα με το chrono
+  * [timing1.cpp](./cpp_playground/ex043/timing1.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 

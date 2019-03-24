@@ -1,0 +1,5 @@
+MyClass object created 0x7f8d7ec00658
+just testing
+MyClass object destroyed 0x7f8d7ec00658
+End of life for shared pointer p1
+weak pointer p1 has expired
