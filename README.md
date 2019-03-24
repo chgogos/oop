@@ -5,7 +5,7 @@
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-    τελευταία ενημέρωση: 23/3/2019
+    τελευταία ενημέρωση: 24/3/2019
 
 ## Live coding
 
@@ -16,6 +16,7 @@
 | [2019-03-04a](./lc/live_coding_20190304a.cpp), [2019-03-04b](./lc/live_coding_20190304b.cpp)  |  |
 | | [2019-03-15](./lc/live_coding_20190315.cpp) |
 | [2019-03-18](./lc/live_coding_20190318.cpp) | [2019-03-22a](./lc/live_coding_20190322a.cpp), [2019-03-22b](./lc/live_coding_20190322b.cpp)|
+| | |
 
 ## Παραδείγματα κώδικα
 
@@ -92,7 +93,24 @@
 * Παραδείγματα χρήσης της βιβλιοθήκης fmt
   * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
   * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
-  
+* Πολλαπλή κληρονομικότητα
+  * [multiple_inheritance1.cpp](./cpp_playground/ex036/multiple_inheritance1.cpp)
+  * [multiple_inheritance2.cpp](./cpp_playground/ex036/multiple_inheritance2.cpp)
+  * [virtual_inheritance1.cpp](./cpp_playground/ex037/virtual_inheritance1.cpp)
+  * [virtual_inheritance2.cpp](./cpp_playground/ex037/virtual_inheritance2.cpp)
+* Εξαιρέσεις (exceptions)
+  * [exception1.c](./cpp_playground/ex038/exception1.c) asserts
+  * [exception2.cpp](./cpp_playground/ex038/exception2.cpp)
+  * [exception3.cpp](./cpp_playground/ex038/exception3.cpp)
+* Πρότυπα (templates)
+  * [template1.cpp](./cpp_playground/ex039/template1.cpp)
+  * [template2.cpp](./cpp_playground/ex039/template2.cpp)
+  * [template3.cpp](./cpp_playground/ex039/template3.cpp)
+* Παράδειγμα class template
+  * [stack.hpp](./cpp_playground/ex040/stack.hpp)
+  * [reverse_string.cpp](./cpp_playground/ex040/reverse_string.cpp) χρήση της στοίβας για αντιστροφή συμβολοσειράς
+  * [postfix_evaluation.cpp](./cpp_playground/ex040/postfix_evaluation.cpp) χρήση της στοίβας για υπολογισμό postfix έκφρασης
+
 <!-- 
 * Δείκτες σε συναρτήσεις 
   * [university2.c](./cpp_playground/ex023/university2.c)
