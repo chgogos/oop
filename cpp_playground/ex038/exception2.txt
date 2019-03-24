@@ -1,0 +1,3 @@
+main() checkpoint 1
+func() checkpoint 1
+catching an exception throwing an int

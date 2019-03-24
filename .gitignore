@@ -2,7 +2,7 @@
 *.DS_Store
 *.ipch
 *.bin
-/.vscode/ipch/*
+.vscode/ipch/*
 
 # ignore all files without a dot
 *
