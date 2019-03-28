@@ -9,7 +9,7 @@ class Base
     Base(int x) : px(new int(x)) {
          std::cout << "Base() called" << std::endl;
     }
-    ~Base()
+    virtual ~Base()
     {
         std::cout << "~Base() called" << std::endl;
         delete px;
@@ -31,6 +31,8 @@ class Derived : public Base
     }
 
     // αν ο destructor της Base δεν δηλωθεί ως virtual τότε ο ~Derived() δεν καλείται ποτέ
+    // για αντικείμενα που έχουν δημιουργηθεί δυναμικά και στα οποία δείχνει δείκτης 
+    // της Base κλάσης
     ~Derived()
     {
         std::cout << "~Derived() called" << std::endl;
@@ -46,6 +48,7 @@ int main()
 {
     Base *p1 = new Base(5);
     Base *p2 = new Derived(5, 7);
+    Derived obj(6,5);
     p1->print();
     p2->print();
     delete p1;
