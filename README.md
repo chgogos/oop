@@ -68,7 +68,7 @@
 * Παράδειγμα κληρονομικότητας (σχέση ISA) [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 * Παράδειγμα σύνθεσης - composition (σχέση HAS) [composition.cpp](./cpp_playground/ex019/composition.cpp)
 * Upcasting (μετατροπή μιας αναφοράς ή ενός δείκτη μιας κληρονομούμενης κλάσης στην κλάση γονέα) / Downcasting (μετατροπή μιας αναφοράς ή ενός δείκτη της κλάσης γονέα σε κληρονομούμενη κλάση, το downcasting δεν επιτρέπεται αν δεν υπάρχει explicit type cast)
-  * [upcasting_downcasting.cpp](./cpp_playground/ex021/upcasting_downcasting.cpp)
+  * [upcasting_downcasting1.cpp](./cpp_playground/ex021/upcasting_downcasting1.cpp)
   * [upcasting1.cpp](./cpp_playground/ex021/upcasting1.cpp)
   * [downcasting1.cpp](./cpp_playground/ex021/downcasting1.cpp)
 * Static binding vs dynamic binding (virtual συναρτήσεις)
@@ -81,6 +81,7 @@
 * Casting
   * [const_cast1.cpp](./cpp_playground/ex024/const_cast1.cpp), [const_cast2.cpp](./cpp_playground/ex024/const_cast2.cpp)
   * [static_cast1.cpp](./cpp_playground/ex024/static_cast1.cpp)
+  * [dynamic_cast1.cpp](./cpp_playground/ex024/dynamic_cast1.cpp)
 * Inline συναρτήσεις (απλές και συναρτήσεις μέλη)
   * [inline1.cpp](./cpp_playground/ex025/inline1.cpp)
 * Πίνακας δεικτών προς αντικείμενα [arrays_of_pointers.cpp](./cpp_playground/ex026/arrays_of_pointers.cpp)
