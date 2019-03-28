@@ -72,7 +72,7 @@
   * [upcasting1.cpp](./cpp_playground/ex021/upcasting1.cpp)
   * [downcasting1.cpp](./cpp_playground/ex021/downcasting1.cpp)
 * Static binding vs dynamic binding (virtual συναρτήσεις)
-  * [binding1.cpp](./cpp_playground/ex021/casting1.cpp)
+  * [binding1.cpp](./cpp_playground/ex021/binding1.cpp)
 * Virtual destructors
   * [virtual_destructor.cpp](./cpp_playground/ex021/virtual_destructor.cpp)
 * Παραδείγματα πολυμορφικής ιεραρχίας, pure virtual functions, abstract classes
