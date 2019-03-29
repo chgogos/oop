@@ -51,22 +51,22 @@ int main()
     delete p1;
 
     std::cout << "Checkpoint 4" << std::endl;
-    Derived *p2 = (Derived *)new Base(); // downcasting
-    p2->fun1();
-    p2->fun2();
-    p2->fun3();
+    Derived *p2 = (Derived *)new Base(); // downcasting (X)
+    p2->fun1();                          // εμφανίζει Derived::fun1
+    p2->fun2();                          // εμφανίζει Base::fun2
+    p2->fun3();                          // εμφανίζει Derived::fun3
 
     std::cout << "Checkpoint 5" << std::endl;
-    Derived *p3 = static_cast<Derived *>(new Base()); // downcasting
-    p3->fun1();
-    p3->fun2();
-    p3->fun3();
+    Derived *p3 = static_cast<Derived *>(new Base()); // downcasting (X)
+    p3->fun1();                                       // εμφανίζει Derived::fun1
+    p3->fun2();                                       // εμφανίζει Base::fun2
+    p3->fun3();                                       // εμφανίζει Derived::fun3
 
     std::cout << "Checkpoint 6" << std::endl;
-    Derived *p4 = dynamic_cast<Derived *>(new Base()); // downcasting
-    p4->fun1();
-    // p4->fun2(); // runtime error: segmentation fault
-    p4->fun3();
+    Derived *p4 = dynamic_cast<Derived *>(new Base()); // downcasting (X)
+    p4->fun1();                                        // εμφανίζει Derived::fun1
+    p4->fun3();                                        // εμφανίζει Derived::fun3
+    p4->fun2();                                        // runtime error: segmentation fault
 
     return 0;
 }
