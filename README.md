@@ -91,17 +91,14 @@
 * Πολλαπλή κληρονομικότητα (multiple inheritance)
   * [multiple_inheritance1.cpp](./cpp_playground/ex036/multiple_inheritance1.cpp)
   * [multiple_inheritance2.cpp](./cpp_playground/ex036/multiple_inheritance2.cpp) επίλυση συγκρούσεων σε μέλη δεδομένων και σε μέλη συναρτήσεις
+  * [virtual_inheritance1.cpp](./cpp_playground/ex037/virtual_inheritance1.cpp)
+  * [virtual_inheritance2.cpp](./cpp_playground/ex037/virtual_inheritance2.cpp)
 * Χαλαρή σύζευξη (loose coupling) [coupling1.cpp](./cpp_playground/ex034/coupling1.cpp), [coupling2.cpp](./cpp_playground/ex034/coupling2.cpp)
 * Πλειάδες - tuples [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp), [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
 * std::to_string [to_string.cpp](./cpp_playground/ex033/to_string.cpp)
 * Παραδείγματα χρήσης της βιβλιοθήκης fmt
   * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
   * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
-* Πολλαπλή κληρονομικότητα
-  * [multiple_inheritance1.cpp](./cpp_playground/ex036/multiple_inheritance1.cpp)
-  * [multiple_inheritance2.cpp](./cpp_playground/ex036/multiple_inheritance2.cpp)
-  * [virtual_inheritance1.cpp](./cpp_playground/ex037/virtual_inheritance1.cpp)
-  * [virtual_inheritance2.cpp](./cpp_playground/ex037/virtual_inheritance2.cpp)
 * Εξαιρέσεις (exceptions)
   * [exception1.c](./cpp_playground/ex038/exception1.c) asserts
   * [exception2.cpp](./cpp_playground/ex038/exception2.cpp)
