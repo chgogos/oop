@@ -127,9 +127,16 @@
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
-  * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP
-  * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP OK
-  * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP OK
+  * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP :-1:
+  * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP :smiley:
+  * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP :smiley:
+* Παράδειγμα εφαρμογής Interface Segregation Principle (ISP)
+  * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP :-1:
+  * [isp2.cpp](./cpp_playground/ex052/isp2.cpp) ISP :smiley:
+* Παράδειγμα κυκλικής εξάρτησης (circular dependency) και επίλυση με forward declaration
+  * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.hpp)
+* Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
+  * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
@@ -145,15 +152,17 @@
 
 ## Βέλτιστες πρακτικές
 
-* SOLID principles
+* S.O.L.I.D. principles
   * SRP (Single Responsibility Principle). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να έχει μια μόνο καλά ορισμένη υπευθυνότητα.
     * <https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137>
-  * Open-Closed Princple. Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να είναι ανοικτή για επέκταση (να μπορούν να προστίθενται νέες δυνατότητες) και κλειστή για αλλαγές (ο κώδικας που έχει ήδη γραφεί να μην χρειάζεται να τροποποιηθεί προκειμένου να ενσωματώσει τις επεκτάσεις).
+  * Open-Closed Principle. Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να είναι ανοικτή για επέκταση (να μπορούν να προστίθενται νέες δυνατότητες) και κλειστή για αλλαγές (ο κώδικας που έχει ήδη γραφεί να μην χρειάζεται να τροποποιηθεί προκειμένου να ενσωματώσει τις επεκτάσεις).
     * <https://hackernoon.com/the-open-closed-principle-c3dc45419784>
-  * Liskov Substitution Principle. Τα αντικείμενα ενός προγράμματος θα πρέπει να μπορούν να αντικατασταθούν από στιγμιότυπα υποκλάσεων χωρίς να παραβιάζεται η ορθότητα του προγράμματος.
-    * Οι συναρτήσεις που χρησιμοποιούν δείκτες ή αναφορές σε βασικές κλάσεις (Base) θα πρέπει να είναι σε θέση να χρησιμοποιούν αντικείμενα της παραγόμενης κλάσης (Derived) χωρίς να γνωρίζουν ότι έχουν  να κάνουν με τέτοια αντικείμενα.
+  * Liskov Substitution Principle. Τα αντικείμενα ενός προγράμματος θα πρέπει να μπορούν να αντικατασταθούν από στιγμιότυπα υποκλάσεων χωρίς να παραβιάζεται η ορθότητα του προγράμματος. Οι συναρτήσεις που χρησιμοποιούν δείκτες ή αναφορές σε βασικές κλάσεις (Base) θα πρέπει να είναι σε θέση να χρησιμοποιούν αντικείμενα της παραγόμενης κλάσης (Derived) χωρίς να γνωρίζουν ότι έχουν  να κάνουν με τέτοια αντικείμενα.
+    * <https://hackernoon.com/liskov-substitution-principle-a982551d584a>
   * Interface Segregation Principle. Κανείς πελάτης ενός interface δεν θα πρέπει να εξαναγκάζεται να εξαρτάται από μεθόδους που δεν χρησιμοποιεί.
-  * Dependency Inversion Principle
+    * <https://hackernoon.com/interface-segregation-principle-bdf3f94f1d11>
+  * Dependency Inversion Principle. Τα υψηλού επιπέδου τμήματα λογισμικού δεν θα πρέπει να στηρίζονται σε χαμηλού επιπέδου λεπτομέρειες. Τα τμήματα λογισμικού σε όλα τα επίπεδα ιεραρχίας θα πρέπει να στηρίζονται σε αφαιρέσεις.
+    * <https://hackernoon.com/dependency-inversion-principle-e402e5b69e70>
 * DRY (Don't Repeat Yourself).
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
 * YAGNI (You Ain't Gonna Need It)
