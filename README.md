@@ -126,6 +126,10 @@
   * [final2.cpp](./cpp_playground/ex042/final2.cpp) final κλάση
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
+* Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
+  * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP
+  * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP OK
+  * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP OK
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
@@ -148,7 +152,7 @@
     * <https://hackernoon.com/the-open-closed-principle-c3dc45419784>
   * Liskov Substitution Principle. Τα αντικείμενα ενός προγράμματος θα πρέπει να μπορούν να αντικατασταθούν από στιγμιότυπα υποκλάσεων χωρίς να παραβιάζεται η ορθότητα του προγράμματος.
     * Οι συναρτήσεις που χρησιμοποιούν δείκτες ή αναφορές σε βασικές κλάσεις (Base) θα πρέπει να είναι σε θέση να χρησιμοποιούν αντικείμενα της παραγόμενης κλάσης (Derived) χωρίς να γνωρίζουν ότι έχουν  να κάνουν με τέτοια αντικείμενα.
-  * Inteface Segregation Principle
+  * Interface Segregation Principle. Κανείς πελάτης ενός interface δεν θα πρέπει να εξαναγκάζεται να εξαρτάται από μεθόδους που δεν χρησιμοποιεί.
   * Dependency Inversion Principle
 * DRY (Don't Repeat Yourself).
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.

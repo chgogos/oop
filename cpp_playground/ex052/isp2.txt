@@ -1,0 +1,5 @@
+Dove::eat
+Dove::run
+Dove::fly
+Penguin::eat
+Penguin::run
