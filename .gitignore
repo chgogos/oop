@@ -1,8 +1,6 @@
 # VSCODE
 *.DS_Store
-*.ipch
-*.bin
-.vscode/ipch/*
+.vscode
 
 # ignore all files without a dot
 *
@@ -21,6 +19,8 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
+*.bin
 
 # Compiled Dynamic libraries
 *.so
