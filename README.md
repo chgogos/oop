@@ -5,7 +5,7 @@
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-    τελευταία ενημέρωση: 24/3/2019
+    τελευταία ενημέρωση: 30/3/2019
 
 ## Live coding
 
@@ -103,6 +103,7 @@
   * [exception1.c](./cpp_playground/ex038/exception1.c) asserts
   * [exception2.cpp](./cpp_playground/ex038/exception2.cpp)
   * [exception3.cpp](./cpp_playground/ex038/exception3.cpp)
+  * [exception4.cpp](./cpp_playground/ex038/exception4.cpp)
 * Πρότυπα (templates)
   * [template1.cpp](./cpp_playground/ex039/template1.cpp)
   * [template2.cpp](./cpp_playground/ex039/template2.cpp)
@@ -120,6 +121,11 @@
   * [explicit1.cpp](./cpp_playground/ex042/explicit1.cpp)
 * Xρονομέτρηση κώδικα με το chrono
   * [timing1.cpp](./cpp_playground/ex043/timing1.cpp)
+* Το keyword final
+  * [final1.cpp](./cpp_playground/ex042/final1.cpp) final συνάρτηση μέλος κλάσης
+  * [final2.cpp](./cpp_playground/ex042/final2.cpp) final κλάση
+* RTTI (RunTime Type Information)
+  * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
@@ -135,9 +141,17 @@
 
 ## Βέλτιστες πρακτικές
 
+* SOLID principles
+  * SRP (Single Responsibility Principle). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να έχei μια μόνο καλά ορισμένη υπευθυνότητα.
+    * <https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137>
+  * Open-Closed Princple. Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να είναι ανοικτή για επέκταση (να μπορούν να προστίθενται νέες δυνατότητες) και κλειστή για αλλαγές (ο κώδικας που έχει ήδη γραφεί να μην χρειάζεται να τροποποιηθεί προκειμένου να ενσωματώσει τις επεκτάσεις).
+    * <https://hackernoon.com/the-open-closed-principle-c3dc45419784>
+  * Liskov Substitution Principle. Τα αντικείμενα ενός προγράμματος θα πρέπει να μπορούν να αντικατασταθούν από στιγμιότυπα υποκλάσεων χωρίς να παραβιάζεται η ορθότητα του προγράμματος.
+    * Οι συναρτήσεις που χρησιμοποιούν δείκτες ή αναφορές σε βασικές κλάσεις (Base) θα πρέπει να είναι σε θέση να χρησιμοποιούν αντικείμενα της παραγόμενης κλάσης (Derived) χωρίς να γνωρίζουν ότι έχουν  να κάνουν με τέτοια αντικείμενα.
+  * Inteface Segregation Principle
+  * Dependency Inversion Principle
 * DRY (Don't Repeat Yourself).
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
-* SRP (Single Responsibility Principle)
 * YAGNI (You Ain't Gonna Need It)
   * <https://martinfowler.com/bliki/Yagni.html>
 

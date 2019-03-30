@@ -23,11 +23,11 @@ public:
 
 int main()
 {
-  // MyBaseException ex1; // error: call to deleted constructor of 'MyBaseException'
-  MyBaseException ex2("something bad happened");
+  // MyBaseException ex; // error: call to deleted constructor of 'MyBaseException'
+  MyBaseException ex("something bad happened");
   try
   {
-    throw ex2;
+    throw ex;
   }
   catch (const MyBaseException &ex)
   {
