@@ -42,6 +42,8 @@
   * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
   * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment
 * "Αόρατες" αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
+* Λίστα αρχικοποίησης (initializer list)
+  * [initializer_list1.cpp](./cpp_playground/ex044/initializer_list1.cpp)
 * Η χρήση του static στη C [static1.cpp](./cpp_playground/ex013/static1.cpp)
 * Στατικά μέλη κλάσεων
   * [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
@@ -59,6 +61,7 @@
 * Μετατροπή αντικειμένου σε λεκτικό [person_to_string.cpp](./cpp_playground/ex016/person_to_string.cpp)
 * Παράδειγμα υπερφόρτωσης τελεστών (+, <<, >>) και μετατροπής αντικειμένου σε λεκτικό για την κλάση myTime [my_time.cpp](./cpp_playground/ex028/my_time.cpp)
 * Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex017/namespaces1.cpp)
+* Εμφωλιασμός κλάσης σε κλάση (nesting) [nested1.cpp](./cpp_playground/ex048/nested1.cpp)
 * Κληρονομικότητα
   * [inheritance1.cpp](./cpp_playground/ex018/inheritance1.cpp)
   * [inheritance2.cpp](./cpp_playground/ex018/inheritance2.cpp)
@@ -137,6 +140,9 @@
   * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.hpp) :confused:
 * Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
   * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) :smiley:
+* Standard Template Library
+  * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp)
+  * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
@@ -153,15 +159,15 @@
 ## Βέλτιστες πρακτικές
 
 * S.O.L.I.D. principles
-  * SRP (Single Responsibility Principle). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να έχει μια μόνο καλά ορισμένη υπευθυνότητα.
+  * Single Responsibility Principle (SRP). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να έχει μια μόνο καλά ορισμένη υπευθυνότητα.
     * <https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137>
-  * Open-Closed Principle. Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να είναι ανοικτή για επέκταση (να μπορούν να προστίθενται νέες δυνατότητες) και κλειστή για αλλαγές (ο κώδικας που έχει ήδη γραφεί να μην χρειάζεται να τροποποιηθεί προκειμένου να ενσωματώσει τις επεκτάσεις).
+  * Open-Closed Principle (OCP). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να είναι ανοικτή για επέκταση (να μπορούν να προστίθενται νέες δυνατότητες) και κλειστή για αλλαγές (ο κώδικας που έχει ήδη γραφεί να μην χρειάζεται να τροποποιηθεί προκειμένου να ενσωματώσει τις επεκτάσεις).
     * <https://hackernoon.com/the-open-closed-principle-c3dc45419784>
-  * Liskov Substitution Principle. Τα αντικείμενα ενός προγράμματος θα πρέπει να μπορούν να αντικατασταθούν από στιγμιότυπα υποκλάσεων χωρίς να παραβιάζεται η ορθότητα του προγράμματος. Οι συναρτήσεις που χρησιμοποιούν δείκτες ή αναφορές σε βασικές κλάσεις (Base) θα πρέπει να είναι σε θέση να χρησιμοποιούν αντικείμενα της παραγόμενης κλάσης (Derived) χωρίς να γνωρίζουν ότι έχουν  να κάνουν με τέτοια αντικείμενα.
+  * Liskov Substitution Principle (LSP). Τα αντικείμενα ενός προγράμματος θα πρέπει να μπορούν να αντικατασταθούν από στιγμιότυπα υποκλάσεων χωρίς να παραβιάζεται η ορθότητα του προγράμματος. Οι συναρτήσεις που χρησιμοποιούν δείκτες ή αναφορές σε βασικές κλάσεις (Base) θα πρέπει να είναι σε θέση να χρησιμοποιούν αντικείμενα της παραγόμενης κλάσης (Derived) χωρίς να γνωρίζουν ότι έχουν  να κάνουν με τέτοια αντικείμενα.
     * <https://hackernoon.com/liskov-substitution-principle-a982551d584a>
-  * Interface Segregation Principle. Κανείς πελάτης ενός interface δεν θα πρέπει να εξαναγκάζεται να εξαρτάται από μεθόδους που δεν χρησιμοποιεί.
+  * Interface Segregation Principle (ISP). Κανείς πελάτης ενός interface δεν θα πρέπει να εξαναγκάζεται να εξαρτάται από μεθόδους που δεν χρησιμοποιεί.
     * <https://hackernoon.com/interface-segregation-principle-bdf3f94f1d11>
-  * Dependency Inversion Principle. Τα υψηλού επιπέδου τμήματα λογισμικού δεν θα πρέπει να στηρίζονται σε χαμηλού επιπέδου λεπτομέρειες. Τα τμήματα λογισμικού σε όλα τα επίπεδα ιεραρχίας θα πρέπει να στηρίζονται σε αφαιρέσεις.
+  * Dependency Inversion Principle (DIP). Τα υψηλού επιπέδου τμήματα λογισμικού δεν θα πρέπει να στηρίζονται σε χαμηλού επιπέδου λεπτομέρειες. Τα τμήματα λογισμικού σε όλα τα επίπεδα ιεραρχίας θα πρέπει να στηρίζονται σε αφαιρέσεις.
     * <https://hackernoon.com/dependency-inversion-principle-e402e5b69e70>
 * DRY (Don't Repeat Yourself).
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
