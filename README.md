@@ -142,7 +142,7 @@
 ## Βέλτιστες πρακτικές
 
 * SOLID principles
-  * SRP (Single Responsibility Principle). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να έχei μια μόνο καλά ορισμένη υπευθυνότητα.
+  * SRP (Single Responsibility Principle). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να έχει μια μόνο καλά ορισμένη υπευθυνότητα.
     * <https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137>
   * Open-Closed Princple. Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να είναι ανοικτή για επέκταση (να μπορούν να προστίθενται νέες δυνατότητες) και κλειστή για αλλαγές (ο κώδικας που έχει ήδη γραφεί να μην χρειάζεται να τροποποιηθεί προκειμένου να ενσωματώσει τις επεκτάσεις).
     * <https://hackernoon.com/the-open-closed-principle-c3dc45419784>

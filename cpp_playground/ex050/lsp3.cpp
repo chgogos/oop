@@ -1,4 +1,5 @@
 #include <iostream>
+#include <memory>
 
 class Point
 {
@@ -20,19 +21,14 @@ class Shape
 private:
   Point center_point;
 
-protected:
-  bool is_visible;
-
 public:
-  Shape() : is_visible(false) {}
+  Shape() {}
   virtual ~Shape() {}
   void move_to(const Point &new_center_point)
   {
     center_point = new_center_point;
   }
-  virtual void show() = 0;
-
-  virtual void hide() = 0;
+  virtual void draw() = 0;
 };
 
 class Rectangle : public Shape
@@ -48,19 +44,13 @@ public:
     width = w;
     height = h;
   }
-  virtual void show() override
+  virtual void draw() override
   {
-    is_visible = true;
     std::cout << "Draw the rectangle" << std::endl;
   }
-  virtual void hide() override
+  double get_area() const
   {
-    is_visible = false;
-    std::cout << "Hide the rectangle" << std::endl;
-  }
-  int get_area() const
-  {
-    return width * height;
+    return static_cast<double>(width * height);
   }
 };
 
@@ -75,35 +65,56 @@ public:
   {
     radius = r;
   }
-  virtual void show() override
+  virtual void draw() override
   {
-    is_visible = true;
     std::cout << "Draw the circle" << std::endl;
   }
-  virtual void hide() override
-  {
-    is_visible = false;
-    std::cout << "Hide the circle" << std::endl;
-  }
-  int get_area() const
+  double get_area() const
   {
     return 3.14 * radius * radius;
   }
 };
 
-class Square : public Rectangle
+class Square : public Shape
 {
+private:
+  Rectangle internal_rectangle;
+
 public:
   Square()
   {
-    set_sides(5, 5);
+    internal_rectangle.set_sides(5, 5);
   }
   Square(int l)
   {
-    set_sides(l, l);
+    internal_rectangle.set_sides(l, l);
   }
-  void set_side(int &l)
+  void set_side(const int &l)
   {
-    set_sides(l, l);
+    internal_rectangle.set_sides(l, l);
+  }
+  virtual void draw() override
+  {
+    std::cout << "Draw the square" << std::endl;
+  }
+  double get_area()
+  {
+    return internal_rectangle.get_area();
   }
 };
+
+int main()
+{
+  Shape *shapes[] = {new Rectangle(), new Circle(), new Square()};
+
+  for (auto &shape : shapes)
+  {
+    shape->draw();
+  }
+
+  Square *a_square = new Square();
+  a_square->set_side(5);
+  delete a_square;
+  
+  return 0;
+}
