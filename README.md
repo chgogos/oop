@@ -93,7 +93,9 @@
   * [multiple_inheritance2.cpp](./cpp_playground/ex036/multiple_inheritance2.cpp) επίλυση συγκρούσεων σε μέλη δεδομένων και σε μέλη συναρτήσεις
   * [virtual_inheritance1.cpp](./cpp_playground/ex037/virtual_inheritance1.cpp)
   * [virtual_inheritance2.cpp](./cpp_playground/ex037/virtual_inheritance2.cpp)
-* Χαλαρή σύζευξη (loose coupling) [coupling1.cpp](./cpp_playground/ex034/coupling1.cpp), [coupling2.cpp](./cpp_playground/ex034/coupling2.cpp)
+* Σύζευξη (coupling)
+  * [tight_coupling.cpp](./cpp_playground/ex034/tight_coupling.cpp) ισχυρή σύζευξη :-1:
+  * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
 * Πλειάδες - tuples [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp), [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
 * std::to_string [to_string.cpp](./cpp_playground/ex033/to_string.cpp)
 * Παραδείγματα χρήσης της βιβλιοθήκης fmt
