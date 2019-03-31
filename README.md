@@ -17,6 +17,7 @@
 | | [2019-03-15](./lc/live_coding_20190315.cpp) |
 | [2019-03-18](./lc/live_coding_20190318.cpp) | [2019-03-22a](./lc/live_coding_20190322a.cpp), [2019-03-22b](./lc/live_coding_20190322b.cpp)|
 |  | [2019-03-29](./lc/live_coding_20190329.cpp) |
+|  |  |
 
 ## Παραδείγματα κώδικα
 
@@ -48,7 +49,6 @@
 * Στατικά μέλη κλάσεων
   * [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
   * [static_example2.cpp](./cpp_playground/ex013/static_example2.cpp) (πρόσβαση με static συνάρτηση στα ιδιωτικά μέλη κλάσης)
-* Singleton design pattern [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
 * Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
 * Απλό παράδειγμα TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2)
   * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp)
@@ -64,10 +64,10 @@
 * Εμφωλιασμός κλάσης σε κλάση (nesting) [nested1.cpp](./cpp_playground/ex048/nested1.cpp)
 * Κληρονομικότητα
   * [inheritance1.cpp](./cpp_playground/ex018/inheritance1.cpp)
-  * [inheritance2.cpp](./cpp_playground/ex018/inheritance2.cpp)
-  * [inheritance3.cpp](./cpp_playground/ex018/inheritance3.cpp)
-  * [inheritance4.cpp](./cpp_playground/ex018/inheritance4.cpp)
-  * [inheritance5.cpp](./cpp_playground/ex018/inheritance5.cpp)
+  * [inheritance2.cpp](./cpp_playground/ex018/inheritance2.cpp) keyword protected
+  * [inheritance3.cpp](./cpp_playground/ex018/inheritance3.cpp) overload και override
+  * [inheritance4.cpp](./cpp_playground/ex018/inheritance4.cpp) κλήση constructors και destructors
+  * [inheritance5.cpp](./cpp_playground/ex018/inheritance5.cpp) overload και απόκρυψη συνάρτησης γονέα
 * Παράδειγμα κληρονομικότητας (σχέση ISA) [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 * Παράδειγμα σύνθεσης - composition (σχέση HAS) [composition.cpp](./cpp_playground/ex019/composition.cpp)
 * Upcasting (μετατροπή μιας αναφοράς ή ενός δείκτη μιας κληρονομούμενης κλάσης στην κλάση γονέα) / Downcasting (μετατροπή μιας αναφοράς ή ενός δείκτη της κλάσης γονέα σε κληρονομούμενη κλάση, το downcasting δεν επιτρέπεται αν δεν υπάρχει explicit type cast)
@@ -146,6 +146,30 @@
   * [university2.c](./cpp_playground/ex023/university2.c)
 * -->
 
+## Design Patterns
+
+* Creational
+  * Singleton [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
+
+<!-- 
+  * Factory
+  * Builder
+* Structural
+  * Adapter
+  * Bridge
+  * Composite
+  * Decorator
+  * Facade
+  * Flyweight
+* Behavioral
+  * Chain of responsibility
+  * Command
+  * Mediator
+  * Observer
+  * State
+  * Strategy
+-->
+
 ## Βασικές αρχές OOP
 
 * Αφαίρεση (abstraction)
@@ -166,10 +190,11 @@
     * <https://hackernoon.com/interface-segregation-principle-bdf3f94f1d11>
   * Dependency Inversion Principle (DIP). Τα υψηλού επιπέδου τμήματα λογισμικού δεν θα πρέπει να στηρίζονται σε χαμηλού επιπέδου λεπτομέρειες. Τα τμήματα λογισμικού σε όλα τα επίπεδα ιεραρχίας θα πρέπει να στηρίζονται σε αφαιρέσεις.
     * <https://hackernoon.com/dependency-inversion-principle-e402e5b69e70>
-* DRY (Don't Repeat Yourself).
-* Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
-* YAGNI (You Ain't Gonna Need It)
+* DRY (Don't Repeat Yourself). Η επανάληψη του ίδιου κώδικα σε διάφορα σημεία προκαλεί προβλήματα στη συντήρηση του λογισμικού.
+* YAGNI (You Ain't Gonna Need It). Θα πρέπει να υλοποιούνται οι απαραίτητες λειτουργίες και μόνο αυτές.
   * <https://martinfowler.com/bliki/Yagni.html>
+* Law of Demeter (αρχή της ελάχιστης δυνατής γνώσης).
+* Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
 
 ### Βέλτιστες πρακτικές στη C++
 
