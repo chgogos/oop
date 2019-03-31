@@ -75,14 +75,19 @@ class Switch
 int main()
 {
     Lamp a_lamp;
-    Fan a_fan;
-    Radiator a_radiator;
-
     Switch switch1(a_lamp);
+    switch1.toggle();
+    switch1.toggle();
+
+    Fan a_fan;
     Switch switch2(a_fan);
+    switch2.toggle();
+    switch2.toggle();
+
+    Radiator a_radiator;
     Switch switch3(a_radiator);
-    switch1.toggle();switch1.toggle();
-    switch2.toggle();switch2.toggle();
-    switch3.toggle();switch3.toggle();
+    switch3.toggle();
+    switch3.toggle();
+    
     return 0;
 }

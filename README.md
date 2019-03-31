@@ -68,6 +68,11 @@
   * [inheritance3.cpp](./cpp_playground/ex018/inheritance3.cpp) overload και override
   * [inheritance4.cpp](./cpp_playground/ex018/inheritance4.cpp) κλήση constructors και destructors
   * [inheritance5.cpp](./cpp_playground/ex018/inheritance5.cpp) overload και απόκρυψη συνάρτησης γονέα
+* Το keyword override
+  * [override.cpp](./cpp_playground/ex049/override.cpp)
+* Το keyword final
+  * [final1.cpp](./cpp_playground/ex049/final1.cpp) final συνάρτηση μέλος κλάσης
+  * [final2.cpp](./cpp_playground/ex049/final2.cpp) final κλάση
 * Παράδειγμα κληρονομικότητας (σχέση ISA) [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 * Παράδειγμα σύνθεσης - composition (σχέση HAS) [composition.cpp](./cpp_playground/ex019/composition.cpp)
 * Upcasting (μετατροπή μιας αναφοράς ή ενός δείκτη μιας κληρονομούμενης κλάσης στην κλάση γονέα) / Downcasting (μετατροπή μιας αναφοράς ή ενός δείκτη της κλάσης γονέα σε κληρονομούμενη κλάση, το downcasting δεν επιτρέπεται αν δεν υπάρχει explicit type cast)
@@ -94,7 +99,8 @@
   * [virtual_inheritance1.cpp](./cpp_playground/ex037/virtual_inheritance1.cpp)
   * [virtual_inheritance2.cpp](./cpp_playground/ex037/virtual_inheritance2.cpp)
 * Σύζευξη (coupling)
-  * [tight_coupling.cpp](./cpp_playground/ex034/tight_coupling.cpp) ισχυρή σύζευξη :-1:
+  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :-1:
+  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :-1:
   * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
 * Πλειάδες - tuples [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp), [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
 * std::to_string [to_string.cpp](./cpp_playground/ex033/to_string.cpp)
@@ -123,11 +129,6 @@
   * [explicit1.cpp](./cpp_playground/ex042/explicit1.cpp)
 * Xρονομέτρηση κώδικα με το chrono
   * [timing1.cpp](./cpp_playground/ex043/timing1.cpp)
-* Το keyword override
-  * [override.cpp](./cpp_playground/ex049/override.cpp)
-* Το keyword final
-  * [final1.cpp](./cpp_playground/ex049/final1.cpp) final συνάρτηση μέλος κλάσης
-  * [final2.cpp](./cpp_playground/ex049/final2.cpp) final κλάση
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
