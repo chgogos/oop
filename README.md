@@ -127,16 +127,16 @@
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
-  * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP :-1:
-  * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP :smiley:
-  * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP :smiley:
+  * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP :confused:
+  * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP
+  * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP
 * Παράδειγμα εφαρμογής Interface Segregation Principle (ISP)
-  * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP :-1:
-  * [isp2.cpp](./cpp_playground/ex052/isp2.cpp) ISP :smiley:
+  * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP :confused:
+  * [isp2.cpp](./cpp_playground/ex052/isp2.cpp) ISP
 * Παράδειγμα κυκλικής εξάρτησης (circular dependency) και επίλυση με forward declaration
   * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.hpp) :confused:
 * Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
-  * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) :smiley:
+  * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) 
 * Standard Template Library
   * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp)
   * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp)
