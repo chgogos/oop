@@ -121,9 +121,11 @@
   * [explicit1.cpp](./cpp_playground/ex042/explicit1.cpp)
 * Xρονομέτρηση κώδικα με το chrono
   * [timing1.cpp](./cpp_playground/ex043/timing1.cpp)
+* Το keyword override
+  * [override.cpp](./cpp_playground/ex049/override.cpp)
 * Το keyword final
-  * [final1.cpp](./cpp_playground/ex042/final1.cpp) final συνάρτηση μέλος κλάσης
-  * [final2.cpp](./cpp_playground/ex042/final2.cpp) final κλάση
+  * [final1.cpp](./cpp_playground/ex049/final1.cpp) final συνάρτηση μέλος κλάσης
+  * [final2.cpp](./cpp_playground/ex049/final2.cpp) final κλάση
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
