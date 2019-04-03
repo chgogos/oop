@@ -45,7 +45,7 @@
 * "Αόρατες" αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
 * Λίστα αρχικοποίησης (initializer list)
   * [initializer_list1.cpp](./cpp_playground/ex044/initializer_list1.cpp)
-* Η χρήση του static στη C [static1.cpp](./cpp_playground/ex013/static1.cpp)
+* Η χρήση του static στη C [static1.c](./cpp_playground/ex013/static1.c)
 * Στατικά μέλη κλάσεων
   * [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
   * [static_example2.cpp](./cpp_playground/ex013/static_example2.cpp) (πρόσβαση με static συνάρτηση στα ιδιωτικά μέλη κλάσης)
