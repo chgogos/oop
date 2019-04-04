@@ -21,7 +21,7 @@ int main()
     std::cout << *p2 << std::endl;
 
     const int *const p3 = &x; // σταθερός δείκτης προς σταθερά δεδομένα
-    // int const * const p3 = &x; // eεναλλακτικά
+    // int const * const p3 = &x; // εναλλακτικά η δήλωση const τοποθετείται μετά τον τύπο
     std::cout << *p3 << std::endl;
     // (*p3)++; // error: read-only variable is not assignable
     // p3=&y; // error: cannot assign to variable 'p3' with const-qualified type 'const int *const'
