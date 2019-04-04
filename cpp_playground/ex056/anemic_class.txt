@@ -1,0 +1,4 @@
+Average balance: 262.5
+Customers having higher balance than the average balance
+Customer: Raptis Raptis 300
+Customer: Zitis Zitis 450
