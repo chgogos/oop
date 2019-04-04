@@ -103,10 +103,6 @@
   * [multiple_inheritance2.cpp](./cpp_playground/ex036/multiple_inheritance2.cpp) επίλυση συγκρούσεων σε μέλη δεδομένων και σε μέλη συναρτήσεις
   * [virtual_inheritance1.cpp](./cpp_playground/ex037/virtual_inheritance1.cpp)
   * [virtual_inheritance2.cpp](./cpp_playground/ex037/virtual_inheritance2.cpp)
-* Σύζευξη (coupling)
-  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :-1:
-  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :-1:
-  * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
 * std::to_string [to_string.cpp](./cpp_playground/ex033/to_string.cpp)
 * Παραδείγματα χρήσης της βιβλιοθήκης fmt
   * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
@@ -142,6 +138,10 @@
 * Standard Template Library
   * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp)
   * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp)
+* Σύζευξη (coupling)
+  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :confused:
+  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :confused:
+  * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
 * Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
   * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP :confused:
   * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP
