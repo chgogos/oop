@@ -37,7 +37,11 @@
 * Παράδειγμα απλής κλάσης (μόνο με δημόσια μέλη) [Main.cpp](./cpp_playground/ex002/Main.cpp)
 * Διάσπαση κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex003/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex003/Rectangle.cpp), [Main.cpp](./cpp_playground/ex003/Main.cpp)
 * Ενθυλάκωση, ορισμός ιδιωτικών (private) μελών, κατασκευαστές (constructors), καταστροφέας (destructor), προκαθορισμένος κατασκευαστής [Main.cpp](./cpp_playground/ex004/Main.cpp)
-* Η χρήση του const σε δηλώσεις μεταβλητών αντικειμένων και σε συναρτήσεις μέλη κλάσεων [Main.cpp](./cpp_playground/ex005/Main.cpp)
+* Η χρήση του const
+  * [const1.cpp](./cpp_playground/ex005/const1.cpp) const σε αναφορές βασικών τύπων δεδομένων
+  * [const2.cpp](./cpp_playground/ex005/const2.cpp) const σε αναφορές αντικειμένων
+  * [const3.cpp](./cpp_playground/ex005/const3.cpp) const σε δείκτες
+  * [const4.cpp](./cpp_playground/ex005/const4.cpp) const σε δηλώσεις μεταβλητών αντικειμένων και σε συναρτήσεις μέλη κλάσεων
 * Κατασκευαστής με default τιμή παραμέτρου, το παράδειγμα μιας στοίβας [Stack.cpp](./cpp_playground/ex007/Stack.cpp)
 * Copy constructor (shallow vs deep copy)
   * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
