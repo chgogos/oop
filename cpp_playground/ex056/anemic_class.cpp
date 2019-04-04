@@ -1,5 +1,7 @@
 #include <iostream>
 
+// η κλάση Customer είναι anemic καθώς περιέχει μόνο getters και setters και δεν περιλαμβάνει κάποια λογική
+// είναι καλύτερο να υλοποιηθεί με ένα απλό struct
 class Customer
 {
   private:

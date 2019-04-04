@@ -136,6 +136,9 @@
   * [timing1.cpp](./cpp_playground/ex043/timing1.cpp)
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
+* Standard Template Library
+  * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp)
+  * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp)
 * Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
   * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP :confused:
   * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP
@@ -147,12 +150,12 @@
   * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.hpp) :confused:
 * Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
   * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) 
-* Standard Template Library
-  * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp)
-  * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp)
 * Anemic classes (anti-pattern)
-  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) :-1:
-  * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp)
+  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία ανεμικής κλάσης :confused:
+  * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp) λύση του προβλήματος με ένα απλό struct
+* Law of Demeter
+  * [lod1.cpp](./cpp_playground/ex055/lod1.cpp) παραβίαση του LoD :confused:
+  * [lod2.cpp](./cpp_playground/ex055/lod2.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
