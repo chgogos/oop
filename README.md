@@ -150,6 +150,9 @@
 * Standard Template Library
   * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp)
   * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp)
+* Anemic classes (anti-pattern)
+  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) :-1:
+  * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
