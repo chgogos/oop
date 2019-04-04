@@ -107,7 +107,6 @@
   * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :-1:
   * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :-1:
   * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
-* Πλειάδες - tuples [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp), [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
 * std::to_string [to_string.cpp](./cpp_playground/ex033/to_string.cpp)
 * Παραδείγματα χρήσης της βιβλιοθήκης fmt
   * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
@@ -125,6 +124,10 @@
   * [stack.hpp](./cpp_playground/ex040/stack.hpp)
   * [reverse_string.cpp](./cpp_playground/ex040/reverse_string.cpp) χρήση της στοίβας για αντιστροφή συμβολοσειράς
   * [postfix_evaluation.cpp](./cpp_playground/ex040/postfix_evaluation.cpp) χρήση της στοίβας για υπολογισμό postfix έκφρασης ψηφίων και τελεστών +,-,*,/
+* Ζεύγη (pairs), πλειάδες (tuples)
+  * [pair.cpp](./cpp_playground/ex032/pair.cpp)
+  * [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp)
+  * [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
 * Smart pointers
   * [unique_pointer1.cpp](./cpp_playground/ex041/unique_pointer1.cpp)
   * [shared_pointer1.cpp](./cpp_playground/ex041/shared_pointer1.cpp)
@@ -151,7 +154,7 @@
 * Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
   * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) 
 * Anemic classes (anti-pattern)
-  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία ανεμικής κλάσης :confused:
+  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία αναιμικής κλάσης :confused:
   * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp) λύση του προβλήματος με ένα απλό struct
 * Law of Demeter
   * [lod1.cpp](./cpp_playground/ex055/lod1.cpp) παραβίαση του LoD :confused:

@@ -73,7 +73,7 @@ int main()
     {
         if (customers[i].getBalance() > avg)
             std::cout << "Customer: " << customers[i].getLastName() << " "
-                      << customers[i].getLastName() << " " << customers[i].getBalance() << std::endl;
+                      << customers[i].getFirstName() << " " << customers[i].getBalance() << std::endl;
     }
 
     return 0;

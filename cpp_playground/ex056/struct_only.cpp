@@ -27,7 +27,7 @@ int main()
     {
         if (customers[i].balance > avg)
             std::cout << "Customer: " << customers[i].lastName << " "
-                      << customers[i].lastName << " " << customers[i].balance << std::endl;
+                      << customers[i].firstName << " " << customers[i].balance << std::endl;
     }
 
     return 0;
