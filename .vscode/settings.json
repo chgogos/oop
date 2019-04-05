@@ -78,7 +78,10 @@
         "*.tcc": "cpp",
         "clocale": "cpp",
         "unordered_map": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "coroutine": "cpp",
+        "condition_variable": "cpp",
+        "unordered_set": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#b52e31",
