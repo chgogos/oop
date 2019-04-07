@@ -1,0 +1,20 @@
+# 1 "preprocessor.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 373 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "preprocessor.cpp" 2
+
+
+
+
+
+int main(){
+    int x = 5, y=7;
+    int z= (((x)>(y)) ? (x) : (y));
+
+
+
+    return 0;
+}
