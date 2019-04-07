@@ -176,7 +176,6 @@
   * [university2.c](./cpp_playground/ex023/university2.c)
 * -->
 
-
 ## Design Patterns
 
 * Creational

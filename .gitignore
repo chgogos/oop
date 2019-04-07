@@ -21,6 +21,7 @@
 *.pch
 *.ipch
 *.bin
+*.plist
 
 # Compiled Dynamic libraries
 *.so

@@ -1,0 +1,11 @@
+$ g++ -g debug1.cpp -o debug1
+$ lldb debug1
+
+(lldb) b 39             // breakpoint στην γραμμή 39
+(lldb) r                // run εκκίνηση εκτέλεσης
+(lldb) n                // next μετάβαση στην επόμενη γραμμή
+(lldb) p i              // print εκτύπωση της μεταβλητής i
+(lldb) p a              // print εκτύπωση του πίνακα a
+(lldb) frame variable   // εκτύπωση των μεταβλητών και των τιμών τους
+(lldb) c                // continue συνέχεια της εκτέλεσης
+(lldb) q                // quit
