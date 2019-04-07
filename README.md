@@ -97,6 +97,7 @@
   * [dynamic_cast1.cpp](./cpp_playground/ex024/dynamic_cast1.cpp)
 * Inline συναρτήσεις (απλές και συναρτήσεις μέλη)
   * [inline1.cpp](./cpp_playground/ex025/inline1.cpp)
+  * [inline2.cpp](./cpp_playground/ex025/inline2.cpp) ο μεταγλωττιστής ορίζει αυτόματα ως inline συναρτήσεις που ορίζονται εντός της κλάσης
 * Πίνακας δεικτών προς αντικείμενα [arrays_of_pointers.cpp](./cpp_playground/ex026/arrays_of_pointers.cpp)
 * Πολλαπλή κληρονομικότητα (multiple inheritance)
   * [multiple_inheritance1.cpp](./cpp_playground/ex036/multiple_inheritance1.cpp)
@@ -164,6 +165,11 @@
 * Δείκτες σε συναρτήσεις 
   * [university2.c](./cpp_playground/ex023/university2.c)
 * -->
+
+## Σύνοψη της C++
+
+* [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :exclamation:
+* [C++ reference](https://en.cppreference.com/w/cpp)
 
 ## Design Patterns
 

@@ -1,0 +1,2 @@
+MyClass::fun1
+MyClass::fun2
