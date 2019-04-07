@@ -55,8 +55,6 @@
   * [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
   * [static_example2.cpp](./cpp_playground/ex013/static_example2.cpp) (πρόσβαση με static συνάρτηση στα ιδιωτικά μέλη κλάσης)
 * Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
-* Απλό παράδειγμα TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2)
-  * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp)
 * Υπερφόρτωση τελεστών (το παράδειγμα του δυαδικού τελεστή +)
   * Υπερφόρτωση τελεστή + με χρήση καθολικής συνάρτησης [operator_overload1.cpp](./cpp_playground/ex015/operator_overload1.cpp)
   * Υπερφόρτωση τελεστή + με χρήση συνάρτησης μέλους [operator_overload2.cpp](./cpp_playground/ex015/operator_overload2.cpp)
@@ -163,6 +161,9 @@
 * Law of Demeter
   * [lod1.cpp](./cpp_playground/ex055/lod1.cpp) παραβίαση του LoD :confused:
   * [lod2.cpp](./cpp_playground/ex055/lod2.cpp)
+* TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2) 
+  * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp) απλό παράδειγμα TDD
+  * [tdd1.cpp](./cpp_playground/ex014/tdd1.cpp) &rarr [tdd2.cpp](./cpp_playground/ex014/tdd2.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
@@ -177,11 +178,9 @@
 ## Design Patterns
 
 * Creational
-  * Singleton [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
-
-<!-- 
   * Factory
   * Builder
+  * Singleton [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
 * Structural
   * Adapter
   * Bridge
@@ -196,7 +195,8 @@
   * Observer
   * State
   * Strategy
--->
+
+<!-- ## Antipatterns -->
 
 ## Βασικές αρχές OOP
 
