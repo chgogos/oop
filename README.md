@@ -109,9 +109,6 @@
   * [virtual_inheritance1.cpp](./cpp_playground/ex037/virtual_inheritance1.cpp)
   * [virtual_inheritance2.cpp](./cpp_playground/ex037/virtual_inheritance2.cpp)
 * std::to_string [to_string.cpp](./cpp_playground/ex033/to_string.cpp)
-* Παραδείγματα χρήσης της βιβλιοθήκης fmt
-  * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
-  * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
 * Εξαιρέσεις (exceptions)
   * [exception1.c](./cpp_playground/ex038/exception1.c) asserts
   * [exception2.cpp](./cpp_playground/ex038/exception2.cpp)
@@ -170,6 +167,9 @@
 * TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2) 
   * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp) απλό παράδειγμα TDD
   * [tdd1.cpp](./cpp_playground/ex057/tdd1.cpp) -> [tdd2.cpp](./cpp_playground/ex057/tdd2.cpp) -> [tdd3.cpp](./cpp_playground/ex057/tdd3.cpp) -> [tdd4.cpp](./cpp_playground/ex057/tdd4.cpp) -> [tdd5.cpp](./cpp_playground/ex057/tdd5.cpp) -> [tdd6.cpp](./cpp_playground/ex057/tdd6.cpp) -> [tdd7.cpp](./cpp_playground/ex057/tdd7.cpp) -> [tdd8.cpp](./cpp_playground/ex057/tdd8.cpp) -> [tdd9.cpp](./cpp_playground/ex057/tdd9.cpp) -> [tdd10.cpp](./cpp_playground/ex057/tdd10.cpp) -> [tdd11.cpp](./cpp_playground/ex057/tdd11.cpp) -> [tdd12.cpp](./cpp_playground/ex057/tdd12.cpp) -> [tdd13.cpp](./cpp_playground/ex057/tdd13.cpp) -> [tdd14.cpp](./cpp_playground/ex057/tdd14.cpp), [arabic_to_roman.hpp](./cpp_playground/ex057/arabic_to_roman.hpp) -> [demo.cpp](./cpp_playground/ex057/demo.cpp)
+* Παραδείγματα χρήσης της βιβλιοθήκης fmt
+  * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
+  * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
