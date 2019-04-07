@@ -168,7 +168,7 @@
 
 ## Σύνοψη της C++
 
-* [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :exclamation:
+* [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:
 * [C++ reference](https://en.cppreference.com/w/cpp)
 
 ## Design Patterns
