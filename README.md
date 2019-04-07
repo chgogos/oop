@@ -163,7 +163,7 @@
   * [lod2.cpp](./cpp_playground/ex055/lod2.cpp)
 * TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2) 
   * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp) απλό παράδειγμα TDD
-  * [tdd1.cpp](./cpp_playground/ex014/tdd1.cpp) &rarr [tdd2.cpp](./cpp_playground/ex014/tdd2.cpp)
+  * [tdd1.cpp](./cpp_playground/ex014/tdd1.cpp) -> [tdd2.cpp](./cpp_playground/ex014/tdd2.cpp) -> [tdd3.cpp](./cpp_playground/ex014/tdd3.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
