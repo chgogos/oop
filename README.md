@@ -6,6 +6,12 @@
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
     τελευταία ενημέρωση: 7/4/2019
+    πρόοδος: 15/4/2019 στις 12:00-14:00
+
+## Σύνοψη της C++
+
+* [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:
+* [C++ reference](https://en.cppreference.com/w/cpp)
 
 ## Live coding
 
@@ -170,10 +176,6 @@
   * [university2.c](./cpp_playground/ex023/university2.c)
 * -->
 
-## Σύνοψη της C++
-
-* [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:
-* [C++ reference](https://en.cppreference.com/w/cpp)
 
 ## Design Patterns
 
