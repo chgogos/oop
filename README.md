@@ -137,8 +137,11 @@
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Standard Template Library
-  * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp)
-  * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp)
+  * [stl_container1.cpp](./cpp_playground/ex046/stl_container1.cpp) std::vector
+  * [stl_container2.cpp](./cpp_playground/ex046/stl_container2.cpp) std::list
+  * [stl_container3.cpp](./cpp_playground/ex046/stl_container3.cpp) std::map
+  * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp) std::reverse
+  * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp) std::equal
 * Σύζευξη (coupling)
   * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :confused:
   * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :confused:
