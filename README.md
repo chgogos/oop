@@ -63,12 +63,15 @@
   * [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
   * [static_example2.cpp](./cpp_playground/ex013/static_example2.cpp) (πρόσβαση με static συνάρτηση στα ιδιωτικά μέλη κλάσης)
 * Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
-* Υπερφόρτωση τελεστών (το παράδειγμα του δυαδικού τελεστή +)
+* Υπερφόρτωση τελεστών (δυαδικός τελεστής +)
   * Υπερφόρτωση τελεστή + με χρήση καθολικής συνάρτησης [operator_overload1.cpp](./cpp_playground/ex015/operator_overload1.cpp)
   * Υπερφόρτωση τελεστή + με χρήση συνάρτησης μέλους [operator_overload2.cpp](./cpp_playground/ex015/operator_overload2.cpp)
   * Υπερφόρτωση τελεστή + με χρήση friend συνάρτησης [operator_overload3.cpp](./cpp_playground/ex015/operator_overload3.cpp)
-* Υπερφόρτωση τελεστών εισόδου/εξόδου
-  * Υπερφόρτωση τελεστή << (inserter) και τελεστή >> (extractor) με χρήση friend συναρτήσεων [io_operator_overload1.cpp](./cpp_playground/ex016/io_operator_overload1.cpp)
+<!-- * Υπερφόρτωση τελεστών (δυαδικός τελεστής <, δυαδικός τελεστής ==)
+  * [operator_overload4.cpp](./cpp_playground/ex015/operator_overload4.cpp) -->
+* Υπερφόρτωση τελεστή << (inserter) και τελεστή >> (extractor)
+  * [io_operator_overload1.cpp](./cpp_playground/ex016/io_operator_overload1.cpp) με φίλες συναρτήσεις
+  <!-- * [io_operator_overload2.cpp](./cpp_playground/ex016/io_operator_overload2.cpp) με βοηθητικές συναρτήσεις -->
 * Μετατροπή αντικειμένου σε λεκτικό [person_to_string.cpp](./cpp_playground/ex016/person_to_string.cpp)
 * Παράδειγμα υπερφόρτωσης τελεστών (+, <<, >>) και μετατροπής αντικειμένου σε λεκτικό για την κλάση myTime [my_time.cpp](./cpp_playground/ex028/my_time.cpp)
 * Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex017/namespaces1.cpp)
