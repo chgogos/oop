@@ -5,7 +5,7 @@
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-    τελευταία ενημέρωση: 7/4/2019
+    τελευταία ενημέρωση: 8/4/2019
     πρόοδος: 15/4/2019 στις 12:00-14:00
 
 ## Σύνοψη της C++
@@ -24,6 +24,7 @@
 | [2019-03-18](./lc/live_coding_20190318.cpp) | [2019-03-22a](./lc/live_coding_20190322a.cpp), [2019-03-22b](./lc/live_coding_20190322b.cpp)|
 |  | [2019-03-29](./lc/live_coding_20190329.cpp) |
 | [2019-04-01a](./lc/live_coding_20190401a.cpp), [2019-04-01b](./lc/live_coding_20190401b.cpp) | [2019-04-05](./lc/live_coding_20190405.cpp) |
+| [2019-04-08](./lc/live_coding_20190408.cpp) | |
 
 ## Παραδείγματα κώδικα
 
@@ -41,6 +42,7 @@
   * [enum1.cpp](./cpp_playground/ex030/enum1.cpp) παλιό στυλ
   * [enum2.cpp](./cpp_playground/ex030/enum2.cpp) νέο στυλ - enum classes
 * Παράδειγμα απλής κλάσης (μόνο με δημόσια μέλη) [Main.cpp](./cpp_playground/ex002/Main.cpp)
+* Προεπεξεργαστής [preprocessor.cpp](./cpp_playground/ex001/preprocessor.cpp)
 * Διάσπαση κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex003/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex003/Rectangle.cpp), [Main.cpp](./cpp_playground/ex003/Main.cpp)
 * Ενθυλάκωση, ορισμός ιδιωτικών (private) μελών, κατασκευαστές (constructors), καταστροφέας (destructor), προκαθορισμένος κατασκευαστής [Main.cpp](./cpp_playground/ex004/Main.cpp)
 * Η χρήση του const
