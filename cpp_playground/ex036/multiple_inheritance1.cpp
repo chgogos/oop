@@ -39,7 +39,7 @@ class Derived : public Base1, public Base2
     int c;
 
   public:
-    Derived(int a=0, int b=0, int c=0) : Base1(a), Base2(a), c(c) {
+    Derived(int a=0, int b=0, int c=0) : Base1(a), Base2(b), c(c) {
         std::cout << "Derived::Derived(int,int,int) constructor called" << std::endl;
     }
     void fun3()
