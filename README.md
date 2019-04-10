@@ -8,7 +8,7 @@
     τελευταία ενημέρωση: 9/4/2019
     πρόοδος: 15/4/2019 στις 12:00-14:00
 
-[επιπλέον πληροφορίες για την πρόοδο](./proodos.md)
+[επιπλέον πληροφορίες για την πρόοδο](./proodos.md), [ενδεικτικά θέματα](./preparation/proodos.pdf), επαναληπτικό μάθημα στις 12/4/2019 στις 10:00-12:00
 
 ## Σύνοψη της C++
 
@@ -279,6 +279,11 @@
 * [Software Engineering Institute CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * <https://www.cs.northwestern.edu/academics/courses/211/html/c++-style.html>
 * <https://web.cs.dal.ca/~jin/3132/assignments/style.html>
+
+## C++ Guidelines
+
+* [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
+* [GSL: Guidelines Support Library (by Microsoft)](https://github.com/Microsoft/GSL)
 
 ## Test Driven Development
 
