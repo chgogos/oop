@@ -9,6 +9,7 @@ protected:
 
 public:
     vehicle(std::string rn, std::string on, double cc) : registration_number(rn), owner_name(on), cc(cc) {}
+    virtual ~vehicle() {}
     virtual double traffic_tax() = 0;
 };
 
@@ -112,6 +113,11 @@ int main()
     }
 
     std::cout << "\nTOTAL TAX " << total_tax(a) << std::endl;
+
+    for (int i = 0; i < 5; i++)
+    {
+        delete a[i];
+    }
 
     return 0;
 }
