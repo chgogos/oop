@@ -236,6 +236,7 @@
 
 ### Βέλτιστες πρακτικές στη C++
 
+* Const correctness <http://www.possibility.com/Cpp/const.html>
 * Rule of three (αν μια κλάση ορίζει destructor, τότε θα πρέπει να ορίζει copy constructor και copy assignment operator)
   * <https://www.geeksforgeeks.org/rule-of-three-in-cpp/>
 * Rule of five (αν μια κλάση ορίζει destructor, τότε θα πρέπει να ορίζει copy constructor, copy assignment operator, move constructor και move assignment operator)
