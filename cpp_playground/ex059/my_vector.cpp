@@ -11,7 +11,7 @@ private:
     T *vitems;
 
 public:
-    my_vector() : vsize(0), vcapacity(2), vitems(new T[2]) {}
+    my_vector() : vsize(0), vcapacity(1), vitems(new T[1]) {} // αρχικό μέγεθος διανύσματος=1
     size_t size() const { return vsize; }
     size_t capacity() const { return vcapacity; }
     T &operator[](size_t i) { return vitems[i]; }

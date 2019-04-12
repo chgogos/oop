@@ -8,7 +8,7 @@
     τελευταία ενημέρωση: 12/4/2019
     πρόοδος: 15/4/2019 στις 12:00-14:00
 
-[επιπλέον πληροφορίες για την πρόοδο](./proodos.md), Ενδεικτικά θέματα και λύσεις: [εκφωνήσεις θεμάτων](./preparation/proodos.pdf), [λύση θέματος 1](./preparation/prepare01.cpp), [λύση θέματος 2](./preparation/prepare02.cpp), [λύσης θέματος 3](./preparation/prepare03.cpp)
+[επιπλέον πληροφορίες για την πρόοδο](./proodos.md), ενδεικτικά θέματα και λύσεις: [εκφωνήσεις θεμάτων](./preparation/proodos.pdf), [λύση θέματος 1](./preparation/prepare01.cpp), [λύση θέματος 2](./preparation/prepare02.cpp), [λύσης θέματος 3](./preparation/prepare03.cpp)
 
 ## Σύνοψη της C++
 
