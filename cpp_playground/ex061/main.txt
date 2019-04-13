@@ -1,0 +1,8 @@
+MyClass1 test
+fun1 called
+fun2 called
+fun3 called
+MyClass2 test
+fun1 called
+fun2 called
+fun3 called
