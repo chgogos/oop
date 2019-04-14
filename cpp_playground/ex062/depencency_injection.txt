@@ -1,0 +1,20 @@
+MyClass1 member function
+Singleton Dependency Injection Class 1 - function 1
+Singleton Dependency Injection Class 1 - function 2
+Singleton Dependency Injection Class 1 - function 3
+Current value of counter is 5
+MyClass2 member function
+Singleton Dependency Injection Class 1 - function 1
+Singleton Dependency Injection Class 1 - function 2
+Singleton Dependency Injection Class 1 - function 3
+Current value of counter is 15
+MyClass1 member function
+Singleton Dependency Injection Class 1 - function 1
+Singleton Dependency Injection Class 1 - function 2
+Singleton Dependency Injection Class 1 - function 3
+Current value of counter is 20
+MyClass1 member function
+Singleton Dependency Injection Class 2 - function 1
+Singleton Dependency Injection Class 2 - function 2
+Singleton Dependency Injection Class 2 - function 3
+Current value of counter is 5

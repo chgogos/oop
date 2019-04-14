@@ -1,6 +1,10 @@
 #include <iostream>
 #include "meyers_singleton.hpp"
 
+void singleton::print()
+{
+    std::cout << "Current value of counter is " << counter << std::endl;
+}
 void singleton::fun1()
 {
     std::cout << "fun1 called" << std::endl;
