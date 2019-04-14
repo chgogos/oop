@@ -17,7 +17,7 @@
 
 ## Live coding
 
-|ΔΕΥΤΕΡΑ|ΠΑΡΑΣΚΕΥΗ|
+| ΔΕΥΤΕΡΑ | ΠΑΡΑΣΚΕΥΗ |
 |---------------------------------------------|---------------------------------------------|
 | [2019-02-18](./lc/live_coding_20190218.cpp) | [2019-02-22](./lc/live_coding_20190222.cpp) |
 | [2019-02-25](./lc/live_coding_20190225.cpp) | [2019-03-01a](./lc/live_coding_20190301a.cpp), [2019-03-01b](./lc/live_coding_20190301b.cpp), [2019-03-01c](./lc/live_coding_20190301c.cpp)|
@@ -27,6 +27,7 @@
 |  | [2019-03-29](./lc/live_coding_20190329.cpp) |
 | [2019-04-01a](./lc/live_coding_20190401a.cpp), [2019-04-01b](./lc/live_coding_20190401b.cpp) | [2019-04-05](./lc/live_coding_20190405.cpp) |
 | [2019-04-08a](./lc/live_coding_20190408a.cpp), [2019-04-08b](./lc/live_coding_20190408b.cpp), [2019-04-08c](./lc/live_coding_20190408c.cpp) | [prepare01.cpp](./preparation/prepare01.cpp), [prepare02.cpp](./preparation/prepare02.cpp), [prepare03.cpp](./preparation/prepare03.cpp) |
+| | |
 
 ## Παραδείγματα κώδικα
 
@@ -190,9 +191,9 @@
 * Creational
   * Factory
   * Builder
-  * Singleton [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
+  * Singleton :confused: [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp), [meyers_singleton.cpp](./cpp_playground/ex061/meyers_singleton.cpp)
 * Structural
-  * Adapter
+  * Adapter [adapter](./cpp_playground/ex064/adapter.cpp)
   * Bridge
   * Composite
   * Decorator
@@ -200,11 +201,11 @@
   * Flyweight
 * Behavioral
   * Chain of responsibility
-  * Command
+  * Command [command1](./cpp_playground/ex066/command1.cpp), [command2](./cpp_playground/ex066/command2.cpp),
   * Mediator
   * Observer
   * State
-  * Strategy
+  * Strategy [strategy](./cpp_playground/ex065/strategy.cpp)
 
 <!-- ## Antipatterns -->
 

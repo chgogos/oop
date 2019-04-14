@@ -1,4 +1,15 @@
+/*
+Adapter
+
+Convert the interface of a class into another interface clients expect. 
+Aadapter lets classes work together that couldn't because of incompatible interfaces
+
+*/
+
 #include <iostream>
+
+// οι κλάσεις my_class1 και my_class2 υλοποιούν με διαφορετικό τρόπο 2 λειτουργίες
+// που επιθυμούμε να προσφέρονται με ενιαίο τρόπο προς την κλάση tester
 
 class my_class1
 {
@@ -26,6 +37,7 @@ public:
     }
 };
 
+// η κλάση my_adapter ορίζει το επιθυμητό interface 
 class my_adapter
 {
 public:
@@ -72,23 +84,15 @@ public:
 
 int main()
 {
-    int choice;
-    std::cout << "what kind of service object to you want (1 or 2): ";
-    std::cin >> choice;
-    if (choice == 1)
-    {
-        my_class1 obj;
-        adapter1 an_adapter(obj);
-        tester a_tester(an_adapter);
-        a_tester.test();
-    }
-    else
-    {
-        my_class2 obj;
-        adapter2 an_adapter(obj);
-        tester a_tester(an_adapter);
-        a_tester.test();
-    }
+    my_class1 obj1;
+    adapter1 an_adapter(obj1);
+    tester tester1(an_adapter);
+    tester1.test();
+
+    my_class2 obj2;
+    adapter2 an_adapter2(obj2);
+    tester a_tester2(an_adapter2);
+    a_tester2.test();
 
     return 0;
 }
