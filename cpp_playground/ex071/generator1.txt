@@ -1,0 +1,8 @@
+Checkpoint A
+0
+1
+2
+Checkpoint B (using custom generator)
+0 1 2 3 4 5 6 7 8 9 
+Checkpoint C (using iota)
+0 1 2 3 4 5 6 7 8 9 

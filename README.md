@@ -5,8 +5,8 @@
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-    τελευταία ενημέρωση: 12/4/2019
-    πρόοδος: 15/4/2019 στις 12:00-14:00
+    τελευταία ενημέρωση: 18/4/2019
+    -- πρόοδος: 15/4/2019 στις 12:00-14:00 --
 
 [επιπλέον πληροφορίες για την πρόοδο](./proodos.md), ενδεικτικά θέματα και λύσεις: [εκφωνήσεις θεμάτων](./preparation/proodos.pdf), [λύση θέματος 1](./preparation/prepare01.cpp), [λύση θέματος 2](./preparation/prepare02.cpp), [λύσης θέματος 3](./preparation/prepare03.cpp)
 
@@ -33,10 +33,11 @@
 
 * Παράδειγμα χρήσης δείκτη, διεύθυνσης μεταβλητής και αποαναφοράς (dereference) του δείκτη [pointers1.cpp](./cpp_playground/ex001/pointers1.cpp)
 * Δείκτες σε void [pointers2.cpp](./cpp_playground/ex001/pointers2.cpp)
-* Δέσμευση και αποδέσμευση μνήμης στην C [dynamic1.cpp](./cpp_playground/ex001/dynamic1.cpp)
-* Στατικοί και δυναμικοί πίνακες στην C [dynamic2.cpp](./cpp_playground/ex001/dynamic2.cpp)
-* Δέσμευση και αποδέσμευση μνήμης στην C++ [dynamic3.cpp](./cpp_playground/ex001/dynamic3.cpp)
-<!-- * [array.cpp](./cpp_playground/ex001/array.cpp) πρόσβαση στα στοιχεία ενός πίνακα με πολλούς τρόπους -->
+* Δέσμευση και αποδέσμευση μνήμης στη C [dynamic1.cpp](./cpp_playground/ex001/dynamic1.cpp)
+* Στατικοί και δυναμικοί πίνακες στη C [dynamic2.cpp](./cpp_playground/ex001/dynamic2.cpp)
+* Γιατί η δεικτοδότηση ξεκινά από το μηδέν στους πίνακες [zero_indexing.cpp](./cpp_playground/ex001/zero_indexing.cpp)
+* Δέσμευση και αποδέσμευση μνήμης στη C++ [dynamic3.cpp](./cpp_playground/ex001/dynamic3.cpp)
+* [array.cpp](./cpp_playground/ex001/array.cpp) πρόσβαση στα στοιχεία ενός πίνακα με πολλούς τρόπους
 * Δισδιάστατοι πίνακες
   * Δισδιάστατος πίνακας δεδομένων διαστάσεων ως παράμετρος πίνακα [matrix1.cpp](./cpp_playground/ex001/matrix1.cpp)
   * Δισδιάστατος πίνακας δυναμικών διαστάσεων ως παράμετρος πίνακα [matrix2a.cpp](./cpp_playground/ex001/matrix2a.cpp), [matrix2b.cpp](./cpp_playground/ex001/matrix2b.cpp)
@@ -71,11 +72,11 @@
   * Υπερφόρτωση τελεστή + με χρήση καθολικής συνάρτησης [operator_overload1.cpp](./cpp_playground/ex015/operator_overload1.cpp)
   * Υπερφόρτωση τελεστή + με χρήση συνάρτησης μέλους [operator_overload2.cpp](./cpp_playground/ex015/operator_overload2.cpp)
   * Υπερφόρτωση τελεστή + με χρήση friend συνάρτησης [operator_overload3.cpp](./cpp_playground/ex015/operator_overload3.cpp)
-<!-- * Υπερφόρτωση τελεστών (δυαδικός τελεστής <, δυαδικός τελεστής ==)
-  * [operator_overload4.cpp](./cpp_playground/ex015/operator_overload4.cpp) -->
+* Υπερφόρτωση τελεστών (δυαδικός τελεστής <, δυαδικός τελεστής ==)
+  * [operator_overload4.cpp](./cpp_playground/ex015/operator_overload4.cpp)
 * Υπερφόρτωση τελεστή << (inserter) και τελεστή >> (extractor)
   * [io_operator_overload1.cpp](./cpp_playground/ex016/io_operator_overload1.cpp) με φίλες συναρτήσεις
-  <!-- * [io_operator_overload2.cpp](./cpp_playground/ex016/io_operator_overload2.cpp) με βοηθητικές συναρτήσεις -->
+  * [io_operator_overload2.cpp](./cpp_playground/ex016/io_operator_overload2.cpp) με βοηθητικές συναρτήσεις
 * Μετατροπή αντικειμένου σε λεκτικό [person_to_string.cpp](./cpp_playground/ex016/person_to_string.cpp)
 * Παράδειγμα υπερφόρτωσης τελεστών (+, <<, >>) και μετατροπής αντικειμένου σε λεκτικό για την κλάση myTime [my_time.cpp](./cpp_playground/ex028/my_time.cpp)
 * Χώροι ονομάτων (namespaces) [namespaces1.cpp](./cpp_playground/ex017/namespaces1.cpp)
@@ -135,7 +136,7 @@
   * [pair.cpp](./cpp_playground/ex032/pair.cpp)
   * [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp)
   * [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
-  <!-- * [tuple3.cpp](./cpp_playground/ex032/tuple3.cpp) επιστροφή πολλών αποτελεσμάτων από μια συνάρτηση -->
+  * [tuple3.cpp](./cpp_playground/ex032/tuple3.cpp) επιστροφή πολλών αποτελεσμάτων από μια συνάρτηση
 * Smart pointers
   * [unique_pointer1.cpp](./cpp_playground/ex041/unique_pointer1.cpp)
   * [shared_pointer1.cpp](./cpp_playground/ex041/shared_pointer1.cpp)
@@ -147,10 +148,11 @@
   * [timing1.cpp](./cpp_playground/ex043/timing1.cpp)
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
-* Standard Template Library
+* Standard Template Library (υποδοχείς=containers)
   * [stl_container1.cpp](./cpp_playground/ex046/stl_container1.cpp) std::vector
   * [stl_container2.cpp](./cpp_playground/ex046/stl_container2.cpp) std::list
   * [stl_container3.cpp](./cpp_playground/ex046/stl_container3.cpp) std::map
+* Standard Template Library (αλγόριθμοι)
   * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp) std::reverse
   * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp) std::equal
 * Σύζευξη (coupling)
@@ -180,6 +182,17 @@
 * Παραδείγματα χρήσης της βιβλιοθήκης fmt
   * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
   * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
+* Χαρακτηριστικά συναρτησιακού προγραμματισμού στη C++
+  * Functors
+    * [generator1.cpp](./cpp_playground/ex071/generator1.cpp)
+    * [generator2.cpp](./cpp_playground/ex071/generator2.cpp) παραγωγή τυχαίων αριθμών
+    * [unary_functor.cpp](./cpp_playground/ex071/unary_functor.cpp) unary functor
+    * [predicate.cpp](./cpp_playground/ex071/predicate.cpp) κατηγόρημα
+  * Λάμδα συναρτήσεις (ανώνυμες συναρτήσεις)
+    * [lambda1.cpp](./cpp_playground/ex071/lambda1.cpp)
+    * [lambda2.cpp](./cpp_playground/ex071/lambda2.cpp)
+  * map - filter - reduce
+    * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
