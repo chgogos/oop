@@ -8,7 +8,7 @@ int main()
 
     auto start = std::chrono::high_resolution_clock::now();
 
-    std::this_thread::sleep_for(1s);
+    std::this_thread::sleep_for(1s); // chrono_literals
 
     auto end = std::chrono::high_resolution_clock::now();
 
