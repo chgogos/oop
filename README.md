@@ -153,6 +153,9 @@
   * [stl_container1.cpp](./cpp_playground/ex046/stl_container1.cpp) std::vector
   * [stl_container2.cpp](./cpp_playground/ex046/stl_container2.cpp) std::list
   * [stl_container3.cpp](./cpp_playground/ex046/stl_container3.cpp) std::map
+* Standard Template Library (iterators)
+  * [stl_iterator1.cpp](./cpp_playground/ex046/stl_iterator1.cpp) random access iterator
+  * [stl_iterator2.cpp](./cpp_playground/ex046/stl_iterator2.cpp) bidirectional iterator
 * Standard Template Library (αλγόριθμοι)
   * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp) std::reverse
   * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp) std::equal
