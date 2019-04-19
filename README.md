@@ -143,7 +143,7 @@
   * [pair.cpp](./cpp_playground/ex032/pair.cpp)
   * [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp)
   * [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
-  * [tuple3.cpp](./cpp_playground/ex032/tuple3.cpp) επιστροφή πολλών αποτελεσμάτων από μια συνάρτηση
+  * [tuple3.cpp](./cpp_playground/ex032/tuple3.cpp) επιστροφή πολλών αποτελεσμάτων από μια συνάρτηση με 10 διαφορετικούς τρόπους
 * Smart pointers
   * [unique_pointer1.cpp](./cpp_playground/ex041/unique_pointer1.cpp)
   * [shared_pointer1.cpp](./cpp_playground/ex041/shared_pointer1.cpp)

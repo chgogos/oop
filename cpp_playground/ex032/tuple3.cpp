@@ -2,7 +2,7 @@
 #include <utility>
 #include <tuple>
 
-// επιστροφή δύο αποτελεσμάτων από συνάρτηση με 8 διαφορετικούς τρόπους
+// επιστροφή δύο αποτελεσμάτων από συνάρτηση με 10 διαφορετικούς τρόπους
 
 int fun1(int x, int &out)
 {
@@ -66,6 +66,14 @@ void fun9(int x, int *p1, int *p2)
     *p2 = 3 * x;
 }
 
+// super ugly
+int g1, g2;
+void fun10(int x)
+{
+    g1 = 2 * x;
+    g2 = 3 * x;
+}
+
 int main()
 {
     int x = 5;
@@ -115,6 +123,9 @@ int main()
     result1 = result2 = 0;
     fun9(x, &result1, &result2);
     std::cout << "9.  result 1: " << result1 << " result 2: " << result2 << std::endl;
+
+    fun10(x);
+    std::cout << "10.  result 1: " << g1 << " result 2: " << g2 << std::endl;
 
     return 0;
 }
