@@ -11,6 +11,11 @@
 
 [επιπλέον πληροφορίες για την πρόοδο](./proodos.md), ενδεικτικά θέματα και λύσεις: [εκφωνήσεις θεμάτων](./preparation/proodos.pdf), [λύση θέματος 1](./preparation/prepare01.cpp), [λύση θέματος 2](./preparation/prepare02.cpp), [λύσης θέματος 3](./preparation/prepare03.cpp)
 
+Θέματα προόδου
+
+* [ΟΜΑΔΑ Α](./preparation/20190415_proodos_a.pdf) [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415a_1.cpp), [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415a_2.cpp)
+* [ΟΜΑΔΑ B](./preparation/20190415_proodos_b.pdf) [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415b_1.cpp), [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415b_2.cpp)
+
 ## Σύνοψη της C++
 
 * [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:

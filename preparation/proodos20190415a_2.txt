@@ -1,0 +1,11 @@
+1
+40 maths
+1
+35 chemistry
+2
+22 olympiakos
+1
+30 gymnastics
+2
+25 panathinaikos
+
