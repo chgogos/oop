@@ -13,8 +13,8 @@
 
 Θέματα προόδου
 
-* [ΟΜΑΔΑ Α](./preparation/20190415_proodos_a.pdf) [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415a_1.cpp), [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415a_2.cpp)
-* [ΟΜΑΔΑ B](./preparation/20190415_proodos_b.pdf) [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415b_1.cpp), [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415b_2.cpp)
+* [ΟΜΑΔΑ Α](./preparation/20190415_proodos_a.pdf): [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415a_1.cpp), [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415a_2.cpp)
+* [ΟΜΑΔΑ B](./preparation/20190415_proodos_b.pdf): [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415b_1.cpp), [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415b_2.cpp)
 
 ## Σύνοψη της C++
 
@@ -23,17 +23,18 @@
 
 ## Live coding
 
-| ΔΕΥΤΕΡΑ | ΠΑΡΑΣΚΕΥΗ |
-|---------------------------------------------|---------------------------------------------|
-| [2019-02-18](./lc/live_coding_20190218.cpp) | [2019-02-22](./lc/live_coding_20190222.cpp) |
-| [2019-02-25](./lc/live_coding_20190225.cpp) | [2019-03-01a](./lc/live_coding_20190301a.cpp), [2019-03-01b](./lc/live_coding_20190301b.cpp), [2019-03-01c](./lc/live_coding_20190301c.cpp)|
-| [2019-03-04a](./lc/live_coding_20190304a.cpp), [2019-03-04b](./lc/live_coding_20190304b.cpp)  |  |
-| | [2019-03-15](./lc/live_coding_20190315.cpp) |
-| [2019-03-18](./lc/live_coding_20190318.cpp) | [2019-03-22a](./lc/live_coding_20190322a.cpp), [2019-03-22b](./lc/live_coding_20190322b.cpp)|
-|  | [2019-03-29](./lc/live_coding_20190329.cpp) |
-| [2019-04-01a](./lc/live_coding_20190401a.cpp), [2019-04-01b](./lc/live_coding_20190401b.cpp) | [2019-04-05](./lc/live_coding_20190405.cpp) |
-| [2019-04-08a](./lc/live_coding_20190408a.cpp), [2019-04-08b](./lc/live_coding_20190408b.cpp), [2019-04-08c](./lc/live_coding_20190408c.cpp) | [prepare01.cpp](./preparation/prepare01.cpp), [prepare02.cpp](./preparation/prepare02.cpp), [prepare03.cpp](./preparation/prepare03.cpp) |
-| | |
+* [2019-02-18](./lc/live_coding_20190218.cpp)
+* [2019-02-22](./lc/live_coding_20190222.cpp)
+* [2019-02-25](./lc/live_coding_20190225.cpp)
+* [2019-03-01a](./lc/live_coding_20190301a.cpp), [2019-03-01b](./lc/live_coding_20190301b.cpp), [2019-03-01c](./lc/live_coding_20190301c.cpp)
+* [2019-03-04a](./lc/live_coding_20190304a.cpp), [2019-03-04b](./lc/live_coding_20190304b.cpp)
+* [2019-03-15](./lc/live_coding_20190315.cpp)
+* [2019-03-18](./lc/live_coding_20190318.cpp)
+* [2019-03-22a](./lc/live_coding_20190322a.cpp), [2019-03-22b](./lc/live_coding_20190322b.cpp)
+* [2019-03-29](./lc/live_coding_20190329.cpp)
+* [2019-04-01a](./lc/live_coding_20190401a.cpp), [2019-04-01b](./lc/live_coding_20190401b.cpp)
+* [2019-04-05](./lc/live_coding_20190405.cpp)
+* [2019-04-08a](./lc/live_coding_20190408a.cpp), [2019-04-08b](./lc/live_coding_20190408b.cpp), [2019-04-08c](./lc/live_coding_20190408c.cpp)
 
 ## Παραδείγματα κώδικα
 
@@ -191,6 +192,12 @@
 * Παραδείγματα χρήσης της βιβλιοθήκης fmt
   * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
   * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
+* Δημιουργία τυχαίων τιμών
+  * [random1.cpp](./cpp_playground/ex072/random1.cpp)
+  * [random2.cpp](./cpp_playground/ex072/random2.cpp)
+  * [random3.cpp](./cpp_playground/ex072/random3.cpp)
+* Χειρισμός αρχείων
+  * [file1.cpp](./cpp_playground/ex073/file1.cpp)
 * Χαρακτηριστικά συναρτησιακού προγραμματισμού στη C++
   * Functors
     * [generator1.cpp](./cpp_playground/ex071/generator1.cpp)
