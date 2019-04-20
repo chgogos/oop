@@ -17,8 +17,9 @@ class A
 int main()
 {
     A *a = nullptr;
-    a->func1();
-    a->func2();
+    a->func1(); // η συνάρτηση εκτελείται κανονικά
+    a->func2(); // η στατική συνάρτηση εκτελείται κανονικά
+    A::func2(); // η στατική συνάρτηση εκτελείται κανονικά
     // std::cout << a->x << std::endl; // segmentation fault
     return 0;
 }
