@@ -1,5 +1,6 @@
 #include <iostream>
 
+// περίεργη; αναφορά στα στοιχεία ενός πίνακα
 int main(){
     int a[]={1,2,3};
     std::cout << 0[a] << std::endl;

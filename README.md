@@ -155,11 +155,11 @@
   * [timing1.cpp](./cpp_playground/ex043/timing1.cpp)
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
-* Standard Template Library (υποδοχείς=containers)
+* Standard Template Library (περιέκτες, υποδοχείς=containers)
   * [stl_container1.cpp](./cpp_playground/ex046/stl_container1.cpp) std::vector
   * [stl_container2.cpp](./cpp_playground/ex046/stl_container2.cpp) std::list
   * [stl_container3.cpp](./cpp_playground/ex046/stl_container3.cpp) std::map
-* Standard Template Library (iterators)
+* Standard Template Library (επαναλήπτες=iterators)
   * [stl_iterator1.cpp](./cpp_playground/ex046/stl_iterator1.cpp) random access iterator
   * [stl_iterator2.cpp](./cpp_playground/ex046/stl_iterator2.cpp) bidirectional iterator
 * Standard Template Library (αλγόριθμοι)
@@ -258,11 +258,12 @@
     * <https://hackernoon.com/interface-segregation-principle-bdf3f94f1d11>
   * Dependency Inversion Principle (DIP). Τα υψηλού επιπέδου τμήματα λογισμικού δεν θα πρέπει να στηρίζονται σε χαμηλού επιπέδου λεπτομέρειες. Τα τμήματα λογισμικού σε όλα τα επίπεδα ιεραρχίας θα πρέπει να στηρίζονται σε αφαιρέσεις.
     * <https://hackernoon.com/dependency-inversion-principle-e402e5b69e70>
-* DRY (Don't Repeat Yourself). Η επανάληψη του ίδιου κώδικα σε διάφορα σημεία προκαλεί προβλήματα στη συντήρηση του λογισμικού.
-* YAGNI (You Ain't Gonna Need It). Θα πρέπει να υλοποιούνται οι απαραίτητες λειτουργίες και μόνο αυτές.
+* DRY (Don't Repeat Yourself =  Μην επαναλαμβάνεις τον εαυτό σου). Η επανάληψη του ίδιου κώδικα σε διάφορα σημεία προκαλεί προβλήματα στη συντήρηση του λογισμικού.
+* YAGNI (You Ain't Gonna Need It = Δεν πρόκειται να το χρειαστείς). Θα πρέπει να υλοποιούνται οι απαραίτητες λειτουργίες και μόνο αυτές.
   * <https://martinfowler.com/bliki/Yagni.html>
 * Law of Demeter (αρχή της ελάχιστης δυνατής γνώσης).
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
+* PLoP (Principle of Least Privilege = Αρχή του ελάχιστου δικαιώματος) κάθε τμήμα θα πρέπει να μπορεί να προσπελάσει μόνο πληροφορίες και πόρους που απαιτούνται για να φέρει εις πέρας το ρόλο που οφείλει να επιτελεί.
 
 ### Βέλτιστες πρακτικές στη C++
 

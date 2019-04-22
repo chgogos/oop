@@ -83,7 +83,8 @@
         "condition_variable": "cpp",
         "unordered_set": "cpp",
         "__errc": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "complex": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#b52e31",

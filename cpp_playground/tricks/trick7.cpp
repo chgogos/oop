@@ -1,5 +1,6 @@
 #include <iostream>
 
+// εμφάνιση κειμένου πριν και μετά τη main
 class my_class{
     public:
         my_class() {

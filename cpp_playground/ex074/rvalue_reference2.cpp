@@ -7,6 +7,13 @@ private:
     double *data;
 
 public:
+    // default constructor
+    my_vector()
+    {
+        std::cout << "default constructor called" << std::endl;
+    };
+
+    // constructor with 1 parameter (size)
     my_vector(int size) : size(size)
     {
         std::cout << "constructor called" << std::endl;
@@ -69,4 +76,8 @@ int main()
     my_vector v1(100000);
     my_vector v2(v1);            // copy constructor called
     my_vector v3(std::move(v1)); // move constructor
+    my_vector v4;                // default constructor called
+    v4 = v2;                     // copy assignment operator called
+    my_vector v5;                // default constructor called
+    v5 = std::move(v2);          // move assignment operator called
 }
