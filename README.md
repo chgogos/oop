@@ -44,7 +44,7 @@
 * Στατικοί και δυναμικοί πίνακες στη C [dynamic2.cpp](./cpp_playground/ex001/dynamic2.cpp)
 * Γιατί η δεικτοδότηση ξεκινά από το μηδέν στους πίνακες [zero_indexing.cpp](./cpp_playground/ex001/zero_indexing.cpp)
 * Δέσμευση και αποδέσμευση μνήμης στη C++ [dynamic3.cpp](./cpp_playground/ex001/dynamic3.cpp)
-* [array.cpp](./cpp_playground/ex001/array.cpp) πρόσβαση στα στοιχεία ενός πίνακα με πολλούς τρόπους
+* Πρόσβαση στα στοιχεία ενός πίνακα με πολλούς τρόπους [array.cpp](./cpp_playground/ex001/array.cpp)
 * Δισδιάστατοι πίνακες
   * Δισδιάστατος πίνακας δεδομένων διαστάσεων ως παράμετρος πίνακα [matrix1.cpp](./cpp_playground/ex001/matrix1.cpp)
   * Δισδιάστατος πίνακας δυναμικών διαστάσεων ως παράμετρος πίνακα [matrix2a.cpp](./cpp_playground/ex001/matrix2a.cpp), [matrix2b.cpp](./cpp_playground/ex001/matrix2b.cpp)
@@ -157,8 +157,10 @@
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Standard Template Library (περιέκτες, υποδοχείς=containers)
   * [stl_container1.cpp](./cpp_playground/ex046/stl_container1.cpp) std::vector
+  * [stl_container_out_of_range.cpp](./cpp_playground/ex046/stl_container_out_of_range.cpp) σύλληψη εξαίρεσης για αναφορά εκτός των ορίων του vector
   * [stl_container2.cpp](./cpp_playground/ex046/stl_container2.cpp) std::list
   * [stl_container3.cpp](./cpp_playground/ex046/stl_container3.cpp) std::map
+  * [stl_container4.cpp](./cpp_playground/ex046/stl_container4.cpp) std::array
 * Standard Template Library (επαναλήπτες=iterators)
   * [stl_iterator1.cpp](./cpp_playground/ex046/stl_iterator1.cpp) random access iterator
   * [stl_iterator2.cpp](./cpp_playground/ex046/stl_iterator2.cpp) bidirectional iterator

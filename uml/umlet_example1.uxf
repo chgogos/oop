@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>190</y>
+      <w>220</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>account
+--
+- name:string
+- balance: double
+--
++ account(name:string)
++ ~account()
++ get_balance(): double
++ deposit(amount: double)
++ withdraw(amount: double)
++ info(): string
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
