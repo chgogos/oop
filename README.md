@@ -232,7 +232,7 @@
   * Chain of responsibility
   * Command [command1](./cpp_playground/ex066/command1.cpp), [command2](./cpp_playground/ex066/command2.cpp),
   * Mediator
-  * Observer
+  * Observer [observer](./cpp_playground/ex075/observer.cpp)
   * State
   * Strategy [strategy](./cpp_playground/ex065/strategy.cpp)
 
