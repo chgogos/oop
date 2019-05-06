@@ -9,6 +9,7 @@ int main()
         for (int i = 0; i < 10; i++)
         {
             std::cout << v.at(i) << " ";
+            // std::cout << v[i] << " "; // δεν κάνει throw exception
         }
         std::cout << std::endl;
     }
@@ -16,4 +17,6 @@ int main()
     {
         std::cerr << "exception: " << e.what() << std::endl;
     }
+
+    std::cout << "More things to do" << std::endl;
 }

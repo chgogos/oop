@@ -27,11 +27,11 @@ int main()
     {
         a[i] /= 3.0;
     }
-    double max;
+    double max=0.0;
     double x;
     int max_occur;
     max_value_occurrences(a, max, max_occur);
-    std::cout <<std::setprecision(15);
+    std::cout <<std::setprecision(17);
     std::cout << "Maximum value is " << max << " occurs " << max_occur << " times" << std::endl;
     std::cout << "Enter max value: ";
     std::cin >> x;
