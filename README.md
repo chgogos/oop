@@ -35,6 +35,7 @@
 * [2019-04-01a](./lc/live_coding_20190401a.cpp), [2019-04-01b](./lc/live_coding_20190401b.cpp)
 * [2019-04-05](./lc/live_coding_20190405.cpp)
 * [2019-04-08a](./lc/live_coding_20190408a.cpp), [2019-04-08b](./lc/live_coding_20190408b.cpp), [2019-04-08c](./lc/live_coding_20190408c.cpp)
+* [2019-05-06](./lc/live_coding_20190506.cpp)
 
 ## Παραδείγματα κώδικα
 
