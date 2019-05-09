@@ -1,7 +1,7 @@
 #include <iostream>
 #include "company.hpp"
 
-std::vector<employee*> company::get_employees()
+std::vector<employee *> company::get_employees()
 {
     return employees;
 }
@@ -17,7 +17,7 @@ void company::hire(employee *emp, double salary)
     employees.push_back(emp);
 }
 
-void company::fire(employee* emp)
+void company::fire(employee *emp)
 {
     int pos = -1;
     for (int i = 0; i < employees.size(); i++)
@@ -30,7 +30,7 @@ void company::fire(employee* emp)
     employees.erase(employees.begin() + pos);
 }
 
-void company::modify_salary(employee* emp, double amount)
+void company::modify_salary(employee *emp, double amount)
 {
     emp->set_salary(emp->get_salary() + amount);
 }
