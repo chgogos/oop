@@ -23,3 +23,9 @@
         },
     ...
     }
+
+## Debugging κώδικα μέσα από το Visual Studio Code
+
+* F5 (δημιουργούνται τα αρχεία launch.json και tasks.json)
+  * Select environment: C++ (GDB/LLDB)
+  * Select configuration: g++ build and debug active file
