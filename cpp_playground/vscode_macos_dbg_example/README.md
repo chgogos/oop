@@ -29,3 +29,28 @@
 * F5 (δημιουργούνται τα αρχεία launch.json και tasks.json)
   * Select environment: C++ (GDB/LLDB)
   * Select configuration: g++ build and debug active file
+  * Προσθήκη του "-std=c++17" στα args του tasks.json
+  
+    ```text
+    {
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-std=c++17",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+    }
+    
+
