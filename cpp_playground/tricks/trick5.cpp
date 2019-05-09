@@ -1,3 +1,6 @@
+/*
+Απαγόρευση χρήσης του default constructor και του new
+*/
 #include <iostream>
 
 class A

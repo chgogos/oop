@@ -1,3 +1,17 @@
+/*
+Εντοπισμός της μεγαλύτερης τιμής σε έναν πίνακα πραγματικών καθώς και πόσες φορές παρατηρείται.
+Στη συνέχεια ο χρήστης θα πρέπει να εισάγει τη μέγιστη τιμή που υπολογίστηκε και να εμφανιστεί 
+πόσες φορές υπάρχει που θα πρέπει να συμφωνεί με την τιμή που υπολογίστηκε. Ωστόσο το αποτέλεσμα 
+είναι διαφορετικό:
+
+Maximum value is 2.36667 occurs 4 times
+Enter max value: 2.36667
+Occurrences = 0
+
+Με τη χρήση του debugger εντοπίζουμε το σφάλμα που έχει να κάνει με την πλήρη απεικόνιση "όλων" των
+δεκαδικών ψηφίων που μπορεί να διατηρήσει η double τιμή
+
+*/
 #include <iostream>
 #include <iomanip>
 
@@ -31,7 +45,7 @@ int main()
     double x;
     int max_occur;
     max_value_occurrences(a, max, max_occur);
-    std::cout <<std::setprecision(17);
+    // std::cout <<std::setprecision(17);
     std::cout << "Maximum value is " << max << " occurs " << max_occur << " times" << std::endl;
     std::cout << "Enter max value: ";
     std::cin >> x;
