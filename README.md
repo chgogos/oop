@@ -132,6 +132,7 @@
   * [exception2.cpp](./cpp_playground/ex038/exception2.cpp)
   * [exception3.cpp](./cpp_playground/ex038/exception3.cpp)
   * [exception4.cpp](./cpp_playground/ex038/exception4.cpp)
+  * [stl_container_out_of_range.cpp](./cpp_playground/ex046/stl_container_out_of_range.cpp) σύλληψη εξαίρεσης για αναφορά εκτός των ορίων του vector
 * Πρότυπα (templates)
   * [template1.cpp](./cpp_playground/ex039/template1.cpp)
   * [template2.cpp](./cpp_playground/ex039/template2.cpp)
@@ -158,7 +159,6 @@
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Standard Template Library (περιέκτες, υποδοχείς=containers)
   * [stl_container1.cpp](./cpp_playground/ex046/stl_container1.cpp) std::vector
-  * [stl_container_out_of_range.cpp](./cpp_playground/ex046/stl_container_out_of_range.cpp) σύλληψη εξαίρεσης για αναφορά εκτός των ορίων του vector
   * [stl_container2.cpp](./cpp_playground/ex046/stl_container2.cpp) std::list
   * [stl_container3.cpp](./cpp_playground/ex046/stl_container3.cpp) std::map
   * [stl_container4.cpp](./cpp_playground/ex046/stl_container4.cpp) std::array

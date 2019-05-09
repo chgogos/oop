@@ -84,7 +84,8 @@
         "unordered_set": "cpp",
         "__errc": "cpp",
         "list": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "__node_handle": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#b52e31",

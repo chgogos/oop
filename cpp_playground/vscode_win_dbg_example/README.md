@@ -19,7 +19,7 @@
     "code-runner.runInTerminal": true,
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.executorMap": {
-            "c": "cd $dir && gcc -std=c99 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "c": "cd $dir && gcc -std=c11 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
             "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         },
     ...
