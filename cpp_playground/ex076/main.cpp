@@ -1,36 +1,26 @@
-#include "paper.hpp"
-#include "researcher.hpp"
+#include <iostream>
+#include "employee.hpp"
+#include "company.hpp"
 
-int main()
-{
-    researcher r1("Christos Gogos", "UoI");
-    researcher r2("Christos Valouxis", "UoP");
-    researcher r3("Efthymios Housos", "UoP");
-    researcher r4("George Goulas", "UoP");
-    researcher r5("Panayiotis Alefragis", "UoPe");
+int main(){
+    employee e1("Nikos");
+    employee e2("Maria");
+    employee e3("Petros");
+    employee e4("Sofia");
 
-    paper p1("A two phase approach for the nurse rostering problem", "EJOR");
-    paper p2("An improved multi staged algorithmic process for the examination timetabling problem", "ANOR");
+    company c1("COMPANY A");
+    c1.hire(&e1, 1200.0);
+    c1.hire(&e2, 1300.0);
+    c1.hire(&e3, 1000.0);
+    c1.hire(&e4, 1100.0);
 
-    r1.add_paper(&p1);
-    r2.add_paper(&p1);
-    r3.add_paper(&p1);
-    r4.add_paper(&p1);
-    r5.add_paper(&p1);
+    c1.work_force();
+    std::cout << "Payroll: " << c1.payroll() << std::endl;
 
-    r1.add_paper(&p2);
-    r5.add_paper(&p2);
-    // r3.add_paper(&p2);
-    p2.add_author(&r3);
+    c1.fire(&e2);
+    c1.modify_salary(&e1, 100);
 
-    std::cout << "Papers per author" << std::endl;
-    r1.display_info();
-    r2.display_info();
-    r3.display_info();
-    r4.display_info();
-    r5.display_info();
+    c1.work_force();
+    std::cout << "Payroll: " << c1.payroll() << std::endl;
 
-    std::cout << "Authors per paper" << std::endl;
-    p1.display_info();
-    p2.display_info();
 }
