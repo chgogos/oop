@@ -12,7 +12,7 @@
 
 ## Εκτέλεση κώδικα μέσα από το Visual Studio Code μέσω του Code Runner (C++11, C++14, C++17)
 
-* Settings (cmd + ,) και εισαγωγή στο settings.json
+* Settings (cmd + ,) και εισαγωγή στο settings.json (~/Library/Application Support/Code/User/settings.json)
 
     ```text
     {
