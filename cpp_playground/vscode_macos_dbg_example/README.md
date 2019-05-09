@@ -19,7 +19,7 @@
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
             "c": "cd $dir && gcc -std=c99 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-            "cpp": "cd $dir && g++ -std=c++11 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         },
     ...
     }
@@ -29,7 +29,7 @@
 * F5 (δημιουργούνται τα αρχεία launch.json και tasks.json)
   * Select environment: C++ (GDB/LLDB)
   * Select configuration: g++ build and debug active file
-  * Προσθήκη του "-std=c++17" στα args του tasks.json
+  * Προσθήκη του "-std=c++17" στα args του tasks.json όπως στο παράδειγμα που ακολουθεί
   
     ```text
     {
@@ -52,5 +52,3 @@
     ],
     "version": "2.0.0"
     }
-    
-
