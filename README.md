@@ -180,7 +180,7 @@
   * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP :confused:
   * [isp2.cpp](./cpp_playground/ex052/isp2.cpp) ISP
 * Παράδειγμα κυκλικής εξάρτησης (circular dependency) και επίλυση με forward declaration
-  * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.hpp) :confused:
+  * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.cpp) :confused:
 * Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
   * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) 
 * Anemic classes (anti-pattern)
@@ -375,3 +375,11 @@
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
   * <https://cmake.org/>
   * <https://github.com/pr0g/cmake-examples>
+
+* UML
+  * [ArgoUML](http://argouml.tigris.org/)
+  * [BOUML](http://argouml.tigris.org/)
+  * [Plant UML](http://plantuml.com/)
+  * [Violet UML](http://alexdp.free.fr/violetumleditor/page.php)
+  * [UMLET](https://www.umlet.com/)
+  * [Visual Paradigm](https://www.visual-paradigm.com/)
