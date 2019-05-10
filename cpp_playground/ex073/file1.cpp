@@ -4,7 +4,7 @@
 int main()
 {
     std::ofstream afile;
-    afile.open("data.txt");
+    afile.open("data1.txt"); // εξ' ορισμού τα αρχεία ανοίγουν για είσοδο
     if (afile.is_open())
     {
         afile << "This \n";
