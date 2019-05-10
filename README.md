@@ -200,7 +200,8 @@
   * [random2.cpp](./cpp_playground/ex072/random2.cpp)
   * [random3.cpp](./cpp_playground/ex072/random3.cpp)
 * Χειρισμός αρχείων
-  * [file1.cpp](./cpp_playground/ex073/file1.cpp)
+  * Αποθήκευση κειμένου σε αρχείο [file1.cpp](./cpp_playground/ex073/file1.cpp)
+  * Αποθήκευση εγγραφών σε αρχείο και ανάγνωση εγγραφών απόν αρχείο [file2.cpp](./cpp_playground/ex073/file2.cpp)
 * Χαρακτηριστικά συναρτησιακού προγραμματισμού στη C++
   * Functors
     * [generator1.cpp](./cpp_playground/ex071/generator1.cpp)
