@@ -9,7 +9,7 @@
 
 ~~πρόοδος: 15/4/2019 στις 12:00-14:00~~
 
-[επιπλέον πληροφορίες για την πρόοδο](./proodos.md), ενδεικτικά θέματα και λύσεις: [εκφωνήσεις θεμάτων](./preparation/proodos.pdf), [λύση θέματος 1](./preparation/prepare01.cpp), [λύση θέματος 2](./preparation/prepare02.cpp), [λύσης θέματος 3](./preparation/prepare03.cpp)
+[επιπλέον πληροφορίες για την πρόοδο](./proodos.md), ενδεικτικά θέματα και λύσεις: [εκφωνήσεις θεμάτων](./preparation/proodos.pdf), [λύση θέματος 1](./preparation/prepare01.cpp), [λύση θέματος 2](./preparation/prepare02.cpp), [λύση θέματος 3](./preparation/prepare03.cpp)
 
 Θέματα προόδου
 
@@ -235,7 +235,7 @@
   * map - filter - reduce
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
 * Παραδείγματα κώδικα και UML
-  * Μια κλάση: account
+  * Μια κλάση: account [account.cpp](./cpp_playground/ex077/account.cpp)
   * Δύο κλάσεις και one-way association μεταξύ τους: employee και company (η επιχείρηση μπορεί να έχει πολλούς υπαλλήλους - δίνεται η δυνατότητα μετάβασης από την επιχείρηση στους υπαλλήλους της)
     * [employee.hpp](./cpp_playground/ex076/employee.hpp)
     * [employee.cpp](./cpp_playground/ex076/employee.cpp)
