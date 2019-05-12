@@ -235,8 +235,11 @@
   * map - filter - reduce
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
 * Παραδείγματα κώδικα και UML
-  * Μια κλάση: account [account.cpp](./cpp_playground/ex077/account.cpp) ![uml1](https://drive.google.com/file/d/1fDgaYFSNZLVUQCxhrCvJpiQvS9dRiWRq/view?usp=sharing)
+  * Μια κλάση: η κλάση account που αφορά έναν λογαριασμό τράπεζας
+    * [διάγραμμα UML](./uml/uml1.png)
+    * [account.cpp](./cpp_playground/ex077/account.cpp) 
   * Δύο κλάσεις και one-way association μεταξύ τους: employee και company (η επιχείρηση μπορεί να έχει πολλούς υπαλλήλους - δίνεται η δυνατότητα μετάβασης από την επιχείρηση στους υπαλλήλους της)
+    * [διάγραμμα UML](./uml/uml2.png)
     * [employee.hpp](./cpp_playground/ex076/employee.hpp)
     * [employee.cpp](./cpp_playground/ex076/employee.cpp)
     * [company.hpp](./cpp_playground/ex076/company.hpp)
