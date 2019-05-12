@@ -187,6 +187,7 @@
   * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp) std::reverse
   * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp) std::equal
   * [stl_algorithm3.cpp](./cpp_playground/ex046/stl_algorithm3.cpp) std::fill, std::copy, std::count, std::count_if, std::min_element, std::max_element, std::minmax_element, std::accumulate, std::shuffle, std::for_each, std::transform
+  * [stl_algorithm4.cpp](./cpp_playground/ex046/stl_algorithm4.cpp) std::find, std::find_if, std::find_if_not, std::sort, std::binary_search, std::all_of, std::any_of, std::none_of
 * Σύζευξη (coupling)
   * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :confused:
   * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :confused:
