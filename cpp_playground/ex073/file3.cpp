@@ -1,5 +1,6 @@
 // παράδειγμα με αρχείο τυχαίας προσπέλασης (100 θέσεων)
 #include <iostream>
+#include <iomanip>
 #include <fstream>
 #include <cstdlib>
 #include <cstring>
@@ -122,7 +123,8 @@ void add_student()
     if (a_student.get_id() == 0)
     {
         std::cout << "Enter name and grade: ";
-        std::cin >> name >> grade;
+        std::cin >> std::setw(20) >> name;
+        std::cin >> grade;
         a_student.set_id(id);
         a_student.set_name(name.c_str());
         a_student.set_grade(grade);
@@ -160,7 +162,8 @@ void update_student()
         std::string name;
         double grade;
         std::cout << "Enter name and grade: ";
-        std::cin >> name >> grade;
+        std::cin >> std::setw(20) >> name;
+        std::cin >> grade;
         a_student.set_id(id);
         a_student.set_name(name.c_str());
         a_student.set_grade(grade);

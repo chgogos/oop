@@ -155,16 +155,34 @@
   * [explicit1.cpp](./cpp_playground/ex042/explicit1.cpp)
 * Xρονομέτρηση κώδικα με το chrono
   * [timing1.cpp](./cpp_playground/ex043/timing1.cpp)
+  * [timing2.cpp](./cpp_playground/ex043/timing2.cpp)
+  * [timing3.cpp](./cpp_playground/ex043/timing3.cpp)
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Standard Template Library (περιέκτες, υποδοχείς=containers)
-  * [stl_container1.cpp](./cpp_playground/ex046/stl_container1.cpp) std::vector
-  * [stl_container2.cpp](./cpp_playground/ex046/stl_container2.cpp) std::list
-  * [stl_container3.cpp](./cpp_playground/ex046/stl_container3.cpp) std::map
-  * [stl_container4.cpp](./cpp_playground/ex046/stl_container4.cpp) std::array
+  * Περιέκτες ακολουθίας
+    * std::array [stl_array.cpp](./cpp_playground/ex046/stl_array.cpp)
+    * std::vector [stl_vector.cpp](./cpp_playground/ex046/stl_vector.cpp)
+    * std::list [stl_list.cpp](./cpp_playground/ex046/stl_list.cpp)
+    * std::forward_list
+    * std::deque
+  * Περιέκτες συσχέτισης
+    * std::multiset
+    * std::set
+    * std::multimap
+    * std::map [stl_map.cpp](./cpp_playground/ex046/stl_map.cpp)
+    * std::unordered_multiset
+    * std::unordered_set
+    * std::unordered_multimap
+    * std::unordered_map
+  * Προσαρμογείς περιεκτών
+    * std::stack
+    * std:queue
+    * std::priority_queue
 * Standard Template Library (επαναλήπτες=iterators)
-  * [stl_iterator1.cpp](./cpp_playground/ex046/stl_iterator1.cpp) random access iterator
-  * [stl_iterator2.cpp](./cpp_playground/ex046/stl_iterator2.cpp) bidirectional iterator
+  * random access iterator [stl_random_iterator.cpp](./cpp_playground/ex046/stl_random_iterator.cpp)
+  * forward iterator [stl_forward_iterator.cpp](./cpp_playground/ex046/stl_forward_iterator.cpp)
+  * bidirectional iterator
 * Standard Template Library (αλγόριθμοι)
   * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp) std::reverse
   * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp) std::equal
