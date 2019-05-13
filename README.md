@@ -222,7 +222,7 @@
 * Χειρισμός αρχείων
   * Αποθήκευση κειμένου σε αρχείο [file1.cpp](./cpp_playground/ex073/file1.cpp)
   * Αποθήκευση εγγραφών σε αρχείο κειμένου και ανάγνωση εγγραφών από το αρχείο [file2.cpp](./cpp_playground/ex073/file2.cpp)
-  * Αποθήκευση εγγραφών σε δυαδικό αρχείο τυχαίας προσπέλασης και ανάγνωση, ενημέρωση και διαγραφή εγγραφών από το ίδιο αρχείο (χειρισμός μέσω μενού) [file3.cpp](./cpp_playground/ex073/file3.cpp) 
+  * Αποθήκευση εγγραφών σε δυαδικό αρχείο τυχαίας προσπέλασης και ανάγνωση, ενημέρωση και διαγραφή εγγραφών από το ίδιο αρχείο (χειρισμός μέσω μενού) [file3.cpp](./cpp_playground/ex073/file3.cpp)
 * Χαρακτηριστικά συναρτησιακού προγραμματισμού στη C++
   * Functors
     * [generator1.cpp](./cpp_playground/ex071/generator1.cpp)
@@ -235,14 +235,18 @@
   * map - filter - reduce
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
 * Παραδείγματα κώδικα και UML
-  * Μια κλάση: account [account.cpp](./cpp_playground/ex077/account.cpp)
+  * Μια κλάση: η κλάση account που αφορά έναν λογαριασμό τράπεζας
+    * [διάγραμμα UML](./uml/uml1.png)
+    * [account.cpp](./cpp_playground/ex078/account.cpp) 
   * Δύο κλάσεις και one-way association μεταξύ τους: employee και company (η επιχείρηση μπορεί να έχει πολλούς υπαλλήλους - δίνεται η δυνατότητα μετάβασης από την επιχείρηση στους υπαλλήλους της)
+    <!-- * [διάγραμμα UML](./uml/uml2.png) -->
     * [employee.hpp](./cpp_playground/ex076/employee.hpp)
     * [employee.cpp](./cpp_playground/ex076/employee.cpp)
     * [company.hpp](./cpp_playground/ex076/company.hpp)
     * [company.cpp](./cpp_playground/ex076/company.cpp)
     * [main.cpp](./cpp_playground/ex076/main.cpp)
   * Δύο κλάσεις και two-way association μεταξύ τους: researcher και paper (ένας ερευνητής μπορεί να έχει δημοσιεύσει πολλά άρθρα και ένα άρθρο μπορεί να έχει συγγραφεί από πολλούς ερευνητές - δίνεται η δυνατότητα μετάβασης από τον ερευνητή στα άρθρα του καθώς και από τα άρθρα στους ερευνητές που τα έχουν συγγράψει)
+    <!-- * [διάγραμμα UML](./uml/uml3.png) -->
     * [paper.hpp](./cpp_playground/ex077/paper.hpp)
     * [paper.cpp](./cpp_playground/ex077/paper.cpp)
     * [researcher.hpp](./cpp_playground/ex077/researcher.hpp)
