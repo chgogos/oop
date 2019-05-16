@@ -40,8 +40,8 @@ void read_formatted_data()
     student st;
     while (afile >> st.name >> st.grade >> st.semester)
     {
-        std::cout << std::setw(20) << std::left << st.name << ' ';
-        std::cout << std::setw(5) << std::fixed << std::setprecision(2) << std::left << st.grade << ' ';
+        std::cout << std::setw(3) << std::left << st.name << ' ';
+        std::cout << std::setw(5) << std::fixed << std::setprecision(2) << std::right << st.grade << ' ';
         std::cout << std::setw(5) << st.semester << std::endl;
     }
     afile.close();
