@@ -8,6 +8,13 @@
     }                             \
     std::cout << std::endl;
 
+void print(std::vector<int> v){
+    for(auto x: v){
+        std::cout << x << " ";
+    }
+    std::cout << std::endl;
+}
+
 int main()
 {
     std::vector<int> v{1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -35,6 +42,20 @@ int main()
 
     std::cout << "CHECKPOINT" << std::endl;
     for (int &x : v)
+    {
+        std::cout << x << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "CHECKPOINΤ" << std::endl;
+    for (auto x : v)
+    {
+        std::cout << x << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "CHECKPOINΤ" << std::endl;
+    for (auto& x : v)
     {
         std::cout << x << " ";
     }
@@ -90,6 +111,9 @@ int main()
     std::cout << "CHECKPOINT" << std::endl;
     std::for_each(v.cbegin(), v.cend(), [](int i) { std::cout << i << " "; });
     std::cout << std::endl;
+
+    std::cout << "CHECKPOINT" << std::endl;
+    print(v);
 
     std::cout << "CHECKPOINT" << std::endl;
     PRINT(v, v.size());
