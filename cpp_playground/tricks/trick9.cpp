@@ -17,7 +17,7 @@ void print(std::vector<int> v){
 
 int main()
 {
-    std::vector<int> v{1, 2, 3, 4, 5, 6, 7, 8, 9};
+    std::vector<int> v{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
     std::cout << "CHECKPOINT" << std::endl;
     for (int i = 0; i < v.size(); i++)
