@@ -22,7 +22,7 @@ int main()
         std::cout << "UNEQUAL VECTORS" << std::endl;
     }
 
-    // έλεγχος για το εαν τα διανύσματα περιέχουν άρτιες και περιττές τιμές στις ίδιες θέσεις
+    // έλεγχος για το εάν τα διανύσματα περιέχουν άρτιες και περιττές τιμές στις ίδιες θέσεις
     bool isEvenOddEqual = std::equal(std::begin(a), std::end(a), std::begin(b), std::end(b), compareOddEven); // C++14
     if (isEvenOddEqual)
     {
@@ -33,7 +33,7 @@ int main()
         std::cout << "UNEQUAL VECTORS EVEN/ODD" << std::endl;
     }
 
-    // έλεγχος για το εαν τα διανύσματα περιέχουν άρτιες και περιττές τιμές στις ίδιες θέσεις
+    // έλεγχος για το εάν τα διανύσματα περιέχουν άρτιες και περιττές τιμές στις ίδιες θέσεις (με λάμδα συνάρτηση)
     isEvenOddEqual = std::equal(a.cbegin(), a.cend(), b.cbegin(), b.cend(), [](int a, int b) { return a % 2 == b % 2; }); // C++14
     if (isEvenOddEqual)
     {

@@ -2,6 +2,7 @@
 #include <vector>
 #include <numeric> // accumulate
 #include <algorithm>
+#include <iterator>
 
 class rectangle
 {
@@ -36,7 +37,7 @@ double fun(const double lhs, const rectangle &r)
 
 int main()
 {
-    std::vector<rectangle> v{{3.1, 2.3}, {2.0, 7.1}, {3.9, 4.2}, {2.1, 67.2}, {5.5,16.9}};
+    std::vector<rectangle> v{{3.1, 2.3}, {2.0, 7.1}, {3.9, 4.2}, {2.1, 67.2}, {5.5, 16.9}};
 
     // πρόσθεσε τα εμβαδά όλων των ορθογωνίων
     std::cout << "CHECKPOINT 1" << std::endl;
@@ -45,7 +46,7 @@ int main()
     double sum2 = std::accumulate(v.cbegin(), v.cend(), 0.0, [](const double sum, const rectangle &r) { return sum + r.area(); });
     std::cout << "sum of areas = " << sum2 << std::endl;
 
-    // ταξινόμησε τα ορθογώνια ανά εμβαδό σε αύξουσα σειρά
+    // ταξινόμησε τα ορθογώνια ανά εμβαδό σε αύξουσα σειρά, εμφάνιση λίστας
     std::cout << "CHECKPOINT 2" << std::endl;
     std::sort(v.begin(), v.end());
     for (auto &r : v)
@@ -53,7 +54,7 @@ int main()
         std::cout << r << std::endl;
     }
 
-    // ταξινόμησε τα ορθογώνια ανά εμβαδό σε φθίνουσα σειρά
+    // ταξινόμησε τα ορθογώνια ανά εμβαδό σε φθίνουσα σειρά, εμφάνιση λίστας
     std::cout << "CHECKPOINT 3" << std::endl;
     std::sort(v.begin(), v.end(), [](rectangle a, rectangle b) { return a.area() > b.area(); });
     std::ostream_iterator<rectangle> output(std::cout, "\n");
