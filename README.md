@@ -239,7 +239,7 @@
     * [διάγραμμα UML](./uml/uml1.png)
     * [account.cpp](./cpp_playground/ex078/account.cpp) 
   * Δύο κλάσεις και one-way association μεταξύ τους: employee και company (η επιχείρηση μπορεί να έχει πολλούς υπαλλήλους - δίνεται η δυνατότητα μετάβασης από την επιχείρηση στους υπαλλήλους της)
-    <!-- * [διάγραμμα UML](./uml/uml2.png) -->
+    * [διάγραμμα UML](./uml/uml2.png)
     * [employee.hpp](./cpp_playground/ex076/employee.hpp)
     * [employee.cpp](./cpp_playground/ex076/employee.cpp)
     * [company.hpp](./cpp_playground/ex076/company.hpp)
@@ -402,10 +402,13 @@
   * <https://github.com/pr0g/cmake-examples>
 
 * UML
-  * [ArgoUML](http://argouml.tigris.org/)
-  * [BOUML](http://argouml.tigris.org/)
-  * [Plant UML](http://plantuml.com/)
-  * [Violet UML](http://alexdp.free.fr/violetumleditor/page.php)
-  * [UMLET](https://www.umlet.com/)
-  * [Umbrello](https://umbrello.kde.org/)
-  * [Visual Paradigm](https://www.visual-paradigm.com/)
+  * Πηγές
+    * <https://www.uml-diagrams.org/>
+  * Λογισμικά
+    * [ArgoUML](http://argouml.tigris.org/)
+    * [BOUML](http://argouml.tigris.org/)
+    * [Plant UML](http://plantuml.com/)
+    * [Violet UML](http://alexdp.free.fr/violetumleditor/page.php)
+    * [UMLET](https://www.umlet.com/)
+    * [Umbrello](https://umbrello.kde.org/)
+    * [Visual Paradigm](https://www.visual-paradigm.com/)
