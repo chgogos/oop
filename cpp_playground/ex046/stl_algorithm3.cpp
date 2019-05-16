@@ -47,7 +47,7 @@ int main()
     std::cout << "\nCHECKPOINT8" << std::endl;
     std::for_each(v2.cbegin(), v2.cend(), [](int x) { std::cout << x << " "; });
 
-    // random_shuffle
+    // shuffle
     std::cout << "\nCHECKPOINT9" << std::endl;
     std::random_device rng;
     std::mt19937 urng(rng());

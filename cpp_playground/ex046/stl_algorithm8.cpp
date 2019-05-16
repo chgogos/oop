@@ -8,10 +8,11 @@
 int main()
 {
     std::ostream_iterator<int> output(std::cout, " ");
-    std::vector<int> v{1, 2, 3, 4, 5, 5, 5, 6, 7, 8, 9, 10};
+    std::vector<int> v1{1, 2, 3, 4, 5, 5, 5, 6, 7, 8, 9, 10};
+    std::vector<int> v1{1, 1, 1, 4, 5, 6, 7, 7, 7, 8, 8, 11};
 
     std::cout << "CHECKPOINT 1" << std::endl; 
-    std::copy(v.cbegin(), v.cend(), output);
+    std::copy(v1.cbegin(), v1.cend(), output);
     std::cout << std::endl;
 
     // merge
