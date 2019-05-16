@@ -40,7 +40,7 @@ int main(){
     account acc("nikos");
     acc.deposit(200.0);
     acc.deposit(300.0);
-    acc.withdraw(50);
+    acc.withdraw(50.0);
     acc.info();
     return 0;
 }

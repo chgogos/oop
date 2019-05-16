@@ -407,4 +407,5 @@
   * [Plant UML](http://plantuml.com/)
   * [Violet UML](http://alexdp.free.fr/violetumleditor/page.php)
   * [UMLET](https://www.umlet.com/)
+  * [Umbrello](https://umbrello.kde.org/)
   * [Visual Paradigm](https://www.visual-paradigm.com/)
