@@ -372,6 +372,19 @@
 * [CUTE](https://cute-test.com/)
 * [Google Test](https://github.com/google/googletest)
 
+## UML (Unified Modeling Language)
+
+* Πηγές
+  * <https://www.uml-diagrams.org/>
+* Λογισμικά για σχεδίαση UML
+  * [ArgoUML](http://argouml.tigris.org/)
+  * [BOUML](http://argouml.tigris.org/)
+  * [Plant UML](http://plantuml.com/)
+  * [Violet UML](http://alexdp.free.fr/violetumleditor/page.php)
+  * [UMLET](https://www.umlet.com/)
+  * [Umbrello](https://umbrello.kde.org/)
+  * [Visual Paradigm](https://www.visual-paradigm.com/)
+
 ## Λογισμικά - βιβλιοθήκες - εργαλεία
 
 * Μεταγλωττιστές για την C++
@@ -402,15 +415,3 @@
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
   * <https://cmake.org/>
   * <https://github.com/pr0g/cmake-examples>
-
-* UML
-  * Πηγές
-    * <https://www.uml-diagrams.org/>
-  * Λογισμικά
-    * [ArgoUML](http://argouml.tigris.org/)
-    * [BOUML](http://argouml.tigris.org/)
-    * [Plant UML](http://plantuml.com/)
-    * [Violet UML](http://alexdp.free.fr/violetumleditor/page.php)
-    * [UMLET](https://www.umlet.com/)
-    * [Umbrello](https://umbrello.kde.org/)
-    * [Visual Paradigm](https://www.visual-paradigm.com/)
