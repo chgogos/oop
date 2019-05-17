@@ -1,0 +1,27 @@
+CHECKPOINT 1a
+sum of areas = 278.91
+CHECKPOINT 1b
+sum of areas = 278.91
+CHECKPOINT 2
+(3.1,2.3) area = 7.13
+(3.1,2.3) area = 7.13
+(2,7.1) area = 14.2
+(3.9,4.2) area = 16.38
+(5.5,16.9) area = 92.95
+(2.1,67.2) area = 141.12
+CHECKPOINT 3a
+(2.1,67.2) area = 141.12
+(5.5,16.9) area = 92.95
+(3.9,4.2) area = 16.38
+(2,7.1) area = 14.2
+(3.1,2.3) area = 7.13
+(3.1,2.3) area = 7.13
+CHECKPOINT 3b
+(2.1,67.2) area = 141.12
+(5.5,16.9) area = 92.95
+(3.9,4.2) area = 16.38
+(2,7.1) area = 14.2
+(3.1,2.3) area = 7.13
+(3.1,2.3) area = 7.13
+CHECKPOINT 4
+2

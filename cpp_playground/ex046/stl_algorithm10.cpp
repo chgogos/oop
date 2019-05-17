@@ -22,6 +22,11 @@ public:
         return area() < other.area();
     }
 
+    bool operator>(const rectangle &other) const
+    {
+        return area() > other.area();
+    }
+
     friend std::ostream &operator<<(std::ostream &os, const rectangle &r)
     {
         os << "(" << r.width << "," << r.height << ") area = " << r.area();
@@ -37,12 +42,14 @@ double fun(const double lhs, const rectangle &r)
 
 int main()
 {
-    std::vector<rectangle> v{{3.1, 2.3}, {2.0, 7.1}, {3.9, 4.2}, {2.1, 67.2}, {5.5, 16.9}};
+    std::vector<rectangle> v{{3.1, 2.3}, {2.0, 7.1}, {3.1,2.3}, {3.9, 4.2}, {2.1, 67.2}, {5.5, 16.9}};
 
     // πρόσθεσε τα εμβαδά όλων των ορθογωνίων
-    std::cout << "CHECKPOINT 1" << std::endl;
+    std::cout << "CHECKPOINT 1a" << std::endl;
     double sum1 = std::accumulate(v.cbegin(), v.cend(), 0.0, fun);
     std::cout << "sum of areas = " << sum1 << std::endl;
+    // β' τρόπος
+    std::cout << "CHECKPOINT 1b" << std::endl;
     double sum2 = std::accumulate(v.cbegin(), v.cend(), 0.0, [](const double sum, const rectangle &r) { return sum + r.area(); });
     std::cout << "sum of areas = " << sum2 << std::endl;
 
@@ -55,9 +62,14 @@ int main()
     }
 
     // ταξινόμησε τα ορθογώνια ανά εμβαδό σε φθίνουσα σειρά, εμφάνιση λίστας
-    std::cout << "CHECKPOINT 3" << std::endl;
-    std::sort(v.begin(), v.end(), [](rectangle a, rectangle b) { return a.area() > b.area(); });
+    std::cout << "CHECKPOINT 3a" << std::endl;
+    std::sort(v.begin(), v.end(), std::greater<rectangle>());
     std::ostream_iterator<rectangle> output(std::cout, "\n");
+    std::copy(v.cbegin(), v.cend(), output);
+
+    // β' τρόπος
+    std::cout << "CHECKPOINT 3b" << std::endl;
+    std::sort(v.begin(), v.end(), [](rectangle a, rectangle b) { return a.area() > b.area(); });
     std::copy(v.cbegin(), v.cend(), output);
 
     // μέτρησε τα ορθογώνια με εμβαδό πάνω από το μέσο όρο εμβαδών
