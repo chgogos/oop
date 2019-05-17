@@ -6,7 +6,6 @@
 int main(){
     std::ostream_iterator<int> output(std::cout, " ");
     std::vector<int> v{11,22,13,14,22,5};
-    std::list<int> l{7,13,2,1,8,9};
 
     // find
     std::cout << "CHECKPOINT 1" << std::endl;
@@ -44,6 +43,7 @@ int main(){
     std::copy(v.cbegin(), v.cend(), output);
     
     std::cout << "\nCHECKPOINT 5" << std::endl;
+    std::list<int> l{7,13,2,1,8,9};
     l.sort();
     std::copy(l.cbegin(), l.cend(), output);
     std::cout << std::endl;
