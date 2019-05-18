@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <iterator>  // ostream_iterator
+#include <algorithm> // for_each
 
 #define PRINT(A, N)               \
     for (int i = 0; i < N; i++)   \
@@ -8,8 +10,10 @@
     }                             \
     std::cout << std::endl;
 
-void print(std::vector<int> v){
-    for(auto x: v){
+void print(std::vector<int> v)
+{
+    for (auto x : v)
+    {
         std::cout << x << " ";
     }
     std::cout << std::endl;
@@ -55,7 +59,7 @@ int main()
     std::cout << std::endl;
 
     std::cout << "CHECKPOINΤ" << std::endl;
-    for (auto& x : v)
+    for (auto &x : v)
     {
         std::cout << x << " ";
     }
@@ -110,6 +114,13 @@ int main()
 
     std::cout << "CHECKPOINT" << std::endl;
     std::for_each(v.cbegin(), v.cend(), [](int i) { std::cout << i << " "; });
+    std::cout << std::endl;
+
+    std::cout << "CHECKPOINT" << std::endl;
+    int *p = &v[0];
+    for (int i=0;i<v.size();i++){
+        std::cout << p[i] << " ";
+    }
     std::cout << std::endl;
 
     std::cout << "CHECKPOINT" << std::endl;
