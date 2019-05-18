@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <numeric>
+#include <iterator>
 
 // MERGE STL ALGORITHMS
 
@@ -34,5 +35,4 @@ int main()
     // set_union
 
     
-
 }

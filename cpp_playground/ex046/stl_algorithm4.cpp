@@ -2,6 +2,7 @@
 #include <vector>
 #include <list>
 #include <algorithm>
+#include <iterator>
 
 int main(){
     std::ostream_iterator<int> output(std::cout, " ");
