@@ -258,6 +258,10 @@
     * [researcher.hpp](./cpp_playground/ex077/researcher.hpp)
     * [researcher.cpp](./cpp_playground/ex077/researcher.cpp)
     * [main.cpp](./cpp_playground/ex077/main.cpp)
+  * Ακρίβεια πράξεων
+    * floating points [floating_point.cpp](./cpp_playground/ex079/floating_point.cpp)
+    * όρια τύπων δεδομένων [limits.cpp](./cpp_playground/ex079/limits.cpp)
+    * Χειρισμός χρηματικών ποσών μέσω ειδικής κλάσης [money.hpp](./cpp_playground/ex079/money.hpp), [main.cpp](./cpp_playground/ex079/main.cpp)
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
