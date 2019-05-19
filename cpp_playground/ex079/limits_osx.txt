@@ -1,0 +1,14 @@
+Minimum short -32768
+Maximum short 32767
+Minimum int -2147483648
+Maximum int 2147483647
+Minimum long -9223372036854775808
+Maximum long 9223372036854775807
+Minimum long long -9223372036854775808
+Maximum long long 9223372036854775807
+Minimum float 1.17549e-38
+Maximum float 3.40282e+38
+Minimum double 2.22507e-308
+Maximum double 1.79769e+308
+Minimum long double 3.3621e-4932
+Maximum long double 1.18973e+4932
