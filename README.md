@@ -275,11 +275,12 @@
     * [meyers_singleton.cpp](./cpp_playground/ex061/meyers_singleton.cpp)
 * Structural
   * Adapter
-    * [adapter](./cpp_playground/ex064/adapter.cpp)
+    * [adapter.cpp](./cpp_playground/ex064/adapter.cpp)
   * Bridge
   * Composite
   * Decorator
   * Facade
+    * [facade.cpp](./cpp_playground/ex070/facade.cpp)
   * Flyweight
 * Behavioral
   * Chain of responsibility
@@ -288,10 +289,10 @@
     * [command.hpp](./cpp_playground/ex067/command.hpp), [main.cpp](./cpp_playground/ex067/main.cpp)
   * Mediator
   * Observer
-    * [observer](./cpp_playground/ex075/observer.cpp)
+    * [observer.cpp](./cpp_playground/ex075/observer.cpp)
   * State
   * Strategy
-    * [strategy](./cpp_playground/ex065/strategy.cpp)
+    * [strategy.cpp](./cpp_playground/ex065/strategy.cpp)
 
 <!-- ## Antipatterns -->
 
