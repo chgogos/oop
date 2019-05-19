@@ -268,10 +268,14 @@
 
 * Creational
   * Factory
+    * [factory.cpp](./cpp_playground/ex069/factory.cpp)
   * Builder
-  * Singleton :confused: [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp), [meyers_singleton.cpp](./cpp_playground/ex061/meyers_singleton.cpp)
+  * Singleton
+    * [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp) :confused:
+    * [meyers_singleton.cpp](./cpp_playground/ex061/meyers_singleton.cpp)
 * Structural
-  * Adapter [adapter](./cpp_playground/ex064/adapter.cpp)
+  * Adapter
+    * [adapter](./cpp_playground/ex064/adapter.cpp)
   * Bridge
   * Composite
   * Decorator
@@ -279,11 +283,15 @@
   * Flyweight
 * Behavioral
   * Chain of responsibility
-  * Command [command1](./cpp_playground/ex066/command1.cpp), [command2](./cpp_playground/ex066/command2.cpp),
+  * Command
+    * [command1.cpp](./cpp_playground/ex066/command1.cpp)
+    * [command.hpp](./cpp_playground/ex067/command.hpp), [main.cpp](./cpp_playground/ex067/main.cpp)
   * Mediator
-  * Observer [observer](./cpp_playground/ex075/observer.cpp)
+  * Observer
+    * [observer](./cpp_playground/ex075/observer.cpp)
   * State
-  * Strategy [strategy](./cpp_playground/ex065/strategy.cpp)
+  * Strategy
+    * [strategy](./cpp_playground/ex065/strategy.cpp)
 
 <!-- ## Antipatterns -->
 

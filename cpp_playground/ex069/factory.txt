@@ -1,0 +1,8 @@
+a new car created
+a new car created
+a new motorcycle created
+a new motorcycle created
+car object destroyed
+car object destroyed
+motocycle object destroyed
+motocycle object destroyed
