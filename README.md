@@ -252,7 +252,7 @@
     * [company.cpp](./cpp_playground/ex076/company.cpp)
     * [main.cpp](./cpp_playground/ex076/main.cpp)
   * Δύο κλάσεις και two-way association μεταξύ τους: researcher και paper (ένας ερευνητής μπορεί να έχει δημοσιεύσει πολλά άρθρα και ένα άρθρο μπορεί να έχει συγγραφεί από πολλούς ερευνητές - δίνεται η δυνατότητα μετάβασης από τον ερευνητή στα άρθρα του καθώς και από τα άρθρα στους ερευνητές που τα έχουν συγγράψει)
-    <!-- * [διάγραμμα UML](./uml/uml3.png) -->
+    * [διάγραμμα UML](./uml/uml3.png)
     * [paper.hpp](./cpp_playground/ex077/paper.hpp)
     * [paper.cpp](./cpp_playground/ex077/paper.cpp)
     * [researcher.hpp](./cpp_playground/ex077/researcher.hpp)
