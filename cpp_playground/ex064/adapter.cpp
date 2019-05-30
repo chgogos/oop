@@ -2,7 +2,7 @@
 Adapter
 
 Convert the interface of a class into another interface clients expect. 
-Aadapter lets classes work together that couldn't because of incompatible interfaces
+Adapter lets classes work together that couldn't because of incompatible interfaces
 
 */
 

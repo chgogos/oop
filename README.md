@@ -1,25 +1,49 @@
 # Αντικειμενοστραφής Προγραμματισμός (OOP=Object Oriented Programming) με χρήση της C++
 
-    Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
-    Γκόγκος Χρήστος - Άρτα@2019
+  Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
+  Γκόγκος Χρήστος - Άρτα@2019
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-    τελευταία ενημέρωση: 30/5/2019
+  τελευταία ενημέρωση: 30/5/2019
 
-~~πρόοδος: 15/4/2019 στις 12:00-14:00~~
+## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΑΠΑΙΤΗΘΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
 
-[επιπλέον πληροφορίες για την πρόοδο](./proodos.md), ενδεικτικά θέματα και λύσεις: [εκφωνήσεις θεμάτων](./preparation/proodos.pdf), [λύση θέματος 1](./preparation/prepare01.cpp), [λύση θέματος 2](./preparation/prepare02.cpp), [λύση θέματος 3](./preparation/prepare03.cpp)
+* Χειρισμός δεικτών, δέσμευσης/αποδέσμευσης μνήμης
+* Δημιουργία κλάσεων και αντικειμένων
+* Κατανόηση σημασίας προσδιοριστών private, public και protected
+* Ορισμός κατασκευαστών και καταστροφέων
+* Υπερφόρτωση τελεστών (π.χ. του τελεστή <)
+* Κληρονομικότητα - πολυμορφικές ιεραρχίες (virtual) - επαναορισμός (override)
+* Προγραμματισμός με πρότυπα (template programming)
+* STL περιέκτες (π.χ. std::vector)
+* STL αλγόριθμοι (π.χ. std::sort)
+* STL επαναλήπτες (π.χ. forward iterator)
+* Ανάγνωση απλών διαγραμμάτων κλάσεων UML και μετατροπή σε C++ κώδικα
 
-Θέματα προόδου
+~~[Αναλυτικά η ύλη της προόδου](./proodos.md)~~
 
-* [ΟΜΑΔΑ Α](./preparation/20190415_proodos_a.pdf): [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415a_1.cpp), [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415a_2.cpp)
-* [ΟΜΑΔΑ B](./preparation/20190415_proodos_b.pdf): [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415b_1.cpp), [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415b_2.cpp)
+[Αναλυτικά η ύλη της τελικής εξέτασης](./final.md)
 
 ## Σύνοψη της C++
 
 * [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:
 * [C++ reference](https://en.cppreference.com/w/cpp)
+* [STL reference card](./resources/stlqr-a4-1.33.pdf)
+* [Basic UML Class Diagram Notation](./resources/BasicClassDesign.pdf)
+
+## Θέματα προετοιμασίας και λύσεις
+
+* [Εκφωνήσεις ενδιεκτικών θεμάτων 1](./preparation/proodos.pdf)
+  * [λύση θέματος 1](./preparation/prepare01.cpp)
+  * [λύση θέματος 2](./preparation/prepare02.cpp)
+  * [λύση θέματος 3](./preparation/prepare03.cpp)
+* [Θέματα προόδου ΟΜΑΔΑΣ Α](./preparation/20190415_proodos_a.pdf)
+  * [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415a_1.cpp)
+  * [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415a_2.cpp)
+* [Θέματα προόδου ΟΜΑΔΑΣ B](./preparation/20190415_proodos_b.pdf)
+  * [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415b_1.cpp)
+  * [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415b_2.cpp)
 
 ## Live coding
 
@@ -285,8 +309,8 @@
     * [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp) :confused:
     * [meyers_singleton.cpp](./cpp_playground/ex061/meyers_singleton.cpp)
 * Structural
-  * Adapter
-    * [adapter.cpp](./cpp_playground/ex064/adapter.cpp)
+  * Adapter: Μετατροπή του interface (διεπαφής) μιας κλάσης σε ένα άλλο interface που οι πελάτες της κλάσης αναμένουν. Επιτρέπει σε κλάσεις που δεν θα μπορούσαν να λειτουργήσουν μαζί λόγω μη συμβατών interfaces, να λειτουργήσουν.
+    * [adapter.cpp](./cpp_playground/ex064/adapter.cpp) Στο παράδειγμα υπάρχουν 2 κλάσεις, η my_class1 και η my_class2, με μη συμβατά interfaces με αυτό που περιμένει η κλάση tester.
   * Bridge
   * Composite
   * Decorator
