@@ -30,7 +30,7 @@
 * [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:
 * [C++ reference](https://en.cppreference.com/w/cpp)
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
-* [Basic UML Class Diagram Notation](./resources/BasicClassDesign.pdf)
+* [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
 
 ## Θέματα προετοιμασίας και λύσεις
 
