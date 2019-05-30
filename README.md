@@ -34,7 +34,7 @@
 
 ## Θέματα προετοιμασίας και λύσεις
 
-* [Εκφωνήσεις ενδιεκτικών θεμάτων 1](./preparation/proodos.pdf)
+* [Εκφωνήσεις ενδεικτικών θεμάτων 1](./preparation/proodos.pdf)
   * [λύση θέματος 1](./preparation/prepare01.cpp)
   * [λύση θέματος 2](./preparation/prepare02.cpp)
   * [λύση θέματος 3](./preparation/prepare03.cpp)
@@ -44,6 +44,7 @@
 * [Θέματα προόδου ΟΜΑΔΑΣ B](./preparation/20190415_proodos_b.pdf)
   * [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415b_1.cpp)
   * [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415b_2.cpp)
+* Εκφωνήσεις ενδεικτικών θεμάτων 2
 
 ## Live coding
 
