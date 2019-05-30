@@ -1,0 +1,6 @@
+Object of class B at memory 0x7ffee3e41858 having size 400 created
+Object of class A at memory 0x7ffee3e41848 having size 16 created
+Object of class A at memory 0x7ffee3e41828 having size 16 created
+Object of class A at memory 0x7ffee3e41828 having size 16 destroyed
+Object of class A at memory 0x7ffee3e41848 having size 16 destroyed
+Object of class B at memory 0x7ffee3e41858 having size 400 destroyed

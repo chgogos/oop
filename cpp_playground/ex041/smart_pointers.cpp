@@ -16,7 +16,7 @@ int main()
     std::cout << "shared pointer sp3 points at memory=" << sp3 << " and has value=" << *sp3 << std::endl;
 
     std::weak_ptr<double> wp1 = sp1;
-    auto sp4 = wp1.lock();
+    auto sp4 = wp1.lock(); // έλεγχος εάν ο weak pointer δείχνει προς έγκυρα δεδομένα 
     if (sp4)
     {
         *sp4 = 2.7182;

@@ -5,7 +5,7 @@
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-    τελευταία ενημέρωση: 19/5/2019
+    τελευταία ενημέρωση: 30/5/2019
 
 ~~πρόοδος: 15/4/2019 στις 12:00-14:00~~
 
@@ -240,6 +240,11 @@
     * [lambda2.cpp](./cpp_playground/ex071/lambda2.cpp)
   * map - filter - reduce
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
+* Σχέσεις μεταξύ αντικειμένων
+  * HAS-A (composition=σύνθεση) [composition1.cpp](./cpp_playground/ex080/composition1.cpp)
+  * HAS-A (composition with pointer = σύνθεση με δείκτη) [composition2.cpp](./cpp_playground/ex080/composition2.cpp)
+  * HAS-A (aggregation with reference = συνάθροιση με αναφορά) [aggregation1.cpp](./cpp_playground/ex080/aggregation1.cpp)
+  * HAS_A (aggregation with pointer = συνάθροιση με δείκτη) [aggregation2.cpp](./cpp_playground/ex080/aggregation2.cpp)
 * Παραδείγματα κώδικα και UML
   * Μια κλάση: η κλάση account που αφορά έναν λογαριασμό τράπεζας
     * [διάγραμμα UML](./uml/uml1.png)
@@ -262,6 +267,7 @@
   * floating points [floating_point.cpp](./cpp_playground/ex079/floating_point.cpp)
   * Όρια τύπων δεδομένων [limits.cpp](./cpp_playground/ex079/limits.cpp)
   * Χειρισμός χρηματικών ποσών μέσω ειδικής κλάσης [money.hpp](./cpp_playground/ex079/money.hpp), [main.cpp](./cpp_playground/ex079/main.cpp)
+
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
