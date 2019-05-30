@@ -241,6 +241,7 @@
   * map - filter - reduce
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
 * Σχέσεις μεταξύ αντικειμένων
+  * IS_A (inheritance=κληρονομικότητα) [isa.cpp](./cpp_playground/ex080/isa.cpp)
   * HAS-A (composition=σύνθεση) [composition1.cpp](./cpp_playground/ex080/composition1.cpp)
   * HAS-A (composition with pointer = σύνθεση με δείκτη) [composition2.cpp](./cpp_playground/ex080/composition2.cpp)
   * HAS-A (aggregation with reference = συνάθροιση με αναφορά) [aggregation1.cpp](./cpp_playground/ex080/aggregation1.cpp)
@@ -408,9 +409,20 @@
   * [Umbrello](https://umbrello.kde.org/)
   * [Visual Paradigm](https://www.visual-paradigm.com/)
 
-## Λογισμικά - βιβλιοθήκες - εργαλεία
+## Βιβλιοθήκες
 
-* Μεταγλωττιστές για την C++
+* Catch2 (A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD ...)
+  * <https://github.com/catchorg/Catch2>
+
+* fmt (Small, safe and fast formatting library)
+  * <http://fmtlib.net/latest/index.html>
+
+* folly (An open-source C++ library developed and used at Facebook)
+  * <https://github.com/facebook/folly>
+
+## Λογισμικά - εργαλεία
+
+* Μεταγλωττιστές για τη C++
   * Visual C++ 2017 Community Edition <https://visualstudio.microsoft.com/vs/features/cplusplus/>
   * gcc <https://gcc.gnu.org/>
     * <http://www.mingw.org/>
@@ -428,12 +440,6 @@
         Run in Terminal: enable
         Save All Files Before Run: enable
     Ctrl + Alt + N => compiles and executes current file
-
-* Catch2 (A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD ...)
-  * <https://github.com/catchorg/Catch2>
-
-* fmt (Small, safe and fast formatting library)
-  * <http://fmtlib.net/latest/index.html>
 
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
   * <https://cmake.org/>
