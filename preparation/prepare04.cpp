@@ -50,11 +50,11 @@ public:
 
 int main()
 {
-    person d1("director 1");
-    person d2("director 2");
-    person a1("actor1");
-    person a2("actor2");
-    person a3("actor3");
+    person d1("Director 1");
+    person d2("Director 2");
+    person a1("Actor 1");
+    person a2("Actor 2");
+    person a3("Actor 3");
     movie m1("Movie 1");
     movie m2("Movie 2");
 
