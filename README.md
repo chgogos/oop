@@ -45,12 +45,12 @@
   * [Λύση θέματος Α](./preparation/proodos20190415b_1.cpp)
   * [Λύση θέματος B](./preparation/proodos20190415b_2.cpp)
 * [Εκφωνήσεις ενδεικτικών θεμάτων 2](./preparation/telikes.pdf)
-  * [Λύση θέματος 1](./preparation/prepare04.cpp)
+  * [Λύση θέματος 1](./preparation/prepare04.cpp) [UML διάγραμμα κλάσεων](./uml/uml_movies.png)
   * [Λύση θέματος 2](./cpp_playground/ex046/stl_algorithm10.cpp)
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
-  * [Λύση θέματος 4](./preparation/prepare06.cpp)
+  * [Λύση θέματος 4](./preparation/prepare06.cpp) [UML διάγραμμα κλάσεων](./uml/uml_aggregation.png)
   * [Δεύτερη λύση θέματος 4 (με δείκτες)](./preparation/prepare06_ptrs.cpp)
-  * [Λύση θέματος 5](./preparation/prepare07.cpp)
+  * [Λύση θέματος 5](./preparation/prepare07.cpp) [UML διάγραμμα κλάσεων](./uml/uml_generalization.png)
   
 ## Live coding
 
