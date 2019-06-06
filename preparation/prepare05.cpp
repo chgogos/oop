@@ -6,8 +6,7 @@
 
 std::random_device rd;
 std::mt19937 engine{rd()};
-std::uniform_real_distribution<double> distribution1(0.0, 100.0);
-std::uniform_real_distribution<double> distribution2(0.0, 1.0);
+std::uniform_real_distribution<double> distribution(0.0, 1.0);
 
 class player
 {
@@ -51,8 +50,8 @@ public:
     {
         for (int i = 0; i < n; i++)
         {
-            std::string name = "player" + std::to_string(i);
-            double dex = distribution1(engine);
+            std::string name = "player" + std::to_string(i + 1);
+            double dex = distribution(engine) * 100.0;
             player p(name, dex);
             players.push_back(p);
         }
@@ -71,8 +70,7 @@ public:
             player p2 = players[players.size() - 1 - i];
             std::cout << "Duel: " << p1 << " vs " << p2 << " -> ";
             double perc_win_p1 = p1.get_dexterity() / (p1.get_dexterity() + p2.get_dexterity());
-            double roulette = distribution2(engine);
-            // std::cout << " p1%=" << perc_win_p1 << " roulette=" << roulette << " ";
+            double roulette = distribution(engine);
             if (perc_win_p1 > roulette)
             {
                 std::cout << p1 << " WINS!" << std::endl;
