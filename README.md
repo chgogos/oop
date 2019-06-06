@@ -50,7 +50,7 @@
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
   * [Λύση θέματος 4](./preparation/prepare06.cpp), [UML διάγραμμα κλάσεων](./uml/uml_aggregation.png)
   * [Δεύτερη λύση θέματος 4 (με δείκτες)](./preparation/prepare06_ptrs.cpp)
-  * [Λύση θέματος 5](./preparation/prepare07.cpp), [UML διάγραμμα κλάσεων](./uml/uml_generalization.png)
+  * [Λύση θέματος 5](./preparation/prepare07.cpp), [UML διάγραμμα κλάσεων](./uml/uml_generalization1.png)
   
 ## Live coding
 
