@@ -49,6 +49,7 @@
   * [Λύση θέματος 2](./cpp_playground/ex046/stl_algorithm10.cpp)
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
   * [Λύση θέματος 4](./preparation/prepare06.cpp)
+  * [Δεύτερη λύση θέματος 4 (με δείκτες)](./preparation/prepare06_ptrs.cpp)
   * [Λύση θέματος 5](./preparation/prepare07.cpp)
   
 ## Live coding
