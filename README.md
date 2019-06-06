@@ -5,7 +5,7 @@
 
 [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
 
-  τελευταία ενημέρωση: 30/5/2019
+  τελευταία ενημέρωση: 6/6/2019
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΑΠΑΙΤΗΘΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
 
@@ -35,17 +35,22 @@
 ## Θέματα προετοιμασίας και λύσεις
 
 * [Εκφωνήσεις ενδεικτικών θεμάτων 1](./preparation/proodos.pdf)
-  * [λύση θέματος 1](./preparation/prepare01.cpp)
-  * [λύση θέματος 2](./preparation/prepare02.cpp)
-  * [λύση θέματος 3](./preparation/prepare03.cpp)
+  * [Λύση θέματος 1](./preparation/prepare01.cpp)
+  * [Λύση θέματος 2](./preparation/prepare02.cpp)
+  * [Λύση θέματος 3](./preparation/prepare03.cpp)
 * [Θέματα προόδου ΟΜΑΔΑΣ Α](./preparation/20190415_proodos_a.pdf)
-  * [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415a_1.cpp)
-  * [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415a_2.cpp)
+  * [Λύση θέματος Α](./preparation/proodos20190415a_1.cpp)
+  * [Λύση θέματος B](./preparation/proodos20190415a_2.cpp)
 * [Θέματα προόδου ΟΜΑΔΑΣ B](./preparation/20190415_proodos_b.pdf)
-  * [ΛΥΣΗ ΘΕΜΑΤΟΣ Α](./preparation/proodos20190415b_1.cpp)
-  * [ΛΥΣΗ ΘΕΜΑΤΟΣ B](./preparation/proodos20190415b_2.cpp)
-* Εκφωνήσεις ενδεικτικών θεμάτων 2
-
+  * [Λύση θέματος Α](./preparation/proodos20190415b_1.cpp)
+  * [Λύση θέματος B](./preparation/proodos20190415b_2.cpp)
+* [Εκφωνήσεις ενδεικτικών θεμάτων 2](./preparation/telikes.pdf)
+  * [Λύση θέματος 1](./preparation/prepare04.cpp)
+  * [Λύση θέματος 2](./cpp_playground/ex046/stl_algorithm10.cpp)
+  * [Λύση θέματος 3](./preparation/prepare05.cpp)
+  * [Λύση θέματος 4](./preparation/prepare06.cpp)
+  * [Λύση θέματος 5](./preparation/prepare07.cpp)
+  
 ## Live coding
 
 * [2019-02-18](./lc/live_coding_20190218.cpp)
