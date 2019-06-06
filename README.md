@@ -25,7 +25,7 @@
 
 [Αναλυτικά η ύλη της τελικής εξέτασης](./final.md)
 
-## Σύνοψη της C++
+## Σύνοψη της C++, STL, UML διαγραμμάτων κλάσεων
 
 * [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:
 * [C++ reference](https://en.cppreference.com/w/cpp)
