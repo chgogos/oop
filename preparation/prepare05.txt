@@ -1,0 +1,423 @@
+No argument given, assuming 10 players
+player1 31.5639
+player2 2.55007
+player3 39.8688
+player4 79.0353
+player5 2.38147
+player6 89.3538
+player7 5.23425
+player8 97.3802
+player9 23.0642
+player10 81.7347
+player11 24.6873
+player12 28.6183
+player13 48.6611
+player14 94.9543
+player15 37.1363
+player16 37.3028
+player17 11.1848
+player18 12.8178
+player19 11.7372
+player20 12.0724
+player21 46.0142
+player22 61.1147
+player23 48.3124
+player24 35.2589
+player25 19.0378
+player26 10.8931
+player27 33.8357
+player28 36.744
+player29 82.6922
+player30 4.85156
+player31 63.8045
+player32 24.7964
+player33 1.33606
+player34 18.1461
+player35 24.3388
+player36 76.8885
+player37 26.9842
+player38 53.4438
+player39 94.0224
+player40 29.2358
+player41 7.6537
+player42 51.106
+player43 29.0674
+player44 17.7191
+player45 72.9418
+player46 75.0615
+player47 34.4191
+player48 16.7861
+player49 90.6298
+player50 5.55214
+player51 22.5112
+player52 68.7482
+player53 80.1609
+player54 89.6427
+player55 9.9843
+player56 18.6073
+player57 5.75279
+player58 47.0249
+player59 68.202
+player60 85.4301
+player61 79.6938
+player62 16.2183
+player63 46.2419
+player64 54.6523
+player65 73.5554
+player66 72.8008
+player67 59.0596
+player68 21.0393
+player69 17.3345
+player70 0.526008
+player71 54.6238
+player72 15.4743
+player73 56.0582
+player74 33.9887
+player75 18.3447
+player76 5.16098
+player77 28.4343
+player78 82.9278
+player79 46.5541
+player80 79.7703
+player81 28.7324
+player82 19.4838
+player83 87.3618
+player84 81.055
+player85 11.2355
+player86 93.275
+player87 13.2405
+player88 23.8616
+player89 33.392
+player90 9.20653
+player91 66.4936
+player92 68.6865
+player93 11.4214
+player94 98.9373
+player95 28.7784
+player96 21.6877
+player97 6.56185
+player98 12.2328
+player99 59.3965
+player100 47.7622
+************* NEXT ROUND ***************
+SHUFFLE
+player38 53.4438
+player5 2.38147
+player99 59.3965
+player81 28.7324
+player8 97.3802
+player65 73.5554
+player31 63.8045
+player53 80.1609
+player21 46.0142
+player45 72.9418
+player9 23.0642
+player97 6.56185
+player67 59.0596
+player60 85.4301
+player58 47.0249
+player16 37.3028
+player46 75.0615
+player6 89.3538
+player77 28.4343
+player24 35.2589
+player64 54.6523
+player100 47.7622
+player88 23.8616
+player94 98.9373
+player66 72.8008
+player61 79.6938
+player52 68.7482
+player71 54.6238
+player33 1.33606
+player85 11.2355
+player28 36.744
+player14 94.9543
+player83 87.3618
+player49 90.6298
+player91 66.4936
+player41 7.6537
+player29 82.6922
+player79 46.5541
+player25 19.0378
+player37 26.9842
+player90 9.20653
+player11 24.6873
+player63 46.2419
+player74 33.9887
+player30 4.85156
+player40 29.2358
+player75 18.3447
+player19 11.7372
+player50 5.55214
+player12 28.6183
+player68 21.0393
+player80 79.7703
+player32 24.7964
+player57 5.75279
+player4 79.0353
+player36 76.8885
+player54 89.6427
+player86 93.275
+player87 13.2405
+player56 18.6073
+player96 21.6877
+player7 5.23425
+player98 12.2328
+player69 17.3345
+player47 34.4191
+player55 9.9843
+player23 48.3124
+player93 11.4214
+player70 0.526008
+player27 33.8357
+player59 68.202
+player44 17.7191
+player42 51.106
+player62 16.2183
+player48 16.7861
+player72 15.4743
+player35 24.3388
+player95 28.7784
+player92 68.6865
+player82 19.4838
+player34 18.1461
+player18 12.8178
+player76 5.16098
+player13 48.6611
+player20 12.0724
+player89 33.392
+player51 22.5112
+player84 81.055
+player15 37.1363
+player1 31.5639
+player43 29.0674
+player3 39.8688
+player73 56.0582
+player39 94.0224
+player17 11.1848
+player26 10.8931
+player78 82.9278
+player10 81.7347
+player22 61.1147
+player2 2.55007
+Duel: player38 53.4438 vs player2 2.55007 -> player38 53.4438 WINS!
+Duel: player5 2.38147 vs player22 61.1147 -> player22 61.1147 WINS!
+Duel: player99 59.3965 vs player10 81.7347 -> player10 81.7347 WINS!
+Duel: player81 28.7324 vs player78 82.9278 -> player78 82.9278 WINS!
+Duel: player8 97.3802 vs player26 10.8931 -> player26 10.8931 WINS!
+Duel: player65 73.5554 vs player17 11.1848 -> player65 73.5554 WINS!
+Duel: player31 63.8045 vs player39 94.0224 -> player31 63.8045 WINS!
+Duel: player53 80.1609 vs player73 56.0582 -> player53 80.1609 WINS!
+Duel: player21 46.0142 vs player3 39.8688 -> player21 46.0142 WINS!
+Duel: player45 72.9418 vs player43 29.0674 -> player45 72.9418 WINS!
+Duel: player9 23.0642 vs player1 31.5639 -> player1 31.5639 WINS!
+Duel: player97 6.56185 vs player15 37.1363 -> player97 6.56185 WINS!
+Duel: player67 59.0596 vs player84 81.055 -> player84 81.055 WINS!
+Duel: player60 85.4301 vs player51 22.5112 -> player51 22.5112 WINS!
+Duel: player58 47.0249 vs player89 33.392 -> player89 33.392 WINS!
+Duel: player16 37.3028 vs player20 12.0724 -> player16 37.3028 WINS!
+Duel: player46 75.0615 vs player13 48.6611 -> player13 48.6611 WINS!
+Duel: player6 89.3538 vs player76 5.16098 -> player6 89.3538 WINS!
+Duel: player77 28.4343 vs player18 12.8178 -> player77 28.4343 WINS!
+Duel: player24 35.2589 vs player34 18.1461 -> player24 35.2589 WINS!
+Duel: player64 54.6523 vs player82 19.4838 -> player64 54.6523 WINS!
+Duel: player100 47.7622 vs player92 68.6865 -> player100 47.7622 WINS!
+Duel: player88 23.8616 vs player95 28.7784 -> player88 23.8616 WINS!
+Duel: player94 98.9373 vs player35 24.3388 -> player94 98.9373 WINS!
+Duel: player66 72.8008 vs player72 15.4743 -> player72 15.4743 WINS!
+Duel: player61 79.6938 vs player48 16.7861 -> player61 79.6938 WINS!
+Duel: player52 68.7482 vs player62 16.2183 -> player52 68.7482 WINS!
+Duel: player71 54.6238 vs player42 51.106 -> player42 51.106 WINS!
+Duel: player33 1.33606 vs player44 17.7191 -> player44 17.7191 WINS!
+Duel: player85 11.2355 vs player59 68.202 -> player59 68.202 WINS!
+Duel: player28 36.744 vs player27 33.8357 -> player27 33.8357 WINS!
+Duel: player14 94.9543 vs player70 0.526008 -> player14 94.9543 WINS!
+Duel: player83 87.3618 vs player93 11.4214 -> player83 87.3618 WINS!
+Duel: player49 90.6298 vs player23 48.3124 -> player49 90.6298 WINS!
+Duel: player91 66.4936 vs player55 9.9843 -> player91 66.4936 WINS!
+Duel: player41 7.6537 vs player47 34.4191 -> player47 34.4191 WINS!
+Duel: player29 82.6922 vs player69 17.3345 -> player29 82.6922 WINS!
+Duel: player79 46.5541 vs player98 12.2328 -> player79 46.5541 WINS!
+Duel: player25 19.0378 vs player7 5.23425 -> player25 19.0378 WINS!
+Duel: player37 26.9842 vs player96 21.6877 -> player96 21.6877 WINS!
+Duel: player90 9.20653 vs player56 18.6073 -> player56 18.6073 WINS!
+Duel: player11 24.6873 vs player87 13.2405 -> player11 24.6873 WINS!
+Duel: player63 46.2419 vs player86 93.275 -> player86 93.275 WINS!
+Duel: player74 33.9887 vs player54 89.6427 -> player54 89.6427 WINS!
+Duel: player30 4.85156 vs player36 76.8885 -> player36 76.8885 WINS!
+Duel: player40 29.2358 vs player4 79.0353 -> player40 29.2358 WINS!
+Duel: player75 18.3447 vs player57 5.75279 -> player75 18.3447 WINS!
+Duel: player19 11.7372 vs player32 24.7964 -> player32 24.7964 WINS!
+Duel: player50 5.55214 vs player80 79.7703 -> player80 79.7703 WINS!
+Duel: player12 28.6183 vs player68 21.0393 -> player12 28.6183 WINS!
+************* NEXT ROUND ***************
+SHUFFLE
+player94 98.9373
+player59 68.202
+player1 31.5639
+player53 80.1609
+player10 81.7347
+player64 54.6523
+player65 73.5554
+player31 63.8045
+player96 21.6877
+player29 82.6922
+player91 66.4936
+player84 81.055
+player11 24.6873
+player100 47.7622
+player24 35.2589
+player38 53.4438
+player27 33.8357
+player16 37.3028
+player32 24.7964
+player79 46.5541
+player49 90.6298
+player86 93.275
+player13 48.6611
+player6 89.3538
+player21 46.0142
+player52 68.7482
+player83 87.3618
+player36 76.8885
+player42 51.106
+player45 72.9418
+player75 18.3447
+player51 22.5112
+player97 6.56185
+player40 29.2358
+player25 19.0378
+player80 79.7703
+player89 33.392
+player44 17.7191
+player47 34.4191
+player22 61.1147
+player61 79.6938
+player77 28.4343
+player26 10.8931
+player56 18.6073
+player88 23.8616
+player78 82.9278
+player54 89.6427
+player12 28.6183
+player14 94.9543
+player72 15.4743
+Duel: player94 98.9373 vs player72 15.4743 -> player94 98.9373 WINS!
+Duel: player59 68.202 vs player14 94.9543 -> player14 94.9543 WINS!
+Duel: player1 31.5639 vs player12 28.6183 -> player1 31.5639 WINS!
+Duel: player53 80.1609 vs player54 89.6427 -> player54 89.6427 WINS!
+Duel: player10 81.7347 vs player78 82.9278 -> player10 81.7347 WINS!
+Duel: player64 54.6523 vs player88 23.8616 -> player64 54.6523 WINS!
+Duel: player65 73.5554 vs player56 18.6073 -> player65 73.5554 WINS!
+Duel: player31 63.8045 vs player26 10.8931 -> player31 63.8045 WINS!
+Duel: player96 21.6877 vs player77 28.4343 -> player77 28.4343 WINS!
+Duel: player29 82.6922 vs player61 79.6938 -> player29 82.6922 WINS!
+Duel: player91 66.4936 vs player22 61.1147 -> player91 66.4936 WINS!
+Duel: player84 81.055 vs player47 34.4191 -> player47 34.4191 WINS!
+Duel: player11 24.6873 vs player44 17.7191 -> player11 24.6873 WINS!
+Duel: player100 47.7622 vs player89 33.392 -> player100 47.7622 WINS!
+Duel: player24 35.2589 vs player80 79.7703 -> player24 35.2589 WINS!
+Duel: player38 53.4438 vs player25 19.0378 -> player25 19.0378 WINS!
+Duel: player27 33.8357 vs player40 29.2358 -> player27 33.8357 WINS!
+Duel: player16 37.3028 vs player97 6.56185 -> player16 37.3028 WINS!
+Duel: player32 24.7964 vs player51 22.5112 -> player51 22.5112 WINS!
+Duel: player79 46.5541 vs player75 18.3447 -> player79 46.5541 WINS!
+Duel: player49 90.6298 vs player45 72.9418 -> player49 90.6298 WINS!
+Duel: player86 93.275 vs player42 51.106 -> player86 93.275 WINS!
+Duel: player13 48.6611 vs player36 76.8885 -> player36 76.8885 WINS!
+Duel: player6 89.3538 vs player83 87.3618 -> player83 87.3618 WINS!
+Duel: player21 46.0142 vs player52 68.7482 -> player21 46.0142 WINS!
+************* NEXT ROUND ***************
+SHUFFLE
+player65 73.5554
+player83 87.3618
+player94 98.9373
+player25 19.0378
+player11 24.6873
+player27 33.8357
+player91 66.4936
+player54 89.6427
+player77 28.4343
+player10 81.7347
+player51 22.5112
+player64 54.6523
+player100 47.7622
+player16 37.3028
+player1 31.5639
+player49 90.6298
+player24 35.2589
+player31 63.8045
+player14 94.9543
+player79 46.5541
+player29 82.6922
+player36 76.8885
+player86 93.275
+player47 34.4191
+player21 46.0142
+Duel: player65 73.5554 vs player21 46.0142 -> player65 73.5554 WINS!
+Duel: player83 87.3618 vs player47 34.4191 -> player83 87.3618 WINS!
+Duel: player94 98.9373 vs player86 93.275 -> player94 98.9373 WINS!
+Duel: player25 19.0378 vs player36 76.8885 -> player36 76.8885 WINS!
+Duel: player11 24.6873 vs player29 82.6922 -> player29 82.6922 WINS!
+Duel: player27 33.8357 vs player79 46.5541 -> player79 46.5541 WINS!
+Duel: player91 66.4936 vs player14 94.9543 -> player14 94.9543 WINS!
+Duel: player54 89.6427 vs player31 63.8045 -> player31 63.8045 WINS!
+Duel: player77 28.4343 vs player24 35.2589 -> player24 35.2589 WINS!
+Duel: player10 81.7347 vs player49 90.6298 -> player10 81.7347 WINS!
+Duel: player51 22.5112 vs player1 31.5639 -> player51 22.5112 WINS!
+Duel: player64 54.6523 vs player16 37.3028 -> player16 37.3028 WINS!
+************* NEXT ROUND ***************
+SHUFFLE
+player65 73.5554
+player51 22.5112
+player94 98.9373
+player10 81.7347
+player31 63.8045
+player16 37.3028
+player83 87.3618
+player79 46.5541
+player36 76.8885
+player29 82.6922
+player100 47.7622
+player24 35.2589
+player14 94.9543
+Duel: player65 73.5554 vs player14 94.9543 -> player65 73.5554 WINS!
+Duel: player51 22.5112 vs player24 35.2589 -> player24 35.2589 WINS!
+Duel: player94 98.9373 vs player100 47.7622 -> player94 98.9373 WINS!
+Duel: player10 81.7347 vs player29 82.6922 -> player29 82.6922 WINS!
+Duel: player31 63.8045 vs player36 76.8885 -> player31 63.8045 WINS!
+Duel: player16 37.3028 vs player79 46.5541 -> player79 46.5541 WINS!
+************* NEXT ROUND ***************
+SHUFFLE
+player83 87.3618
+player24 35.2589
+player31 63.8045
+player29 82.6922
+player79 46.5541
+player94 98.9373
+player65 73.5554
+Duel: player83 87.3618 vs player65 73.5554 -> player65 73.5554 WINS!
+Duel: player24 35.2589 vs player94 98.9373 -> player24 35.2589 WINS!
+Duel: player31 63.8045 vs player79 46.5541 -> player31 63.8045 WINS!
+************* NEXT ROUND ***************
+SHUFFLE
+player24 35.2589
+player31 63.8045
+player29 82.6922
+player65 73.5554
+Duel: player24 35.2589 vs player65 73.5554 -> player24 35.2589 WINS!
+Duel: player31 63.8045 vs player29 82.6922 -> player29 82.6922 WINS!
+************* NEXT ROUND ***************
+SHUFFLE
+player24 35.2589
+player29 82.6922
+Duel: player24 35.2589 vs player29 82.6922 -> player29 82.6922 WINS!
+Winner: player29 82.6922
+List of wins:
+vs player69 17.3345
+vs player61 79.6938
+vs player11 24.6873
+vs player10 81.7347
+vs player31 63.8045
+vs player24 35.2589

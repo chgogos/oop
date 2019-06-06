@@ -110,7 +110,7 @@ int main(int argc, char *argv[])
     int n = 100;
     if (argc != 2)
     {
-        std::cout << "No argument given, assuming 10 players" << std::endl;
+        std::cout << "No argument given, assuming 100 players" << std::endl;
     }
     else
     {

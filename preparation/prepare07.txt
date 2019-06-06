@@ -1,0 +1,9 @@
+Name: Nikos DOB: 1/1/1980 ACCOUNT_NO: 0001
+Name: Maria DOB: 1/6/1965 ACCOUNT_NO: 0002 Specializations: Algorithms Artificial Intelligence Mathematics  (PROFESSOR)
+Name: Kostas DOB: 2/4/1985 ACCOUNT_NO: 0003 Experience: 10 (ADMINISTRATIVE EMPLOYEE)
+Name: Georgia DOB: 1/3/2003 SEMESTER: 2 (STUDENT)
+List of persons
+Name: Georgia DOB: 1/3/2003 SEMESTER: 2 (STUDENT)
+Name: Kostas DOB: 2/4/1985 ACCOUNT_NO: 0003 Experience: 10 (ADMINISTRATIVE EMPLOYEE)
+Name: Maria DOB: 1/6/1965 ACCOUNT_NO: 0002 Specializations: Algorithms Artificial Intelligence Mathematics  (PROFESSOR)
+Name: Nikos DOB: 1/1/1980 ACCOUNT_NO: 0001

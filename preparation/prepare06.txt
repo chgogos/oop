@@ -1,0 +1,10 @@
+Student kostas enrolls at OOP1
+Student petros enrolls at OOP1
+Student christina enrolls at OOP2
+Student tasos enrolls at OOP2
+Lab: OOP1 # of students: 2
+kostas - OOP1
+petros - OOP1
+Lab: OOP2 # of students: 2
+christina - OOP2
+tasos - OOP2
