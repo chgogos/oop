@@ -38,10 +38,10 @@
   * [Λύση θέματος 1](./preparation/prepare01.cpp)
   * [Λύση θέματος 2](./preparation/prepare02.cpp)
   * [Λύση θέματος 3](./preparation/prepare03.cpp)
-* [Θέματα προόδου ΟΜΑΔΑΣ Α](./preparation/20190415_proodos_a.pdf)
+* [Θέματα προόδου - ΟΜΑΔΑ Α](./preparation/20190415_proodos_a.pdf)
   * [Λύση θέματος Α](./preparation/proodos20190415a_1.cpp)
   * [Λύση θέματος B](./preparation/proodos20190415a_2.cpp)
-* [Θέματα προόδου ΟΜΑΔΑΣ B](./preparation/20190415_proodos_b.pdf)
+* [Θέματα προόδου - ΟΜΑΔΑ B](./preparation/20190415_proodos_b.pdf)
   * [Λύση θέματος Α](./preparation/proodos20190415b_1.cpp)
   * [Λύση θέματος B](./preparation/proodos20190415b_2.cpp)
 * [Εκφωνήσεις ενδεικτικών θεμάτων 2](./preparation/telikes.pdf)
@@ -51,6 +51,12 @@
   * [Λύση θέματος 4](./preparation/prepare06.cpp), [UML διάγραμμα κλάσεων](./uml/uml_aggregation.png)
   * [Δεύτερη λύση θέματος 4 (με δείκτες)](./preparation/prepare06_ptrs.cpp)
   * [Λύση θέματος 5](./preparation/prepare07.cpp), [UML διάγραμμα κλάσεων](./uml/uml_generalization1.png)
+* [Θέματα τελικών εξετάσεων Ιουνίου 2019 - ΟΜΑΔΑ Α]
+  * [Λύση θέματος Α](./preparation/exams20190625_a1.cpp)
+  * [Λύση θέματος B](./preparation/exams20190625_a2.cpp)
+* [Θέματα τελικών εξετάσεων Ιουνίου 2019 - ΟΜΑΔΑ Β]
+  * [Λύση θέματος Α](./preparation/exams20190625_b1.cpp)
+  * [Λύση θέματος B](./preparation/exams20190625_b2.cpp)
   
 ## Live coding
 
