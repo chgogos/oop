@@ -51,10 +51,10 @@
   * [Λύση θέματος 4](./preparation/prepare06.cpp), [UML διάγραμμα κλάσεων](./uml/uml_aggregation.png)
   * [Δεύτερη λύση θέματος 4 (με δείκτες)](./preparation/prepare06_ptrs.cpp)
   * [Λύση θέματος 5](./preparation/prepare07.cpp), [UML διάγραμμα κλάσεων](./uml/uml_generalization1.png)
-* [Θέματα τελικών εξετάσεων Ιουνίου 2019 - ΟΜΑΔΑ Α]
+* [Θέματα τελικών εξετάσεων Ιουνίου 2019 - ΟΜΑΔΑ Α](./preparation/20190625_telikh_exetash_a.pdf)
   * [Λύση θέματος Α](./preparation/exams20190625_a1.cpp)
   * [Λύση θέματος B](./preparation/exams20190625_a2.cpp)
-* [Θέματα τελικών εξετάσεων Ιουνίου 2019 - ΟΜΑΔΑ Β]
+* [Θέματα τελικών εξετάσεων Ιουνίου 2019 - ΟΜΑΔΑ Β](./preparation/20190625_telikh_exetash_b.pdf)
   * [Λύση θέματος Α](./preparation/exams20190625_b1.cpp)
   * [Λύση θέματος B](./preparation/exams20190625_b2.cpp)
   
