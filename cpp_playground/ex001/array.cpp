@@ -24,7 +24,7 @@ int main()
 
     // διάσχιση πίνακα με RANGE BASED FOR (c++11)
     std::cout << "RANGE BASED FOR: ";
-    for (int &x : a) 
+    for (int &x : a)
     {
         int i = &x - &a[0];
         std::cout << "a[" << i << "]=" << x << " ";

@@ -3,9 +3,9 @@
   Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
   Γκόγκος Χρήστος - Άρτα@2019
 
-[ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf)
+<!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2018-2019](./resources/oop_spring_2018_2019.pdf) -->
 
-  τελευταία ενημέρωση: 6/6/2019
+  τελευταία ενημέρωση: 13/2/2020
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
 
@@ -21,7 +21,7 @@
 * STL επαναλήπτες (π.χ. forward iterator)
 * Ανάγνωση απλών διαγραμμάτων κλάσεων UML και μετατροπή σε C++ κώδικα
 
-~~[Αναλυτικά η ύλη της προόδου](./proodos.md)~~
+<!-- ~~[Αναλυτικά η ύλη της προόδου](./proodos.md)~~ -->
 
 [Αναλυτικά η ύλη της τελικής εξέτασης](./final.md)
 
@@ -58,7 +58,7 @@
   * [Λύση θέματος Α](./preparation/exams20190625_b1.cpp)
   * [Λύση θέματος B](./preparation/exams20190625_b2.cpp)
   
-## Live coding
+<!-- ## Live coding
 
 * [2019-02-18](./lc/live_coding_20190218.cpp)
 * [2019-02-22](./lc/live_coding_20190222.cpp)
@@ -72,7 +72,7 @@
 * [2019-04-01a](./lc/live_coding_20190401a.cpp), [2019-04-01b](./lc/live_coding_20190401b.cpp)
 * [2019-04-05](./lc/live_coding_20190405.cpp)
 * [2019-04-08a](./lc/live_coding_20190408a.cpp), [2019-04-08b](./lc/live_coding_20190408b.cpp), [2019-04-08c](./lc/live_coding_20190408c.cpp)
-* [2019-05-06](./lc/live_coding_20190506.cpp)
+* [2019-05-06](./lc/live_coding_20190506.cpp) -->
 
 ## Παραδείγματα κώδικα
 
@@ -91,8 +91,8 @@
 * Απαριθμήσεις - enumerations
   * [enum1.cpp](./cpp_playground/ex030/enum1.cpp) παλιό στυλ
   * [enum2.cpp](./cpp_playground/ex030/enum2.cpp) νέο στυλ - enum classes
-* Παράδειγμα απλής κλάσης (μόνο με δημόσια μέλη) [Main.cpp](./cpp_playground/ex002/Main.cpp)
-* Προεπεξεργαστής [preprocessor.cpp](./cpp_playground/ex001/preprocessor.cpp)
+* Παράδειγμα με struct [struct_simple_example.cpp](./cpp_playground/ex002/struct_simple_example.cpp) και ισοδύναμος κώδικας με κλάση (μόνο με δημόσια μέλη) [class_simple_example.cpp](./cpp_playground/ex002/class_simple_example.cpp)
+* Προ-επεξεργαστής [preprocessor.cpp](./cpp_playground/ex001/preprocessor.cpp)
 * Διάσπαση κώδικα σε header και source αρχεία [Rectangle.h](./cpp_playground/ex003/Rectangle.h), [Rectangle.cpp](./cpp_playground/ex003/Rectangle.cpp), [Main.cpp](./cpp_playground/ex003/Main.cpp)
 * Ενθυλάκωση, ορισμός ιδιωτικών (private) μελών, κατασκευαστές (constructors), καταστροφέας (destructor), προκαθορισμένος κατασκευαστής [Main.cpp](./cpp_playground/ex004/Main.cpp)
 * Η χρήση του const
@@ -381,8 +381,11 @@
 
 ## Σημειώσεις - Συγγράμματα
 
-* [Δομές δεδομένων και αλγόριθμοι με τη C++, Γκόγκος Χρήστος](https://github.com/chgogos/ceteiep_dsa/raw/master/ceteiep_dsa_book.pdf)
+* [The C++ Programming Language (4th Edition)](http://www.stroustrup.com/4th.html)
+* [Η γλώσσα προγραμματισμού C++ (4η αμερικανική έκδοση)](http://www.klidarithmos.gr/h-glwssa-programmatismoy-cplus-4h-ekdosh)
 * [Εισαγωγή στη γλώσσα προγραμματισμού C++14, Σταμάτης Σταματιάδης](https://www.materials.uoc.gr/el/undergrad/courses/ETY215/notes.pdf)
+* [C++ Notes for Professionals book](https://goalkicker.com/CPlusPlusBook/)
+* [Δομές δεδομένων και αλγόριθμοι με τη C++, Γκόγκος Χρήστος](https://github.com/chgogos/ceteiep_dsa/raw/master/ceteiep_dsa_book.pdf)
 
 ## Παρουσιάσεις
 
@@ -411,6 +414,10 @@
 * <https://leetcode.com/>
 * <https://open.kattis.com/>
 * <https://github.com/LegalizeAdulthood/cpp-koans>
+
+## Gamification
+
+* <https://www.sololearn.com/Play/CPlusPlus>
 
 ## Coding styles
 

@@ -5,11 +5,11 @@ using namespace std;
 
 class Player
 {
-  private:
+private:
     int score;
     string name;
 
-  public:
+public:
     Player();
     Player(string, int);
     ~Player();
@@ -68,5 +68,5 @@ int main()
     // (*p).print_info();
     p->print_info();
     p->zap();
-    delete p; // καλείται πρώτα ο destructor για αυτό το αντικείμενο 
+    delete p; // καλείται πρώτα ο destructor για αυτό το αντικείμενο
 }

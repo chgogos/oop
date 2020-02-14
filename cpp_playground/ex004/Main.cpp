@@ -2,11 +2,11 @@
 
 class Player
 {
-  private:
+private:
     std::string name;
     int score;
 
-  public:
+public:
     // default constructor explicitly defined, member initalize list
     Player() : name(""), score(0)
     {
@@ -39,7 +39,7 @@ class Player
     {
         this->score = score;
     }
-    
+
     // other member functions
     void zap()
     {
