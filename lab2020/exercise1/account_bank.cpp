@@ -120,7 +120,6 @@ TEST_CASE("bank class test", "[bank]")
     REQUIRE(a_bank.get_balance("customer46") == 101.5);
 }
 
-
 // int main()
 // {
 //     bank a_bank;
