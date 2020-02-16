@@ -8,13 +8,13 @@
 
 #### Εντολές μεταγλώττισης και εκτέλεσης
 
-    ```cmd
+    ```
     g++ -Wall -std=c++11 -o account_bank account_bank.cpp
     ./account_bank
-
     ```
 
-    ```cmd
+
+    ```
     account_bank is a Catch v2.11.1 host application.
     Run with -? for options
 
