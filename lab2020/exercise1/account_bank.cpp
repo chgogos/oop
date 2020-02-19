@@ -24,13 +24,13 @@ public:
         // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
     }
 
-    string get_name()
+    string get_name() const
     {
         // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
         return "";
     }
 
-    double get_balance()
+    double get_balance() const
     {
         // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
         return -1.0;
