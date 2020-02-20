@@ -2,13 +2,18 @@
 #include <string>
 #include <vector>
 
+/** 
+ * Αν δεν υπάρχει ο deep copy constructor τότε ένας παίκτης (Player) και ένας άλλος παίκτης που έχει 
+ * δημιουργηθεί με copy constructor από τον πρώτο θα μοιράζονται το ίδιο vector νικών (victories) 
+ * δηλαδή αν οι νίκες του ενός αλλάζουν, θα αλλάζουν οι νίκες και του άλλου.
+ * */
 class Player
 {
-  private:
+private:
     std::string name;
     std::vector<int> *victories;
 
-  public:
+public:
     Player(std::string n) : name(n), victories(new std::vector<int>())
     {
         std::cout << "Constructor Player(string) called" << std::endl;
