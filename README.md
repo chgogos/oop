@@ -406,6 +406,7 @@
 
 ## Ενδιαφέρουσες σελίδες
 
+* Παρακολούθηση εκτέλεσης κώδικα <http://pythontutor.com/cpp.html>
 * <https://isocpp.org/get-started>
 * <https://isocpp.org/std/status>
 
