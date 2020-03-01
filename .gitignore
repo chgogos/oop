@@ -1,6 +1,7 @@
 # VSCODE
 *.DS_Store
 .vscode
+tempCodeRunnerFile.cpp
 
 # ignore all files without a dot
 *
