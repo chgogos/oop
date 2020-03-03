@@ -1,3 +1,6 @@
+// Παράδειγμα με copy constructor και στατική μεταβλητή κλάσης
+// Δημιουργία επιπλέον αντικειμένων στηβ μνήμη λόγω του περάσματος με τιμή
+
 #include <iostream>
 #include <vector>
 using namespace std;
