@@ -114,7 +114,9 @@
 * Κατασκευαστής με default τιμή παραμέτρου, το παράδειγμα μιας στοίβας [Stack.cpp](./cpp_playground/ex007/Stack.cpp)
 * Copy constructor (shallow vs deep copy)
   * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
-  * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment
+  * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment με deep copy
+  * [copy_constructor3.cpp](./cpp_playground/ex010/copy_constructor3.cpp) παράδειγμα που το shallow copy είναι αρκετό
+  * [copy_constructor34cpp](./cpp_playground/ex010/copy_constructor3.cpp) παραλλαγή του προηγούμενου παραδείγματος στο οποίο γίνεται δυναμική δέσμευση μνήμης και απαιτείται deep copy
 * "Αόρατες" αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
 * Λίστα αρχικοποίησης (initializer list)
   * [initializer_list1.cpp](./cpp_playground/ex044/initializer_list1.cpp)

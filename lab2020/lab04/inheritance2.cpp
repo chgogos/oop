@@ -10,8 +10,8 @@ private:
 
 public:
     date() : day(1), month(1), year(2020){};
-    date(int d, int m) : day(d), month(m), year(2020){};     // constructor που καλεί τον constructor της βασικής κλάσης
-    date(int d, int m, int y) : day(d), month(m), year(y){}; // constructor που καλεί τον constructor της βασικής κλάσης
+    date(int d, int m) : day(d), month(m), year(2020){};     
+    date(int d, int m, int y) : day(d), month(m), year(y){};
     int get_day() const { return day; }
     int get_month() const { return month; }
     int get_year() const { return year; }
@@ -24,8 +24,8 @@ private:
     string name;
 
 public:
-    holiday(string n) : date(), name(n) {}
-    holiday(string n, int d, int m) : date(d, m), name(n) {}
+    holiday(string n) : date(), name(n) {} // constructor που καλεί τον constructor της βασικής κλάσης
+    holiday(string n, int d, int m) : date(d, m), name(n) {} // constructor που καλεί τον constructor της βασικής κλάσης
     string get_name() const { return name; }
     virtual string desc() const
     {
