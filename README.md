@@ -406,6 +406,12 @@
   * [2019-02-04.pdf](https://www.ece.uvic.ca/~frodo/cppbook/downloads/lecture_slides_for_programming_in_c++-2019-02-04.pdf)
 * [C++ for C programmers - Duncan Mac-Vicar P.](https://en.opensuse.org/images/b/b9/C---for-C-programmers.pdf)
 
+## Tutorials για τη C++
+
+* [Educative.io - Learn C++ from scratch](https://www.educative.io/courses/learn-cpp-from-scratch)
+* [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
+* [cplusplus.com tutorials](http://www.cplusplus.com/doc/tutorial/)
+
 ## Ενδιαφέρουσες σελίδες
 
 * Παρακολούθηση εκτέλεσης κώδικα <http://pythontutor.com/cpp.html>

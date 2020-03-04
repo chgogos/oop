@@ -11,7 +11,7 @@ int main()
     cout << sizeof(a) << endl; // 5 * 4 = 20 bytes;
     cout << sizeof(p) << endl; // 8 bytes;
 
-    *(p + 2) = 99; // αριμητική δεικτών (pointer arithmetic)
+    *(p + 2) = 99; // αριθμητική δεικτών (pointer arithmetic)
 
     for (int i = 0; i < sizeof(a) / sizeof(int); i++)
     {
