@@ -3,16 +3,26 @@
 
 class Stack
 {
-  private:
+private:
     char *data_;
     int top_;
+    int size_;
 
-  public:
+public:
     // κατασκευαστής με προκαθορισμένη τιμή παραμέτρου
-    Stack(size_t s = 10) : top_(-1), data_(new char[s])
+    Stack(size_t s = 10) : top_(-1), size_(s), data_(new char[s])
     {
         std::cout << "Constructor Stack(size_t) called, created stack having size= " << s << std::endl;
     }
+
+    Stack(const Stack &r) : size_(r.size_), top_(r.top_), data_(new char[r.size_])
+    {
+        for (int i = 0; i < size_; i++)
+        {
+            data_[i] = r.data_[i];
+        }
+    }
+
     ~Stack()
     {
         delete[] data_;
@@ -26,15 +36,31 @@ class Stack
 
 int main()
 {
-    char str[] = "ABCDE";
-    Stack s(strlen(str));
-    for (int i = 0; i < 5; i++)
-        s.push(str[i]);
-
-    while (!s.empty())
     {
-        std::cout << s.top() << std::endl;
-        s.pop();
+        // Δημιουργία μιας στοίβας, ώθηση των 5 πρώτων χαρακτήρων του αγγλικού αλφαβήτου
+        char str[] = "ABCDE";
+        Stack s(strlen(str));
+        for (int i = 0; i < 5; i++)
+            s.push(str[i]);
+
+        // απώθηση των στοιχείων της στοίβας μέχρι να αδειάσει η στοίβα
+        while (!s.empty())
+        {
+            std::cout << s.top() << std::endl;
+            s.pop();
+        }
+        // διαγραφή της στοίβας s
     }
+
+    // Δημιουργία μιας στοίβας 100 θέσεων και ώθηση σε αυτή των 5 πρώτων χαρακτήρων του αγγλικού αλφαβήτου
+    Stack s1(100);
+    for (char c : std::string("ABCDE"))
+    {
+        s1.push(c);
+    }
+    Stack s2(s1); // copy constructor (αντιγραφή της στοίβας s1 στην s2, κάθε στοίβα έχει τα δικά της στοιχεία)
+    s2.push('F');
+    std::cout << s1.top() << " " << s2.top() << std::endl;
+    
     return 0;
 }
