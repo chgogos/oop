@@ -61,6 +61,6 @@ int main()
     Stack s2(s1); // copy constructor (αντιγραφή της στοίβας s1 στην s2, κάθε στοίβα έχει τα δικά της στοιχεία)
     s2.push('F');
     std::cout << s1.top() << " " << s2.top() << std::endl;
-    
+    // διαγραφή της στοίβας s2 και της στοίβας s1
     return 0;
 }
