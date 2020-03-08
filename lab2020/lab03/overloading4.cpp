@@ -1,8 +1,10 @@
 // Υπερφόρτωση του τελεστή == για τα αντικείμενα point (2ος τρόπος)
 
 #include <iostream>
+#include <utility> // std::rel_ops
 
 using namespace std;
+using namespace std::rel_ops; // εφόσον οριστεί ο τελεστής ==, ορίζει αυτόματα τον τελεστή !=
 
 class point
 {
@@ -18,9 +20,9 @@ public:
 // υπερφόρτωση του τελεστή == έξω από την κλάση
 bool operator==(const point &p1, const point &p2)
 {
-    // δεν επιτρέπεται πρόσβαση στα ιδιωτικά μέλη _x, _y 
-    // συνεπώς η πρόσβαση σε αυτά πρέπει να γίνει μέσω των 
-    // getters 
+    // δεν επιτρέπεται πρόσβαση στα ιδιωτικά μέλη _x, _y
+    // συνεπώς η πρόσβαση σε αυτά πρέπει να γίνει μέσω των
+    // getters
     return p1.x() == p2.x() && p1.y() == p2.y();
 }
 
@@ -31,5 +33,11 @@ int main()
     if (p1 == p2)
     {
         cout << "EQUAL" << endl;
+    }
+
+    point p3(6, 7);
+    if (p1 != p3)
+    {
+        cout << "NOT EQUAL" << endl;
     }
 }
