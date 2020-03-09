@@ -7,6 +7,15 @@
 
 τελευταία ενημέρωση: 9/3/2020
 
+## ΕΡΓΑΣΤΗΡΙΑ
+
+* [lab2020](./lab2020/)
+
+## ΕΡΓΑΣΙΕΣ ΕΡΓΑΣΤΗΡΙΟΥ
+
+* [1η εργασία](./lab2020/exercise1/20200217_assignment1.pdf)  
+
+
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
 
 * Χειρισμός δεικτών, δέσμευσης/αποδέσμευσης μνήμης
@@ -309,14 +318,6 @@
   * floating points [floating_point.cpp](./cpp_playground/ex079/floating_point.cpp)
   * Όρια τύπων δεδομένων [limits.cpp](./cpp_playground/ex079/limits.cpp)
   * Χειρισμός χρηματικών ποσών μέσω ειδικής κλάσης [money.hpp](./cpp_playground/ex079/money.hpp), [main.cpp](./cpp_playground/ex079/main.cpp)
-
-
-## [ΕΡΓΑΣΤΗΡΙΑ](./lab2020/)
-
-## ΕΡΓΑΣΙΕΣ ΕΡΓΑΣΤΗΡΙΟΥ
-
-* [1η εργασία](./lab2020/exercise1/20200217_assignment1.pdf)  
-
 
 <!-- 
 * Δείκτες σε συναρτήσεις 
