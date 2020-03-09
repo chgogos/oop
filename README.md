@@ -311,41 +311,7 @@
   * Χειρισμός χρηματικών ποσών μέσω ειδικής κλάσης [money.hpp](./cpp_playground/ex079/money.hpp), [main.cpp](./cpp_playground/ex079/main.cpp)
 
 
-## ΕΡΓΑΣΤΗΡΙΟ ΜΑΘΗΜΑΤΟΣ
-
-* [Εργαστήριο 1](./lab2020/lab01/)
-  * [struct1.cpp](./lab2020/lab01/struct1.cpp)
-  * [class1.cpp](./lab2020/lab01/class1.cpp)
-  * [input1.cpp](./lab2020/lab01/input1.cpp)
-  * [input2.cpp](./lab2020/lab01/input2.cpp)
-* [Εργαστήριο 2](./lab2020/lab02/)
-  * [pbv_pbr1.cpp](./lab2020/lab02/pbv_pbr1.cpp)
-  * [pbv_pbr2.cpp](./lab2020/lab02/pbv_pbr2.cpp)
-  * [pbv_pbr3.cpp](./lab2020/lab02/pbv_pbr3.cpp)
-* [Εργαστήριο 3](./lab2020/lab03/)
-  * [overloading1.cpp](./lab2020/lab03/overloading1.cpp)
-  * [overloading2.cpp](./lab2020/lab03/overloading2.cpp)
-  * [overloading3.cpp](./lab2020/lab03/overloading3.cpp)
-  * [overloading4.cpp](./lab2020/lab03/overloading4.cpp)
-  * [overloading5.cpp](./lab2020/lab03/overloading5.cpp)
-  * [overloading6.cpp](./lab2020/lab03/overloading6.cpp)
-  * [overloading7.cpp](./lab2020/lab03/overloading7.cpp)
-  * [overloading8.cpp](./lab2020/lab03/overloading8.cpp)
-* [Εργαστήριο 4](./lab2020/lab04/)
-  * [inheritance1.cpp](./lab2020/lab04/inheritance1.cpp)
-  * [inheritance2.cpp](./lab2020/lab04/inheritance2.cpp)
-  * [inheritance3.cpp](./lab2020/lab04/inheritance3.cpp)
-* [Εργαστήριο 5](./lab2020/lab05/)
-  * [point.hpp](./lab2020/lab05/point.hpp)
-  * [point.cpp](./lab2020/lab05/point.cpp)
-  * [circle.hpp](./lab2020/lab05/circle.hpp)
-  * [circle.cpp](./lab2020/lab05/circle.cpp)
-  * [line_segment.hpp](./lab2020/lab05/line_segment.hpp)
-  * [line_segment.cpp](./lab2020/lab05/line_segment.cpp)
-  * [main.cpp](./lab2020/lab05/main.cpp)
-* [Εργαστήριο 6](./lab2020/lab06/)
-  * [generic_function.cpp](./lab2020/lab06/generic_function.cpp)
-  * [generic_class.cpp](./lab2020/lab06/generic_class.cpp)
+## [ΕΡΓΑΣΤΗΡΙΑ](./lab2020/)
 
 ## ΕΡΓΑΣΙΕΣ ΕΡΓΑΣΤΗΡΙΟΥ
 
