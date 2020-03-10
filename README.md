@@ -15,6 +15,8 @@
 
 * [1η εργασία](./lab2020/exercise1/20200217_assignment1.pdf)
   * [Λύση](./lab2020/exercise1_solution)
+* [2η εργασία](./lab2020/exercise2/20200310_assignment2.pdf)
+  <!-- * [Λύση](./lab2020/exercise2_solution) -->
 
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ

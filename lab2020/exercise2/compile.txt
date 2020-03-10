@@ -1,0 +1,5 @@
+> g++ linked_list.cpp main.cpp -o main -std=c++11
+> ./main
+
+> g++ linked_list.cpp tests.cpp -o tests -std=c++11
+> ./tests
