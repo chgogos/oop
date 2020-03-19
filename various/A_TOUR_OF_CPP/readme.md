@@ -8,7 +8,7 @@
 * copy assignment
 * exceptions
 * try/catch
-* initilizer_list
+* initializer_list
 
 ## concurrency (ταυτοχρονισμός)
 

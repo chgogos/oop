@@ -7,8 +7,10 @@ void f()
     cout << "hello ";
 }
 
-struct F{
-    void operator()(){
+struct F
+{
+    void operator()()
+    {
         cout << "parallel world!";
     }
 };
