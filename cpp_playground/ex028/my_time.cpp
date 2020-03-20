@@ -22,6 +22,30 @@ class MyTime
         std::cout << hour << ":" << minute << ":" << second << std::endl;
     }
 
+
+    MyTime add(const MyTime &t)
+    {
+        MyTime t1;
+        t1.second = this->second + t.second;
+        t1.minute = this->minute + t.minute;
+        t1.hour = this->hour + t.hour;
+        if (t1.second > 59)
+        {
+            t1.second -= 60;
+            t1.minute++;
+        }
+        if (t1.minute > 59)
+        {
+            t1.minute -= 60;
+            t1.hour++;
+        }
+        if (t1.hour > 23)
+        {
+            t1.hour -= 24;
+        }
+        return t1;
+    }
+
     // υπερφόρτωση τελεστή + με συνάρτηση μέλος της κλάσης
     MyTime operator+(const MyTime &t)
     {
@@ -85,6 +109,9 @@ int main()
     std::cin >> t2;
     // t2.set_time();
 
+    // πρόσθεση αντικειμένων χρησιμοποιώντας τη συνάρτηση μέλους add
+    // t3 = t1.add(t2);
+
     // χρήση υπερφορτωμένου τελεστή +
     t3 = t1 + t2;
 
@@ -103,3 +130,14 @@ int main()
 
     return 0;
 }
+
+/* output
+Enter time Α (3 values): Enter hour, minute, second 10 30 50
+Enter time Β (3 values): 9 40 50
+A + B (show result using member function)
+20:11:40
+A + B (show result using <<)
+20:11:40
+A + B (show result using string conversion)
+20:11:40
+*/
