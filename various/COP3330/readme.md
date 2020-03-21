@@ -1,5 +1,7 @@
 # COP3330
 
+Σημειώσεις μαθήματος βασισμένες στο
+
 [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/)
 
 ## Lecture 1
@@ -34,3 +36,6 @@
 * [sample2.cpp](./lect2/sample2.cpp)
 * [sample3.cpp](./lect2/sample3.cpp)
 * [sample4.cpp](./lect2/sample4.cpp)
+
+## Lecture 3
+
