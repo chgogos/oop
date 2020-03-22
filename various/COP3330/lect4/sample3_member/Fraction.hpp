@@ -9,7 +9,6 @@ public:
     void SetNumerator(int n);
     void SetDenominator(int d);
     void Show();
-    double ToDecimal();
     bool Equals(Fraction other);
     Fraction Add(Fraction other);
     void Input();

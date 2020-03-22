@@ -44,11 +44,6 @@ void Fraction::SetDenominator(int d)
         denom = 1;
 }
 
-double Fraction::ToDecimal()
-{
-    return (double)numer / denom;
-}
-
 void Fraction::Show()
 {
     cout << numer << '/' << denom << endl;
@@ -70,7 +65,7 @@ Fraction Fraction::Add(Fraction other)
 }
 
 void Fraction::Input()
-// Λήψης ενός κλάσματος από την προκαθορισμένη είσοδο, στη μορφή "αριθμητής/παρονομαστής."
+// Λήψη ενός κλάσματος από την προκαθορισμένη είσοδο, στη μορφή "αριθμητής/παρονομαστής"
 // Γίνεται έλεγχος ορθής εισαγωγής τιμών
 {
     char divSign; // χρησιμοποιείται για να καταναλώσει τον χαρακτήρα '/' κατά την είσοδο
@@ -99,7 +94,7 @@ bool Fraction::SetValue(int n, int d)
 }
 
 double Fraction::Evaluate()
-// Υπολογίζει και επιστρέφει τη δεκαδική τιμή ενός κλάσματος
+// Υπολογίζει και επιστρέφει τη δεκαδική τιμή του κλάσματος
 {
     double n = numer;
     double d = denom;
