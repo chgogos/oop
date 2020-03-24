@@ -50,8 +50,16 @@ int main()
 
     std::cout << "Area: " << area(c) << std::endl;
     std::cout << "Perimeter: " << perimeter(c) << std::endl;
-    std::cout << (is_point_inside(c, 0.0,9.99)?"YES":"NO") << std::endl;
-    std::cout << (is_point_inside(c, 0.0,10.01)?"YES":"NO") << std::endl;
+    std::cout << (is_point_inside(c, 0.0, 9.99) ? "YES" : "NO") << std::endl;
+    std::cout << (is_point_inside(c, 0.0, 10.01) ? "YES" : "NO") << std::endl;
     // δημιουργία εγγραφής τύπου circle χωρίς να ανατεθεί σε μεταβλητή
-    std::cout << (is_point_inside(circle{7.2,3.9,16.2}, 8.0,19.01)?"YES":"NO") << std::endl;
+    std::cout << (is_point_inside(circle{7.2, 3.9, 16.2}, 8.0, 19.01) ? "YES" : "NO") << std::endl;
 }
+
+/*
+Area: 314.159
+Perimeter: 62.8318
+YES
+NO
+YES
+*/

@@ -64,3 +64,16 @@ int main()
         pets[i]->make_sound();
     }
 }
+
+/* έξοδος
+Alf: woof!
+(Alf wags tail)
+Alf: woof!
+(Alf wags tail)
+Tom: miao!
+Tom: miao!
+Vector with pets
+Alf: woof!
+(Alf wags tail)
+Tom: miao!
+*/

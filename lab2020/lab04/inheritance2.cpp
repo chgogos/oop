@@ -64,3 +64,11 @@ int main()
     fun2(h);  // It's Christmas 25/12/2020
     fun3(&h); // It's Christmas 25/12/2020
 }
+
+/* έξοδος
+Christmas 25/12/2020
+25/12/2020
+It's 25/12/2020
+It's Christmas 25/12/2020
+It's Christmas 25/12/2020
+*/

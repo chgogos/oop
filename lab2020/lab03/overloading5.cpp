@@ -13,3 +13,11 @@ int main()
         cout << "Shift left " << i << " positions gives " << y << endl; // τελεστής εισαγωγής (insertion operator)
     }
 }
+
+/* έξοδος
+Shift left 0 positions gives 5
+Shift left 1 positions gives 10
+Shift left 2 positions gives 20
+Shift left 3 positions gives 40
+Shift left 4 positions gives 80
+*/

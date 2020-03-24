@@ -77,3 +77,20 @@ int main()
     std::cout << (circle(7.2, 3.9, 16.2).is_point_inside(8.0, 19.01) ? "YES" : "NO") << std::endl;
     std::cout << (circle{7.2, 3.9, 16.2}.is_point_inside(8.0, 19.01) ? "YES" : "NO") << std::endl;
 }
+
+/* έξοδος
+The circle at memory position 0x62fd90 is created
+The circle at memory position 0x62fd90 is destroyed
+The circle at memory position 0x62fdb0 is created
+Area: 314.159
+Perimeter: 62.8318
+YES
+NO
+The circle at memory position 0x62fdd0 is created
+YES
+The circle at memory position 0x62fdd0 is destroyed
+The circle at memory position 0x62fdf0 is created
+YES
+The circle at memory position 0x62fdf0 is destroyed
+The circle at memory position 0x62fdb0 is destroyed
+*/

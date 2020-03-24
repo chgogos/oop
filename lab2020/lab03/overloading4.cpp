@@ -41,3 +41,8 @@ int main()
         cout << "NOT EQUAL" << endl;
     }
 }
+
+/* έξοδος
+EQUAL
+NOT EQUAL
+*/

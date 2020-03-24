@@ -68,3 +68,14 @@ int main()
 
     delete p2;
 }
+
+/* έξοδος
+Nikos 42
+Nikos 43
+Nikos 44
+Nikos 45
+Maria 42
+Maria 43
+Maria 44
+Maria 45
+*/

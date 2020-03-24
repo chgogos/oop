@@ -30,3 +30,9 @@ int main()
         cout << "EQUAL" << endl;
     }
 }
+
+/* έξοδος
+EQUAL
+EQUAL
+EQUAL
+*/

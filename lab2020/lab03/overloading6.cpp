@@ -25,3 +25,7 @@ int main()
     point p{5, 7};
     cout << p << endl;
 }
+
+/*
+(5,7)
+*/
