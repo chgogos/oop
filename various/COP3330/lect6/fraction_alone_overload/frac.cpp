@@ -14,6 +14,24 @@ Fraction operator+(const Fraction &f1, const Fraction &f2)
     return r;
 }
 
+bool operator==(const Fraction &f1, const Fraction &f2)
+{
+    return (f1.numerator * f2.denominator == f2.numerator * f1.denominator);
+}
+
+ostream &operator<<(ostream &os, const Fraction &f)
+{
+    os << f.numerator << '/' << f.denominator;
+    return os;
+}
+
+istream &operator>>(istream &is, Fraction &f)
+{
+    char slash;
+    is >> f.numerator >> slash >> f.denominator;
+    return is;
+}
+
 // συναρτήσεις μέλη
 
 Fraction::Fraction()

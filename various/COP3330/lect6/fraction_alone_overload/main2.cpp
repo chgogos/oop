@@ -24,31 +24,31 @@ int main()
     f4 = Fraction(2) + f3;
 
     cout << "\nThe fraction f1 is ";
-    f1.Show();
+    cout << f1;
 
     cout << "\nThe fraction f2 is ";
-    f2.Show();
+    cout << f2;
 
     cout << "\nThe fraction f3 is ";
-    f3.Show();
+    cout << f3;
 
     cout << "\nThe fraction f4 is ";
-    f4.Show();
+    cout << f4;
 
     cout << "\nNow enter first fraction: ";
-    f1.Input();
+    cin >> f1;
     cout << "You entered ";
-    f1.Show();
+    cout << f1;
 
     cout << "\nNow enter second fraction: ";
-    f2.Input();
+    cin >> f2;
     cout << "You entered ";
-    f2.Show();
+    cout << f2;
 
     cout << "\nThe sum of the first and second fraction is ";
     Fraction result;
     result = f1 + f2;
-    result.Show();
+    cout << result;
 
     cout << "\nThe value of fraction 1 is " << f1.Evaluate();
     cout << "\nThe value of fraction 2 is " << f2.Evaluate() << '\n';

@@ -1,8 +1,13 @@
 //--------------- FRAC.H ---------------
+#include <iostream>
+using namespace std;
 
 class Fraction
 {
     friend Fraction operator+(const Fraction &f1, const Fraction &f2);
+    friend bool operator==(const Fraction &f1, const Fraction &f2);
+    friend ostream& operator<<(ostream& os, const Fraction& f);
+    friend istream& operator>>(istream& is, Fraction& f);
 
 public:
     Fraction();                 //  Θέτει numerator = 0, denominator = 1.
