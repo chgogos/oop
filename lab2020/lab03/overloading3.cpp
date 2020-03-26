@@ -22,7 +22,7 @@ public:
 
 int main()
 {
-    point p1{5, 7};
+    point p1(5, 7);
     point p2(5, 7);
     if (p1 == p2)
     {

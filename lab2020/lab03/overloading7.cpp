@@ -25,7 +25,7 @@ ostream &operator<<(ostream &s, const point &p)
 
 int main()
 {
-    point p{5, 7};
+    point p(5, 7);
     cout << p << endl;
 }
 

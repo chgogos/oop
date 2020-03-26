@@ -38,7 +38,7 @@ istream &operator>>(istream &s, point &p)
 
 int main()
 {
-    point p{0, 0};
+    point p(0, 0);
     cout << "Enter two integer values for specifying a point: ";
     cin >> p;
     if (!cin){

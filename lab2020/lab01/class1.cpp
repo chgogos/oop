@@ -17,13 +17,13 @@ private:
     double radius;
 
 public:
-    // 1ος constructor με λίστα αρχικοποίησης μελών (member initializer list)
+    // 1ος constructor με λίστα αρχικοποίησης μελών (member initialization list)
     circle() : center_x(0.0), center_y(0.0), radius(1.0)
     {
         std::cout << "The circle at memory position " << this << " is created" << std::endl;
     }
 
-    // 2ος constructor με λίστα αρχικοποίησης μελών (member initializer list)
+    // 2ος constructor με λίστα αρχικοποίησης μελών (member initialization list)
     circle(double c_x, double c_y, double r) : center_x(c_x), center_y(c_y), radius(r)
     {
         std::cout << "The circle at memory position " << this << " is created" << std::endl;

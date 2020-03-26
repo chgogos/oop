@@ -22,13 +22,13 @@ bool operator==(const point &p1, const point &p2)
 {
     // δεν επιτρέπεται πρόσβαση στα ιδιωτικά μέλη _x, _y
     // συνεπώς η πρόσβαση σε αυτά πρέπει να γίνει μέσω των
-    // getters
+    // getters (ή να δηλωθεί ως φίλη της κλάσης point)
     return p1.x() == p2.x() && p1.y() == p2.y();
 }
 
 int main()
 {
-    point p1{5, 7};
+    point p1(5, 7);
     point p2(5, 7);
     if (p1 == p2)
     {
