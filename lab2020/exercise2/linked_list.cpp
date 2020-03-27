@@ -5,6 +5,7 @@ using namespace std;
 
 linked_list::linked_list() : head(nullptr) {}
 
+// copy constructor
 linked_list::linked_list(const linked_list &ll)
 {
     head = nullptr;
