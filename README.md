@@ -28,6 +28,7 @@
 
 * [1η εργασία](./lab2020/exercise1/20200217_assignment1.pdf)
   * [Λύση](./lab2020/exercise1_solution)
+  * [2η λύση με διαμέριση κώδικα](./lab2020/exercise1_solution2)
 * [2η εργασία](./lab2020/exercise2/20200310_assignment2.pdf)
   <!-- * [Λύση](./lab2020/exercise2_solution) -->
 
