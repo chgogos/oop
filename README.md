@@ -1,6 +1,7 @@
 # Αντικειμενοστραφής Προγραμματισμός (OOP=Object Oriented Programming) με χρήση της C++
 
   Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
+  
   Γκόγκος Χρήστος - Άρτα@2020
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
@@ -26,14 +27,15 @@
 
 ## ΕΡΓΑΣΙΕΣ ΕΡΓΑΣΤΗΡΙΟΥ
 
-* [1η εργασία](./lab2020/exercise1/20200217_assignment1.pdf)
-  * [Λύση](./lab2020/exercise1_solution/account_bank.cpp)
+* [1η εργασία - εκφώνηση](./lab2020/exercise1/20200217_assignment1.pdf)
+  * Λύση
+    * [accout_bank.cpp](./lab2020/exercise1_solution/account_bank.cpp)
   * 2η λύση με διαμέριση κώδικα
     * [account_bank.hpp](./lab2020/exercise1_solution2/account_bank.hpp)
     * [account_bank.cpp](./lab2020/exercise1_solution2/account_bank.cpp)
     * [main.cpp](./lab2020/exercise1_solution2/main.cpp)
     * [tests.cpp](./lab2020/exercise1_solution2/tests.cpp)
-* [2η εργασία](./lab2020/exercise2/20200310_assignment2.pdf)
+* [2η εργασία - εκφώνηση](./lab2020/exercise2/20200310_assignment2.pdf)
   <!-- * [Λύση](./lab2020/exercise2_solution) -->
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
