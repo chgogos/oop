@@ -1,0 +1,1 @@
+cout << "size of char * = " << sizeof(char *) << endl;
