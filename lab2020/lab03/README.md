@@ -1,6 +1,6 @@
 # Εργαστήριο 3
 
-Υπερφόρτωση, υπερφότρωση τελεστών
+Υπερφόρτωση, υπερφόρτωση τελεστών
 
 * [overloading1.cpp](./overloading1.cpp)
 * [overloading2.cpp](./overloading2.cpp)
