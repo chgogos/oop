@@ -18,3 +18,7 @@
 
 * [simple_fmt_example](./simple_fmt_example/main.cpp)
 * <https://fmt.dev/latest/index.html>
+
+## Επιπλέον παραδείγματα
+
+* [tmp1.cpp](./tmp/tmp1.cpp)

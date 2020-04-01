@@ -1,5 +1,15 @@
+/*
+    1/4/2020
+    
+    Κλάση order (παραγγελία) με δύο πεδία (πλήθος αντικειμένων παραγγελίας και τιμή ανά αντικείμενο)
+    1 constructor
+    Υπερφόρτωση τελεστών ==, <, <<
+    Ταξινόμηση με τη sort
+*/
+
 #include <iostream>
 #include <utility>
+#include <algorithm>
 
 using namespace std;
 using namespace std::rel_ops;
@@ -65,7 +75,8 @@ int main()
 
     sort(a, a + 4);
 
-    for (int i = 0; i < 4; i++){
+    for (int i = 0; i < 4; i++)
+    {
         // a[i].print();
         cout << a[i] << endl;
     }
