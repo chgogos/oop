@@ -24,8 +24,8 @@ const int date2020::days_per_month[12] = {
 
 date2020::date2020()
 {
-    d = m = -1;
-    // ΝΑ ΔΙΑΦΡΑΦΕΙ Η ΠΡΟΗΓΟΥΜΕΝΗ ΓΡΑΜΜΗ ΚΑΙ ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ Ο ΚΩΔΙΚΑΣ
+    d = 1;
+    m = 1;
 }
 
 date2020::date2020(int dd)
@@ -71,8 +71,8 @@ void date2020::print()
 
 string date2020::get_day_name()
 {
-    return "UNKNOWN";
-    // ΝΑ ΔΙΑΦΡΑΦΕΙ Η ΠΡΟΗΓΟΥΜΕΝΗ ΓΡΑΜΜΗ ΚΑΙ ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ Ο ΚΩΔΙΚΑΣ
+    int idx = (first_day_of_year + get_days_in_year() - 1) % 7;
+    return day_names[idx];
 }
 
 int date2020::get_days_in_year()
