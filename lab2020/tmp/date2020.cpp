@@ -28,10 +28,16 @@ date2020::date2020()
     m = 1;
 }
 
-date2020::date2020(int dd)
+date2020::date2020(int dd) : d(1), m(1)
 {
-    d = m = -1;
-    // ΝΑ ΔΙΑΦΡΑΦΕΙ Η ΠΡΟΗΓΟΥΜΕΝΗ ΓΡΑΜΜΗ ΚΑΙ ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ Ο ΚΩΔΙΚΑΣ
+    if (dd < 1)
+    {
+        cout << "invalid date" << endl;
+        d = -1;
+        m = -1;
+        return;
+    }
+    plus_days(dd - 1);
 }
 
 date2020::date2020(int dd, int mm)
@@ -70,7 +76,29 @@ int date2020::get_month()
 
 void date2020::plus_days(int dd)
 {
-    // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
+    int month_index = m - 1;
+    int day_index = d;
+    for (int i = 0; i < dd; i++)
+    {
+        if (day_index == days_per_month[month_index])
+        {
+            day_index = 1;
+            month_index++;
+            if (month_index == 12)
+            {
+                d = -1;
+                m = -1;
+                cout << "Invalid date" << endl;
+                return;
+            }
+        }
+        else
+        {
+            day_index++;
+        }
+    }
+    d = day_index;
+    m = month_index + 1;
 }
 
 void date2020::print()

@@ -13,17 +13,16 @@ int main()
 
     date2020 d3(30, 2); // invalid date
 
-    // date2020 d4(100); 
-    // d4.print();
+    date2020 d4(100); 
+    d4.print();
 
-    // date2020 d5(200); 
-    // d5.print();
+    date2020 d5(200); 
+    d5.print();
 
-    // date2020 d6(300); 
-    // d6.print();
+    date2020 d6(300); 
+    d6.print();
 
-    // date2020 d7(400); 
-    // d7.print();
+    date2020 d7(400); 
 
     // for (int i = 0; i < 60; i++)
     // {
