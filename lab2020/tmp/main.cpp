@@ -24,11 +24,10 @@ int main()
 
     date2020 d7(400); 
 
-    // for (int i = 0; i < 60; i++)
-    // {
-    //     date2020 d(1,4); 
-    //     d.plus_days(i);
-    //     d.print();
-    // }
-
+    for (int i = 0; i < 60; i++)
+    {
+        date2020 d(1,4); 
+        d.plus_days(i);
+        d.print();
+    }
 }
