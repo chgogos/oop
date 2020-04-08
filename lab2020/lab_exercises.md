@@ -22,7 +22,9 @@
   * Με μια επανάληψη πραγματοποιήστε κλήση της make_safe για όλα τα αντικείμενα.
   * Εμφανίστε όλα τα αντικείμενα.
 
-[Λύση άσκησης 1](./lab_ex1.cpp)
+### Λύση άσκησης 1
+
+* [cargo_example.cpp](./lab_ex1/cargo_example.cpp)
 
 ---
 
@@ -38,7 +40,12 @@
 * Προσθέστε unit tests με το catch2 έτσι ώστε να ελέγχεται η ορθή υλοποίηση της συνάρτησης make_safe(). Δημιουργήστε για το λόγο αυτό το αρχείο tests.cpp.
 <!-- * Χρησιμοποιήστε τη βιβλιοθήκη fmt για εμφάνιση αποτελεσμάτων στην οθόνη. -->
 
-[Λύση επιπλέον ερωτημάτων άσκησης 1](./lab_ex1_sol)
+### Λύση επιπλέον ερωτημάτων άσκησης 1
+
+* [cargo.hpp](./lab_ex1_sol/cargo.hpp)
+* [cargo.cpp](./lab_ex1_sol/cargo.cpp)
+* [driver.cpp](./lab_ex1_sol/driver.cpp)
+* [tests.cpp](./lab_ex1_sol/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση ..)
 
 ## Άσκηση 2
 
@@ -79,7 +86,7 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 ./tests
 ```
 
-### Λύση άσκησης
+### Λύση άσκησης 2
 
 * [date2020.hpp](./lab_ex2_sol/date2020.hpp)
 * [date2020.cpp](./lab_ex2_sol/date2020.cpp)
