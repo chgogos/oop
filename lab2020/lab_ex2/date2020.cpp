@@ -24,19 +24,19 @@ const int date2020::days_per_month[12] = {
 
 date2020::date2020()
 {
-    d=m=-1;
+    d = m = -1;
     // ΝΑ ΔΙΑΦΡΑΦΕΙ Η ΠΡΟΗΓΟΥΜΕΝΗ ΓΡΑΜΜΗ ΚΑΙ ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ Ο ΚΩΔΙΚΑΣ
 }
 
 date2020::date2020(int dd)
 {
-    d=m=-1;
+    d = m = -1;
     // ΝΑ ΔΙΑΦΡΑΦΕΙ Η ΠΡΟΗΓΟΥΜΕΝΗ ΓΡΑΜΜΗ ΚΑΙ ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ Ο ΚΩΔΙΚΑΣ
 }
 
 date2020::date2020(int dd, int mm)
 {
-    d=m=-1;
+    d = m = -1;
     // ΝΑ ΔΙΑΦΡΑΦΕΙ Η ΠΡΟΗΓΟΥΜΕΝΗ ΓΡΑΜΜΗ ΚΑΙ ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ Ο ΚΩΔΙΚΑΣ
 }
 
@@ -56,7 +56,7 @@ int date2020::get_month()
 
 void date2020::plus_days(int dd)
 {
-// ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
+    // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
 }
 
 void date2020::print()
@@ -64,7 +64,7 @@ void date2020::print()
     if (m == -1 || d == -1)
         cerr << "Invalid date" << endl;
     else
-        cout << d << " " << month_names[m-1] << " " << 2020 << " ("
+        cout << d << " " << month_names[m - 1] << " " << 2020 << " ("
              << get_day_name()
              << " - " << get_days_in_year() << ")" << endl;
 }
