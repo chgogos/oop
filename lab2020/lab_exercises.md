@@ -67,7 +67,7 @@
 * [date2020.hpp](./lab_ex2/date2020.hpp)
 * [date2020.cpp](./lab_ex2/date2020.cpp)
 * [main.cpp](./lab_ex2/main.cpp)
-* [tests.cpp](./lab_ex2/tests.cpp)
+* [tests.cpp](./lab_ex2/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση ..)
 
 Η μεταγλώττιση και η εκτέλεση του προγράμματος γίνεται ως εξής:
 
@@ -78,3 +78,10 @@ $ g++ date2020.cpp main.cpp -o main -std=c++11
 $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 ./tests
 ```
+
+### Λύση άσκησης
+
+* [date2020.hpp](./lab_ex2_sol/date2020.hpp)
+* [date2020.cpp](./lab_ex2_sol/date2020.cpp)
+* [main.cpp](./lab_ex2_sol/main.cpp)
+* [tests.cpp](./lab_ex2_sol/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση ..)
