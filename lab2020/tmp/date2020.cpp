@@ -36,8 +36,22 @@ date2020::date2020(int dd)
 
 date2020::date2020(int dd, int mm)
 {
-    d = m = -1;
-    // ΝΑ ΔΙΑΦΡΑΦΕΙ Η ΠΡΟΗΓΟΥΜΕΝΗ ΓΡΑΜΜΗ ΚΑΙ ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ Ο ΚΩΔΙΚΑΣ
+    if (mm < 1 || mm > 12)
+    {
+        cout << "invalid date" << endl;
+        d = -1;
+        m = -1;
+        return;
+    }
+    if (dd < 1 || dd > days_per_month[mm - 1])
+    {
+        cout << "invalid date" << endl;
+        d = -1;
+        m = -1;
+        return;
+    }
+    d = dd;
+    m = mm;
 }
 
 //  getters
