@@ -32,6 +32,7 @@ TEST_CASE("linked_list3", "[bubble_sort]")
         ll.push_front(x);
     }
     ll.bubble_sort();
+    CHECK(ll.length() == 7);
     int sa[] = {11, 16, 22, 23, 70, 78, 90};
     for (int x : sa)
     {
@@ -50,6 +51,7 @@ TEST_CASE("linked_list4", "[copy constructor]")
     }
     linked_list ll2(ll1);
     int l = ll1.length();
+    CHECK(l == 7);
     for (int i = 0; i < l; i++)
     {
         REQUIRE(ll1.front()->data == ll2.front()->data);
