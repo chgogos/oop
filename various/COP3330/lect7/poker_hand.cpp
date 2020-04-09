@@ -31,7 +31,7 @@ public:
 
 private:
     int suit;
-    int value; /* 1-12 */
+    int value; /* 1-13 */
 };
 
 Card::Card(int s, int v)
