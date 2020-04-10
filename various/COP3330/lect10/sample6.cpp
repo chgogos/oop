@@ -21,5 +21,6 @@ int main()
     for (int i = 0; i < val; i++)
         cout << "*" << MyIntArray[i] << "\n";
 
+    delete [] MyIntArray;
     return 0;
 }
