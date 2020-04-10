@@ -50,7 +50,7 @@ TEST_CASE("linked_list4", "[copy constructor]")
         ll1.push_front(x);
     }
     linked_list ll2(ll1);
-    int l = ll1.length();
+    int l = ll2.length();
     CHECK(l == 7);
     for (int i = 0; i < l; i++)
     {
