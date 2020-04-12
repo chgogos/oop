@@ -92,3 +92,11 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 * [date2020.cpp](./lab_ex2_sol/date2020.cpp)
 * [main.cpp](./lab_ex2_sol/main.cpp)
 * [tests.cpp](./lab_ex2_sol/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση ..)
+
+## Άσκηση 3
+
+Θέμα 2 από τα [θέματα προετοιμασίας](https://chgogos.github.io/oop/preparation/proodos.pdf) (κληρονομικότητα)
+
+<!-- ### Λύση
+
+<https://chgogos.github.io/oop/preparation/prepare02.cpp> -->

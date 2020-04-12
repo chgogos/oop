@@ -34,7 +34,7 @@
 
 * [1η εργασία - εκφώνηση](./lab2020/exercise1/20200217_assignment1.pdf)
   * Λύση
-    * [accout_bank.cpp](./lab2020/exercise1_solution/account_bank.cpp)
+    * [account_bank.cpp](./lab2020/exercise1_solution/account_bank.cpp)
   * 2η λύση με διαμέριση κώδικα
     * [account_bank.hpp](./lab2020/exercise1_solution2/account_bank.hpp)
     * [account_bank.cpp](./lab2020/exercise1_solution2/account_bank.cpp)
