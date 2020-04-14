@@ -39,8 +39,10 @@ public:
     virtual string sound() const { return "miao"; }
 };
 
-// αν η παράμετρος της συνάρτησης δεν είναι reference, και το πέρασμα γίνεται με τιμή, ο compiler δεν επιτρέπει τη μεταγλώττιση
-void make_sound_twice(const pet &a_pet)
+// αν η παράμετρος της συνάρτησης δεν ήταν reference, τότε το πέρασμα θα γινόταν με τιμή και θα δημιουργούταν 
+// ένα νέο αντικείμενο pet. Ωστόσο, ο compiler δεν επιτρέπει τη μεταγλώττιση καθώς η κλάση pet είναι abstract 
+// και συνεπώς δεν μπορεί να δημιουργεί αντικείμενα.
+void make_sound_twice(const pet& a_pet)
 {
     a_pet.make_sound();
     a_pet.make_sound();
@@ -49,6 +51,7 @@ void make_sound_twice(const pet &a_pet)
 int main()
 {
     // pet p; // object of abstract class type "pet" is not allowed: -- function "pet::sound" is a pure virtual function
+    
     dog a_dog("Alf");
     cat a_cat("Tom");
 

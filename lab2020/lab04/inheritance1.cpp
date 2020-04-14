@@ -44,7 +44,7 @@ int main()
     Student p2("John", 20, 1);
     p2.say("Hi");
 
-    Person &p3 = p2;
+    Person &p3 = p2; // αναφορά προς ήδη υπάρχον αντικείμενο
     p3.say("Hi");
 
     Person *p4 = new Student("Peter", 22, 7);
