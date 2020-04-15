@@ -51,12 +51,39 @@ public:
         else
             return 600.0;
     }
+    friend ostream &operator<<(ostream &os, const truck &a_truck)
+    {
+        os << a_truck.registration_number << " " << a_truck.owner_name << " " << a_truck.cc << " " << a_truck.max_weight;
+        return os;
+    }
 };
+
+double total_tax(vehicle *v[5])
+{
+    double sum = 0.0;
+    for (int i = 0; i < 5; i++){
+        sum += v[i]->traffic_tax();
+    }
+    return sum;
+}
 
 int main()
 {
     car c("234", "maria", 1205.0, 5);
-    cout << c <<  " pays " << c.traffic_tax() << endl;
+    cout << c << " pays " << c.traffic_tax() << endl;
     truck t("345", "giorgos", 4500.0, 2000.0);
-    cout << t.traffic_tax() << endl;
+    cout << t << " pays " << t.traffic_tax() << endl;
+
+    car c1("111", "kiki", 1405.0, 5);
+    car c2("222", "giannis", 1905.0, 5);
+    car c3("333", "petros", 805.0, 4);
+
+    vehicle *a[5];
+    a[0]=&c;
+    a[1]=&t;
+    a[2]=&c1;
+    a[3]=&c2;
+    a[4]=&c3;
+    cout << "TOTAL TAX=" << total_tax(a) << endl;
+
 }
