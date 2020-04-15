@@ -20,7 +20,10 @@ private:
 public:
     car(string r_n, string o_n, double _cc, int nod) : vehicle(r_n, o_n, _cc), number_of_doors(nod) {}
     double traffic_tax() {
-        return 0.0;
+        if (cc<=1000.0)
+            return 140.0;
+        else 
+            return 140.0 + (int)((cc-1000.0)/100.0) * 10.0;
     }
 };
 
@@ -37,7 +40,7 @@ public:
 
 int main()
 {
-    car c("234", "maria", 1200.0, 5);
+    car c("234", "maria", 1205.0, 5);
     cout << c.traffic_tax() << endl;
     truck t("345", "giorgos", 4500.0, 2000.0);
     cout << t.traffic_tax() << endl;
