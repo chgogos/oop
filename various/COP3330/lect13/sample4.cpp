@@ -22,3 +22,10 @@ int main()
 
   return 0;
 }
+
+/*
+buffer = Dog
+word2 = food
+buffer = Dogfood
+buffer = Dogfood breath
+*/
