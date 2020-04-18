@@ -4,19 +4,21 @@
 
 ## Boost.Any
 
+* [any.cpp](any.cpp)
+
 ## Boost.ProgramOptions
 
 Χειρισμός ορισμάτων γραμμής εντολής με το Boost.ProgramOptions
 
-* [boost01.cpp](boost1.cpp)
+* [program_options.cpp](program_options.cpp)
 
     ```sh
-    $ g++ boost01.cpp -o boost01 -lboost_program_options
-    $ ./boost01 --help
+    $ g++ program_options.cpp -o program_options -lboost_program_options
+    $ ./program_options --help
     Program options:
     -h [ --help ]         print info
     --option1 arg         dummy option parameter 1
-    $ ./boost01 --option1 5
+    $ ./program_options --option1 5
     Option1 parameter value set to 5
     ```
 
