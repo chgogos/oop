@@ -21,7 +21,7 @@
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf) 10/04/2020
 * [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf) 10/04/2020
 
-### Επιπλέον παρουσίασεις
+### Επιπλέον παρουσιάσεις
 
 * [Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf)
 
