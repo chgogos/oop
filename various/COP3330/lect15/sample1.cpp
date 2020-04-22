@@ -2,7 +2,8 @@
 using namespace std;
 
 /*
-Try this sample with virtual just on Person::Hello(), then virtual just on Student::Hello(),
+Try this sample with virtual just on Person::Hello(), 
+then virtual just on Student::Hello(),
 then virtual just on UGrad::Hello()
 */
 class Person
