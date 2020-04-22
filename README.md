@@ -484,7 +484,13 @@
 ## C++ Guidelines
 
 * [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
-* [GSL: Guidelines Support Library (by Microsoft)](https://github.com/Microsoft/GSL)
+* GSL: Guidelines Support Library
+  * [Microsoft GSL](https://github.com/Microsoft/GSL)
+
+## Static code analysis
+
+* [cppcheck](http://cppcheck.sourceforge.net/)
+* [clang static analyzer](http://clang-analyzer.llvm.org/)
 
 ## Test Driven Development
 
@@ -521,7 +527,7 @@
 ## Λογισμικά - εργαλεία
 
 * Μεταγλωττιστές για τη C++
-  * Visual C++ 2017 Community Edition <https://visualstudio.microsoft.com/vs/features/cplusplus/>
+  * Visual Studio with C++ 2019 Community Edition <https://visualstudio.microsoft.com/vs/features/cplusplus/>
   * gcc <https://gcc.gnu.org/>
     * <http://www.mingw.org/>
     * <http://tdm-gcc.tdragon.net/>
