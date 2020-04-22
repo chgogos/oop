@@ -13,10 +13,10 @@ void Student::PrintReport()
     cout << "This is a general student report.\n";
 }
 
-class Grad
+class Grad : public Student
 {
 public:
-    void PrintReport(); /* overrides Student::PrintReport */
+    void PrintReport(); 
 };
 
 void Grad::PrintReport()
@@ -24,10 +24,10 @@ void Grad::PrintReport()
     cout << "This is a graduate student report.\n";
 }
 
-class UGrad
+class UGrad : public Student
 {
 public:
-    void PrintReport(); /* overrides Student::PrintReport */
+    void PrintReport(); 
 };
 
 void UGrad::PrintReport()
