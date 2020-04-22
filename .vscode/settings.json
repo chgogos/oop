@@ -98,7 +98,8 @@
         "valarray": "cpp",
         "memory_resource": "cpp",
         "cfenv": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "any": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#b52e31",
