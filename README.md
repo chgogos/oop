@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 15/04/2020
+τελευταία ενημέρωση: 22/04/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -20,6 +20,15 @@
 * [Παρουσίαση 8 - Πίνακες αντικειμένων](./OOP8.pdf) 09/04/2020
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf) 10/04/2020
 * [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf) 10/04/2020
+* [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf)
+* [Παρουσίαση 12 - Κατασκευαστής αντιγραφής και αντιγραφή μέσω ανάθεσης](./OOP12.pdf) 
+* Παρουσίαση 13 - Λεκτικά και ο τελεστής []
+<!-- * [Παρουσίαση 13 - Λεκτικά και ο τελεστής []](./OOP13.pdf)  -->
+* [Παρουσίαση 14 - Κληρονομικότητα](./OOP14.pdf) 
+* [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf)
+<!-- * [Παρουσίαση 16 - Πρότυπα](./OOP16.pdf)  -->
+  
+Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή του υλικού έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια των μαθημάτων [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/) 
 
 ### Επιπλέον παρουσιάσεις
 
@@ -484,7 +493,13 @@
 ## C++ Guidelines
 
 * [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
-* [GSL: Guidelines Support Library (by Microsoft)](https://github.com/Microsoft/GSL)
+* GSL: Guidelines Support Library
+  * [Microsoft GSL](https://github.com/Microsoft/GSL)
+
+## Static code analysis
+
+* [cppcheck](http://cppcheck.sourceforge.net/)
+* [clang static analyzer](http://clang-analyzer.llvm.org/)
 
 ## Test Driven Development
 
@@ -521,7 +536,7 @@
 ## Λογισμικά - εργαλεία
 
 * Μεταγλωττιστές για τη C++
-  * Visual C++ 2017 Community Edition <https://visualstudio.microsoft.com/vs/features/cplusplus/>
+  * Visual Studio with C++ 2019 Community Edition <https://visualstudio.microsoft.com/vs/features/cplusplus/>
   * gcc <https://gcc.gnu.org/>
     * <http://www.mingw.org/>
     * <http://tdm-gcc.tdragon.net/>
