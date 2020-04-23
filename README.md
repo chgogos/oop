@@ -59,6 +59,7 @@
     * [tests.cpp](./lab2020/exercise1_solution2/tests.cpp)
 * [2η εργασία - εκφώνηση](./lab2020/exercise2/20200310_assignment2.pdf)
   <!-- * [Λύση](./lab2020/exercise2_solution) -->
+* [3η εργασία - εκφώνηση](./lab2020/exercise2/20200423_assignment3.pdf)
 
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
