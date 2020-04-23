@@ -26,6 +26,7 @@
 <!-- * [Παρουσίαση 13 - Λεκτικά και ο τελεστής []](./OOP13.pdf)  -->
 * [Παρουσίαση 14 - Κληρονομικότητα](./OOP14.pdf) 23/04/2020
 * [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf)
+* [Παρουσίαση 16 - Πρότυπα]
 <!-- * [Παρουσίαση 16 - Πρότυπα](./OOP16.pdf)  -->
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
@@ -49,7 +50,7 @@
 
 ## ΕΡΓΑΣΙΕΣ ΕΡΓΑΣΤΗΡΙΟΥ
 
-* [1η εργασία - εκφώνηση](./lab2020/exercise1/20200217_assignment1.pdf)
+* [1η εργασία - εκφώνηση](./lab2020/exercise1/20200217_assignment1.pdf) ~~προθεσμία παράδοσης: 8/3/2020~~
   * Λύση
     * [account_bank.cpp](./lab2020/exercise1_solution/account_bank.cpp)
   * 2η λύση με διαμέριση κώδικα
@@ -57,9 +58,9 @@
     * [account_bank.cpp](./lab2020/exercise1_solution2/account_bank.cpp)
     * [main.cpp](./lab2020/exercise1_solution2/main.cpp)
     * [tests.cpp](./lab2020/exercise1_solution2/tests.cpp)
-* [2η εργασία - εκφώνηση](./lab2020/exercise2/20200310_assignment2.pdf)
+* [2η εργασία - εκφώνηση](./lab2020/exercise2/20200310_assignment2.pdf) προθεσμία παράδοσης: 30/4/2020
   <!-- * [Λύση](./lab2020/exercise2_solution) -->
-* [3η εργασία - εκφώνηση](./lab2020/exercise3/20200423_assignment3.pdf)
+* [3η εργασία - εκφώνηση](./lab2020/exercise3/20200423_assignment3.pdf) προθεσμία παράδοσης: 17/5/2020
 
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
