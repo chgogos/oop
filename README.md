@@ -28,7 +28,7 @@
 * [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf)
 <!-- * [Παρουσίαση 16 - Πρότυπα](./OOP16.pdf)  -->
   
-Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή του υλικού έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια των μαθημάτων [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/) 
+Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
 ### Επιπλέον παρουσιάσεις
 
