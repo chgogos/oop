@@ -97,6 +97,6 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 
 Θέμα 2 από τα [θέματα προετοιμασίας](https://chgogos.github.io/oop/preparation/proodos.pdf) (κληρονομικότητα)
 
-<!-- ### Λύση
+### Λύση άσκησης 3
 
-<https://chgogos.github.io/oop/preparation/prepare02.cpp> -->
+* <https://chgogos.github.io/oop/preparation/prepare02.cpp>
