@@ -12,3 +12,9 @@ int main()
     cout << any_of(begin(v1), end(v1), [](int elem) { return elem % 2 != 0; }) << endl;
     cout << none_of(begin(v1), end(v1), [](int elem) { return elem % 2 != 0; }) << endl;
 }
+
+/*
+0
+0
+1
+*/

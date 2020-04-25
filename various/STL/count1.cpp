@@ -26,3 +26,9 @@ int main()
     twos = count(begin(v), end(v), target);
     cout << "Twos = " << twos << endl;
 }
+
+/*
+Twos = 4
+Twos = 4
+Twos = 4
+*/
