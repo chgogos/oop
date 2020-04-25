@@ -16,3 +16,7 @@ int main()
         cout << "found " << *result << " at position " << result - begin(v) << endl;
     }
 }
+
+/*
+found 2 at position 5
+*/
