@@ -1,5 +1,20 @@
 # ΑΣΚΗΣΗ C++ και SQLite
 
+## Λύση άσκησης
+
+* Μεταγλώττιση του κώδικα C++ (main.cpp, model.cpp) με g++
+
+* [model.hpp](./model.hpp)
+* [model.cpp](./model.cpp)
+* [main1.cpp](./main1.cpp)
+
+    ```bash
+    $ g++ main1.cpp model.cpp -o main1 -std=c++17
+    ./main1
+    ```
+
+## Επιπλέον ερωτήματα
+
 1. Download SQLite amalgamation <https://www.sqlite.org/download.html>
 2. Δημιουργία του shell της SQLite3
 
@@ -23,10 +38,10 @@
 
 * [model.hpp](./model.hpp)
 * [model.cpp](./model.cpp)
-* [main.cpp](./main.cpp)
+* [main2.cpp](./main2.cpp)
 
     ```bash
-    $ g++ main.cpp model.cpp sqlite3.o -o main -std=c++17
+    $ g++ main2.cpp model.cpp sqlite3.o -o main2 -std=c++17
     ```
 
 5. Εκτέλεση
@@ -34,7 +49,7 @@
 * επιλογή 1
   
     ```bash
-    .\main
+    .\main2
     1. drop tables, create and populate DB
     2. retrieve data from DB
     1
@@ -44,7 +59,7 @@
 * επιλογή 2
 
     ```bash
-    .\main
+    .\main2
     1. drop tables, create and populate DB
     2. retrieve data from DB
     2
