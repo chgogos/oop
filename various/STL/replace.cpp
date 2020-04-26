@@ -24,3 +24,9 @@ int main()
     replace_if(begin(v), end(v), [](int elem) {return (elem%2==0); }, 0);
     print_vector(v);
 }
+
+/*
+1 2 3 4 5 6 7 8 9 10 
+1 2 3 4 -5 6 7 8 9 10 
+1 0 3 0 -5 0 7 0 9 0
+*/

@@ -16,3 +16,8 @@ int main()
     reverse_copy(begin(s), end(s), begin(s2));
     cout << s2 << endl;
 }
+
+/*
+!tset a si sihT
+This is a test!xxxxxxxxxxxxxxx
+*/

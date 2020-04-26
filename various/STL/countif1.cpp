@@ -20,3 +20,8 @@ int main()
     odds = count_if(begin(v), end(v), [](int elem) { return elem % 2 != 0; });
     cout << "Odds = " << odds << endl; 
 } 
+
+/*
+Odds = 2
+Odds = 2
+*/

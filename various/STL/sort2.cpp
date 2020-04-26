@@ -78,3 +78,43 @@ int main()
         cout << *p << endl;
     }
 }
+
+/*
+highest payed: Petros 2500 euro
+lowest payed: John 900 euro
+
+
+SORT BY SALARY
+John 900 euro
+Maria 1000 euro
+Anna 1000 euro
+Chris 1000 euro
+Kostas 1000 euro
+Panayiotis 1000 euro
+George 1000 euro
+Bill 2000 euro
+Aris 2000 euro
+Petros 2500 euro
+highest payed: Petros 2500 euro
+lowest payed: John 900 euro
+
+SORT BY NAME
+Anna 1000 euro
+Aris 2000 euro
+Bill 2000 euro
+Chris 1000 euro
+George 1000 euro
+John 900 euro
+Kostas 1000 euro
+Maria 1000 euro
+Panayiotis 1000 euro
+Petros 2500 euro
+
+Search for Chris (upper_bound)
+Chris 1000 euro
+George 1000 euro
+
+Search for Chris (lower_bound)
+George 1000 euro
+Chris 1000 euro
+*/

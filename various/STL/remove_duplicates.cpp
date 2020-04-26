@@ -14,3 +14,7 @@ int main(){
     v.erase(unique(begin(v), end(v)), end(v));
     print_vector(v);
 }
+
+/*
+1 2 3 4 5 
+*/

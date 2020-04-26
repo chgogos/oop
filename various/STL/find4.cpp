@@ -29,3 +29,12 @@ int main()
     if (result != end(v))
         cout << "6. (adjacent_find): " << *result << " at position " << result - begin(v) << endl;
 }
+
+/*
+1. (find_if): 2 at position 1
+2. (find_if_not): 1 at position 0
+3. (find_first_of): 7 at position 2
+4. (search): 1 at position 7
+5. (search_n): 4 at position 12
+6. (adjacent_find): 3 at position 4
+*/

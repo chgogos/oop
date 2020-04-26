@@ -11,3 +11,7 @@ int main()
     int longmonths = count_if(begin(months2020), end(months2020), [](pair<int,int> elem) { return elem.second == 31; });
     cout << "long months = " << longmonths << endl;
 }
+
+/*
+long months = 7
+*/

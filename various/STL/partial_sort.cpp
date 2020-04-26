@@ -31,3 +31,9 @@ int main()
     nth_element(begin(v4), begin(v4) + 3, end(v4));
     cout << *(begin(v4) + 3) << endl;
 }
+
+/*
+0 1 1 2 2 8 6 6 5 9 4 3 3 
+0 1 1 
+2
+*/

@@ -42,3 +42,12 @@ int main()
     reverse_copy(begin(s), end(s), back_inserter(r));
     cout << r << endl;
 }
+
+/*
+1 1 1 1 1 
+1 1 1 1 1 0 1 2 3 4 
+4 3 2 1 0 1 2 3 0 1 2 3 4 
+0 2 4 
+abc
+ccccbbbbaaaaa
+*/
