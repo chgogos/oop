@@ -23,7 +23,7 @@
 * [shell.c](./shell.c)
 
     ```bash
-    $ gcc shell.c sqlite3.c -o sqlite3 -lpthread -ldl
+    $ gcc shell.c sqlite3.c -o sqlite3 -lpthread
     $ ./sqlite3
     sqlite> .quit
     ```
