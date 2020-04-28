@@ -31,7 +31,7 @@
 3. Μεταγλώττιση του sqlite3.c με gcc και δημιουργία του αρχείου αντικειμένου sqlite3.o
 
     ```bash
-    $ gcc sqlite3.c -c -lpthread -ldl
+    $ gcc sqlite3.c -c -lpthread
     ```
 
 4. Μεταγλώττιση του κώδικα C++ (main.cpp, model.cpp) με g++
