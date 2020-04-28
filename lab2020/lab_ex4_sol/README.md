@@ -76,3 +76,28 @@
     PRODUCT: SSD QTY: 1 PRICE: 90.5
     #####################################################
     ```
+
+    ## Πρόσβαση στα δεδομένα του προγράμματος μέσω του shell της SQLite3
+
+    ```bash
+    $ ./sqlite3
+    SQLite version 3.31.1 2020-01-27 19:55:54
+    Enter ".help" for usage hints.
+    Connected to a transient in-memory database.
+    Use ".open FILENAME" to reopen on a persistent database.    sqlite> .open test.db
+    sqlite> select * from orders;
+    0001|2020-01-05 10:07:07|2020-01-07 12:01:01|Athens
+    0002|2020-02-07 12:20:01|2020-02-17 19:30:20|Ioannina
+    0003|2020-02-08 10:20:11|2020-02-15 12:35:22|Arta
+    sqlite> select * from line_items;
+    TV|1|550.0|0001
+    A4 PAPER|5|10.5|0001
+    Microphone|2|50.5|0001
+    CAMERA|1|230.0|0002
+    WIFI|1|55.9|0002
+    SSD|1|90.5|0003
+    sqlite> select * from orders, line_items where number=order_fk and number='0001';
+    0001|2020-01-05 10:07:07|2020-01-07 12:01:01|Athens|A4 PAPER|5|10.5|0001
+    0001|2020-01-05 10:07:07|2020-01-07 12:01:01|Athens|Microphone|2|50.5|0001
+    0001|2020-01-05 10:07:07|2020-01-07 12:01:01|Athens|TV|1|550.0|0001
+    ```
