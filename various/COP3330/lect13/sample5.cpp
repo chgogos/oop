@@ -41,7 +41,7 @@ int main()
   MyClass c2;
   int num;
 
-  num = c1[5]; //line 32
+  num = c1[5];
   cout << num << endl;
 
   c2[2] = 8;
