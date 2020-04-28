@@ -84,7 +84,8 @@
     SQLite version 3.31.1 2020-01-27 19:55:54
     Enter ".help" for usage hints.
     Connected to a transient in-memory database.
-    Use ".open FILENAME" to reopen on a persistent database.    sqlite> .open test.db
+    Use ".open FILENAME" to reopen on a persistent database.    
+    sqlite> .open test.db
     sqlite> select * from orders;
     0001|2020-01-05 10:07:07|2020-01-07 12:01:01|Athens
     0002|2020-02-07 12:20:01|2020-02-17 19:30:20|Ioannina
