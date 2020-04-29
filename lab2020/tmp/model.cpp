@@ -1,5 +1,7 @@
 #include "model.hpp"
 #include <iostream>
+#include <ctime>
+#include <iomanip>
 
 using namespace std;
 
@@ -40,6 +42,9 @@ order::order(string n, string o, string s, string st) : number(n), ship_to(st) {
 }
 
 void order::print(){
-    cout << "NUMBER: " << number << " ORDERED: " << ordered 
-        << " SHIPPED: " << shipped << " SHIP_TO: " << ship_to << endl;
+    cout << "NUMBER: " << number << " ORDERED: " << 
+        put_time(localtime(&ordered), "%Y-%m-%d %H:%M:%S") 
+        << " SHIPPED: " << 
+        put_time(localtime(&shipped), "%Y-%m-%d %H:%M:%S") 
+        << " SHIP_TO: " << ship_to << endl;
 }
