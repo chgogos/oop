@@ -1,4 +1,6 @@
 #include <string>
+#include <ctime>
+#include <vector>
 
 using namespace std;
 
@@ -16,4 +18,13 @@ public:
 
 class order
 {
+    private:
+        string number;
+        time_t ordered;
+        time_t shipped;
+        string ship_to;
+        vector<line_item> line_items;
+    public:
+        order(string n, string o, string s, string st);
+        void print();
 };
