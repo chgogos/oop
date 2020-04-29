@@ -105,10 +105,26 @@ int main()
 {
   Derived obj;
   obj.fun1();  // κλήση συνάρτησης μέλους που έχει επαναοριστεί (override) στην Derived
-  obj.fun2();  // κλήση συνάρτησης μέλους που έχει κληρονομηθεί από την Base1
+  obj.fun2();  // κλήση συνάρτησης μέλους που έχει κληρονομηθεί από την Base2
   obj.fun3();  // κλήση overloaded συνάρτησης μέλους
   obj.fun3(2); // κλήση overloaded συνάρτησης μέλους
   obj.fun();   // κλήση συνάρτησης που έχει οριστεί στην Base1 και Base2 (επιλογή του Base1)
   obj.print_data_members();
   return 0;
 }
+
+/*
+Base1::Base1(int) constructor called
+Base2::Base2(int) constructor called
+Derived::Derived(int,int,int) constructor called
+Base::fun1 called
+Base2::fun2 called
+Derived::fun3 called
+Derived::fun3(int) called
+Base1::fun called
+Base1::a=3
+Base1::x=4
+Base2::b=3
+Base2::x=5
+Derived::c=3
+*/

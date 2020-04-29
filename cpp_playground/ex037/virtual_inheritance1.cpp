@@ -62,3 +62,12 @@ int main()
     std::cout << ta << " [size of object = " << sizeof(ta) << " bytes]" << std::endl;
     return 0;
 }
+
+/*
+Person(string) constructor called
+Teacher(string, string) constructor called
+Person(string) constructor called
+Student(string, int) constructor called
+TeachingAssistant(string, string, int) constructor called
+semester: 1 specialty: programming PAYED [size of object = 80 bytes]
+*/

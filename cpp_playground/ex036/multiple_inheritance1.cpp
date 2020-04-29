@@ -64,3 +64,14 @@ int main()
     obj.print_data_members();
     return 0;
 }
+
+
+/*
+Base1::Base1(int) constructor called
+Base2::Base2(int) constructor called
+Derived::Derived(int,int,int) constructor called
+Base1::fun1 called
+Base2::fun2 called
+Derived::fun3 called
+Derived::c=1
+*/
