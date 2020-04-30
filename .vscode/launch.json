@@ -18,7 +18,7 @@
             "preLaunchTask": "g++ build active file"
         },
         {
-            "name": "(gdb) Launch",
+            "name": "(gdb) Launch - Windows10 - minGW",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -28,7 +28,7 @@
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "E:\\MinGW\\bin\\gdb.exe",
+            "miDebuggerPath": "E:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
