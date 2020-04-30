@@ -560,3 +560,9 @@
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
   * <https://cmake.org/>
   * <https://github.com/pr0g/cmake-examples>
+
+
+## DEBUG 
+
+* [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG) ΜΕ VSCODE](./various/DEBUG) 
+<!-- * [DEBUG ΠΑΡΑΔΕΙΓΜΑΤΑ ΜΕ VISUAL STUDIO COMMUNITY](./various/DEBUG) -->

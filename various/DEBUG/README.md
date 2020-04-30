@@ -8,3 +8,5 @@
 * <https://code.visualstudio.com/docs/cpp/launch-json-reference>
 
 ## Visual Studio
+
+* Ανοίξτε με το Visual Studio Community τον φάκελο 
