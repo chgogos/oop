@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 27/04/2020
+τελευταία ενημέρωση: 30/04/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -556,6 +556,7 @@
         Run in Terminal: enable
         Save All Files Before Run: enable
     Ctrl + Alt + N => compiles and executes current file
+    ```
 
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
   * <https://cmake.org/>
