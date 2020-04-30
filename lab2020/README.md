@@ -20,16 +20,16 @@
 * <https://fmt.dev/latest/index.html>
 
 
-## Ανάγνωση αρχείου με Ελληνικά
+## Ανάγνωση αρχείου με αγγλικό και ελληνικό κείμενο
 
 ### Windows
 
-* Στα Windows το αρχείο έχει κωδικοποίηση Windows-1253 π.χ. [test_windows1253.txt](./simple_read_file_example/test_windows1253.txt)
+* Στα Windows το αρχείο μπορεί να έχει κωδικοποίηση Windows-1253 π.χ. [test_windows1253.txt](./simple_read_file_example/test_windows1253.txt)
 * [readfile1.cpp](./simple_read_file_example/readfile1.cpp)
 
 ### Linux + MacOS
 
-* Το αρχείο έχει κωδικοποίηση UTF-8 π.χ. [test_UTF8.txt](./simple_read_file_example/test_UTF8.txt)
+* Στo Linux και στο MacOS το αρχείο μπορεί να έχει κωδικοποίηση UTF-8 π.χ. [test_UTF8.txt](./simple_read_file_example/test_UTF8.txt)
 * [readfile2.cpp](./simple_read_file_example/readfile2.cpp)
 
 
