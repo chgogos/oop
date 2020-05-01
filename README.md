@@ -59,14 +59,14 @@
     * [account_bank.cpp](./lab2020/exercise1_solution2/account_bank.cpp)
     * [main.cpp](./lab2020/exercise1_solution2/main.cpp)
     * [tests.cpp](./lab2020/exercise1_solution2/tests.cpp)
-    * [catch.cpp](./lab2020/catch.hpp)
+    * [catch.hpp](./lab2020/catch.hpp)
 * [2η εργασία - εκφώνηση](./lab2020/exercise2/20200310_assignment2.pdf) προθεσμία παράδοσης: ~~30/4/2020~~
   * Λύση
     * [linked_list.hpp](./lab2020/exercise2_solution/linked_list.hpp)
     * [linked_list.cpp](./lab2020/exercise2_solution/linked_list.cpp)
     * [main.cpp](./lab2020/exercise2_solution/main.cpp)
     * [tests.cpp](./lab2020/exercise2_solution/tests.cpp)
-    * [catch.cpp](./lab2020/catch.hpp)
+    * [catch.hpp](./lab2020/catch.hpp)
 * [3η εργασία - εκφώνηση](./lab2020/exercise3/20200423_assignment3.pdf) προθεσμία παράδοσης: 17/5/2020
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
