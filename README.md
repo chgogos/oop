@@ -38,7 +38,7 @@
 
 ### BONUS
 
-Η ολοκλήρωση της παρακολούθησης του Tutorial της Sololearn για τη C++  <https://www.sololearn.com/Course/CPlusPlus/> και η λήψη του αντίστοιχου δωρεάν διαθέσιμου πιστοποιητικού μέχρι τις 30/4/2020
+Η ολοκλήρωση της παρακολούθησης του Tutorial της Sololearn για τη C++  <https://www.sololearn.com/Course/CPlusPlus/> και η λήψη του αντίστοιχου δωρεάν διαθέσιμου πιστοποιητικού μέχρι τις ~~30/4/2020~~
 δίνει τη δυνατότητα +1 βαθμού bonus στη θεωρία του μαθήματος με τις ακόλουθες προϋποθέσεις:
 
 1. Ο βαθμός της τελικής εξέτασης στη θεωρία του μαθήματος στο τέλος του εξαμήνου να είναι από 5 και άνω.
@@ -54,13 +54,19 @@
 * [1η εργασία - εκφώνηση](./lab2020/exercise1/20200217_assignment1.pdf) ~~προθεσμία παράδοσης: 8/3/2020~~
   * Λύση
     * [account_bank.cpp](./lab2020/exercise1_solution/account_bank.cpp)
-  * 2η λύση με διαμέριση κώδικα
+  * Δεύτερη λύση με διαμέριση κώδικα
     * [account_bank.hpp](./lab2020/exercise1_solution2/account_bank.hpp)
     * [account_bank.cpp](./lab2020/exercise1_solution2/account_bank.cpp)
     * [main.cpp](./lab2020/exercise1_solution2/main.cpp)
     * [tests.cpp](./lab2020/exercise1_solution2/tests.cpp)
-* [2η εργασία - εκφώνηση](./lab2020/exercise2/20200310_assignment2.pdf) προθεσμία παράδοσης: 30/4/2020
-  <!-- * [Λύση](./lab2020/exercise2_solution) -->
+    * [catch.cpp](./lab2020/catch.hpp)
+* [2η εργασία - εκφώνηση](./lab2020/exercise2/20200310_assignment2.pdf) προθεσμία παράδοσης: ~~30/4/2020~~
+  * Λύση
+    * [linked_list.hpp](./lab2020/exercise2_solution/linked_list.hpp)
+    * [linked_list.cpp](./lab2020/exercise2_solution/linked_list.cpp)
+    * [main.cpp](./lab2020/exercise2_solution/main.cpp)
+    * [tests.cpp](./lab2020/exercise2_solution/tests.cpp)
+    * [catch.cpp](./lab2020/catch.hpp)
 * [3η εργασία - εκφώνηση](./lab2020/exercise3/20200423_assignment3.pdf) προθεσμία παράδοσης: 17/5/2020
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
