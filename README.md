@@ -26,9 +26,9 @@
 * [Παρουσίαση 14 - Κληρονομικότητα](./OOP14.pdf) 23/04/2020
 * [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf) 24/04/2020
 * [Παρουσίαση 16 - Πρότυπα](./OOP16.pdf)
-
-<!-- * [Παρουσίαση 17 - Συνδεδεμένες λίστες](./OOP17.pdf)
-* [Παρουσίαση 18 - Εξαιρέσεις](./OOP18.pdf) -->
+* Παρουσίαση 17 - Συνδεδεμένες λίστες
+<!-- * [Παρουσίαση 17 - Συνδεδεμένες λίστες](./OOP17.pdf) -->
+* [Παρουσίαση 18 - Εξαιρέσεις](./OOP18.pdf)
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
@@ -68,6 +68,8 @@
     * [tests.cpp](./lab2020/exercise2_solution/tests.cpp)
     * [catch.hpp](./lab2020/catch.hpp)
 * [3η εργασία - εκφώνηση](./lab2020/exercise3/20200423_assignment3.pdf) προθεσμία παράδοσης: 17/5/2020
+  * [academic_year_2019_2020_semester4_windows1253.txt](./lab2020/exercise3/academic_year_2019_2020_semester4_windows1253.txt)
+  * [academic_year_2019_2020_semester4.txt](./lab2020/exercise3/academic_year_2019_2020_semester4.txt)
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
 
