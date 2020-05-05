@@ -1,5 +1,6 @@
-#include "linked_list.hpp"
 #include <iostream>
+#include "linked_list.hpp"
+
 using namespace std;
 
 int main()
