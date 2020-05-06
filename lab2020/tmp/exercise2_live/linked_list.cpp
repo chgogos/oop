@@ -49,8 +49,14 @@ void linked_list::print()
 
 int linked_list::length()
 {
-    // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
-    return -1;
+    int c = 0;
+    node *current = head;
+    while (current != nullptr)
+    {
+        c++;
+        current = current->next;
+    }
+    return c;
 }
 
 int linked_list::sum()
