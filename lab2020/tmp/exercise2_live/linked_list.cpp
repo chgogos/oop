@@ -73,7 +73,11 @@ int linked_list::sum()
 
 void linked_list::erase_front()
 {
-    // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
+    if (head == nullptr)
+        return;
+    node* temp = head;
+    head = head->next;
+    delete temp;
 }
 
 void linked_list::push_back(int d)
