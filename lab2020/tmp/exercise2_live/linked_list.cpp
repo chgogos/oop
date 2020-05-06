@@ -61,8 +61,14 @@ int linked_list::length()
 
 int linked_list::sum()
 {
-    // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
-    return -1;
+    int sum = 0;
+    node *current = head;
+    while (current != nullptr)
+    {
+        sum += current->data;
+        current = current->next;
+    }
+    return sum;
 }
 
 void linked_list::erase_front()
