@@ -65,43 +65,60 @@ int main()
   // test search, output (aaaa, 1), (cccc, 20), (dddd, 5), NULL
   cout << "test search, output (aaaa, 1), (cccc, 20), (dddd, 5), NULL\n";
   listnode *ttt = a.search("aaaa");
-  if (ttt) ttt->print();  
+  if (ttt)
+    ttt->print();
   ttt = a.search("cccc");
-  if (ttt) ttt->print();  
+  if (ttt)
+    ttt->print();
   ttt = a.search("dddd");
-  if (ttt) ttt->print();  
-  ttt= a.search("eee");
-  if (ttt != NULL) {cout << "Something is wrong\n"; exit(0);}
-  else {cout << "eee is not in the list.\n";}
+  if (ttt)
+    ttt->print();
+  ttt = a.search("eee");
+  if (ttt != NULL)
+  {
+    cout << "Something is wrong\n";
+    exit(0);
+  }
+  else
+  {
+    cout << "eee is not in the list.\n";
+  }
 
   // test findmaxcount
   cout << "test findmaxcount, output (cccc, 20)\n";
   ttt = a.findmaxcount();
-  if (ttt) ttt->print();
+  if (ttt)
+    ttt->print();
 
   // test remove maxcount
   cout << "test findmaxcount, output (bbbb, 10)\n";
   a.removemaxcount();
   ttt = a.findmaxcount();
-  if (ttt) ttt->print();
+  if (ttt)
+    ttt->print();
   cout << "the list after removemaxcount is :\n";
   a.print();
-  
+
   // test searchandinc
   cout << "test searchandinc, output (aaaa, 2), (bbbb, 12), (dddd, 6)\n";
-  if (!a.searchandinc("aaaa")) {
+  if (!a.searchandinc("aaaa"))
+  {
     cout << "aaaa is not in the list\n";
   }
-  if (!a.searchandinc("bbbb")) {
+  if (!a.searchandinc("bbbb"))
+  {
     cout << "bbbb is not in the list\n";
   }
-  if (!a.searchandinc("bbbb")) {
+  if (!a.searchandinc("bbbb"))
+  {
     cout << "bbbb is not in the list\n";
   }
-  if (!a.searchandinc("cccc")) {
+  if (!a.searchandinc("cccc"))
+  {
     cout << "cccc is not in the list, no inc\n";
   }
-  if (!a.searchandinc("dddd")) {
+  if (!a.searchandinc("dddd"))
+  {
     cout << "dddd is not in the list\n";
   }
   a.print();
@@ -170,7 +187,6 @@ int main()
   cout << "list after insertafter:\n";
   c.print();
 
-
   // test removepos
   cout << "test removepos.\n";
   cout << "remove  (yyy, 100), (item0, 100), (ooo, 100)\n";
@@ -190,5 +206,89 @@ int main()
   ttt = c.search("item9");
   c.remove(ttt);
   cout << "list after removepos:\n";
-  c.print();  
+  c.print();
 }
+
+
+/*
+test default constructor, print an empty list:
+list has no item.
+test insertfront, output ("ccc", 1), ("bbb", 1) ("aaaa", 1).
+insertfront is not supported.
+insertfront is not supported.
+insertfront is not supported.
+list has no item.
+test insertback, add ("dddd", 1), ("eeee", 1).
+(dddd, 1)
+(eeee, 1)
+test removefront, remove ("ccc", 1), ("bbb", 1).
+(eeee, 1)
+list has no item.
+test removeback, remove ("eeee", 1), ("dddd", 1).
+removeback is not supported.
+removeback is not supported.
+list has no item.
+list to be used to test front, back, length, search ...:
+(bbbb, 10)
+(cccc, 20)
+(dddd, 5)
+test front, output (aaaa, 1).
+(bbbb, 10)
+test back, output (dddd, 1).
+back is not supported.
+(, 0)
+test length, output 4.
+length = 3
+test search, output (aaaa, 1), (cccc, 20), (dddd, 5), NULL
+(cccc, 20)
+(dddd, 5)
+eee is not in the list.
+test findmaxcount, output (cccc, 20)
+findmaxcount is not supported.
+test findmaxcount, output (bbbb, 10)
+removemaxcount is not supported.
+findmaxcount is not supported.
+the list after removemaxcount is :
+(bbbb, 10)
+(cccc, 20)
+(dddd, 5)
+test searchandinc, output (aaaa, 2), (bbbb, 12), (dddd, 6)
+searchandinc is not supported.
+searchandinc is not supported.
+searchandinc is not supported.
+searchandinc is not supported.
+searchandinc is not supported.
+(bbbb, 10)
+(cccc, 20)
+(dddd, 5)
+content of list:
+(item0, 10)
+(item1, 10)
+(item2, 10)
+(item3, 10)
+(item4, 10)
+(item5, 10)
+(item6, 10)
+(item7, 10)
+(item8, 10)
+(item9, 10)
+test deep-copy copy constructor, output the list again
+copy constructor is not supported.
+copy constructor is not supported.
+list has no item.
+test assignment, outputlist again
+copy constructor is not supported.
+= operator is not supported.
+list has no item.
+test insertpos.
+insertpos (000, 1) at pos 0
+insertpos (444, 2) at pos 4
+insertpos is not supported.
+insertpos is not supported.
+list after insertpos:
+list has no item.
+test insertbefore.
+insertbefore (xxx, 100) before item3
+insertbefore (yyy, 100) before 000
+insertbefore: can't insert before a NULL pointer.
+*/
