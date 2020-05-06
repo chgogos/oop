@@ -82,7 +82,21 @@ void linked_list::erase_front()
 
 void linked_list::push_back(int d)
 {
-    // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
+    node *new_node = new node;
+    new_node->data = d;
+    new_node->next = nullptr;
+
+    if (head == nullptr)
+    {
+        head = new_node;
+        return;
+    }
+    node *current = head;
+    while (current->next != nullptr)
+    {
+        current = current->next;
+    }
+    current->next = new_node;
 }
 
 void linked_list::bubble_sort()
