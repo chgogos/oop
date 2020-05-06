@@ -101,5 +101,26 @@ void linked_list::push_back(int d)
 
 void linked_list::bubble_sort()
 {
-    // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
+   if (head == nullptr)
+        return;
+    node *current;
+    node *tail = nullptr;
+    bool flag;
+    do
+    {
+        flag = false;
+        current = head;
+        while (current->next != tail)
+        {
+            if (current->data > current->next->data)
+            {
+                int temp = current->data;
+                current->data = current->next->data;
+                current->next->data = temp;
+                flag = true;
+            }
+            current = current->next;
+        }
+        tail = current;
+    } while (flag);
 }
