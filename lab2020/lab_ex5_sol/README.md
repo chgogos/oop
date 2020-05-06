@@ -34,6 +34,7 @@
 * [linked_list.cpp](./linked_list.cpp)
 * [tests_main.cpp](./tests_main.cpp) αρχείο για μείωση χρόνου μεταγλώττισης λόγω της CATCH <https://github.com/catchorg/Catch2/blob/master/docs/slow-compiles.md>
 * [tests.cpp] αρχείο που περιέχει τα unit tests
+* [catch.hpp](./../catch.hpp)
 
     ```sh
     $ g++ linked_list.cpp -c -std=c++11

@@ -105,6 +105,7 @@ void linked_list::push_back(int d)
     if (head == nullptr)
     {
         head = new_node;
+        new_node->data = d;
         return;
     }
     node *current = head;
