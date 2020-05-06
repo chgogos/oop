@@ -91,7 +91,7 @@ void linked_list::erase_front()
 {
     if (head == nullptr)
         return;
-    node* temp = head;
+    node *temp = head;
     head = head->next;
     delete temp;
 }
@@ -117,7 +117,7 @@ void linked_list::push_back(int d)
 
 void linked_list::bubble_sort()
 {
-   if (head == nullptr)
+    if (head == nullptr)
         return;
     node *current;
     node *tail = nullptr;
@@ -141,16 +141,18 @@ void linked_list::bubble_sort()
     } while (flag);
 }
 
-
-void linked_list::delete_at_position(int pos){
-    if (pos<0 || pos >= length()){
+void linked_list::delete_at_position(int pos)
+{
+    if (pos < 0 || pos >= length())
+    {
         cout << "invalid" << endl;
         return;
     }
-    node* current = head;
-    node* prev = nullptr;
-    for(int i=0;i<pos;i++){
-        prev =current;
+    node *current = head;
+    node *prev = nullptr;
+    for (int i = 0; i < pos; i++)
+    {
+        prev = current;
         current = current->next;
     }
     prev->next = current->next;
