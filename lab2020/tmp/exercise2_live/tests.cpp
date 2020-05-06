@@ -58,3 +58,22 @@ TEST_CASE("linked_list4", "[copy constructor]")
         ll2.erase_front();
     }
 }
+
+
+TEST_CASE("linked_list5", "[delete_at_pos]")
+{
+    linked_list ll;
+    int a[] = {70, 22, 16, 78, 11, 90, 23};
+    for (int x : a)
+    {
+        ll.push_back(x);
+    }
+    ll.delete_at_position(2);
+    int b[] = {70, 22, 78, 11, 90, 23};
+    int l = ll.length();
+    for (int i = 0; i < l; i++)
+    {
+        REQUIRE(ll.front()->data == b[i]);
+        ll.erase_front();
+    }
+}

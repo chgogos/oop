@@ -41,6 +41,8 @@ public:
 
     // ταξινόμηση σε αύξουσα σειρά των στοιχείων της λίστας (συμπληρώστε την υλοποίηση στο linked_list.cpp)
     void bubble_sort();
+
+    void delete_at_position(int pos);
 };
 
 #endif
