@@ -35,8 +35,10 @@
 * [linked_list.hpp](./linked_list.hpp) header συνδεδεμένης λίστας
 * [linked_list.cpp](./linked_list.cpp) υλοποίηση συνδεδεμένης λίστας
 * [tests_main.cpp](./tests_main.cpp) αρχείο για μείωση χρόνου μεταγλώττισης λόγω της CATCH <https://github.com/catchorg/Catch2/blob/master/docs/slow-compiles.md>
-* [tests.cpp] αρχείο που περιέχει τα unit tests
+* [tests.cpp](./tests.cpp) αρχείο που περιέχει τα unit tests
 * [catch.hpp](./../catch.hpp)
+
+* Εντολές μεταγλώττισης
 
     ```sh
     $ g++ linked_list.cpp -c -std=c++11
