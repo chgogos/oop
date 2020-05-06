@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 03/05/2020
+τελευταία ενημέρωση: 06/05/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -575,3 +575,10 @@
 
 * [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG) ΜΕ VSCODE](./various/DEBUG) 
 <!-- * [DEBUG ΠΑΡΑΔΕΙΓΜΑΤΑ ΜΕ VISUAL STUDIO COMMUNITY](./various/DEBUG) -->
+
+
+## GIT + GITHUB
+
+* [Git & GitHub Class](http://git-class.gr/)
+* [Learn Git from Scratch](https://labex.io/courses/learn-git-from-scratch)
+* [A Plumber’s Guide to Git](https://alexwlchan.net/a-plumbers-guide-to-git/)
