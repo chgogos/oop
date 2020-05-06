@@ -545,13 +545,29 @@
 
 ## Λογισμικά - εργαλεία
 
-* Μεταγλωττιστές για τη C++
-  * Visual Studio with C++ 2019 Community Edition <https://visualstudio.microsoft.com/vs/features/cplusplus/>
+### IDEs (Integrated Development Environments)
+
+* [Visual Studio with C++ 2019 Community Edition](https://visualstudio.microsoft.com/vs/features/cplusplus/)
+* [Qt Creator]()
+* [Eclipse CDT](https://www.eclipse.org/cdt/)
+* [Netbeans](https://netbeans.org/features/cpp/)
+* [Geany](https://www.geany.org/)
+
+
+### Μεταγλωττιστές για τη C++
+
   * gcc <https://gcc.gnu.org/>
     * <http://www.mingw.org/>
     * <http://tdm-gcc.tdragon.net/>
   * clang <http://clang.llvm.org/get_started.html>
-  
+  * [Microsoft C++ compiler](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+  * [Intel C++ compiler](https://software.intel.com/en-us/c-compilers)
+  * [Embacadero C++ compiler](https://www.embarcadero.com/free-tools/ccompiler)
+
+### Editors
+
+* Notepad++
+* Sublime Text
 * Visual Studio Code (Microsoft)
 
     ```console
@@ -565,6 +581,9 @@
     Ctrl + Alt + N => compiles and executes current file
     ```
 
+### Build tools
+
+* [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm)
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
   * <https://cmake.org/>
   * <https://github.com/pr0g/cmake-examples>
@@ -581,3 +600,12 @@
 * [Git & GitHub Class](http://git-class.gr/)
 * [Learn Git from Scratch](https://labex.io/courses/learn-git-from-scratch)
 * [A Plumber’s Guide to Git](https://alexwlchan.net/a-plumbers-guide-to-git/)
+
+
+## Περιβάλλον Linux μέσα από Windows
+
+* [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* [VirtualBox](https://www.virtualbox.org/) + Linux Distribution (Ubuntu, XUbuntu, Mint, Suse, Debian, ...)
+* [Vagrant](https://www.vagrantup.com/)
+* [Docker](https://www.docker.com/)
+* [Cygwin](https://www.cygwin.com/)
