@@ -8,8 +8,24 @@ linked_list::linked_list() : head(nullptr) {}
 // copy constructor
 linked_list::linked_list(const linked_list &ll)
 {
-    head = nullptr;
-    // ΝΑ ΣΥΜΠΛΗΡΩΘΕΙ
+    if (ll.head == nullptr)
+    {
+        head = nullptr;
+        return;
+    }
+    node *current = ll.head;
+    node *pnode1 = new node;
+    pnode1->data = current->data;
+    head = pnode1;
+    while (current->next != nullptr)
+    {
+        node *pnode2 = new node;
+        pnode1->next = pnode2;
+        pnode2->data = current->next->data;
+        pnode1 = pnode2;
+        current = current->next;
+    }
+    pnode1->next = nullptr;
 }
 
 linked_list::~linked_list()
