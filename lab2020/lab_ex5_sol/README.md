@@ -97,3 +97,12 @@
     $ ./tests -r compact
     Passed all 7 test cases with 39 assertions.
     ```
+
+* [makefile2.mk](./makefile2.mk)
+
+    ```sh
+    $ make -f makefile2.mk main
+    ...
+    $ make -f makefile2.mk tests
+    ...
+    ```
