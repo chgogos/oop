@@ -8,7 +8,7 @@ private:
 
 public:
   explicit MyClass(int a) : a_(a), b_("None") {}
-  explicit MyClass(std::string b) : b_(b), a_(-1) {}
+  explicit MyClass(std::string b) : a_(-1), b_(b) {}
   void print()
   {
     std::cout << a_ << " " << b_ << std::endl;
@@ -34,3 +34,9 @@ int main()
 
   return 0;
 }
+
+/*
+42 None
+-1 John
+-1 Jane
+*/

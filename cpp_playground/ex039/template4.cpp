@@ -2,7 +2,7 @@
 #include <iomanip>
 
 template <typename T>
-constexpr T pi = T(3.141519265358979); //C++14
+constexpr T pi = T(3.141519265358979); //C++14 variable templates
 
 int main()
 {
@@ -12,3 +12,8 @@ int main()
 
     return 0;
 }
+
+/*
+3.14151930809021
+3.141519265358979
+*/

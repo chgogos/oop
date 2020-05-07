@@ -41,3 +41,14 @@ int main()
     std::cout << "Evaluates to " << stack.top() << std::endl;
     return 0;
 }
+
+/*
+Process symbol 1 stack: 1
+Process symbol 2 stack: 21
+Process symbol 3 stack: 321
+Process symbol * stack: 61
+Process symbol + stack: 7
+Process symbol 9 stack: 97
+Process symbol - stack: -2
+Evaluates to -2
+*/

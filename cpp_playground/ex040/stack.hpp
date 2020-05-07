@@ -1,4 +1,5 @@
 // class template
+#include <iostream>
 
 template <class T>
 class Stack

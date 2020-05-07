@@ -18,3 +18,13 @@ int main()
     }
     return 0;
 }
+
+/*
+G
+F
+E
+D
+C
+B
+A
+*/

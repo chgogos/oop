@@ -36,8 +36,18 @@ int main()
     double x4 = 3.4, x5 = 1.2, x6 = max(x4, x5);
     std::cout << x6 << std::endl;
 
-    char *x7 = strdup("AAAAAA"), *x8 = strdup("BBBBBB"), *x9 = max<char*>(x7, x8);
+    // https://en.cppreference.com/w/c/experimental/dynamic/strdup
+    char *x7 = strdup("BBBBBB"), *x8 = strdup("AAAAAA"), *x9 = max<char*>(x7, x8);
     std::cout << x9 << std::endl;
+
+    delete x7;
+    delete x8;
 
     return 0;
 }
+
+/*
+7
+3.4
+BBBBBB
+*/
