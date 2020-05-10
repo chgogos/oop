@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 07/05/2020
+τελευταία ενημέρωση: 10/05/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -69,6 +69,7 @@
 * [3η εργασία - εκφώνηση](./lab2020/exercise3/20200423_assignment3.pdf) προθεσμία παράδοσης: 17/5/2020
   * [academic_year_2019_2020_semester4_windows1253.txt](./lab2020/exercise3/academic_year_2019_2020_semester4_windows1253.txt)
   * [academic_year_2019_2020_semester4.txt](./lab2020/exercise3/academic_year_2019_2020_semester4.txt)
+  * [academic_year_2019_2020_semester4_greeklish.txt](./lab2020/exercise3/academic_year_2019_2020_semester4_greeklish.txt)
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
 

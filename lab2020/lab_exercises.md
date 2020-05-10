@@ -96,7 +96,7 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 
 ## Άσκηση 3
 
-* Θέμα 2 από τα [θέματα προετοιμασίας](https://chgogos.github.io/oop/preparation/proodos.pdf) (κληρονομικότητα)
+* Θέμα 2 από τα [θέματα προετοιμασίας I](https://chgogos.github.io/oop/preparation/proodos.pdf) (κληρονομικότητα)
 
 ### Λύση άσκησης 3
 
@@ -139,3 +139,11 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 * Αντιστροφή της συνδεδεμένης λίστας (π.χ. η συνδεδεμένη λίστα 10->20->12->7 θα πρέπει να γίνεται 7->12->20->10).
 
 * [Λύση άσκησης 5 και επιπλέον ερωτημάτων](./lab_ex5_sol/README.md)
+
+## Άσκηση 6
+
+* Θέμα 3 από τα [θέματα προετοιμασίας II](https://chgogos.github.io/oop/preparation/telikes.pdf)
+
+<!-- ### Λύση άσκησης 6
+
+* <https://chgogos.github.io/oop/preparation/prepare05.cpp> -->
