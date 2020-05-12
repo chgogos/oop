@@ -59,3 +59,12 @@ int main()
 
     return 0;
 }
+
+/*
+1. Result=3
+2. Result=2
+nikos - 53
+petros - 68
+kostas - 53
+john - 54
+*/
