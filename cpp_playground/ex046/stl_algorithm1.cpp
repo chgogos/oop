@@ -22,3 +22,10 @@ int main()
     }
     std::cout << std::endl;
 }
+
+/*
+Reversed array:
+42 17 23 45 34 
+Reversed vector:
+42 17 23 45 34 
+*/

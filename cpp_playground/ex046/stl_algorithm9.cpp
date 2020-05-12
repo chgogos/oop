@@ -44,3 +44,20 @@ int main()
     
 
 }
+
+/*
+CHECKPOINT 1
+34 23 21 45 12 7 19 20 22 
+CHECKPOINT 2
+45 34 21 23 12 7 19 20 22 
+CHECKPOINT 3
+Maximum element: 45
+Maximum element: 34
+CHECKPOINT 4
+false
+CHECKPOINT 5
+true
+Maximum element: 100
+CHECKPOINT 6
+7 12 19 20 21 22 23 34 45 100
+*/

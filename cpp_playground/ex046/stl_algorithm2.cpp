@@ -44,3 +44,9 @@ int main()
         std::cout << "UNEQUAL VECTORS EVEN/ODD" << std::endl;
     }
 }
+
+/*
+UNEQUAL VECTORS
+EQUAL VECTORS EVEN/ODD
+EQUAL VECTORS EVEN/ODD
+*/

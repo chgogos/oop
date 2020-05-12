@@ -79,3 +79,29 @@ int main()
 
     return 0;
 }
+
+
+/*
+CHECKPOINT 1
+1 2 3 4 5 5 5 6 7 8 9 10 
+CHECKPOINT 2
+9 2 8 3 1 10 6 4 5 5 7 5 
+CHECKPOINT 3
+1 2 3 4 5 5 5 6 7 8 9 10 
+CHECKPOINT 4
+10 5 2 7 3 5 8 9 4 6 5 1 
+10 2 8 4 6 5 7 3 5 9 5 1 
+10 2 8 4 6
+7 3 5 9 5 1
+CHECKPOINT 5
+1 2 3 4 5 5 5 6 7 8 9 10
+4
+CHECKPOINT 6
+1 2 3 4 5 5 5 6 7 8 9 10
+7
+CHECKPOINT 7
+1 2 3 4 5 5 5 6 7 8 9 10
+4 7
+CHECKPOINT 8
+Key 8 found
+*/
