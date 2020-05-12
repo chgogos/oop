@@ -3,6 +3,7 @@
 #include <string>
 #include <random>
 #include <ostream>
+#include <algorithm>
 
 std::random_device rd;
 std::mt19937 engine{rd()};
@@ -110,7 +111,7 @@ int main(int argc, char *argv[])
     int n = 100;
     if (argc != 2)
     {
-        std::cout << "No argument given, assuming 100 players" << std::endl;
+        std::cout << "No argument given, assuming " << n << " players " << std::endl;
     }
     else
     {
