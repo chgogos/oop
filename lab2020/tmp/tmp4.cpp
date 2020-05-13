@@ -1,9 +1,11 @@
 #include <iostream>
 #include <random>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-int main()
+void test_random()
 {
     random_device rd;
     mt19937 engine{rd()};
@@ -14,4 +16,26 @@ int main()
         double r = distribution(engine);
         cout << r << endl;
     }
+}
+
+class player
+{
+    private:
+        string name;
+        double dexterity;
+        vector<player> wins;
+    public:
+        player(string n, double d): name(n), dexterity(d){}
+    
+    friend ostream& operator<<(ostream& os, const player &aplayer){
+        os << aplayer.name << " " << aplayer.dexterity;
+        return os;
+    }
+};
+
+int main()
+{
+    // test_random();
+    player a_player("maria", 90.5);
+    cout << a_player << endl;
 }
