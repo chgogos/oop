@@ -21,6 +21,19 @@ void occurences(vector<T> v, int &c, T &min)
     }
 }
 
+class player{
+    public:
+        string name;
+        int time_played;
+
+        bool operator<(const player &other){
+            return time_played < other.time_played;
+        }
+        bool operator==(const player &other){
+            return time_played == other.time_played;
+        }
+};
+
 int main()
 {
     vector<int> v1{2, 6, 9, 2, 3, 2, 9, 2};
@@ -33,4 +46,10 @@ int main()
     double min2; 
     occurences(v2, c2, min2);
     cout << "Min: "<< min2 <<" occurs: " << c2 << endl;
+
+    vector<player> v3{{"nikos", 30},{"maria", 5},{"kostas", 60}, {"niki",5}};
+    int c3;
+    player p;
+    occurences(v3, c3, p);
+    cout << "Min: "<< p.time_played <<" occurs: " << c3 << endl;
 }
