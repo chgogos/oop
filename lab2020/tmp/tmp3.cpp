@@ -38,7 +38,7 @@ public:
     }
     operator string() const{
         stringstream ss;
-        ss << name << " - " << time_played;
+        ss << name << " - " << time_played << ((time_played>30)?"****":"");
         return ss.str();
     }
 };
@@ -64,7 +64,7 @@ int main()
 
     for (player a_player : v3)
     {
-        cout << a_player.name << " " << a_player.time_played << endl;
+        // cout << a_player.name << " " << a_player.time_played << endl;
         string ps = a_player;
         cout << ps << endl;
     }
