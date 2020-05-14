@@ -34,3 +34,7 @@ int main()
     std::cerr << ex.what() << std::endl;
   }
 }
+
+/*
+MY BASE EXCEPTION: something bad happened
+*/

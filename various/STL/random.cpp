@@ -1,6 +1,7 @@
 #include <iostream>
 #include <random>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 void print_vector(vector<int> v){

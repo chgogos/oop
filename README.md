@@ -27,7 +27,7 @@
 * [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf) 24/04/2020
 * [Παρουσίαση 16 - Πρότυπα](./OOP16.pdf) 10/05/2020
 * [Παρουσίαση 17 - Συνδεδεμένες λίστες](./OOP17.pdf) 07/05/2020
-* [Παρουσίαση 18 - Εξαιρέσεις](./OOP18.pdf)
+* [Παρουσίαση 18 - Εξαιρέσεις](./OOP18.pdf) 14/05/2020
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
@@ -241,6 +241,7 @@
   * [exception2.cpp](./cpp_playground/ex038/exception2.cpp)
   * [exception3.cpp](./cpp_playground/ex038/exception3.cpp)
   * [exception4.cpp](./cpp_playground/ex038/exception4.cpp)
+  * [exception5.cpp](./cpp_playground/ex038/exception5.cpp)
   * [stl_container_out_of_range.cpp](./cpp_playground/ex046/stl_container_out_of_range.cpp) σύλληψη εξαίρεσης για αναφορά εκτός των ορίων του vector
 * Πρότυπα (templates)
   * [template1.cpp](./cpp_playground/ex039/template1.cpp)
