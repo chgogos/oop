@@ -47,3 +47,10 @@ int main()
     }
     return 0;
 }
+
+/*
+main() checkpoint 1
+func1() checkpoint 1
+func2() checkpoint 1
+Exception catched: my exception
+*/

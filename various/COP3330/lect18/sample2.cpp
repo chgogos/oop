@@ -24,6 +24,15 @@ main()
   }
 }
 
+/*
+Enter number of donuts:
+10
+Enter number of glasses of milk:
+2
+10 donuts.
+2 glasses of milk.
+You have 5 donuts for each glass of milk.
+*/
 
 /*
 Enter number of donuts:

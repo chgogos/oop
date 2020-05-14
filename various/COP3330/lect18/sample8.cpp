@@ -6,7 +6,7 @@ using namespace std;
 
 double safedivide(int top, int bottom)
 {
-    if (bottom == 0)
+    if (bottom <= 0)
         throw exception();
     return top / static_cast<double>(bottom);
 }

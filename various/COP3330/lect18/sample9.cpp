@@ -8,7 +8,7 @@ using namespace std;
 // double safedivide(int top, int bottom) noexcept // εναλλακτικός τρόπος δήλώσης
 double safedivide(int top, int bottom) noexcept(true)
 {
-    if (bottom == 0)
+    if (bottom <= 0)
         throw exception(); // warning: throw will always call terminate() [-Wterminate]
     return top / static_cast<double>(bottom);
 }

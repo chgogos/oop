@@ -25,6 +25,7 @@ Enter number of glasses of milk:
 0
 10 donuts.
 0 glasses of milk.
+You have inf donuts for each glass of milk.
 */
 
 /*

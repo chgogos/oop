@@ -1,3 +1,0 @@
-5.00
-Assertion failed: (x>0.0), function func, file exception1.c, line 8.
-Abort trap: 6

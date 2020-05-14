@@ -15,3 +15,11 @@ int main()
     func(-4.0);
     return 0;
 }
+
+/*
+5.00
+Assertion failed!
+
+Program: exception1.exe
+File: exception1.c, Line 8
+*/
