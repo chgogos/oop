@@ -16,3 +16,9 @@ my_class obj;
 int main(){
     std::cout << "main" << std::endl;
 }
+
+/*
+start
+main
+finish
+*/

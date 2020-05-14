@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iterator>
 
 // είσοδος και έξοδος με χρήση επαναληπτών
 int main()
@@ -15,3 +16,8 @@ int main()
 
     return 0;
 }
+
+/*
+Enter 2 integer values: 10 15
+25
+*/

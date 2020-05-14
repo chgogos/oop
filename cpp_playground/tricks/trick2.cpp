@@ -24,3 +24,9 @@ int main()
     // std::cout << a->x << std::endl; // segmentation fault
     return 0;
 }
+
+/*
+member function: func1 is executing
+static member function: func2 is executing
+static member function: func2 is executing
+*/

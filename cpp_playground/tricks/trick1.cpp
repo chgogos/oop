@@ -8,3 +8,9 @@ int main(){
     std::cout << 2[a] << std::endl;
     return 0;
 }
+
+/*
+1
+2
+3
+*/
