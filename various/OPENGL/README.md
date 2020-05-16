@@ -12,8 +12,10 @@
 * Αντιγραφή των καταλόγων include και lib_mingw-w64 στον φάκελο dependencies
 
     ```sh
-    $ g++ glfw_test.cpp -o glfw_test -Idependencies/include -Ldependencies/lib-mingw-w64 -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32
-    $ glfw_test.exe
+    $ make -f makefile_win.mk 
+    g++ glfw_test.cpp -o glfw_test -Idependencies/include -Ldependencies/lib-mingw-w64 -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32
+    $ make -f makefile_win.mk run
+    glfw_test.exe
     ```
 
 ## Μεταγλώττιση και εκτέλεση σε OSX
@@ -22,12 +24,25 @@
 * Αντιγραφή των καταλόγων include και lib_macos στον φάκελο dependencies
 
     ```sh
-    $ clang++ glfw_test.cpp -o glfw_test -Idependencies/include -Ldependencies/lib-macos -std=c++11 -stdlib=libc++ -lglfw3 -framework CoreVideo -framework OpenGL -framework IOKit -framework Cocoa -framework Carbon
-    $ ./glfw_test
+    $ make -f makefile_osx.mk
+    clang++ glfw_test.cpp -o glfw_test -Idependencies/include -Ldependencies/lib-macos -std=c++11 -stdlib=libc++ -lglfw3 -framework CoreVideo -framework OpenGL -framework IOKit -framework Cocoa -framework Carbon
+    $ make -f makefile_osx.mk run
+    ./glfw_test
     ```
 
 ## Μεταγλώττιση και εκτέλεση σε Ubuntu 18.04LTS
 
-    ```sh
 
+    ```sh
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+    $ sudo apt-get install libglfw3
+    $ sudo apt-get install libglfw3-dev
+    ```
+
+    ```sh
+    $ make -f makefile_linux.mk
+    g++ glfw_test.cpp -o glfw_test -std=c++11 -lglfw -lGL
+    $ make -f makefile_linux.mk run
+    ./glfw_test
     ```
