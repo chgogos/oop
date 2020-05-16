@@ -45,9 +45,7 @@
 
     ```
 
-
 ## Μεταγλώττιση και εκτέλεση σε Ubuntu 18.04LTS
-
 
     ```sh
     $ sudo apt-get update
