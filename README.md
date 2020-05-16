@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 14/05/2020
+τελευταία ενημέρωση: 15/05/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -20,7 +20,7 @@
 * [Παρουσίαση 8 - Πίνακες αντικειμένων](./OOP8.pdf) 09/04/2020
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf) 10/04/2020
 * [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf) 10/04/2020
-* [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf)
+* [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf) 15/05/2020
 * [Παρουσίαση 12 - Κατασκευαστής αντιγραφής και αντιγραφή μέσω ανάθεσης](./OOP12.pdf) 30/4/2020
 * [Παρουσίαση 13 - Λεκτικά, υπερφόρτωση του τελεστή [] και του τελεστή &](./OOP13.pdf)
 * [Παρουσίαση 14 - Κληρονομικότητα](./OOP14.pdf) 23/04/2020
@@ -572,9 +572,7 @@
 
 ### Editors
 
-* Notepad++
-* Sublime Text
-* Visual Studio Code (Microsoft)
+* [Visual Studio Code by Microsoft](https://code.visualstudio.com/)
 
     ```console
     # Ctrl + P (quick open)
@@ -587,6 +585,10 @@
     Ctrl + Alt + N => compiles and executes current file
     ```
 
+* [Atom](https://atom.io/)
+* [Notepad++](https://notepad-plus-plus.org/)
+* [Sublime Text](https://www.sublimetext.com/)
+
 ### Build tools
 
 * [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm)
@@ -597,7 +599,7 @@
 
 ## DEBUG 
 
-* [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG) ΜΕ VSCODE](./various/DEBUG) 
+* [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG)](./various/DEBUG) 
 <!-- * [DEBUG ΠΑΡΑΔΕΙΓΜΑΤΑ ΜΕ VISUAL STUDIO COMMUNITY](./various/DEBUG) -->
 
 
