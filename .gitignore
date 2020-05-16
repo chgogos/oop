@@ -27,7 +27,7 @@ tempCodeRunnerFile.cpp
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
+# *.dylib
 *.dll
 
 # Fortran module files
@@ -37,7 +37,7 @@ tempCodeRunnerFile.cpp
 # Compiled Static libraries
 *.lai
 *.la
-*.a
+# *.a
 *.lib
 
 # Executables
