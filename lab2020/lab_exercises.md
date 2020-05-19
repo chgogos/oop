@@ -150,8 +150,8 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 
 ## Άσκηση 7
 
-* Δημιουργία ενός πλήθους σχημάτων (τρίγωνα, ορθογώνια, κύκλοι) και εμφάνισή τους σε παράθυρο με την OpenGL.
+* Δημιουργία ενός πλήθους σχημάτων (τρίγωνα, ορθογώνια, κύκλοι) και διαδοχική εμφάνισή τους σε παράθυρο με την OpenGL.
 
 ### Λύση άσκησης 7
 
-* <https://chgogos.github.io/oop/preparation/prepare05.cpp>
+* <https://github.com/chgogos/oop/tree/master/lab2020/lab_ex6_sol>
