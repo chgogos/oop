@@ -27,19 +27,18 @@
 * Στα Windows το αρχείο μπορεί να έχει κωδικοποίηση Windows-1253 π.χ. [test_windows1253.txt](./simple_read_file_example/test_windows1253.txt)
 * [readfile1.cpp](./simple_read_file_example/readfile1.cpp)
 
+#### Ανάγνωση αρχείου ANSI-Windows1253 και αποθήκευση σε UTF-8 
+
+* [input_windows_1253.txt](./convert_ANSI_UTF8/input_windows_1253.txt) --> [output_utf8.txt](./convert_ANSI_UTF8/output_utf8.txt)
+* [converter.cpp](./convert_ANSI_UTF8/converter.cpp)
+
+#### Ανάγνωση αρχείου UTF-8 και αποθήκευση σε ANSI-Windows1253
+
+* [input_windows_utf8.txt](./convert_ANSI_UTF8/input_windows_utf8.txt) --> [output_windows_1253.txt](./convert_ANSI_UTF8/output_utf8.txt)
+* [converter.cpp](./convert_ANSI_UTF8/converter.cpp)
+
 ### Linux + MacOS
 
 * Στo Linux και στο MacOS το αρχείο μπορεί να έχει κωδικοποίηση UTF-8 π.χ. [test_UTF8.txt](./simple_read_file_example/test_UTF8.txt)
 * [readfile2.cpp](./simple_read_file_example/readfile2.cpp)
 
-
-## Ανάγνωση αρχείου ANSI-Windows1253 και αποθήκευση σε UTF-8 και ανάγνωση αρχείου UTF-8 και αποθήκευση σε ANSI-Windows1253 
-
-* [input_windows_1253.txt](./convert_ANSI_UTF8/input_windows_1253.txt) --> [output_utf8.txt](./convert_ANSI_UTF8/output_utf8.txt)
-* [input_windows_utf8.txt](./convert_ANSI_UTF8/input_windows_utf8.txt) --> [output_windows_1253.txt](./convert_ANSI_UTF8/output_utf8.txt)
-* [converter.cpp](./convert_ANSI_UTF8/converter.cpp)
-
-
-<!-- ## Επιπλέον παραδείγματα
-
-* [tmp1.cpp](./tmp/tmp1.cpp) -->
