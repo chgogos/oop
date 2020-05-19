@@ -9,6 +9,7 @@
 
 ## Κώδικας
 
+* <https://github.com/chgogos/oop/tree/master/lab2020/exercise3_solution>
 
 ## Windows
 
