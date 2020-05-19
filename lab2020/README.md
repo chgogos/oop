@@ -19,7 +19,6 @@
 * [simple_fmt_example](./simple_fmt_example/main.cpp)
 * <https://fmt.dev/latest/index.html>
 
-
 ## Ανάγνωση αρχείου με αγγλικό και ελληνικό κείμενο
 
 ### Windows
