@@ -11,7 +11,7 @@
 
 * <https://github.com/chgogos/oop/tree/master/lab2020/exercise3_solution>
 
-## Windows
+## Μεταγλώττιση και εκτέλεση κώδικα (Windows)
 
 * Εγκαταστήστε το [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm) για να έχετε πρόσβαση στο make στα Windows.
 
@@ -48,7 +48,7 @@ $ make -f makefile_win.mk clean
 del main.exe tests.exe *.o
 ```
 
-## Linux
+## Μεταγλώττιση και εκτέλεση κώδικα (Linux)
 
 ```sh
 $ make -f makefile_linux.mk
