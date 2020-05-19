@@ -86,13 +86,35 @@ rm main tests *.o
 ## Μεταγλώττιση και εκτέλεση κώδικα (OSX)
 
 ```sh
-$ make
+$ make -f makefile_osx.mk
+clang++ -c model.cpp -o model.o -Wall -O2 -pedantic -std=c++11
+clang++ -c util.cpp -o util.o -Wall -O2 -pedantic -std=c++11
+clang++ -c main.cpp -o main.o -Wall -O2 -pedantic -std=c++11
+clang++ -c db.cpp -o db.o -Wall -O2 -pedantic -std=c++11
+clang++ model.o util.o main.o db.o sqlite3.o -o main -Wall -O2 -pedantic -std=c++11
+clang++ model.o util.o tests_main.o tests.cpp -o tests -Wall -O2 -pedantic -std=c++11
 $ ./main
+MACOS
+TIMETABLE IS NOT LOADED
+1. Load data from text file
+2. Check validity of timetable
+3. Print timetable by day
+4. Print timetable by course
+5. Print timetable by lecturer
+6. Write data to SQLiteDB
+7. Read data from SQLiteDB
+8. Exit
+Enter choice:
 ...
 $ ./tests
-...
-$ make clean
-...
+CHECK 1: CONSISTENT COURSE HOURS AND TEACHING HOURS
+CHECK 2: NO CLASSROOM OVERLAPS
+CHECK 3: NO LECTURER OVELAPS
+===============================================================================
+All tests passed (19 assertions in 3 test cases)
+$ make -f makefile_osx.mk clean
+rm main tests *.o
 ```
+
 
 
