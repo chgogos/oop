@@ -144,6 +144,14 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 
 * Θέμα 3 από τα [θέματα προετοιμασίας II](https://chgogos.github.io/oop/preparation/telikes.pdf)
 
-<!-- ### Λύση άσκησης 6
+### Λύση άσκησης 6
 
-* <https://chgogos.github.io/oop/preparation/prepare05.cpp> -->
+* <https://chgogos.github.io/oop/preparation/prepare05.cpp>
+
+## Άσκηση 7
+
+* Δημιουργία ενός πλήθους σχημάτων (τρίγωνα, ορθογώνια, κύκλοι) και εμφάνισή τους σε παράθυρο με την OpenGL.
+
+### Λύση άσκησης 7
+
+* <https://chgogos.github.io/oop/preparation/prepare05.cpp>

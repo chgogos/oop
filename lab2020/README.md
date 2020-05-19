@@ -41,3 +41,7 @@
 * Στo Linux και στο MacOS το αρχείο μπορεί να έχει κωδικοποίηση UTF-8 π.χ. [test_UTF8.txt](./simple_read_file_example/test_UTF8.txt)
 * [readfile2.cpp](./simple_read_file_example/readfile2.cpp)
 
+
+### Σχεδίαση σχήματος (τριγώνου) με την OpenGL
+
+* [Παράδειγμα με OpenGL](../various/OPENGL/README.md)

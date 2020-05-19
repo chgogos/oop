@@ -1,30 +1,7 @@
 #define GL_SILENCE_DEPRECATION
+
 #include <GLFW/glfw3.h>
 #include <cmath>
-
-void circle()
-{
-    const float radius = 0.25;
-    const float DEG2RAD = 3.14159 / 180;
-    glBegin(GL_POLYGON);
-    // glBegin(GL_LINE_STRIP);
-    for(int i=0;i<360;i++){
-        float deg_in_rad = i * DEG2RAD;
-        glVertex2f(cos(deg_in_rad)*radius, sin(deg_in_rad)*radius);
-    }
-
-    glEnd();
-
-}
-
-void triangle()
-{
-    glBegin(GL_TRIANGLES);
-    glVertex2f(-0.5f, -0.5f);
-    glVertex2f(0.0f, 0.5f);
-    glVertex2f(0.5f, -0.5f);
-    glEnd();
-}
 
 int main(void)
 {
@@ -51,8 +28,12 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
-        // triangle();
-        circle();
+        glBegin(GL_TRIANGLES);
+        glVertex2f(-0.5f, -0.5f);
+        glVertex2f(0.0f, 0.5f);
+        glVertex2f(0.5f, -0.5f);
+        glEnd();
+
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
 
