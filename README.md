@@ -380,11 +380,14 @@
   * floating points [floating_point.cpp](./cpp_playground/ex079/floating_point.cpp)
   * Όρια τύπων δεδομένων [limits.cpp](./cpp_playground/ex079/limits.cpp)
   * Χειρισμός χρηματικών ποσών μέσω ειδικής κλάσης [money.hpp](./cpp_playground/ex079/money.hpp), [main.cpp](./cpp_playground/ex079/main.cpp)
-
-<!-- 
-* Δείκτες σε συναρτήσεις 
+* Δείκτες σε συναρτήσεις (function pointers)
+  * [function_pointers1.cpp](./cpp_playground/ex001/function_pointers1.cpp)
+  * [function_pointers2.cpp](./cpp_playground/ex001/function_pointers2.cpp)
+  * [function_pointers3.cpp](./cpp_playground/ex001/function_pointers3.cpp)
+  * [function_pointers4.cpp](./cpp_playground/ex001/function_pointers4.cpp)
+  * [function_pointers5.cpp](./cpp_playground/ex001/function_pointers5.cpp)
+  * [function_pointers6.cpp](./cpp_playground/ex001/function_pointers5.cpp)
   * [university2.c](./cpp_playground/ex023/university2.c)
-* -->
 
 ## Design Patterns
 
