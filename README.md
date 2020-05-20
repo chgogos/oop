@@ -70,7 +70,7 @@
   * [academic_year_2019_2020_semester4.txt](./lab2020/exercise3/academic_year_2019_2020_semester4.txt)
   * [academic_year_2019_2020_semester4_windows1253.txt](./lab2020/exercise3/academic_year_2019_2020_semester4_windows1253.txt)
   * [Λύση 3ης εργασίας](./lab2020/exercise3_solution/README.md)
-* [4η εργασία -  εκφώνηση](./lab2020/exercise4/20200520_assignment4.pdf) προθεσμία παράδοσης: 31/5/2020
+* [4η εργασία - εκφώνηση](./lab2020/exercise4/20200520_assignment4.pdf) προθεσμία παράδοσης: 31/5/2020
 
 ### Βαθμοί εργασιών εργαστηρίου
 
