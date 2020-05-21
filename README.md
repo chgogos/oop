@@ -278,7 +278,8 @@
       * [stl_vector1.cpp](./cpp_playground/ex046/stl_vector1.cpp)
       * [stl_vector2.cpp](./cpp_playground/ex046/stl_vector2.cpp)
       * [stl_vector3.cpp](./cpp_playground/ex046/stl_vector3.cpp)
-      * [stl_vector4.cpp](./cpp_playground/ex046/stl_vector4.cpp)
+      * [stl_vector4.cpp](./cpp_playground/ex046/stl_vector4.cpp) vector και sort
+      * [stl_vector5.cpp](./cpp_playground/ex046/stl_vector5.cpp) vector και iterators
     * std::list [stl_list.cpp](./cpp_playground/ex046/stl_list.cpp)
     * std::forward_list
     * std::deque
