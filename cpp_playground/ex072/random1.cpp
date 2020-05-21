@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <ctime>
 
 int main()
 {
@@ -21,3 +22,8 @@ int main()
 
     return 0;
 }
+
+/*
+4 2 3 5 4 4 4 3 1 4 
+6 1 5 4 3 5 3 6 1 3
+*/

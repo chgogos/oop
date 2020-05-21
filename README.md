@@ -343,6 +343,7 @@
   * [random1.cpp](./cpp_playground/ex072/random1.cpp)
   * [random2.cpp](./cpp_playground/ex072/random2.cpp)
   * [random3.cpp](./cpp_playground/ex072/random3.cpp)
+  * [random4.cpp](./cpp_playground/ex072/random4.cpp) 
 * Χειρισμός αρχείων
   * Αποθήκευση κειμένου σε αρχείο [file1.cpp](./cpp_playground/ex073/file1.cpp)
   * Αποθήκευση εγγραφών σε αρχείο κειμένου και ανάγνωση εγγραφών από το αρχείο [file2.cpp](./cpp_playground/ex073/file2.cpp)
