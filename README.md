@@ -274,7 +274,11 @@
 * Standard Template Library (περιέκτες, υποδοχείς=containers)
   * Περιέκτες ακολουθίας
     * std::array [stl_array.cpp](./cpp_playground/ex046/stl_array.cpp)
-    * std::vector [stl_vector.cpp](./cpp_playground/ex046/stl_vector.cpp)
+    * std::vector 
+      * [stl_vector1.cpp](./cpp_playground/ex046/stl_vector1.cpp)
+      * [stl_vector2.cpp](./cpp_playground/ex046/stl_vector2.cpp)
+      * [stl_vector3.cpp](./cpp_playground/ex046/stl_vector3.cpp)
+      * [stl_vector4.cpp](./cpp_playground/ex046/stl_vector4.cpp)
     * std::list [stl_list.cpp](./cpp_playground/ex046/stl_list.cpp)
     * std::forward_list
     * std::deque
@@ -306,6 +310,7 @@
   <!-- * [stl_algorithm8.cpp](./cpp_playground/ex046/stl_algorithm8.cpp) merge STL algorithms () -->
   * [stl_algorithm9.cpp](./cpp_playground/ex046/stl_algorithm9.cpp) heap (make_heap, pop_heap, push_heap, is_heap, sort_heap)
   * [stl_algorithm10.cpp](./cpp_playground/ex046/stl_algorithm10.cpp) παράδειγμα με αντικείμενα και STL
+  * [stl_algorithm11.cpp](./cpp_playground/ex046/stl_algorithm11.cpp) δημιουργία 1.000 ακεραίων τιμών στο διάστημα [0,1.000.000], εμφάνιση των 10 μεγαλύτερων άρτιων τιμών
 * Σύζευξη (coupling)
   * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :confused:
   * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :confused:
@@ -350,6 +355,7 @@
   * Λάμδα συναρτήσεις (ανώνυμες συναρτήσεις)
     * [lambda1.cpp](./cpp_playground/ex071/lambda1.cpp)
     * [lambda2.cpp](./cpp_playground/ex071/lambda2.cpp)
+    * [lambda3.cpp](./cpp_playground/ex071/lambda3.cpp)
   * map - filter - reduce
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
 * Σχέσεις μεταξύ αντικειμένων
