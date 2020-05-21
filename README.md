@@ -396,6 +396,10 @@
   * [function_pointers5.cpp](./cpp_playground/ex001/function_pointers5.cpp)
   * [function_pointers6.cpp](./cpp_playground/ex001/function_pointers5.cpp)
   * [university2.c](./cpp_playground/ex023/university2.c)
+* Λεκτικά (C-strings,std::string, std::string_view)
+  * [c_string1.cpp](./cpp_playground/ex085/c_string1.cpp)
+  * [string1.cpp](./cpp_playground/ex085/string1.cpp)
+  * [string_view1.cpp](./cpp_playground/ex085/string_view1.cpp)
 
 ## Design Patterns
 
