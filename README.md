@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 20/05/2020
+τελευταία ενημέρωση: 21/05/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -287,7 +287,9 @@
     * std::multiset
     * std::set
     * std::multimap
-    * std::map [stl_map.cpp](./cpp_playground/ex046/stl_map.cpp)
+    * std::map 
+      * [stl_map.cpp](./cpp_playground/ex046/stl_map.cpp)
+      * [stl_map2.cpp](./cpp_playground/ex046/stl_map2.cpp)
     * std::unordered_multiset
     * std::unordered_set
     * std::unordered_multimap
@@ -545,15 +547,16 @@
 ## UML (Unified Modeling Language)
 
 * Πηγές
+  * [UML Association vs Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
   * <https://www.uml-diagrams.org/>
 * Λογισμικά για σχεδίαση UML
+  * [Visual Paradigm - Community Edition](https://www.visual-paradigm.com/)
   * [ArgoUML](http://argouml.tigris.org/)
   * [BOUML](http://argouml.tigris.org/)
   * [Plant UML](http://plantuml.com/)
   * [Violet UML](http://alexdp.free.fr/violetumleditor/page.php)
   * [UMLET](https://www.umlet.com/)
   * [Umbrello](https://umbrello.kde.org/)
-  * [Visual Paradigm](https://www.visual-paradigm.com/)
 
 ## Βιβλιοθήκες
 
