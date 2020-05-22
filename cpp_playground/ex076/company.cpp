@@ -20,7 +20,7 @@ void company::hire(employee *emp, double salary)
 void company::fire(employee *emp)
 {
     int pos = -1;
-    for (int i = 0; i < employees.size(); i++)
+    for (size_t i = 0; i < employees.size(); i++)
     {
         if (employees[i]->get_name() == emp->get_name())
         {
