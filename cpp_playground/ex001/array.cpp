@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <iterator>
 
 int main()
 {
@@ -41,12 +42,25 @@ int main()
     }
     std::cout << std::endl;
 
-    //
+    // For_each
     std::cout << "FOR_EACH:        ";
     std::for_each(std::begin(a),
                   std::end(a),
                   [&a](int &x) { auto i = &x - &a[0]; std::cout << "a[" << i << "]=" << x << " "; });
     std::cout << std::endl;
 
+    // copy
+    std::cout << "COPY:        ";
+    std::copy(std::begin(a), std::end(a), std::ostream_iterator<int>(std::cout, " "));
+
     return 0;
 }
+
+/*
+CLASSIC:         a[0]=1 a[1]=2 a[2]=3 a[3]=4 a[4]=5 
+USING POINTERS:  a[0]=1 a[1]=2 a[2]=3 a[3]=4 a[4]=5
+RANGE BASED FOR: a[0]=1 a[1]=2 a[2]=3 a[3]=4 a[4]=5
+ITERATORS:       a[0]=1 a[1]=2 a[2]=3 a[3]=4 a[4]=5
+FOR_EACH:        a[0]=1 a[1]=2 a[2]=3 a[3]=4 a[4]=5
+COPY:        1 2 3 4 5
+*/

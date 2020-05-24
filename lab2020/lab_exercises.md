@@ -155,3 +155,22 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 ### Λύση άσκησης 7
 
 * <https://github.com/chgogos/oop/tree/master/lab2020/lab_ex6_sol>
+
+## Άσκηση 8
+
+* [Θέμα 2 (ΟΜΑΔΑ Α) τελικής εξέτασης 25/6/2020](https://chgogos.github.io/oop/preparation/20190625_telikh_exetash_a.pdf) 
+
+<!-- ### Λύση άσκησης 8
+
+* <https://chgogos.github.io/oop/preparation/exams20190625_a2.cpp> -->
+
+## Άσκηση 9
+
+* [Θέμα 2 (ΟΜΑΔΑ Β) τελικής εξέτασης 25/6/2020](https://chgogos.github.io/oop/preparation/20190625_telikh_exetash_b.pdf)
+
+<!-- ### Λύση άσκησης 9
+
+* <https://chgogos.github.io/oop/preparation/exams20190625_b2.cpp>
+ -->
+
+

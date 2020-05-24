@@ -14,7 +14,8 @@ int main()
 
     std::cout << "array (example 2)" << std::endl;
     // δήλωση και αρχικοποίηση πίνακα 5 θέσεων
-    std::array<int, 5> array2{1, 2, 3, 4, 5};
+    std::array array2{1, 2, 3, 4, 5};
+    // std::array<int, 5> array2{1, 2, 3, 4, 5}; // ισοδύναμο με το παραπάνω
     for (size_t i = 0; i < array2.size(); i++)
     {
         std::cout << array2[i] << " ";
@@ -60,3 +61,20 @@ int main()
         std::cout << std::endl;
     }
 }
+
+/*
+array (example 1)     
+0 0 4201051 0 4199744 
+array (example 2)
+1 2 3 4 5
+using range for
+1 2 3 4 5
+array (example 3)
+1 2 0 0 0
+2D array (example 4)
+1 2 3 4
+5 6 7 8
+using range for
+1 2 3 4
+5 6 7 8
+*/

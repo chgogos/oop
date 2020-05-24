@@ -113,7 +113,8 @@ int main()
         cout << "####################################" << endl;
         // if (choice != 8 && choice != 9)
         // {
-        //     pause();
+        //     cout << "\nPress Enter to continue ... ";
+        //     cin.ignore(32767, '\n');
         //     cout << "\033[2J\033[1;1H";
         // }
     }

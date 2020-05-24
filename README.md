@@ -273,15 +273,18 @@
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
 * Standard Template Library (περιέκτες, υποδοχείς=containers)
   * Περιέκτες ακολουθίας
-    * std::array [stl_array.cpp](./cpp_playground/ex046/stl_array.cpp)
+    * std::array 
+      * [stl_array.cpp](./cpp_playground/ex046/stl_array.cpp)
     * std::vector 
       * [stl_vector1.cpp](./cpp_playground/ex046/stl_vector1.cpp)
       * [stl_vector2.cpp](./cpp_playground/ex046/stl_vector2.cpp)
       * [stl_vector3.cpp](./cpp_playground/ex046/stl_vector3.cpp)
       * [stl_vector4.cpp](./cpp_playground/ex046/stl_vector4.cpp) vector και sort
       * [stl_vector5.cpp](./cpp_playground/ex046/stl_vector5.cpp) vector και iterators
-    * std::list [stl_list.cpp](./cpp_playground/ex046/stl_list.cpp)
+    * std::list 
+      * [stl_list.cpp](./cpp_playground/ex046/stl_list.cpp)
     * std::forward_list
+      * [stl_forward_list.cpp](./cpp_playground/ex046/stl_forward_list.cpp) push_front, insert_after, sort, reverse, remove_if
     * std::deque
   * Περιέκτες συσχέτισης
     * std::multiset
