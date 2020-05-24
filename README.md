@@ -286,6 +286,7 @@
     * std::forward_list
       * [stl_forward_list.cpp](./cpp_playground/ex046/stl_forward_list.cpp) push_front, insert_after, sort, reverse, remove_if
     * std::deque
+      * [stl_deque](./cpp_playground/ex046/stl_deque.cpp)
   * Περιέκτες συσχέτισης
     * std::multiset
     * std::set
@@ -297,7 +298,7 @@
     * std::unordered_set
     * std::unordered_multimap
     * std::unordered_map
-  * Προσαρμογείς περιεκτών
+  * Προσαρμογείς περιεκτών (container adaptors)
     * std::stack
     * std:queue
     * std::priority_queue
@@ -305,6 +306,11 @@
   * random access iterator [stl_random_iterator.cpp](./cpp_playground/ex046/stl_random_iterator.cpp)
   * forward iterator [stl_forward_iterator.cpp](./cpp_playground/ex046/stl_forward_iterator.cpp)
   * bidirectional iterator
+  * Insertion iterators (inserters)
+    * [insert_iterators.cpp](./cpp_playground/ex046/insert_iterators.cpp)
+  * Χρήσιμες συναρτήσεις για iterators
+    * [advance.cpp](./cpp_playground/ex046/advance.cpp) μετακίνηση iterator πολλές θέσεις μπροστά ή πίσω. 
+    * [distance.cpp](./cpp_playground/ex046/distance.cpp) αφαίρεση iterators.
 * Standard Template Library (αλγόριθμοι)
   * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp) std::reverse
   * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp) std::equal
@@ -354,15 +360,29 @@
   * Αποθήκευση εγγραφών σε αρχείο κειμένου και ανάγνωση εγγραφών από το αρχείο [file2.cpp](./cpp_playground/ex073/file2.cpp)
   * Αποθήκευση εγγραφών σε δυαδικό αρχείο τυχαίας προσπέλασης και ανάγνωση, ενημέρωση και διαγραφή εγγραφών από το ίδιο αρχείο (χειρισμός μέσω μενού) [file3.cpp](./cpp_playground/ex073/file3.cpp)
 * Χαρακτηριστικά συναρτησιακού προγραμματισμού στη C++
-  * Functors
+  * Function Pointers
+    * [function_pointers1.cpp](./cpp_playground/ex001/function_pointers1.cpp)
+    * [function_pointers2.cpp](./cpp_playground/ex001/function_pointers2.cpp)
+    * [function_pointers3.cpp](./cpp_playground/ex001/function_pointers3.cpp)
+    * [function_pointers4.cpp](./cpp_playground/ex001/function_pointers4.cpp)
+    * [function_pointers5.cpp](./cpp_playground/ex001/function_pointers5.cpp)
+    * [function_pointers6.cpp](./cpp_playground/ex001/function_pointers6.cpp)
+  * Functors (function objects)
+    * [functor1.cpp](./cpp_playground/ex046/functor1.cpp)
+    * [functor2.cpp](./cpp_playground/ex046/functor2.cpp)
+    * [functor3.cpp](./cpp_playground/ex046/functor3.cpp)
+    * [functor4.cpp](./cpp_playground/ex046/functor4.cpp)
+    * [functor5.cpp](./cpp_playground/ex046/functor5.cpp)
     * [generator1.cpp](./cpp_playground/ex071/generator1.cpp)
     * [generator2.cpp](./cpp_playground/ex071/generator2.cpp) παραγωγή τυχαίων αριθμών
     * [unary_functor.cpp](./cpp_playground/ex071/unary_functor.cpp) unary functor
     * [predicate.cpp](./cpp_playground/ex071/predicate.cpp) κατηγόρημα
-  * Λάμδα συναρτήσεις (ανώνυμες συναρτήσεις)
+  * Λάμδα - ανώνυμες συναρτήσεις (lambdas - closures))
     * [lambda1.cpp](./cpp_playground/ex071/lambda1.cpp)
     * [lambda2.cpp](./cpp_playground/ex071/lambda2.cpp)
     * [lambda3.cpp](./cpp_playground/ex071/lambda3.cpp)
+  * Function pointers vs functors vs lambdas
+    * [fp_functor_lambda.cpp](./cpp_playground/ex087/fp_functor_lambda.cpp)
   * map - filter - reduce
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
 * Σχέσεις μεταξύ αντικειμένων
