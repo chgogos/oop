@@ -300,12 +300,15 @@
     * std::unordered_map
   * Προσαρμογείς περιεκτών (container adaptors)
     * std::stack
+      * [stl_stack.cpp](./cpp_playground/ex046/stl_stack.cpp)
     * std:queue
+      * [stl_queue.cpp](./cpp_playground/ex046/stl_queue.cpp)
     * std::priority_queue
+      * [stl_priority_queue.cpp](./cpp_playground/ex046/stl_priority_queue.cpp)
 * Standard Template Library (επαναλήπτες=iterators)
   * random access iterator [stl_random_iterator.cpp](./cpp_playground/ex046/stl_random_iterator.cpp)
+  * bidirectional iterator [stl_bidirectional_iterator.cpp](./cpp_playground/ex046/stl_bidirectional_iterator.cpp)
   * forward iterator [stl_forward_iterator.cpp](./cpp_playground/ex046/stl_forward_iterator.cpp)
-  * bidirectional iterator
   * Insertion iterators (inserters)
     * [insert_iterators.cpp](./cpp_playground/ex046/insert_iterators.cpp)
   * Χρήσιμες συναρτήσεις για iterators
