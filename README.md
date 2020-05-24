@@ -286,7 +286,7 @@
     * std::forward_list
       * [stl_forward_list.cpp](./cpp_playground/ex046/stl_forward_list.cpp) push_front, insert_after, sort, reverse, remove_if
     * std::deque
-      * [stl_deque](./cpp_playground/ex046/stl_deque.cpp)
+      * [stl_deque.cpp](./cpp_playground/ex046/stl_deque.cpp)
   * Περιέκτες συσχέτισης
     * std::multiset
     * std::set
@@ -380,10 +380,12 @@
     * [generator2.cpp](./cpp_playground/ex071/generator2.cpp) παραγωγή τυχαίων αριθμών
     * [unary_functor.cpp](./cpp_playground/ex071/unary_functor.cpp) unary functor
     * [predicate.cpp](./cpp_playground/ex071/predicate.cpp) κατηγόρημα
+    * [remove_if_functor.cpp](./cpp_playground/ex046/remove_if_functor.cpp)
   * Λάμδα - ανώνυμες συναρτήσεις (lambdas - closures))
     * [lambda1.cpp](./cpp_playground/ex071/lambda1.cpp)
     * [lambda2.cpp](./cpp_playground/ex071/lambda2.cpp)
     * [lambda3.cpp](./cpp_playground/ex071/lambda3.cpp)
+    * [lambda4.cpp](./cpp_playground/ex071/lambda4.cpp) δήλωση lambda με διαφορετικούς τρόπους
   * Function pointers vs functors vs lambdas
     * [fp_functor_lambda.cpp](./cpp_playground/ex087/fp_functor_lambda.cpp)
   * map - filter - reduce
