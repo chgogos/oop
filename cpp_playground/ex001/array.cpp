@@ -49,8 +49,8 @@ int main()
                   [&a](int &x) { auto i = &x - &a[0]; std::cout << "a[" << i << "]=" << x << " "; });
     std::cout << std::endl;
 
-    // copy
-    std::cout << "COPY:        ";
+    // copy 
+    std::cout << "COPY:            ";
     std::copy(std::begin(a), std::end(a), std::ostream_iterator<int>(std::cout, " "));
 
     return 0;

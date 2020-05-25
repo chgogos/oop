@@ -31,3 +31,9 @@ int main()
         delete[] mat[i];
     delete[] mat;
 }
+
+/*
+1 2 
+3 4 
+5 6 
+*/

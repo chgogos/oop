@@ -34,3 +34,10 @@ int main()
         free(mat[i]);
     free(mat);
 }
+
+
+/*
+1 2 
+3 4 
+5 6 
+*/

@@ -20,3 +20,9 @@ int main()
     std::cout << p2->x << " - " << p2->y << std::endl;
     free(p2);
 }
+
+
+/*
+7
+4 - 5
+*/

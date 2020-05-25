@@ -25,3 +25,10 @@ int main(){
     fun3(&x);
     std::cout << "4: x=" <<  x << std::endl;
 }
+
+/*
+1: x=5
+2: x=5
+3: x=6
+4: x=7
+*/

@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 21/05/2020
+τελευταία ενημέρωση: 23/05/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -176,7 +176,7 @@
   * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
   * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment με deep copy
   * [copy_constructor3.cpp](./cpp_playground/ex010/copy_constructor3.cpp) παράδειγμα που το shallow copy είναι αρκετό
-  * [copy_constructor34cpp](./cpp_playground/ex010/copy_constructor3.cpp) παραλλαγή του προηγούμενου παραδείγματος στο οποίο γίνεται δυναμική δέσμευση μνήμης και απαιτείται deep copy
+  * [copy_constructor4.cpp](./cpp_playground/ex010/copy_constructor4.cpp) παραλλαγή του προηγούμενου παραδείγματος στο οποίο γίνεται δυναμική δέσμευση μνήμης και απαιτείται deep copy
 * "Αόρατες" αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
 * Λίστα αρχικοποίησης (initializer list)
   * [initializer_list1.cpp](./cpp_playground/ex044/initializer_list1.cpp)
