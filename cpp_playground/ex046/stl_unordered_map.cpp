@@ -1,10 +1,10 @@
 #include <string>
 #include <iostream>
-#include <map>
+#include <unordered_map>
 
 int main()
 {
-    std::map<std::string, int> months2019 = {
+    std::unordered_map<std::string, int> months2019 = {
         {"Jan", 31},
         {"Feb", 28},
         {"Mar", 31},
@@ -36,10 +36,10 @@ int main()
 Checkpoint 1. 0
 Checkpoint 2. Month Jul does not exist
 Checkpoint 3.
-Apr 30
-Feb 28
-Jan 31
-Jun 0
-Mar 31
 May 31
+Jan 31
+Mar 31
+Feb 28
+Jun 0
+Apr 30
 */
