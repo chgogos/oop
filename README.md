@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 23/05/2020
+τελευταία ενημέρωση: 25/05/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -72,6 +72,8 @@
   * [academic_year_2019_2020_semester4_windows1253.txt](./lab2020/exercise3/academic_year_2019_2020_semester4_windows1253.txt)
   * [Λύση 3ης εργασίας](./lab2020/exercise3_solution/README.md)
 * [4η εργασία - εκφώνηση](./lab2020/exercise4/20200520_assignment4.pdf) προθεσμία παράδοσης: 31/5/2020
+  * Σχεδίαση stick figure <https://github.com/chgogos/oop/tree/master/lab2020/lab_ex7_sol>
+  * <img src="./lab2020/lab_ex7_sol/stick_figure.png" width=50%>
 
 ### Βαθμοί εργασιών εργαστηρίου
 
