@@ -64,3 +64,16 @@ int main()
     // διαγραφή της στοίβας s2 και της στοίβας s1
     return 0;
 }
+
+/*
+E
+D
+C
+B
+A
+Destructor ~Stack() called
+Constructor Stack(size_t) called, created stack having size= 100
+E F
+Destructor ~Stack() called
+Destructor ~Stack() called
+*/

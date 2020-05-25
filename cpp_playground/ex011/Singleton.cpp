@@ -38,3 +38,10 @@ int main(){
     Singleton::get_instance().print();
     return 0;
 }
+
+/*
+Constructor called
+Current value of counter is 0
+Current value of counter is 10
+Current value of counter is 30
+*/

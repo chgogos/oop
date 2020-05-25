@@ -62,3 +62,8 @@ int main()
     p2.print();
     return 0;
 }
+
+/*
+Player Mario score: 0
+Player Luigi score: 200
+*/

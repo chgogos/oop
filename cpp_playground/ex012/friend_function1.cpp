@@ -29,3 +29,8 @@ int main()
     obj1.func1();
     func2(obj1);
 }
+
+/*
+func1:5
+func2:5
+*/

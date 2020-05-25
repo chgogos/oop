@@ -26,3 +26,8 @@ int main(){
     obj2.func(obj1);
     return 0;
 }
+
+
+/*
+I can access 5
+*/

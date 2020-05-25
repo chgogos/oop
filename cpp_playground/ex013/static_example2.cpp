@@ -32,3 +32,8 @@ int main()
     std::cout << "2. " << obj1.get_x() << std::endl;
     return 0;
 }
+
+/*
+1. 5
+2. 6
+*/

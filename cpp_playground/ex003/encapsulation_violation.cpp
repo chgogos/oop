@@ -26,3 +26,8 @@ int main(){
 
     return 0;
 }
+
+/*
+Access to private member 10
+15
+*/

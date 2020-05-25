@@ -76,3 +76,17 @@ int main()
         customer2.print();
     }
 }
+
+
+/*
+Lowest balance
+Nikos - 100
+Highest balance
+Maria - 200
+Check equality
+Nikos - 100
+Nikos - 100
+Check inequality
+Nikos - 100
+Maria - 200
+*/

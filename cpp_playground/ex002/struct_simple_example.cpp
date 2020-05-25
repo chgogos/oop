@@ -56,3 +56,16 @@ int main()
     print_info(r1);
 
 }
+
+/*
+Rectangle 0x62fdf0 width=3.95253e-323 height= 2.07493e-317 area=0
+Rectangle 0x62fdf0 width=2 height= 3 area=6
+Rectangle 0x62fdf0 width=4 height= 3 area=12
+Rectangle 0x62fde0 width=0 height= 0 area=0
+Rectangle 0x62fdd0 width=4 height= 5 area=20
+Rectangle 0x62fdc0 width=5 height= 6 area=30
+Rectangle 0x772780 width=6 height= 6 area=36
+Rectangle 0x772780 width=4 height= 3 area=12
+Rectangle 0x62fdf0 width=5 height= 3 area=15
+Rectangle 0x62fdf0 width=5 height= 3 area=15
+*/

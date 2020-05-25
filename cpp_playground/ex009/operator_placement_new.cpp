@@ -26,3 +26,8 @@ int main(){
 
     // memory is automatically deallocated from buffer, no deletes
 }
+
+/*
+Constructor called 
+Destructor called
+*/

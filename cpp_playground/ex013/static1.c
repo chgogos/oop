@@ -18,3 +18,11 @@ int main()
 
     return 0;
 }
+
+/*
+local variable value = 1, static variable value = 1 
+local variable value = 1, static variable value = 2
+local variable value = 1, static variable value = 3
+local variable value = 1, static variable value = 4
+local variable value = 1, static variable value = 5
+*/

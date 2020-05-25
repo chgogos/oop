@@ -31,3 +31,8 @@ int main(){
     std::cout << "# of instances: " << MyClass::a << std::endl;
     return 0;
 }
+
+/*
+Number of instances: 12
+# of instances: 12
+*/

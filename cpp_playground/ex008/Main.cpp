@@ -28,3 +28,15 @@ int main(){
     c3->print();
     delete c3;
 }
+
+/*
+Constructor Complex(double, double) called for (0,0)
+|0+j0| = 0
+Constructor Complex(double, double) called for (2,3)
+|2+j3| = 3.60555
+Constructor Complex(double, double) called for (3,4)
+|3+j4| = 5
+Destructor ~Complex() called for (3,4)
+Destructor ~Complex() called for (2,3)
+Destructor ~Complex() called for (0,0)
+*/

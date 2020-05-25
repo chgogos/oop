@@ -17,3 +17,8 @@ int main()
 {
     std::cout << factorial(10) << std::endl;
 }
+
+/*
+function factorial called 10 times
+3628800
+*/
