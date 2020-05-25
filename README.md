@@ -73,7 +73,7 @@
   * [Λύση 3ης εργασίας](./lab2020/exercise3_solution/README.md)
 * [4η εργασία - εκφώνηση](./lab2020/exercise4/20200520_assignment4.pdf) προθεσμία παράδοσης: 31/5/2020
   * Σχεδίαση stick figure <https://github.com/chgogos/oop/tree/master/lab2020/lab_ex7_sol>
-  * <img src="./lab2020/lab_ex7_sol/stick_figure.png" alt="stick figure"	title="stick figure"  width=50% />
+  * <img src="./lab2020/lab_ex7_sol/stick_figure.png" alt="stick figure"	title="stick figure"  width="200" height="200" />
 
 ### Βαθμοί εργασιών εργαστηρίου
 
