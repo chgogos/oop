@@ -146,7 +146,7 @@
 * [2019-04-08a](./lc/live_coding_20190408a.cpp), [2019-04-08b](./lc/live_coding_20190408b.cpp), [2019-04-08c](./lc/live_coding_20190408c.cpp)
 * [2019-05-06](./lc/live_coding_20190506.cpp) -->
 
-## Παραδείγματα κώδικα
+## Παραδείγματα κώδικα 
 
 * Παράδειγμα χρήσης δείκτη, διεύθυνσης μεταβλητής και αποαναφοράς (dereference) του δείκτη [pointers1.cpp](./cpp_playground/ex001/pointers1.cpp)
 * Δείκτες σε void [pointers2.cpp](./cpp_playground/ex001/pointers2.cpp)
@@ -255,11 +255,6 @@
   * [stack.hpp](./cpp_playground/ex040/stack.hpp)
   * [reverse_string.cpp](./cpp_playground/ex040/reverse_string.cpp) χρήση της στοίβας για αντιστροφή συμβολοσειράς
   * [postfix_evaluation.cpp](./cpp_playground/ex040/postfix_evaluation.cpp) χρήση της στοίβας για υπολογισμό postfix έκφρασης ψηφίων και τελεστών +,-,*,/
-* Ζεύγη (pairs), πλειάδες (tuples)
-  * [pair.cpp](./cpp_playground/ex032/pair.cpp)
-  * [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp)
-  * [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
-  * [tuple3.cpp](./cpp_playground/ex032/tuple3.cpp) επιστροφή πολλών αποτελεσμάτων από μια συνάρτηση με 10 διαφορετικούς τρόπους
 * Smart pointers
   * [unique_pointer1.cpp](./cpp_playground/ex041/unique_pointer1.cpp)
   * [shared_pointer1.cpp](./cpp_playground/ex041/shared_pointer1.cpp)
@@ -273,94 +268,6 @@
   * [timing3.cpp](./cpp_playground/ex043/timing3.cpp)
 * RTTI (RunTime Type Information)
   * [rtti1.cpp](./cpp_playground/ex051/rtti1.cpp) type introspection
-* Standard Template Library (περιέκτες, υποδοχείς=containers)
-  * Περιέκτες ακολουθίας
-    * std::array
-      * [stl_array.cpp](./cpp_playground/ex046/stl_array.cpp)
-    * std::vector
-      * [stl_vector1.cpp](./cpp_playground/ex046/stl_vector1.cpp)
-      * [stl_vector2.cpp](./cpp_playground/ex046/stl_vector2.cpp)
-      * [stl_vector3.cpp](./cpp_playground/ex046/stl_vector3.cpp)
-      * [stl_vector4.cpp](./cpp_playground/ex046/stl_vector4.cpp) vector και sort
-      * [stl_vector5.cpp](./cpp_playground/ex046/stl_vector5.cpp) vector και iterators
-      * [stl_vector_common_mistake.cpp](./cpp_playground/ex086/stl_vector_common_mistake.cpp)
-    * std::list
-      * [stl_list.cpp](./cpp_playground/ex046/stl_list.cpp)
-    * std::forward_list
-      * [stl_forward_list.cpp](./cpp_playground/ex046/stl_forward_list.cpp) push_front, insert_after, sort, reverse, remove_if
-    * std::deque
-      * [stl_deque.cpp](./cpp_playground/ex046/stl_deque.cpp)
-  * Περιέκτες συσχέτισης
-    * std::multiset
-      * [stl_multiset.cpp](./cpp_playground/ex046/stl_multiset.cpp)
-    * std::set
-      * [stl_set.cpp](./cpp_playground/ex046/stl_set.cpp)
-      * [stl_set2.cpp](./cpp_playground/ex046/stl_set2.cpp)
-    * std::multimap
-      * [stl_multimap.cpp](./cpp_playground/ex046/stl_multimap.cpp)
-    * std::map 
-      * [stl_map.cpp](./cpp_playground/ex046/stl_map.cpp)
-      * [stl_map2.cpp](./cpp_playground/ex046/stl_map2.cpp)
-    * std::unordered_multiset
-    * std::unordered_set
-      * [/stl_unordered_set.cpp](./cpp_playground/ex046/stl_unordered_set.cpp)
-    * std::unordered_multimap
-    * std::unordered_map
-  * Προσαρμογείς περιεκτών (container adaptors)
-    * std::stack
-      * [stl_stack.cpp](./cpp_playground/ex046/stl_stack.cpp)
-    * std:queue
-      * [stl_queue.cpp](./cpp_playground/ex046/stl_queue.cpp)
-    * std::priority_queue
-      * [stl_priority_queue.cpp](./cpp_playground/ex046/stl_priority_queue.cpp)
-* Standard Template Library (επαναλήπτες=iterators)
-  * random access iterator [stl_random_iterator.cpp](./cpp_playground/ex046/stl_random_iterator.cpp)
-  * bidirectional iterator [stl_bidirectional_iterator.cpp](./cpp_playground/ex046/stl_bidirectional_iterator.cpp)
-  * forward iterator [stl_forward_iterator.cpp](./cpp_playground/ex046/stl_forward_iterator.cpp)
-  * Insertion iterators (inserters)
-    * [insert_iterators.cpp](./cpp_playground/ex046/insert_iterators.cpp)
-  * Χρήσιμες συναρτήσεις για iterators
-    * [advance.cpp](./cpp_playground/ex046/advance.cpp) μετακίνηση iterator πολλές θέσεις μπροστά ή πίσω. 
-    * [distance.cpp](./cpp_playground/ex046/distance.cpp) αφαίρεση iterators.
-* Standard Template Library (αλγόριθμοι)
-  * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp) std::reverse
-  * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp) std::equal
-  * [stl_algorithm3.cpp](./cpp_playground/ex046/stl_algorithm3.cpp) std::fill, std::copy, std::count, std::count_if, std::min_element, std::max_element, std::minmax_element, std::accumulate, std::shuffle, std::for_each, std::transform
-  * [stl_algorithm4.cpp](./cpp_playground/ex046/stl_algorithm4.cpp) std::find, std::find_if, std::find_if_not, std::sort, std::binary_search, std::all_of, std::any_of, std::none_of
-  * [stl_algorithm5.cpp](./cpp_playground/ex046/stl_algorithm5.cpp) non modifying STL algorithms (for_each, find, find_if, find_end, find_first_of, adjacent_find, count, count_if, mismatch, equal, search, search_n)
-  <!-- * [stl_algorithm6.cpp](./cpp_playground/ex046/stl_algorithm6.cpp) modifying STL algorithms () -->
-  * [stl_algorithm7.cpp](./cpp_playground/ex046/stl_algorithm7.cpp) sort + search STL algorithms (random_shuffle, sort, stable_partition, lower_bound, upper_bound, equal_range, binary_search)
-  <!-- * [stl_algorithm8.cpp](./cpp_playground/ex046/stl_algorithm8.cpp) merge STL algorithms () -->
-  * [stl_algorithm9.cpp](./cpp_playground/ex046/stl_algorithm9.cpp) heap (make_heap, pop_heap, push_heap, is_heap, sort_heap)
-  * [stl_algorithm10.cpp](./cpp_playground/ex046/stl_algorithm10.cpp) παράδειγμα με αντικείμενα και STL
-  * [stl_algorithm11.cpp](./cpp_playground/ex046/stl_algorithm11.cpp) δημιουργία 1.000 ακεραίων τιμών στο διάστημα [0,1.000.000], εμφάνιση των 10 μεγαλύτερων άρτιων τιμών
-* Σύζευξη (coupling)
-  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :confused:
-  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :confused:
-  * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
-* Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
-  * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP :confused:
-  * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP
-  * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP
-* Παράδειγμα εφαρμογής Interface Segregation Principle (ISP)
-  * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP :confused:
-  * [isp2.cpp](./cpp_playground/ex052/isp2.cpp) ISP
-* Παράδειγμα κυκλικής εξάρτησης (circular dependency) και επίλυση με forward declaration
-  * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.cpp) :confused:
-* Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
-  * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) 
-* Anemic classes (anti-pattern)
-  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία αναιμικής κλάσης :confused:
-  * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp) λύση του προβλήματος με ένα απλό struct
-* Law of Demeter
-  * [lod1.cpp](./cpp_playground/ex055/lod1.cpp) παραβίαση του LoD :confused:
-  * [lod2.cpp](./cpp_playground/ex055/lod2.cpp)
-* TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2) 
-  * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp) απλό παράδειγμα TDD
-  * [tdd1.cpp](./cpp_playground/ex057/tdd1.cpp) -> [tdd2.cpp](./cpp_playground/ex057/tdd2.cpp) -> [tdd3.cpp](./cpp_playground/ex057/tdd3.cpp) -> [tdd4.cpp](./cpp_playground/ex057/tdd4.cpp) -> [tdd5.cpp](./cpp_playground/ex057/tdd5.cpp) -> [tdd6.cpp](./cpp_playground/ex057/tdd6.cpp) -> [tdd7.cpp](./cpp_playground/ex057/tdd7.cpp) -> [tdd8.cpp](./cpp_playground/ex057/tdd8.cpp) -> [tdd9.cpp](./cpp_playground/ex057/tdd9.cpp) -> [tdd10.cpp](./cpp_playground/ex057/tdd10.cpp) -> [tdd11.cpp](./cpp_playground/ex057/tdd11.cpp) -> [tdd12.cpp](./cpp_playground/ex057/tdd12.cpp) -> [tdd13.cpp](./cpp_playground/ex057/tdd13.cpp) -> [tdd14.cpp](./cpp_playground/ex057/tdd14.cpp), [arabic_to_roman.hpp](./cpp_playground/ex057/arabic_to_roman.hpp) -> [demo.cpp](./cpp_playground/ex057/demo.cpp)
-* Παραδείγματα χρήσης της βιβλιοθήκης fmt
-  * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
-  * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
 * Δημιουργία τυχαίων τιμών
   * [random1.cpp](./cpp_playground/ex072/random1.cpp)
   * [random2.cpp](./cpp_playground/ex072/random2.cpp)
@@ -398,6 +305,118 @@
     * [fp_functor_lambda.cpp](./cpp_playground/ex087/fp_functor_lambda.cpp)
   * map - filter - reduce
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
+* Ακρίβεια πράξεων
+  * floating points [floating_point.cpp](./cpp_playground/ex079/floating_point.cpp)
+  * Όρια τύπων δεδομένων [limits.cpp](./cpp_playground/ex079/limits.cpp)
+  * Χειρισμός χρηματικών ποσών μέσω ειδικής κλάσης [money.hpp](./cpp_playground/ex079/money.hpp), [main.cpp](./cpp_playground/ex079/main.cpp)
+* Δείκτες σε συναρτήσεις (function pointers)
+  * [function_pointers1.cpp](./cpp_playground/ex001/function_pointers1.cpp)
+  * [function_pointers2.cpp](./cpp_playground/ex001/function_pointers2.cpp)
+  * [function_pointers3.cpp](./cpp_playground/ex001/function_pointers3.cpp)
+  * [function_pointers4.cpp](./cpp_playground/ex001/function_pointers4.cpp)
+  * [function_pointers5.cpp](./cpp_playground/ex001/function_pointers5.cpp)
+  * [function_pointers6.cpp](./cpp_playground/ex001/function_pointers5.cpp)
+  * [university2.c](./cpp_playground/ex023/university2.c)
+* Λεκτικά (C-strings,std::string, std::string_view)
+  * [c_string1.cpp](./cpp_playground/ex085/c_string1.cpp)
+  * [string1.cpp](./cpp_playground/ex085/string1.cpp)
+  * [string_view1.cpp](./cpp_playground/ex085/string_view1.cpp)
+
+### Βέλτιστες πρακτικές στη C++
+
+* Const correctness <http://www.possibility.com/Cpp/const.html>
+* Rule of three (αν μια κλάση ορίζει destructor, τότε θα πρέπει να ορίζει copy constructor και copy assignment operator)
+  * <https://www.geeksforgeeks.org/rule-of-three-in-cpp/>
+* Rule of five (αν μια κλάση ορίζει destructor, τότε θα πρέπει να ορίζει copy constructor, copy assignment operator, move constructor και move assignment operator)
+* Rule of zero (οι κλάσεις θα πρέπει να γράφονται με τέτοιο τρόπο έτσι ώστε να μην χρειάζεται destructor, copy constructor, copy assignment operator, move constructor, move assignment operator, αλλά να χρησιμοποιούνται smart pointers και containers της STL για την αυτόματη διαχείριση των πόρων)
+
+## STL
+
+* Standard Template Library (περιέκτες, υποδοχείς=containers)
+  * Περιέκτες ακολουθίας
+    * std::array
+      * [stl_array.cpp](./cpp_playground/ex046/stl_array.cpp)
+    * std::vector
+      * [stl_vector1.cpp](./cpp_playground/ex046/stl_vector1.cpp)
+      * [stl_vector2.cpp](./cpp_playground/ex046/stl_vector2.cpp)
+      * [stl_vector3.cpp](./cpp_playground/ex046/stl_vector3.cpp)
+      * [stl_vector4.cpp](./cpp_playground/ex046/stl_vector4.cpp) vector και sort
+      * [stl_vector5.cpp](./cpp_playground/ex046/stl_vector5.cpp) vector και iterators
+      * [stl_vector_common_mistake.cpp](./cpp_playground/ex086/stl_vector_common_mistake.cpp)
+    * std::list
+      * [stl_list.cpp](./cpp_playground/ex046/stl_list.cpp)
+    * std::forward_list
+      * [stl_forward_list.cpp](./cpp_playground/ex046/stl_forward_list.cpp) push_front, insert_after, sort, reverse, remove_if
+    * std::deque
+      * [stl_deque.cpp](./cpp_playground/ex046/stl_deque.cpp)
+  * Περιέκτες συσχέτισης
+    * std::multiset
+      * [stl_multiset.cpp](./cpp_playground/ex046/stl_multiset.cpp)
+    * std::set
+      * [stl_set.cpp](./cpp_playground/ex046/stl_set.cpp)
+      * [stl_set2.cpp](./cpp_playground/ex046/stl_set2.cpp)
+    * std::multimap
+      * [stl_multimap.cpp](./cpp_playground/ex046/stl_multimap.cpp)
+    * std::map 
+      * [stl_map.cpp](./cpp_playground/ex046/stl_map.cpp)
+      * [stl_map2.cpp](./cpp_playground/ex046/stl_map2.cpp)
+    * std::unordered_multiset
+    * std::unordered_set
+      * [stl_unordered_set.cpp](./cpp_playground/ex046/stl_unordered_set.cpp)
+    * std::unordered_multimap
+    * std::unordered_map
+  * Προσαρμογείς περιεκτών (container adaptors)
+    * std::stack
+      * [stl_stack.cpp](./cpp_playground/ex046/stl_stack.cpp)
+    * std:queue
+      * [stl_queue.cpp](./cpp_playground/ex046/stl_queue.cpp)
+    * std::priority_queue
+      * [stl_priority_queue.cpp](./cpp_playground/ex046/stl_priority_queue.cpp)
+* Standard Template Library (επαναλήπτες=iterators)
+  * random access iterator [stl_random_iterator.cpp](./cpp_playground/ex046/stl_random_iterator.cpp)
+  * bidirectional iterator [stl_bidirectional_iterator.cpp](./cpp_playground/ex046/stl_bidirectional_iterator.cpp)
+  * forward iterator [stl_forward_iterator.cpp](./cpp_playground/ex046/stl_forward_iterator.cpp)
+  * Insertion iterators (inserters)
+    * [insert_iterators.cpp](./cpp_playground/ex046/insert_iterators.cpp)
+  * stream iterators
+    * [stream_iterator1.cpp](./cpp_playground/ex046/stream_iterator1.cpp)
+    * [stream_iterator2.cpp](./cpp_playground/ex046/stream_iterator2.cpp)
+  * Χρήσιμες συναρτήσεις για iterators
+    * [advance.cpp](./cpp_playground/ex046/advance.cpp) μετακίνηση iterator πολλές θέσεις μπροστά ή πίσω. 
+    * [distance.cpp](./cpp_playground/ex046/distance.cpp) αφαίρεση iterators.
+* Standard Template Library (αλγόριθμοι)
+  * [stl_algorithm1.cpp](./cpp_playground/ex046/stl_algorithm1.cpp) std::reverse
+  * [stl_algorithm2.cpp](./cpp_playground/ex046/stl_algorithm2.cpp) std::equal
+  * [stl_algorithm3.cpp](./cpp_playground/ex046/stl_algorithm3.cpp) std::fill, std::copy, std::count, std::count_if, std::min_element, std::max_element, std::minmax_element, std::accumulate, std::shuffle, std::for_each, std::transform
+  * [stl_algorithm4.cpp](./cpp_playground/ex046/stl_algorithm4.cpp) std::find, std::find_if, std::find_if_not, std::sort, std::binary_search, std::all_of, std::any_of, std::none_of
+  * [stl_algorithm5.cpp](./cpp_playground/ex046/stl_algorithm5.cpp) non modifying STL algorithms (for_each, find, find_if, find_end, find_first_of, adjacent_find, count, count_if, mismatch, equal, search, search_n)
+  <!-- * [stl_algorithm6.cpp](./cpp_playground/ex046/stl_algorithm6.cpp) modifying STL algorithms () -->
+  * [stl_algorithm7.cpp](./cpp_playground/ex046/stl_algorithm7.cpp) sort + search STL algorithms (random_shuffle, sort, stable_partition, lower_bound, upper_bound, equal_range, binary_search)
+  <!-- * [stl_algorithm8.cpp](./cpp_playground/ex046/stl_algorithm8.cpp) merge STL algorithms () -->
+  * [stl_algorithm9.cpp](./cpp_playground/ex046/stl_algorithm9.cpp) heap (make_heap, pop_heap, push_heap, is_heap, sort_heap)
+  * [stl_algorithm10.cpp](./cpp_playground/ex046/stl_algorithm10.cpp) παράδειγμα με αντικείμενα και STL
+  * [stl_algorithm11.cpp](./cpp_playground/ex046/stl_algorithm11.cpp) δημιουργία 1.000 ακεραίων τιμών στο διάστημα [0,1.000.000], εμφάνιση των 10 μεγαλύτερων άρτιων τιμών
+* Ζεύγη (pairs), πλειάδες (tuples)
+  * [pair.cpp](./cpp_playground/ex032/pair.cpp)
+  * [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp)
+  * [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
+  * [tuple3.cpp](./cpp_playground/ex032/tuple3.cpp) επιστροφή πολλών αποτελεσμάτων από μια συνάρτηση με 10 διαφορετικούς τρόπους
+
+## TDD με τη βιβλιοθήκη Catch2
+
+* TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2) 
+  * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp) απλό παράδειγμα TDD
+  * [tdd1.cpp](./cpp_playground/ex057/tdd1.cpp) -> [tdd2.cpp](./cpp_playground/ex057/tdd2.cpp) -> [tdd3.cpp](./cpp_playground/ex057/tdd3.cpp) -> [tdd4.cpp](./cpp_playground/ex057/tdd4.cpp) -> [tdd5.cpp](./cpp_playground/ex057/tdd5.cpp) -> [tdd6.cpp](./cpp_playground/ex057/tdd6.cpp) -> [tdd7.cpp](./cpp_playground/ex057/tdd7.cpp) -> [tdd8.cpp](./cpp_playground/ex057/tdd8.cpp) -> [tdd9.cpp](./cpp_playground/ex057/tdd9.cpp) -> [tdd10.cpp](./cpp_playground/ex057/tdd10.cpp) -> [tdd11.cpp](./cpp_playground/ex057/tdd11.cpp) -> [tdd12.cpp](./cpp_playground/ex057/tdd12.cpp) -> [tdd13.cpp](./cpp_playground/ex057/tdd13.cpp) -> [tdd14.cpp](./cpp_playground/ex057/tdd14.cpp), [arabic_to_roman.hpp](./cpp_playground/ex057/arabic_to_roman.hpp) -> [demo.cpp](./cpp_playground/ex057/demo.cpp)
+
+
+## Η βιβλιοθήκη fmt για εύκολη μορφοποίηση εξόδου (python-like)
+
+* Παραδείγματα χρήσης της βιβλιοθήκης fmt
+  * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
+  * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
+
+## Σχέσεις αντικειμένων - UML - αρχές καλής σχεδίασης
+
 * Σχέσεις μεταξύ αντικειμένων
   * IS_A (inheritance=κληρονομικότητα) [isa.cpp](./cpp_playground/ex080/isa.cpp)
   * HAS-A (composition=σύνθεση) [composition1.cpp](./cpp_playground/ex080/composition1.cpp)
@@ -422,22 +441,28 @@
     * [researcher.hpp](./cpp_playground/ex077/researcher.hpp)
     * [researcher.cpp](./cpp_playground/ex077/researcher.cpp)
     * [main.cpp](./cpp_playground/ex077/main.cpp)
-* Ακρίβεια πράξεων
-  * floating points [floating_point.cpp](./cpp_playground/ex079/floating_point.cpp)
-  * Όρια τύπων δεδομένων [limits.cpp](./cpp_playground/ex079/limits.cpp)
-  * Χειρισμός χρηματικών ποσών μέσω ειδικής κλάσης [money.hpp](./cpp_playground/ex079/money.hpp), [main.cpp](./cpp_playground/ex079/main.cpp)
-* Δείκτες σε συναρτήσεις (function pointers)
-  * [function_pointers1.cpp](./cpp_playground/ex001/function_pointers1.cpp)
-  * [function_pointers2.cpp](./cpp_playground/ex001/function_pointers2.cpp)
-  * [function_pointers3.cpp](./cpp_playground/ex001/function_pointers3.cpp)
-  * [function_pointers4.cpp](./cpp_playground/ex001/function_pointers4.cpp)
-  * [function_pointers5.cpp](./cpp_playground/ex001/function_pointers5.cpp)
-  * [function_pointers6.cpp](./cpp_playground/ex001/function_pointers5.cpp)
-  * [university2.c](./cpp_playground/ex023/university2.c)
-* Λεκτικά (C-strings,std::string, std::string_view)
-  * [c_string1.cpp](./cpp_playground/ex085/c_string1.cpp)
-  * [string1.cpp](./cpp_playground/ex085/string1.cpp)
-  * [string_view1.cpp](./cpp_playground/ex085/string_view1.cpp)
+* Σύζευξη (coupling)
+  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :confused:
+  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :confused:
+  * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
+* Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
+  * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP :confused:
+  * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP
+  * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP
+* Παράδειγμα εφαρμογής Interface Segregation Principle (ISP)
+  * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP :confused:
+  * [isp2.cpp](./cpp_playground/ex052/isp2.cpp) ISP
+* Παράδειγμα κυκλικής εξάρτησης (circular dependency) και επίλυση με forward declaration
+  * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.cpp) :confused:
+* Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
+  * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) 
+* Anemic classes (anti-pattern)
+  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία αναιμικής κλάσης :confused:
+  * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp) λύση του προβλήματος με ένα απλό struct
+* Law of Demeter
+  * [lod1.cpp](./cpp_playground/ex055/lod1.cpp) παραβίαση του LoD :confused:
+  * [lod2.cpp](./cpp_playground/ex055/lod2.cpp)
+
 
 ## Design Patterns
 
@@ -497,14 +522,6 @@
 * Law of Demeter (αρχή της ελάχιστης δυνατής γνώσης).
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
 * PLoP (Principle of Least Privilege = Αρχή του ελάχιστου δικαιώματος) κάθε τμήμα θα πρέπει να μπορεί να προσπελάσει μόνο πληροφορίες και πόρους που απαιτούνται για να φέρει εις πέρας το ρόλο που οφείλει να επιτελεί.
-
-### Βέλτιστες πρακτικές στη C++
-
-* Const correctness <http://www.possibility.com/Cpp/const.html>
-* Rule of three (αν μια κλάση ορίζει destructor, τότε θα πρέπει να ορίζει copy constructor και copy assignment operator)
-  * <https://www.geeksforgeeks.org/rule-of-three-in-cpp/>
-* Rule of five (αν μια κλάση ορίζει destructor, τότε θα πρέπει να ορίζει copy constructor, copy assignment operator, move constructor και move assignment operator)
-* Rule of zero (οι κλάσεις θα πρέπει να γράφονται με τέτοιο τρόπο έτσι ώστε να μην χρειάζεται destructor, copy constructor, copy assignment operator, move constructor, move assignment operator, αλλά να χρησιμοποιούνται smart pointers και containers της STL για την αυτόματη διαχείριση των πόρων)
 
 ## Σημειώσεις - Συγγράμματα
 
