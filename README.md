@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 25/05/2020
+τελευταία ενημέρωση: 26/05/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -35,6 +35,7 @@
 ### Επιπλέον παρουσιάσεις
 
 * [Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf)
+* [STL](./STL.pdf)
 
 ### BONUS
 

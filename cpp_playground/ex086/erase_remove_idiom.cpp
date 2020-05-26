@@ -13,3 +13,7 @@ int main(){
 
     copy(v.begin(), v.end(), ostream_iterator<int>(cout, " "));
 }
+
+/*
+2 8 8 4
+*/
