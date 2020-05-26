@@ -44,4 +44,5 @@
 
 ### Σχεδίαση σχήματος (τριγώνου) με την OpenGL
 
-* [Παράδειγμα με OpenGL](../various/OPENGL/README.md)
+* [Παράδειγμα με OpenGL - cross platform](../various/OPENGL/README.md)
+* [Visual Studio 2019 Community solution](https://github.com/chgogos/oop/tree/master/various/CHERNO/glfw_test)
