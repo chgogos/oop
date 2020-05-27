@@ -40,7 +40,8 @@ public:
     string info()
     {
         string s = "BOOK Title: " + title + " Date: " + date + " Authors: ";
-        for(string a: authors){
+        for (string a : authors)
+        {
             s += a + " ";
         }
         return s;
@@ -49,6 +50,43 @@ public:
 
 class email : public document
 {
+private:
+    string sender;
+    string subject;
+    vector<string> recipients;
+
+public:
+    email(string a_date, string a_sender, string a_subject) : document(a_date), sender(a_sender), subject(a_subject) {}
+    string get_sender()
+    {
+        return sender;
+    }
+    string get_subject()
+    {
+        return subject;
+    }
+    vector<string> get_recipients()
+    {
+        return recipients;
+    }
+    void add_recipient(string name)
+    {
+        recipients.push_back(name);
+    }
+    string info()
+    {
+        string s = "EMAIL Subject: " + subject + " Sender: " + sender + " Recipients:";
+        for (string r : recipients)
+        {
+            s += r + " ";
+        }
+        s += "Date: " + date + " Authors: ";
+        for (string a : authors)
+        {
+            s += a + " ";
+        }
+        return s;
+    }
 };
 
 int main()
@@ -57,4 +95,11 @@ int main()
     b1.add_author("maria");
     b1.add_author("sofia");
     cout << b1.info() << endl;
+
+    email e1("2/1/2020", "Chris", "This is a test");
+    e1.add_author("Chris");
+    e1.add_author("Nikos");
+    e1.add_recipient("Maria");
+    e1.add_recipient("Petros");
+    cout << e1.info() << endl;
 }
