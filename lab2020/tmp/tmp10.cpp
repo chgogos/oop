@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 class document
@@ -25,7 +26,8 @@ public:
     }
     virtual string info() = 0;
 
-    bool operator<(const document &other) const {
+    bool operator<(const document &other) const
+    {
         return this->authors[0] < other.authors[0];
     }
 };
@@ -101,19 +103,27 @@ int main()
 
     book b2("3/3/2020", "A BIG BOOK");
     b2.add_author("COELLO");
-    
+
     email e1("2/1/2020", "Chris", "This is a test");
     e1.add_author("Chris");
     e1.add_author("Nikos");
     e1.add_recipient("Maria");
     e1.add_recipient("Petros");
-    
-    vector<document*> docs;
+
+    vector<document *> docs;
     docs.push_back(&b1);
     docs.push_back(&b2);
     docs.push_back(&e1);
 
-    for(document* a: docs ){
+    for (document *a : docs)
+    {
+        cout << a->info() << endl;
+    }
+    cout << "######################" << endl;
+
+    sort(docs.begin(), docs.end());
+    for (document *a : docs)
+    {
         cout << a->info() << endl;
     }
 
