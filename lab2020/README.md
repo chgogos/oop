@@ -42,7 +42,9 @@
 * [readfile2.cpp](./simple_read_file_example/readfile2.cpp)
 
 
-### Σχεδίαση σχήματος (τριγώνου) με την OpenGL
+### Σχεδίαση με την OpenGL (GLFW)
 
-* [Παράδειγμα με OpenGL - cross platform](../various/OPENGL/README.md)
-* [Visual Studio 2019 Community solution](https://github.com/chgogos/oop/tree/master/various/CHERNO/glfw_test)
+* [Παράδειγμα 1 με OpenGL - cross platform](../various/OPENGL/README.md) Σχεδίαση ενός τριγώνου. 
+* [Παράδειγμα 2 με OpenGL - Visual Studio 2019 Community solution](https://github.com/chgogos/oop/tree/master/various/CHERNO/glfw_test) Σχεδίαση ενός τριγώνου. 
+* [Παράδειγμα 3 με OpenGL - cross platform](https://github.com/chgogos/oop/tree/master/lab2020/lab_ex6_sol) Σχεδίαση τυχαίων σχημάτων (τρίγωνο, κύκλος, ορθογώνιο) και εναλλαγή από το ένα στο άλλο.
+* [Παράδειγμα 4 με OpenGL - cross platform](https://github.com/chgogos/oop/tree/master/lab2020/lab_ex7_sol) Σχεδίαση stick figure.
