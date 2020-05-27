@@ -134,3 +134,13 @@ int main()
 
     return 0;
 }
+
+
+/*
+Lamp is on
+Lamp is off
+Fan is on
+Fan is off
+Radiator is on
+Radiator is off
+*/

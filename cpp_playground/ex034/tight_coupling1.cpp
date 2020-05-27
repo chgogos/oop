@@ -48,3 +48,9 @@ int main()
     
     return 0;
 }
+
+
+/*
+Lamp is on
+Lamp is off
+*/

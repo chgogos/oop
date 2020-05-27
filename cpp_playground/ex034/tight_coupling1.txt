@@ -1,2 +1,0 @@
-Lamp is on
-Lamp is off
