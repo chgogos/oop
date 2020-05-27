@@ -98,15 +98,23 @@ int main()
     book b1("1/1/2020", "book1");
     b1.add_author("Maria");
     b1.add_author("Sofia");
-    cout << b1.info() << endl;
 
+    book b2("3/3/2020", "A BIG BOOK");
+    b2.add_author("COELLO");
+    
     email e1("2/1/2020", "Chris", "This is a test");
     e1.add_author("Chris");
     e1.add_author("Nikos");
     e1.add_recipient("Maria");
     e1.add_recipient("Petros");
-    cout << e1.info() << endl;
+    
+    vector<document*> docs;
+    docs.push_back(&b1);
+    docs.push_back(&b2);
+    docs.push_back(&e1);
 
-    cout <<  (e1 < b1) << endl;
+    for(document* a: docs ){
+        cout << a->info() << endl;
+    }
 
 }
