@@ -24,6 +24,10 @@ public:
         authors.push_back(name);
     }
     virtual string info() = 0;
+
+    bool operator<(const document &other) const {
+        return this->authors[0] < other.authors[0];
+    }
 };
 
 class book : public document
@@ -92,8 +96,8 @@ public:
 int main()
 {
     book b1("1/1/2020", "book1");
-    b1.add_author("maria");
-    b1.add_author("sofia");
+    b1.add_author("Maria");
+    b1.add_author("Sofia");
     cout << b1.info() << endl;
 
     email e1("2/1/2020", "Chris", "This is a test");
@@ -102,4 +106,7 @@ int main()
     e1.add_recipient("Maria");
     e1.add_recipient("Petros");
     cout << e1.info() << endl;
+
+    cout <<  (e1 < b1) << endl;
+
 }
