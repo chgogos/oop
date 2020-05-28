@@ -136,7 +136,6 @@
 * [Quiz 1](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOTBWSVdORko2WThIMzZSTERINFlCTlFENi4u)
   * Λύσεις 
 
-
 <!-- ## Live coding
 
 * [2019-02-18](./lc/live_coding_20190218.cpp)
