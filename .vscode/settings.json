@@ -99,7 +99,8 @@
         "memory_resource": "cpp",
         "cfenv": "cpp",
         "filesystem": "cpp",
-        "any": "cpp"
+        "any": "cpp",
+        "forward_list": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#b52e31",
