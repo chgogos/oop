@@ -131,10 +131,10 @@
   * [Λύση θέματος Α](./preparation/exams20190625_b1.cpp)
   * [Λύση θέματος B](./preparation/exams20190625_b2.cpp)
 
-## Quizzes (απαιτεί σύνδεση μέσω MSTEAMS και ιδρυματικό λογαριασμό uoi.gr)
+## Quizzes
 
 * [Quiz 1](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOTBWSVdORko2WThIMzZSTERINFlCTlFENi4u)
-  * [Λύσεις ερωτημάτων ανοικτού τύπου](https://github.com/chgogos/oop/tree/master/various/quizzes)
+  * [Λύσεις ερωτημάτων ανοικτού τύπου](https://github.com/chgogos/oop/tree/master/various/quizzes) 
 
 <!-- ## Live coding
 
