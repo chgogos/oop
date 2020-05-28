@@ -134,7 +134,7 @@
 ## Quizzes (απαιτεί σύνδεση μέσω MSTEAMS και ιδρυματικό λογαριασμό uoi.gr)
 
 * [Quiz 1](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOTBWSVdORko2WThIMzZSTERINFlCTlFENi4u)
-  * Λύσεις 
+  * [Λύσεις ερωτημάτων ανοικτού τύπου](https://github.com/chgogos/oop/tree/master/various/quizzes)
 
 <!-- ## Live coding
 
