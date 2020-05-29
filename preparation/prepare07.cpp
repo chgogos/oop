@@ -26,7 +26,8 @@ class employee : public person
 protected:
     std::string acct_no; // αριθμός λογαριασμού
 public:
-    employee(std::string n, std::string dob, std::string an) : person(n, dob), acct_no(an) {}
+    employee(std::string n, std::string dob, std::string an) : 
+       person(n, dob), acct_no(an) {}
 
     virtual std::string info()
     {
@@ -63,7 +64,8 @@ private:
     int years_of_experience;
 
 public:
-    administrative_employee(std::string n, std::string dob, std::string an, int yoe) : employee(n, dob, an), years_of_experience(yoe) {}
+    administrative_employee(std::string n, std::string dob, std::string an, int yoe) : 
+      employee(n, dob, an), years_of_experience(yoe) {}
 
     std::string info()
     {
@@ -119,3 +121,15 @@ int main()
 
     return 0;
 }
+
+/*
+Name: Nikos DOB: 1/1/1980 ACCOUNT_NO: 0001
+Name: Maria DOB: 1/6/1965 ACCOUNT_NO: 0002 Specializations: Algorithms Artificial Intelligence Mathematics  (PROFESSOR)
+Name: Kostas DOB: 2/4/1985 ACCOUNT_NO: 0003 Experience: 10 (ADMINISTRATIVE EMPLOYEE)
+Name: Georgia DOB: 1/3/2003 SEMESTER: 2 (STUDENT)
+List of persons
+Name: Georgia DOB: 1/3/2003 SEMESTER: 2 (STUDENT)
+Name: Kostas DOB: 2/4/1985 ACCOUNT_NO: 0003 Experience: 10 (ADMINISTRATIVE EMPLOYEE)
+Name: Maria DOB: 1/6/1965 ACCOUNT_NO: 0002 Specializations: Algorithms Artificial Intelligence Mathematics  (PROFESSOR)
+Name: Nikos DOB: 1/1/1980 ACCOUNT_NO: 0001
+*/
