@@ -130,6 +130,8 @@
 * [Θέματα τελικών εξετάσεων Ιουνίου 2019 - ΟΜΑΔΑ Β](./preparation/20190625_telikh_exetash_b.pdf)
   * [Λύση θέματος Α](./preparation/exams20190625_b1.cpp)
   * [Λύση θέματος B](./preparation/exams20190625_b2.cpp)
+* [Δοκιμαστική εξέταση 1 στο exam.net](./preparation/20200529.%20ΔΟΚΙΜΗ%20ΕΞΕΤΑΣΗΣ.pdf)
+  * [Λύση θέματος](./preparation/prepare08.cpp)
 
 ## Quizzes
 
