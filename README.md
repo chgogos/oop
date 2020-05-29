@@ -134,7 +134,8 @@
 ## Quizzes
 
 * [Quiz 1](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOTBWSVdORko2WThIMzZSTERINFlCTlFENi4u)
-  * [Λύσεις ερωτημάτων ανοικτού τύπου](https://github.com/chgogos/oop/tree/master/various/quizzes) 
+  * [Λύσεις ερωτημάτων ανοικτού τύπου](https://github.com/chgogos/oop/tree/master/various/quizzes)
+* [Quiz 2](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUMTM3RERRRUxXUjk2RjlLUjFXSVBFRTlWRS4u) 
 
 <!-- ## Live coding
 
@@ -610,6 +611,7 @@
   * <https://www.uml-diagrams.org/>
 * Λογισμικά για σχεδίαση UML
   * [Visual Paradigm - Community Edition](https://www.visual-paradigm.com/)
+  * [Modelio](https://www.modelio.org/)
   * [ArgoUML](http://argouml.tigris.org/)
   * [BOUML](http://argouml.tigris.org/)
   * [Plant UML](http://plantuml.com/)
