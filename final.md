@@ -89,11 +89,11 @@
 
 * Περιέκτες (container)
   * std::vector, std::array, std::list
-  * std::map, std::unordered_map
+  * std::set, std::unordered_set, std::map, std::unordered_map
 * Επαναλήπτες (iterators)
   * random iterator, forward iterator
 * Αλγόριθμοι (algorithms)
-  * std::sort, std::copy, std::count_if, std::accumulate, std::lower_bound
+  * std::sort,std::find, std::copy, std::count_if, std::accumulate, std::lower_bound
 * Βοηθήματα (utilities)
   * ζεύγη (std::pair)
   * πλειάδες (std::tuple)
