@@ -109,6 +109,7 @@
     * Συσχετίσεις δύο κατευθύνσεων (two way associations)
     * Συνάθροιση (aggregation)
     * Σύνθεση (composition)
+    * Κληρονομικότητα (inheritance)
 
 <!-- 
 
