@@ -109,9 +109,14 @@
     * Συσχετίσεις δύο κατευθύνσεων (two way associations)
     * Συνάθροιση (aggregation)
     * Σύνθεση (composition)
-<!-- * OOP αρχές
+
+<!-- 
+
+* OOP αρχές
   * tight coupling (ισχυρή σύζευξη) vs loose coupling (χαλαρή σύζευξη)
 * Design Patterns
   * Creational: Factory
   * Structural: Adapter
-  * Behavioral: Observer -->
+  * Behavioral: Observer 
+
+-->
