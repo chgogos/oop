@@ -7,7 +7,7 @@
 * Κατανόηση σημασίας προσδιοριστών private, public και protected
 * Ορισμός κατασκευαστών και καταστροφέων
 * Υπερφόρτωση τελεστών (π.χ. του τελεστή <)
-* Κληρονομικότητα - πολυμορφικές ιεραρχίες (virtual) - επαναορισμός (override)
+* Κληρονομικότητα - πολυμορφικές ιεραρχίες (virtual) - παράκαμψη (override)
 * Προγραμματισμός με πρότυπα (template programming)
 * STL περιέκτες (π.χ. std::vector)
 * STL αλγόριθμοι (π.χ. std::sort)
@@ -32,6 +32,7 @@
 
 ## ΔΙΑΦΑΝΕΙΕΣ
 
+* Διαφάνειες μαθήματος (1-19)
 * [Margit Antal 2018](./ma2018/CPP_v1.1.pdf) (ΣΕΛΙΔΕΣ 1-220) OXI 35-41, 108-116, 140-149, 152-156, 180-196, 203-205, 229-252, 257-346
 * Τσούλος Ιωάννης <https://eclass.teiep.gr/courses/COMP113/>
 
@@ -67,11 +68,10 @@
 * υπερφόρτωση τελεστών (+, <, ==, << , >>)
 * εμφωλιασμοί κλάσεων (nested classes)
 * μετατροπή αντικειμένου σε λεκτικό
-* κληρονομικότητα (υπερκλάσεις, υποκλάσεις, το keyword protected)
+* κληρονομικότητα (βασικές κλάσεις, παραγόμενες κλάσεις, το keyword protected)
 * κληρονομικότητα (overload, override)
 * κληρονομικότητα (τα keywords final, override)
-* upcasting
-* downcasting
+* upcasting, downcasting
 * πολυμορφικές ιεραρχίες (virtual συναρτήσεις)
 * virtual destructors
 * αφηρημένες κλάσεις (pure virtual functions)
@@ -80,7 +80,7 @@
 * templates (εφαρμογή σε συναρτήσεις, εφαρμογή σε δομές/κλάσεις)
 * Εξαιρέσεις
 * Λάμδα συναρτήσεις
-* Έξυπνοι δείκτες (unique, shared, weak)
+<!-- * Έξυπνοι δείκτες (unique, shared, weak) -->
 * Δημιουργία τυχαίων τιμών
 * Χρονομέτρηση χρόνου εκτέλεσης κώδικα
 * Χειρισμός αρχείων κειμένου και δυαδικών αρχείων
@@ -109,9 +109,9 @@
     * Συσχετίσεις δύο κατευθύνσεων (two way associations)
     * Συνάθροιση (aggregation)
     * Σύνθεση (composition)
-* OOP αρχές
+<!-- * OOP αρχές
   * tight coupling (ισχυρή σύζευξη) vs loose coupling (χαλαρή σύζευξη)
 * Design Patterns
   * Creational: Factory
   * Structural: Adapter
-  * Behavioral: Observer
+  * Behavioral: Observer -->
