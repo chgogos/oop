@@ -91,9 +91,11 @@
   * [academic_year_2019_2020_semester4.txt](./lab2020/exercise3/academic_year_2019_2020_semester4.txt)
   * [academic_year_2019_2020_semester4_windows1253.txt](./lab2020/exercise3/academic_year_2019_2020_semester4_windows1253.txt)
   * [Λύση 3ης εργασίας](./lab2020/exercise3_solution/README.md)
-* [4η εργασία - εκφώνηση](./lab2020/exercise4/20200520_assignment4.pdf) προθεσμία παράδοσης: 31/5/2020
+* [4η εργασία - εκφώνηση](./lab2020/exercise4/20200520_assignment4.pdf) προθεσμία παράδοσης: ~~31/5/2020~~
   * Σχεδίαση stick figure <https://github.com/chgogos/oop/tree/master/lab2020/lab_ex7_sol>
   * <img src="./lab2020/lab_ex7_sol/stick_figure.png" alt="stick figure"	title="stick figure"  width="400" height="400" />
+  * [Λύση 4ης εργασίας](./lab2020/exercise4_solution/README.md)
+  * [Δεύτερη λύση 4ης εργασίας](./lab2020/exercise4_solution2/README.md)
 
 ### Βαθμοί εργασιών εργαστηρίου
 
