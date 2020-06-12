@@ -6,7 +6,7 @@
 
 <!-- [ΟΡΓΑΝΩΣΗ ΜΑΘΗΜΑΤΟΣ ΕΑΡΙΝΟ 2019-2020](./resources/oop_spring_2019_2020.pdf) -->
 
-τελευταία ενημέρωση: 08/06/2020
+τελευταία ενημέρωση: 12/06/2020
 
 ## ΒΑΣΙΚΕΣ ΓΝΩΣΕΙΣ ΠΟΥ ΘΑ ΧΡΕΙΑΣΤΟΥΝ ΣΤΙΣ ΕΞΕΤΑΣΕΙΣ
 
@@ -144,6 +144,7 @@
 * [Quiz 3](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOFY1Qkg1Tk5VVk9aNk1VMVVaUlgyUzQ0VS4u)
 * [Quiz 4](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUQ1c2VUNPNURPNjRWOUZESVQxMDE5TzVPUi4u)
 * [Quiz 5](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUMDU5QkxKWk5LMExVQ1JJWjNHWjBXM0ZFSC4u)
+* [Quiz 6](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUNVJKSzU4MTEzN0MzWEpTRThLSTBSWFRDOC4u)
 
 <!-- ## Live coding
 
