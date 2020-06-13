@@ -23,9 +23,12 @@ private:
     vector<employee *> employees;
 
 public:
-    company(std::string t) : title(t) {}
+    company(std::string t);
     string get_title();
-    vector<employee *> get_employees();
+    vector<employee *> get_employees()
+    {
+        return employees;
+    }
     void hire(employee *emp, double salary);
     void fire(employee *emp);
     void modify_salary(employee *emp, double amount);
@@ -33,6 +36,6 @@ public:
     double payroll();
 };
 
-int main(){
-    
+int main()
+{
 }
