@@ -23,8 +23,18 @@
 * enum classes
 * static asserts
 * variadic templates
+  * <https://eli.thegreenplace.net/2014/variadic-templates-in-c/>
 * Range based for επαναλήψεις
 * initializer lists
 * move
 * regular expressions
 * std::array
+* alignas/alignof
+  * <http://www.georgeflanagin.com/c++11/alignas.php>
+* trailing return types
+  * <https://arne-mertz.de/2016/11/trailing-return-types-everywhere/>
+* attributes
+  * <https://arne-mertz.de/2016/12/modern-c-features-attributes/>
+* new string literals
+  * <https://www.w3schools.in/cplusplus11-tutorial/new-string-literals/>
+
