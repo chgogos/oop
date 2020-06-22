@@ -38,3 +38,8 @@
 * new string literals
   * <https://www.w3schools.in/cplusplus11-tutorial/new-string-literals/>
 
+
+## Ενδιαφέρουσες ιστοσελίδες
+
+* [C++11 Guide
+A Practical Guide for the Everyday Programmer](https://stuartwheaton.com/blog/2020-06-14-c++11-guide/)
