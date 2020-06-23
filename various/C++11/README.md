@@ -18,7 +18,7 @@
 * Έξυπνοι δείκτες
   * shared_ptr
   * unique_ptr
-* Αρχικοποίηση μελών δεδομένων κατά τη δήλωση (NSDMI: non-static data member initialisation)
+* Αρχικοποίηση μελών δεδομένων κατά τη δήλωση (NSDMI: non-static data member initialiation)
   * <nsdmi.cpp>
 * enum classes
 * static asserts
