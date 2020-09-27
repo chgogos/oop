@@ -1,0 +1,18 @@
+        -:    0:Source:gcov_test.c
+        -:    0:Graph:gcov_test.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    0:Programs:0
+        -:    1:#include <stdio.h>
+    #####:    2:void f1(int in) {
+        -:    3:  int array[100][200];
+    #####:    4:  if (in > 100) {
+    #####:    5:    printf("Error!\n");
+    #####:    6:    return;
+        -:    7:  };
+    #####:    8:  for (int i = 0; i < 100; i++)
+    #####:    9:    for (int j = 0; j < 200; j++) {
+    #####:   10:      array[i][j] = in * i + j;
+        -:   11:    };
+        -:   12:};
+    #####:   13:int main() { f1(12); };
