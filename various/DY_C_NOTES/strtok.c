@@ -4,7 +4,7 @@
 int main() {
   char str[] = "The quick brown fox jumps over the lazy dog"; // correct
   
-  //   char *str= "The quick brown fox jumps over the lazy dog"; // incorrect
+  // char *str= "The quick brown fox jumps over the lazy dog"; // incorrect
   // the C string has type const char*, i.e., it is located in the constant data segment, writeprotected
 
   char *sep = " ";
