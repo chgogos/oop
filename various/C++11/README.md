@@ -4,7 +4,7 @@
 * Αυτόματη επαγωγή τύπου δεδομένων (auto)
 * decltype
   * <decltype.cpp>
-* Ομοιόμορφη αρχικοποίηση
+* Ομοιόμορφη αρχικοποίηση (uniform initialization syntax)
 * constexpr
 * προσδιοριστής delete
 * προσδιοριστής default
@@ -41,5 +41,4 @@
 
 ## Ενδιαφέρουσες ιστοσελίδες
 
-* [C++11 Guide
-A Practical Guide for the Everyday Programmer](https://stuartwheaton.com/blog/2020-06-14-c++11-guide/)
+* [C++11 Guide A Practical Guide for the Everyday Programmer](https://stuartwheaton.com/blog/2020-06-14-c++11-guide/)

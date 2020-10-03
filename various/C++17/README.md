@@ -8,7 +8,11 @@
   * <static_inline_data_member.cpp>
 * structured bindings
   * <structured_binding.cpp>
-* if init statement
+* if and switch with initializer
   * <if_init_stmt.cpp>
 * fold expressions
 * Parallel algorithms of the STL
+* if constexpr
+* removal of trigraphs
+* template deduction of constructors
+
