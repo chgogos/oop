@@ -6,6 +6,7 @@ int main(){
     std::cout << 0[a] << std::endl;
     std::cout << 1[a] << std::endl;
     std::cout << 2[a] << std::endl;
+    // std::cout << *(2+a) << std::endl;
     return 0;
 }
 
