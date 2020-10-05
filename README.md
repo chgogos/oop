@@ -35,6 +35,10 @@
 * [Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf)
 * [STL](./STL.pdf)
 
+## ΕΡΓΑΣΤΗΡΙΟ
+
+* [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2020-2021](./lab2020-2021/README.md)
+
 ## Σύνοψη της C++, STL, UML διαγραμμάτων κλάσεων
 
 * [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:

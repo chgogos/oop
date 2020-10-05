@@ -1,0 +1,2 @@
+> g++ point.cpp circle.cpp line_segment.cpp main.cpp
+> ./a.out
