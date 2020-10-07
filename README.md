@@ -4,7 +4,7 @@
   
   Γκόγκος Χρήστος - Άρτα@2020
 
-Τελευταία ενημέρωση: 5/10/2020
+Τελευταία ενημέρωση: 7/10/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -221,6 +221,8 @@
   * [c_string1.cpp](./cpp_playground/ex085/c_string1.cpp)
   * [string1.cpp](./cpp_playground/ex085/string1.cpp)
   * [string_view1.cpp](./cpp_playground/ex085/string_view1.cpp)
+* Αναδρομή
+  * [stack_overflow.cpp](./cpp_playground/ex090/stack_overflow.cpp)
 
 ### Βέλτιστες πρακτικές στη C++
 
