@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-constexpr auto M_PI = 3.14159;
+constexpr auto PI = 3.14159;
 
 class circle
 {
@@ -36,13 +36,13 @@ public:
 
     double area() const
     {
-        return M_PI * radius * radius;
+        return PI * radius * radius;
         // return M_PI * this->radius * this->radius; // εναλλακτικά
     }
 
     double perimeter() const
     {
-        return 2 * M_PI * radius;
+        return 2 * PI * radius;
     }
 
     bool is_point_inside(double x, double y) const
