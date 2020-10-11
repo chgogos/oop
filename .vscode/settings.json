@@ -100,7 +100,11 @@
         "cfenv": "cpp",
         "filesystem": "cpp",
         "any": "cpp",
-        "forward_list": "cpp"
+        "forward_list": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "ranges": "cpp",
+        "stop_token": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#b52e31",
