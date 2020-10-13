@@ -44,12 +44,6 @@ private:
 
 int main()
 {
-    cargo c1;
-    c1.set_weight(100.0);
-    c1.show();
-    cargo c2(1, "test", 100.0, false);
-    c2.show();
-
     cargo a[5] = {
         cargo(1, "Patras", 1000, 0),
         cargo(2, "Athens", 200, 1),
@@ -59,8 +53,15 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
+        a[i].show();
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
         a[i].make_safe();
     }
+
+    cout << "###########################" << endl;
 
     for (int i = 0; i < 5; i++)
     {
