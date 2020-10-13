@@ -128,8 +128,8 @@
   * [university1.cpp](./cpp_playground/ex023/university1.cpp)
 * Casting
   * [const_cast1.cpp](./cpp_playground/ex024/const_cast1.cpp), [const_cast2.cpp](./cpp_playground/ex024/const_cast2.cpp)
-  * [static_cast1.cpp](./cpp_playground/ex024/static_cast1.cpp)
-  * [dynamic_cast1.cpp](./cpp_playground/ex024/dynamic_cast1.cpp)
+  * [static_cast1.cpp](./cpp_playground/ex024/static_cast1.cpp) ο συνηθισμένος τρόπος μετατροπής.
+  * [dynamic_cast1.cpp](./cpp_playground/ex024/dynamic_cast1.cpp) το dynamic_cast χρησιμοποιείται για μετατροπή από μια βασική κλάση σε μια παραγόμενη κλάση (επιστρέφει nullptr σε αποτυχία)
 * Inline συναρτήσεις (απλές και συναρτήσεις μέλη)
   * [inline1.cpp](./cpp_playground/ex025/inline1.cpp)
   * [inline2.cpp](./cpp_playground/ex025/inline2.cpp) ο μεταγλωττιστής ορίζει αυτόματα ως inline συναρτήσεις που ορίζονται εντός της κλάσης
