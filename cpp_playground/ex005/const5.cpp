@@ -77,3 +77,16 @@ int main()
 
     return 0;
 }
+
+
+/*
+obj.x=10
+t1=20   
+t2=20
+obj.x=5
+t1=20
+t2=20
+obj.x=5
+t1=20
+t2=20
+*/
