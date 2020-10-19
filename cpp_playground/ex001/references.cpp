@@ -8,3 +8,7 @@ int main()
     rx++;
     std::cout << x << " - " << rx << std::endl;
 }
+
+/*
+2 - 2
+*/

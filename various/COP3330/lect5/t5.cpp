@@ -15,7 +15,7 @@ IntHolder::IntHolder(int x)
 
 void IntHolder::Illegal() const
 {
-    data = 1;
+    data = 1; // expression must be a modifiable lvalue
 }
 
 int main()

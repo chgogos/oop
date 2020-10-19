@@ -11,3 +11,9 @@ int main()
     std::cout << "dynamic array=" << sizeof(p) << std::endl;
     free(p);
 }
+
+/*
+static array=20
+1
+dynamic array=8
+*/

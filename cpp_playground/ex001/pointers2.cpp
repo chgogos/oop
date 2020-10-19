@@ -21,3 +21,12 @@ int main()
     std::cout << "p3: size=" << sizeof(p3) << " value=" << p3 <<  " points to value=" <<  (*(double*)p3) << std::endl;
     std::cout << "p3: size=" << sizeof(p3) << " value=" << p3 <<  " points to value=" <<  (*(int*)p3) << std::endl; // wrong result
 }
+
+/*
+x: size=4 value=7
+y: size=8 value=7.5
+p1: size=8 value=0x62fe04 points to value=7  
+p2: size=8 value=0x62fdf8 points to value=7.5
+p3: size=8 value=0x62fdf8 points to value=7.5
+p3: size=8 value=0x62fdf8 points to value=0 
+*/

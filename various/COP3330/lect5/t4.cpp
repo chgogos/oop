@@ -4,12 +4,12 @@ using namespace std;
 
 void foo(const int x) 
 {
-  x = 100;
+  x = 100; // expression must be a modifiable lvalue
 }
 
 void foo1(const int & x)
 {
-  x = 200;
+  x = 200; // expression must be a modifiable lvalue
 }
 
 int main()
