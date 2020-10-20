@@ -15,7 +15,7 @@ int main()
 
     struct Point *p2;
     p2 = (struct Point*)malloc(sizeof(struct Point));
-    p2->x=4.0;
+    p2->x=4.0; // ή (*p2).x = 4.0;
     p2->y=5.0;
     std::cout << p2->x << " - " << p2->y << std::endl;
     free(p2);
