@@ -128,3 +128,23 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 * [date2020.cpp](./lab_ex2_sol/date2020.cpp)
 * [main.cpp](./lab_ex2_sol/main.cpp)
 * [tests.cpp](./lab_ex2_sol/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση ..)
+
+### Άσκηση 3 (1η εργαστηριακή άσκηση 2019-2020)
+
+Η εκφώνηση της άσκησης βρίσκεται στο [20200217_assignment1.pdf](./lab_ex3/20200217_assignment1.pdf)
+
+* Αρχικός κώδικας άσκησης: [account_bank.cpp](./lab_ex3/account_bank.cpp)
+
+#### A' Λύση άσκησης 3
+
+* [account_bank.cpp](./lab_ex3_sol/account_bank.cpp)
+* [catch.hpp](../catch.hpp)
+
+#### B' Λύση άσκησης 3 (με διαμέριση κώδικα)
+
+* [account_bank.hpp](./lab_ex3_sol2/account_bank.hpp)
+* [account_bank.cpp](./lab_ex3_sol2/account_bank.cpp)
+* [tests.cpp](./lab_ex3_sol2/tests.cpp)
+* [readme.txt](./lab_ex3_sol2/readme.txt)
+* [makefile](./lab_ex3_sol2/makefile)
+* [catch.hpp](../catch.hpp)
