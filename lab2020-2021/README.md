@@ -137,14 +137,13 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 
 #### A' Λύση άσκησης 3
 
-* [account_bank.cpp](./lab_ex3_sol/account_bank.cpp)
-* [catch.hpp](../catch.hpp)
+* [account_bank.cpp](./lab_ex3_sol/account_bank.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση ..)
 
 #### B' Λύση άσκησης 3 (με διαμέριση κώδικα)
 
 * [account_bank.hpp](./lab_ex3_sol2/account_bank.hpp)
 * [account_bank.cpp](./lab_ex3_sol2/account_bank.cpp)
-* [tests.cpp](./lab_ex3_sol2/tests.cpp)
+* [tests.cpp](./lab_ex3_sol2/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση ..)
 * [readme.txt](./lab_ex3_sol2/readme.txt)
 * [makefile](./lab_ex3_sol2/makefile)
-* [catch.hpp](../catch.hpp)
+
