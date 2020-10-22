@@ -14,6 +14,7 @@
 * [Εργαστήριο 5](./lab05/) Κλάσεις (classes), αντικείμενα (objects), επίπεδα προστασίας (public, package, private), κληρονομικότητα (inheritance)
 * [Εργαστήριο 6](./lab06/) Διεπαφές (interfaces), παραμετρικοί τύποι (Generics), συλλογές της Java (Java Collections) 
 
+---
 
 ## Εργαστηριακές ασκήσεις 2020-2021
 
@@ -127,4 +128,41 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 * [date2020.hpp](./lab_ex2_sol/date2020.hpp)
 * [date2020.cpp](./lab_ex2_sol/date2020.cpp)
 * [main.cpp](./lab_ex2_sol/main.cpp)
-* [tests.cpp](./lab_ex2_sol/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση ..)
+* [tests.cpp](./lab_ex2_sol/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση)
+
+### Άσκηση 3 (1η εργαστηριακή άσκηση 2019-2020)
+
+Η εκφώνηση της άσκησης βρίσκεται στο [20200217_assignment1.pdf](./lab_ex3/20200217_assignment1.pdf)
+
+* Αρχικός κώδικας άσκησης: [account_bank.cpp](./lab_ex3/account_bank.cpp)
+
+#### A' Λύση άσκησης 3
+
+* [account_bank.cpp](./lab_ex3_sol/account_bank.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση)
+
+#### B' Λύση άσκησης 3 (με διαμέριση κώδικα)
+
+* [account_bank.hpp](./lab_ex3_sol2/account_bank.hpp)
+* [account_bank.cpp](./lab_ex3_sol2/account_bank.cpp)
+* [tests.cpp](./lab_ex3_sol2/tests.cpp) (θα πρέπει να υπάρχει το catch.hpp στην κατάλληλη θέση)
+* [readme.txt](./lab_ex3_sol2/readme.txt)
+* [makefile](./lab_ex3_sol2/makefile)
+
+---
+
+## Χρήση βιβλιοθηκών στη C++
+
+### Catch2
+
+<https://github.com/catchorg/Catch2>
+
+* [main.cpp](./simple_catch_example/main.cpp)
+
+  ```sh
+  g++ main.cpp -std=c++11 -o main
+  ./main
+  ```
+
+### fmt
+
+### spdlog
