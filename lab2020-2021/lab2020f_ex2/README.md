@@ -17,6 +17,6 @@
 Οι εντολές μεταγλώττισης και εκτέλεσης των unit tests είναι:
 
     $ g++ Complex.cpp Tests.cpp -o Tests -std=c++11
-    $ ./Tests
+    $ Tests.exe
     ===============================================================================
     All tests passed (4 assertions in 1 test case)
