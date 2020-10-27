@@ -2,9 +2,28 @@
 
 <https://www.wxwidgets.org/>
 
-<!-- ## Εγκατάσταση του wxWidgets σε Windows με MINGW
+## Εγκατάσταση του wxWidgets σε Windows με MINGW
 
-## Εγκατάσταση του wxWidgets σε Windows με WSL + Xterm
+* Μεταφόρτωση του πηγαίου κώδικα [wxWidgets](https://www.wxwidgets.org/downloads/) 
+* Αποσυμπίεση σε φάκελο c:\wxWidgets-3.1.4 
+* Μεταγλώττιση wxWidgets (δημιουργία dll στο \lib\gcc_dll, setup.h στο \lib\gcc_dll\mswu\wx)
+    * cd build\msw
+    * mingw32-make -f makefile.gcc SHARED=1 UNICODE=1 BUILD=release clean
+    * mingw32-make -f makefile.gcc SHARED=1 UNICODE=1 BUILD=release
+* Αντιγραφή των ακόλουθων dll από το \lib\gcc_dll στο Path ή στον τρέχοντα φάκελο της εφαρμογής
+    * wxbase314u_gcc_custom.dll
+    * wxmsw314u_core_gcc_custom.dll
+
+### Hello World GUI app (μεταγλώττιση σε windows)
+
+Παράθυρο με μενού
+
+* [hello_world.cpp](./hello_world.cpp)
+
+    $ g++ hello_world.cpp -IC:\\wxWidgets-3.1.4\\include -IC:\\wxWidgets-3.1.4\\lib\\gcc_dll\\mswu -LC:\\wxWidgets-3.1.4\\lib\\gcc_dll -lwxmsw31u_core -lwxbase31u -o hello_world
+    $ hello_world.exe
+
+<!--  ## Εγκατάσταση του wxWidgets σε Windows με WSL + Xterm
 
 ## Εγκατάσταση του wxWidgets σε Windows με Visual Studio  -->
 
@@ -42,7 +61,7 @@
     * cd samples; make;cd ..
     * cd demos; make
 
-## Hello World GUI app
+### Hello World GUI app
 
 Παράθυρο με μενού
 
