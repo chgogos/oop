@@ -14,13 +14,18 @@
     * wxbase314u_gcc_custom.dll
     * wxmsw314u_core_gcc_custom.dll
 
-### Hello World GUI app (μεταγλώττιση σε windows)
+### Hello World GUI app (μεταγλώττιση σε windows με MINGW)
 
 Παράθυρο με μενού
 
 * [hello_world.cpp](./hello_world.cpp)
 
+    % μεταγλώττιση
     $ g++ hello_world.cpp -IC:\\wxWidgets-3.1.4\\include -IC:\\wxWidgets-3.1.4\\lib\\gcc_dll\\mswu -LC:\\wxWidgets-3.1.4\\lib\\gcc_dll -lwxmsw31u_core -lwxbase31u -o hello_world
+    
+    % αν έχει οριστεί η μεταβλητή περιβάλλοντος WXWIN=C:\\wxWidgets-3.1.4 (ή σε άλλη κατάλληλη τιμή) τότε μπορεί η μεταγλώττιση να γίνει ως εξής:
+    $ g++ hello_world.cpp -I%WXWIN%\\include -I%WXWIN%\\lib\\gcc_dll\\mswu -L%WXWIN%\\lib\\gcc_dll -lwxmsw31u_core -lwxbase31u -o hello_world
+    
     $ hello_world.exe
 
 <!--  ## Εγκατάσταση του wxWidgets σε Windows με WSL + Xterm
