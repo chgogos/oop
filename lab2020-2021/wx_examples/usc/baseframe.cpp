@@ -1,7 +1,7 @@
 #include "baseframe.h"
 
 BaseFrame::BaseFrame(const wxString &title)
-    : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(400, 200))
+    : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(500, 200))
 {
     wxPanel *panel = new wxPanel(this, wxID_ANY);
     wxBoxSizer *hbox1 = new wxBoxSizer(wxHORIZONTAL);
@@ -12,6 +12,7 @@ BaseFrame::BaseFrame(const wxString &title)
     tc2 = new wxTextCtrl(panel, wxID_ANY, wxT("0"));
     st = new wxStaticText(panel, wxID_ANY, wxT("="));
     tc3 = new wxTextCtrl(panel, wxID_ANY, wxT("0"));
+    tc3->SetEditable(false);
     tc3->SetEditable(false);
 
     wxBoxSizer *hbox2 = new wxBoxSizer(wxHORIZONTAL);
