@@ -1,5 +1,5 @@
 #include <wx/wx.h>
-#include "communicate.h"
+#include "baseframe.h"
 
 class MyApp : public wxApp
 {
@@ -12,8 +12,9 @@ IMPLEMENT_APP(MyApp)
 bool MyApp::OnInit()
 {
 
-    Communicate *communicate = new Communicate(wxT("Widgets communicate"));
-    communicate->Show(true);
+    BaseFrame *base_frame = new BaseFrame(wxT("Ultimate Simple Calculator"));
+
+    base_frame->Show(true);
 
     return true;
 }

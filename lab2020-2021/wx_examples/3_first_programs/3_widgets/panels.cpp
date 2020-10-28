@@ -1,5 +1,5 @@
 #include <wx/stattext.h>
-#include "Communicate.h"
+#include "communicate.h"
 
 LeftPanel::LeftPanel(wxPanel *parent)
     : wxPanel(parent, -1, wxPoint(-1, -1), wxSize(-1, -1), wxBORDER_SUNKEN)
@@ -38,9 +38,7 @@ void LeftPanel::OnMinus(wxCommandEvent &WXUNUSED(event))
     comm->m_rp->m_text->SetLabel(wxString::Format(wxT("%d"), count));
 }
 
-RightPanel::RightPanel(wxPanel *parent)
-    : wxPanel(parent, wxID_ANY, wxDefaultPosition,
-              wxSize(270, 150), wxBORDER_SUNKEN)
+RightPanel::RightPanel(wxPanel *parent) : wxPanel(parent, wxID_ANY, wxDefaultPosition, wxSize(270, 150), wxBORDER_SUNKEN)
 {
     m_text = new wxStaticText(this, -1, wxT("0"), wxPoint(40, 60));
 }

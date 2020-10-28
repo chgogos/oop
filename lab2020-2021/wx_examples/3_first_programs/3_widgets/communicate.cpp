@@ -1,4 +1,4 @@
-#include "Communicate.h"
+#include "communicate.h"
 
 Communicate::Communicate(const wxString& title)
        : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(290, 150))
