@@ -4,6 +4,6 @@
 
 ## Μεταγλώττιση και εκτέλεση στο Linux και στο OSX
 
-    $ g++ Simple.cpp  Main.cpp `wx-config --cxxflags --libs` -o Main
-    $ ./Main
+    $ g++ simple.cpp  main.cpp `wx-config --cxxflags --libs` -o main
+    $ ./main
 
