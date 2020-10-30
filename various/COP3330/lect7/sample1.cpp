@@ -33,3 +33,8 @@ int main()
 {
     large_class obj;
 }
+
+/*
+small_class default constructor called 
+large_class default constructor called
+*/

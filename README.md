@@ -46,6 +46,16 @@
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
 
+<!-- ## Quizzes
+
+* [Quiz 1](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOTBWSVdORko2WThIMzZSTERINFlCTlFENi4u)
+* [Quiz 2](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUMTM3RERRRUxXUjk2RjlLUjFXSVBFRTlWRS4u) 
+* [Quiz 3](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOFY1Qkg1Tk5VVk9aNk1VMVVaUlgyUzQ0VS4u)
+* [Quiz 4](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUQ1c2VUNPNURPNjRWOUZESVQxMDE5TzVPUi4u)
+* [Quiz 5](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUMDU5QkxKWk5LMExVQ1JJWjNHWjBXM0ZFSC4u)
+* [Quiz 6](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUNVJKSzU4MTEzN0MzWEpTRThLSTBSWFRDOC4u)
+* [Λύσεις ερωτημάτων ανοικτού τύπου](https://github.com/chgogos/oop/tree/master/various/quizzes) -->
+
 ## Παραδείγματα κώδικα 
 
 * Παράδειγμα χρήσης δείκτη, διεύθυνσης μεταβλητής και αποαναφοράς (dereference) του δείκτη [pointers1.cpp](./cpp_playground/ex001/pointers1.cpp)
