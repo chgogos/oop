@@ -20,16 +20,20 @@
 
 3. Μεταγλώττιση wxWidgets (δημιουργία dlls στο \lib\gcc_dll, setup.h στο \lib\gcc_dll\mswu\wx, η μεταγλώττιση αναμένεται να διαρκέσει αρκετή ώρα). Οι ακόλουθες εντολές δίνονται από το command prompt και ενώ βρισκόμαστε αρχικά στον φάκελο C:\wxWidgets-3.1.4
 
+    ```sh
     > cd C:\wxWidgets-3.1.4\build\msw
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release clean
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release
+    ```
 
 4. Μεταγλώττιση των samples και demos (οι φάκελοι samples και demos βρίσκονται κάτω από τον φάκελο C:\wxWidgets-3.1.4)
 
+    ```sh
     > cd C:\wxWidgets-3.1.4\samples
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release
     > cd C:\wxWidgets-3.1.4\demos
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release
+    ```
 
 ### Μεταγλώττιση και εκτέλεση του Hello World GUI app (μεταγλώττιση σε windows με MINGW)
 
