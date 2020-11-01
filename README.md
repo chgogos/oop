@@ -4,7 +4,10 @@
   
   Γκόγκος Χρήστος - Άρτα@2020
 
-Τελευταία ενημέρωση: 27/10/2020
+  e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
+
+
+Τελευταία ενημέρωση: 1/11/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -45,6 +48,10 @@
 * [C++ reference](https://en.cppreference.com/w/cpp)
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
+
+## Quiz
+
+* [Quiz 1 στο ecourse](http://ecourse.uoi.gr/mod/quiz/view.php?id=84785)
 
 <!-- ## Quizzes
 
@@ -452,6 +459,7 @@
 
 ## Tutorials για τη C++
 
+* [Udemy: C++ Tutorial for Complete BeginnersΔιεύθυνση URL](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
 * [Educative.io - Learn C++ from scratch](https://www.educative.io/courses/learn-cpp-from-scratch)
 * [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
 * [cplusplus.com tutorials](http://www.cplusplus.com/doc/tutorial/)
@@ -539,10 +547,50 @@
 
 ### IDEs (Integrated Development Environments)
 
+#### Visual Studio
+
 * [Visual Studio with C++ 2019 Community Edition](https://visualstudio.microsoft.com/vs/features/cplusplus/)
-* [Qt Creator]()
+
+#### CLION
+
+* [Clion](https://www.jetbrains.com/clion/)
+
+  ΒΗΜΑΤΑ ΕΓΚΑΤΑΣΤΑΣΗΣ:
+  1. Μετάβαση στη σελίδα https://www.jetbrains.com/community/education/ (Jetbrains.com -> Support -> Education)
+  2. Κλικ στο "Apply for Free Student Pack"
+  3. Ανάγνωση οδηγιών και κλικ στο "Apply Now"
+  4. Προσθήκη στοιχείων:
+        Apply with: UNIVERSITY EMAIL ADDRESS
+        Status: I'm a student
+        Level of study: Undergraduate
+        Is Computer Science or Engineering your major field of study?: YES
+        Graduation date: Διαλέγουμε μία ημερομηνία, αρκεί να είναι μετά από τουλάχιστον ένα έτος από τη σημερινή ημερομηνία και στην οποία εξακολουθούμε να διατηρούμε τη φοιτητική ιδιότητα.
+        Email address: Δηλώνουμε το email τύπου xyz0012345@uoi.gr που μας αντιστοιχεί.
+        Αποδοχή: I have read and I accept the JetBrains Account Agreement
+  5. Επιβεβαίωση μέσω email για το εκπαιδευτικό πακέτο, αποδοχή όρων χρήσης
+  6. Δημιουργία λογαριασμού με το email που δηλώσαμε
+  7. Κατεβάζουμε τα προγράμματα που θέλουμε (πχ. Clion)
+  8. Εγκατάσταση προγράμματος
+  9. Κατά την εκκίνηση κάνουμε σύνδεση με τον λογαριασμό που φτιάξαμε στο βήμα 6, ώστε να αναγνωρίσει την άδεια που διαθέτουμε.
+
+#### Eclipse 
+
 * [Eclipse CDT](https://www.eclipse.org/cdt/)
+
+#### Qt Creator 
+
+* [Qt Creator](https://www.qt.io/download)
+
+#### Netbeans
+
 * [Netbeans](https://netbeans.org/features/cpp/)
+
+#### Codeblocks
+
+* [codeblocks](http://www.codeblocks.org/)
+
+#### Geany
+
 * [Geany](https://www.geany.org/)
 
 
@@ -588,13 +636,11 @@
 * [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG)](./various/DEBUG) 
 <!-- * [DEBUG ΠΑΡΑΔΕΙΓΜΑΤΑ ΜΕ VISUAL STUDIO COMMUNITY](./various/DEBUG) -->
 
-
 ## GIT + GITHUB
 
 * [Git & GitHub Class](http://git-class.gr/)
 * [Learn Git from Scratch](https://labex.io/courses/learn-git-from-scratch)
 * [A Plumber’s Guide to Git](https://alexwlchan.net/a-plumbers-guide-to-git/)
-
 
 ## Περιβάλλον Linux μέσα από Windows
 
