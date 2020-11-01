@@ -15,7 +15,9 @@
 ### Βήματα μεταγλώττισης wxWidgets και των samples και demos
 
 1. Μεταφόρτωση του πηγαίου κώδικα [wxWidgets](https://www.wxwidgets.org/downloads/). Επιλογή του Windows ZIP από το source code του Latest Development Release: 3.1.4 (αρχείο wxWidgets-3.1.4.zip)
+   
 2. Αποσυμπίεση του wxWidgets-3.1.4.zip σε φάκελο C:\wxWidgets-3.1.4 (στο αρχείο C:\wxWidgets-3.1.4\docs\mingw\install.md υπάρχουν οδηγίες εγκατάστασης για Windows και MINGW)
+
 3. Μεταγλώττιση wxWidgets (δημιουργία dlls στο \lib\gcc_dll, setup.h στο \lib\gcc_dll\mswu\wx, η μεταγλώττιση αναμένεται να διαρκέσει αρκετή ώρα). Οι ακόλουθες εντολές δίνονται από το command prompt και ενώ βρισκόμαστε αρχικά στον φάκελο C:\wxWidgets-3.1.4
 
     > cd C:\wxWidgets-3.1.4\build\msw
