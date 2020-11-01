@@ -55,6 +55,8 @@
 
 ## Εγκατάσταση του wxWidgets σε Windows με Visual Studio  -->
 
+---
+
 ## Εγκατάσταση του wxWidgets σε Ubuntu 18.04
 
 1. Εγκατάσταση gtk
@@ -67,20 +69,21 @@
 
 4. Μεταγλώττιση wxWidgets
 
-    mkdir build-gtk; cd build-gtk
-    ../configure --with-gtk  
-    make
+    $ mkdir build-gtk 
+    $ cd build-gtk
+    $ ../configure --with-gtk  
+    $ make
 
 5. Εγκατάσταση header files και βιβλιοθηκών
 
-    sudo su
-    make install
-    ldconfig
+    $ sudo su
+    $ make install
+    $ ldconfig
 
 6. Μεταγλώττιση των samples και demos
 
-    cd samples; make;cd ..
-    cd demos; make
+    $ cd samples; make;cd ..
+    $ cd demos; make
 
 ### Μεταγλώττιση και εκτέλεση του Hello World GUI app (μεταγλώττιση σε Ubuntu 18.04 με g++) 
 
@@ -90,32 +93,37 @@
 
 Μεταγλώττιση του hello_world.cpp
 
-    ```
     $ g++ hello_world.cpp  `wx-config --cxxflags --libs` -o hello_world
-    ```
 
 Εκτέλεση κώδικα
 
-    ```
     $ ./hello_world
-    ```
 
+---
 
-<!-- ## Εγκατάσταση του wxWidgets σε OSX
+## Εγκατάσταση του wxWidgets σε OSX
 
-* Μεταφόρτωση του πηγαίου κώδικα [Source for Linux, macOS, etc](https://www.wxwidgets.org/downloads/) (πρόκειται για αρχείο της μορφής wxWidgets-3.1.4.tar.bz2)
-* Αποσυμπίεση σε φάκελο ~/wxWidgets-3.1.4 (στο αρχείο ~/wxWidgets-3.1.4/docs/osx/install.txt υπάρχουν οδηγίες εγκατάστασης για OSX)
-* mkdir build-cocoa-debug; cd build-cocoa-debug
-* Μεταγλώττιση wxWidgets
-    * ../configure --enable-debug
-    * make
-* Εγκατάσταση των header files στο standard directory /usr/local/include και της βιβλιοθήκης στο standard directory /usr/local/lib
-    * sudo su
-    * make install
-    * exit
-* Μεταγλώττιση των samples και demos
-    * cd samples; make;cd ..
-    * cd demos; make
+1. Μεταφόρτωση του πηγαίου κώδικα [Source for Linux, macOS, etc](https://www.wxwidgets.org/downloads/) (πρόκειται για αρχείο της μορφής wxWidgets-3.1.4.tar.bz2)
+
+2. Αποσυμπίεση σε φάκελο ~/wxWidgets-3.1.4 (στο αρχείο ~/wxWidgets-3.1.4/docs/osx/install.txt υπάρχουν οδηγίες εγκατάστασης για OSX)
+
+3. Μεταγλώττιση wxWidgets
+
+    $ mkdir build-cocoa-debug
+    $ cd build-cocoa-debug
+    $ ../configure --enable-debug
+    $ make
+
+4. Εγκατάσταση των header files στο standard directory /usr/local/include και της βιβλιοθήκης στο standard directory /usr/local/lib
+ 
+    $ sudo su
+    $ make install
+    $ exit
+
+5. Μεταγλώττιση των samples και demos
+    
+    $ cd samples; make; cd ..
+    $ cd demos; make
 
 ### Hello World GUI app
 
@@ -124,4 +132,4 @@
 * [hello_world.cpp](./hello_world.cpp)
 
     $ g++ hello_world.cpp  `wx-config --cxxflags --libs` -o hello_world
-    $ ./hello_world -->
+    $ ./hello_world
