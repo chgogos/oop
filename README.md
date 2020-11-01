@@ -556,7 +556,7 @@
 * [Clion](https://www.jetbrains.com/clion/)
 
   ΒΗΜΑΤΑ ΕΓΚΑΤΑΣΤΑΣΗΣ:
-  1. Μετάβαση στη σελίδα https://www.jetbrains.com/community/education/ (Jetbrains.com -> Support -> Education)
+  1. Μετάβαση στη σελίδα <https://www.jetbrains.com/community/education/> (Jetbrains.com -> Support -> Education)
   2. Κλικ στο "Apply for Free Student Pack"
   3. Ανάγνωση οδηγιών και κλικ στο "Apply Now"
   4. Προσθήκη στοιχείων:
