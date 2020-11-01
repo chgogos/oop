@@ -38,6 +38,11 @@
 * [Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf)
 * [STL](./STL.pdf)
 
+## ΕΡΓΑΣΙΑ ΜΑΘΗΜΑΤΟΣ (2020-2021)
+
+* [Random Surfer](./2020f_assignment)
+  * [Εργασία%202020-2021.pdf](./2020f_assignment/Εργασία%202020-2021.pdf)
+
 ## ΕΡΓΑΣΤΗΡΙΟ
 
 * [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2020-2021](./lab2020-2021/README.md)
