@@ -190,6 +190,10 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
   ./main
   ```
 
-### fmt
+### wxWidgets
 
-### spdlog
+[Εγκατάσταση του wxWidgets](../various/wxwidgets)
+
+<!-- ### fmt
+
+### spdlog -->
