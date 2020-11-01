@@ -593,6 +593,10 @@
 
 * [codeblocks](http://www.codeblocks.org/)
 
+### Codelite
+
+* [codelite](https://codelite.org/)
+
 #### Geany
 
 * [Geany](https://www.geany.org/)
