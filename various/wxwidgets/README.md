@@ -4,7 +4,17 @@
 
 ## Εγκατάσταση του wxWidgets σε Windows με MINGW
 
-<!-- 1. Μεταφόρτωση του πηγαίου κώδικα [wxWidgets](https://www.wxwidgets.org/downloads/). Επιλογή του Windows ZIP από το source code του Latest Development Release: 3.1.4 (αρχείο wxWidgets-3.1.4.zip)
+Βεβαιωθείτε ότι έχετε εγκαταστήσει τον MINGW compiler (π.χ. [TDM-GCC-64](https://jmeubank.github.io/tdm-gcc/)) και ότι το g++ βρίσκεται στο PATH.
+
+    > g++ --version
+    g++ (tdm64-1) 9.2.0
+    Copyright (C) 2019 Free Software Foundation, Inc.
+    This is free software; see the source for copying conditions.  There is NO
+    warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+### Βήματα μεταγλώττισης wxWidgets και των samples και demos
+
+1. Μεταφόρτωση του πηγαίου κώδικα [wxWidgets](https://www.wxwidgets.org/downloads/). Επιλογή του Windows ZIP από το source code του Latest Development Release: 3.1.4 (αρχείο wxWidgets-3.1.4.zip)
 2. Αποσυμπίεση του wxWidgets-3.1.4.zip σε φάκελο C:\wxWidgets-3.1.4 (στο αρχείο C:\wxWidgets-3.1.4\docs\mingw\install.md υπάρχουν οδηγίες εγκατάστασης για Windows και MINGW)
 3. Μεταγλώττιση wxWidgets (δημιουργία dlls στο \lib\gcc_dll, setup.h στο \lib\gcc_dll\mswu\wx, η μεταγλώττιση αναμένεται να διαρκέσει αρκετή ώρα). Οι ακόλουθες εντολές δίνονται από το command prompt και ενώ βρισκόμαστε αρχικά στον φάκελο C:\wxWidgets-3.1.4
 
@@ -12,17 +22,14 @@
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release clean
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release
 
-4. Προσθήκη του C:\wxWidgets-3.1.4\lib\gcc_dll στο PATH του συστήματος -->
-
-<!-- 4. Μεταγλώττιση των samples και demos (οι φάκελοι samples και demos βρίσκονται κάτω από τον φάκελο C:\wxWidgets-3.1.4)
+4. Μεταγλώττιση των samples και demos (οι φάκελοι samples και demos βρίσκονται κάτω από τον φάκελο C:\wxWidgets-3.1.4)
 
     > cd C:\wxWidgets-3.1.4\samples
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release
-    > cd ..
-    > cd demos 
-    > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release -->
+    > cd C:\wxWidgets-3.1.4\demos
+    > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release
 
-<!-- ### Μεταγλώττιση και εκτέλεση του Hello World GUI app (μεταγλώττιση σε windows με MINGW)
+### Μεταγλώττιση και εκτέλεση του Hello World GUI app (μεταγλώττιση σε windows με MINGW)
 
 Παράδειγμα: παράθυρο με μενού
 
@@ -36,14 +43,13 @@
 
     > g++ hello_world.cpp -IC:\\wxWidgets-3.1.4\\include -IC:\\wxWidgets-3.1.4\\lib\\gcc_dll\\mswu -LC:\\wxWidgets-3.1.4\\lib\\gcc_dll -lwxmsw31u_core -lwxbase31u -o hello_world
     
-
-Εναλλακτικά αν έχει οριστεί η μεταβλητή περιβάλλοντος WXWIN=C:\\wxWidgets-3.1.4 τότε η μεταγλώττιση μπορεί να γίνει ως εξής:
+Εναλλακτικά αν έχει οριστεί ως μεταβλητή περιβάλλοντος (environment variable) η WXWIN με WXWIN=C:\\wxWidgets-3.1.4 τότε η μεταγλώττιση μπορεί να γίνει ως εξής:
     
     > g++ hello_world.cpp -I%WXWIN%\\include -I%WXWIN%\\lib\\gcc_dll\\mswu -L%WXWIN%\\lib\\gcc_dll -lwxmsw31u_core -lwxbase31u -o hello_world
 
 Εκτέλεση κώδικα
 
-    > hello_world.exe -->
+    > hello_world.exe
 
 <!--  ## Εγκατάσταση του wxWidgets σε Windows με WSL + Xterm
 
