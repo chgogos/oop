@@ -2,7 +2,7 @@
 
 * <https://www.wxwidgets.org/>
 
-## Εγκατάσταση του wxWidgets σε Windows με MINGW
+## Εγκατάσταση wxWidgets σε Windows με MINGW
 
 Βεβαιωθείτε ότι έχετε εγκαταστήσει τον MINGW compiler (π.χ. [TDM-GCC-64](https://jmeubank.github.io/tdm-gcc/)) και ότι το g++ βρίσκεται στο PATH.
 
@@ -63,12 +63,12 @@
 
 ---
 
-## Εγκατάσταση του wxWidgets σε Ubuntu 18.04
+## Εγκατάσταση wxWidgets σε Ubuntu 18.04
 
 1. Εγκατάσταση gtk
 
     ```console
-    sudo apt-get install libgtk-3-dev
+    $ sudo apt-get install libgtk-3-dev
     ```
 
 2. Μεταφόρτωση του πηγαίου κώδικα [Source for Linux, macOS, etc](https://www.wxwidgets.org/downloads/) (πρόκειται για αρχείο της μορφής wxWidgets-3.1.4.tar.bz2)
@@ -115,7 +115,7 @@
 
 ---
 
-## Εγκατάσταση του wxWidgets σε OSX
+## Εγκατάσταση wxWidgets σε OSX
 
 1. Μεταφόρτωση του πηγαίου κώδικα [Source for Linux, macOS, etc](https://www.wxwidgets.org/downloads/) (πρόκειται για αρχείο της μορφής wxWidgets-3.1.4.tar.bz2)
 
