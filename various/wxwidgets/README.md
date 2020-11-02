@@ -42,6 +42,7 @@
 * [hello_world.cpp](./hello_world.cpp)
 
 Αντιγραφή των ακόλουθων dll που έχουν δημιουργηθεί στο C:\wxWidgets-3.1.4\lib\gcc_dll στον τρέχοντα φάκελο της εφαρμογής (ή σε κάποιον φάκελο στο path του συστήματος)
+
     * wxbase314u_gcc_custom.dll
     * wxmsw314u_core_gcc_custom.dll
 
