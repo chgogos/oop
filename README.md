@@ -4,7 +4,10 @@
   
   Γκόγκος Χρήστος - Άρτα@2020
 
-Τελευταία ενημέρωση: 27/10/2020
+  e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
+
+
+Τελευταία ενημέρωση: 1/11/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -14,7 +17,7 @@
 * [Παρουσίαση 4 - friend, κατασκευαστές μετατροπής, destructors](./OOP4.pdf) (16/10/2020)
 * [Παρουσίαση 5 - const](./OOP5.pdf) (20/10/2020)
 * [Παρουσίαση 6 - Υπερφόρτωση τελεστών](./OOP6.pdf) (23/10/2020 + 27/10/2020)
-* [Παρουσίαση 7 - Σύνθεση](./OOP7.pdf)
+* [Παρουσίαση 7 - Σύνθεση](./OOP7.pdf) (30/11/2020)
 * [Παρουσίαση 8 - Πίνακες αντικειμένων](./OOP8.pdf)
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf)
 * [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf)
@@ -35,6 +38,10 @@
 * [Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf)
 * [STL](./STL.pdf)
 
+## ΕΡΓΑΣΙΑ ΜΑΘΗΜΑΤΟΣ (2020-2021)
+
+* [Random Surfer](./2020f_assignment)
+
 ## ΕΡΓΑΣΤΗΡΙΟ
 
 * [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2020-2021](./lab2020-2021/README.md)
@@ -45,6 +52,20 @@
 * [C++ reference](https://en.cppreference.com/w/cpp)
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
+
+## Quiz
+
+* [Quiz 1 στο ecourse](http://ecourse.uoi.gr/mod/quiz/view.php?id=84785)
+
+<!-- ## Quizzes
+
+* [Quiz 1](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOTBWSVdORko2WThIMzZSTERINFlCTlFENi4u)
+* [Quiz 2](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUMTM3RERRRUxXUjk2RjlLUjFXSVBFRTlWRS4u) 
+* [Quiz 3](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOFY1Qkg1Tk5VVk9aNk1VMVVaUlgyUzQ0VS4u)
+* [Quiz 4](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUQ1c2VUNPNURPNjRWOUZESVQxMDE5TzVPUi4u)
+* [Quiz 5](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUMDU5QkxKWk5LMExVQ1JJWjNHWjBXM0ZFSC4u)
+* [Quiz 6](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUNVJKSzU4MTEzN0MzWEpTRThLSTBSWFRDOC4u)
+* [Λύσεις ερωτημάτων ανοικτού τύπου](https://github.com/chgogos/oop/tree/master/various/quizzes) -->
 
 ## Παραδείγματα κώδικα 
 
@@ -442,6 +463,7 @@
 
 ## Tutorials για τη C++
 
+* [Udemy: C++ Tutorial for Complete BeginnersΔιεύθυνση URL](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
 * [Educative.io - Learn C++ from scratch](https://www.educative.io/courses/learn-cpp-from-scratch)
 * [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
 * [cplusplus.com tutorials](http://www.cplusplus.com/doc/tutorial/)
@@ -529,10 +551,54 @@
 
 ### IDEs (Integrated Development Environments)
 
+#### Visual Studio
+
 * [Visual Studio with C++ 2019 Community Edition](https://visualstudio.microsoft.com/vs/features/cplusplus/)
-* [Qt Creator]()
+
+#### CLION
+
+* [Clion](https://www.jetbrains.com/clion/)
+
+  ΒΗΜΑΤΑ ΕΓΚΑΤΑΣΤΑΣΗΣ:
+  1. Μετάβαση στη σελίδα <https://www.jetbrains.com/community/education/> (Jetbrains.com -> Support -> Education)
+  2. Κλικ στο "Apply for Free Student Pack"
+  3. Ανάγνωση οδηγιών και κλικ στο "Apply Now"
+  4. Προσθήκη στοιχείων:
+        Apply with: UNIVERSITY EMAIL ADDRESS
+        Status: I'm a student
+        Level of study: Undergraduate
+        Is Computer Science or Engineering your major field of study?: YES
+        Graduation date: Διαλέγουμε μία ημερομηνία, αρκεί να είναι μετά από τουλάχιστον ένα έτος από τη σημερινή ημερομηνία και στην οποία εξακολουθούμε να διατηρούμε τη φοιτητική ιδιότητα.
+        Email address: Δηλώνουμε το email τύπου xyz0012345@uoi.gr που μας αντιστοιχεί.
+        Αποδοχή: I have read and I accept the JetBrains Account Agreement
+  5. Επιβεβαίωση μέσω email για το εκπαιδευτικό πακέτο, αποδοχή όρων χρήσης
+  6. Δημιουργία λογαριασμού με το email που δηλώσαμε
+  7. Κατεβάζουμε τα προγράμματα που θέλουμε (πχ. Clion)
+  8. Εγκατάσταση προγράμματος
+  9. Κατά την εκκίνηση κάνουμε σύνδεση με τον λογαριασμό που φτιάξαμε στο βήμα 6, ώστε να αναγνωρίσει την άδεια που διαθέτουμε.
+
+#### Eclipse 
+
 * [Eclipse CDT](https://www.eclipse.org/cdt/)
+
+#### Qt Creator 
+
+* [Qt Creator](https://www.qt.io/download)
+
+#### Netbeans
+
 * [Netbeans](https://netbeans.org/features/cpp/)
+
+#### Codeblocks
+
+* [codeblocks](http://www.codeblocks.org/)
+
+### Codelite
+
+* [codelite](https://codelite.org/)
+
+#### Geany
+
 * [Geany](https://www.geany.org/)
 
 
@@ -578,13 +644,11 @@
 * [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG)](./various/DEBUG) 
 <!-- * [DEBUG ΠΑΡΑΔΕΙΓΜΑΤΑ ΜΕ VISUAL STUDIO COMMUNITY](./various/DEBUG) -->
 
-
 ## GIT + GITHUB
 
 * [Git & GitHub Class](http://git-class.gr/)
 * [Learn Git from Scratch](https://labex.io/courses/learn-git-from-scratch)
 * [A Plumber’s Guide to Git](https://alexwlchan.net/a-plumbers-guide-to-git/)
-
 
 ## Περιβάλλον Linux μέσα από Windows
 
