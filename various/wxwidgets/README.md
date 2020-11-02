@@ -20,7 +20,7 @@
 
 3. Μεταγλώττιση wxWidgets (δημιουργία dlls στο \lib\gcc_dll, setup.h στο \lib\gcc_dll\mswu\wx, η μεταγλώττιση αναμένεται να διαρκέσει αρκετή ώρα). Οι ακόλουθες εντολές δίνονται από το command prompt και ενώ βρισκόμαστε αρχικά στον φάκελο C:\wxWidgets-3.1.4
 
-    ```sh
+    ```console
     > cd C:\wxWidgets-3.1.4\build\msw
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release clean
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release
@@ -28,7 +28,7 @@
 
 4. Μεταγλώττιση των samples και demos (οι φάκελοι samples και demos βρίσκονται κάτω από τον φάκελο C:\wxWidgets-3.1.4)
 
-    ```sh
+    ```console
     > cd C:\wxWidgets-3.1.4\samples
     > mingw32-make -f makefile.gcc SHELL=CMD.EXE SHARED=1 UNICODE=1 BUILD=release
     > cd C:\wxWidgets-3.1.4\demos
@@ -67,7 +67,9 @@
 
 1. Εγκατάσταση gtk
 
+    ```console
     sudo apt-get install libgtk-3-dev
+    ```
 
 2. Μεταφόρτωση του πηγαίου κώδικα [Source for Linux, macOS, etc](https://www.wxwidgets.org/downloads/) (πρόκειται για αρχείο της μορφής wxWidgets-3.1.4.tar.bz2)
 
@@ -75,21 +77,27 @@
 
 4. Μεταγλώττιση wxWidgets
 
+    ```console
     $ mkdir build-gtk 
     $ cd build-gtk
     $ ../configure --with-gtk  
     $ make
+    ```
 
 5. Εγκατάσταση header files και βιβλιοθηκών
 
+    ```console
     $ sudo su
     $ make install
     $ ldconfig
+    ```
 
 6. Μεταγλώττιση των samples και demos
 
+    ```console
     $ cd samples; make;cd ..
     $ cd demos; make
+    ```
 
 ### Μεταγλώττιση και εκτέλεση του Hello World GUI app (μεταγλώττιση σε Ubuntu 18.04 με g++) 
 
@@ -115,21 +123,27 @@
 
 3. Μεταγλώττιση wxWidgets
 
+    ```console
     $ mkdir build-cocoa-debug
     $ cd build-cocoa-debug
     $ ../configure --enable-debug
     $ make
+    ```
 
 4. Εγκατάσταση των header files στο standard directory /usr/local/include και της βιβλιοθήκης στο standard directory /usr/local/lib
  
+    ```console
     $ sudo su
     $ make install
     $ exit
+    ```
 
 5. Μεταγλώττιση των samples και demos
     
+    ```console
     $ cd samples; make; cd ..
     $ cd demos; make
+    ```
 
 ### Hello World GUI app
 
@@ -137,5 +151,7 @@
 
 * [hello_world.cpp](./hello_world.cpp)
 
+    ```console
     $ g++ hello_world.cpp  `wx-config --cxxflags --libs` -o hello_world
     $ ./hello_world
+    ```
