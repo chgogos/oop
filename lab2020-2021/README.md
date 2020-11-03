@@ -192,7 +192,8 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 
 ### wxWidgets
 
-[Εγκατάσταση του wxWidgets](../various/wxwidgets)
+* [Εγκατάσταση του wxWidgets](../various/wxwidgets)
+* [Ultra Simple Calculator](./wx_examples/usc)
 
 <!-- ### fmt
 
