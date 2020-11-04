@@ -62,7 +62,7 @@
 
 ## Εγκατάσταση του wxWidgets σε Windows με Visual Studio  -->
 
----
+
 
 ## Εγκατάσταση wxWidgets σε Ubuntu 18.04
 
@@ -156,3 +156,7 @@
     $ g++ hello_world.cpp  `wx-config --cxxflags --libs` -o hello_world
     $ ./hello_world
     ```
+
+---
+
+Δείτε και τις οδηγίες για [εγκατάσταση των wxWidgets με Microsoft Visual Studio 2019](<https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/>) που έχουν γραφεί από τον φοιτητή του τμήματος Βασίλη Νάστο.

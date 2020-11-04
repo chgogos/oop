@@ -7,7 +7,7 @@
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
 
-Τελευταία ενημέρωση: 1/11/2020
+Τελευταία ενημέρωση: 3/11/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -17,8 +17,8 @@
 * [Παρουσίαση 4 - friend, κατασκευαστές μετατροπής, destructors](./OOP4.pdf) (16/10/2020)
 * [Παρουσίαση 5 - const](./OOP5.pdf) (20/10/2020)
 * [Παρουσίαση 6 - Υπερφόρτωση τελεστών](./OOP6.pdf) (23/10/2020 + 27/10/2020)
-* [Παρουσίαση 7 - Σύνθεση](./OOP7.pdf) (30/11/2020)
-* [Παρουσίαση 8 - Πίνακες αντικειμένων](./OOP8.pdf)
+* [Παρουσίαση 7 - Σύνθεση](./OOP7.pdf) (30/10/2020)
+* [Παρουσίαση 8 - Πίνακες αντικειμένων](./OOP8.pdf) (3/11/2020)
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf)
 * [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf)
 * [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf)
@@ -614,7 +614,12 @@
 
 ### Editors
 
+#### Visual Studio Code
+
 * [Visual Studio Code by Microsoft](https://code.visualstudio.com/)
+  * Extensions (ms-vscode.cpptools, formulahendry.code-runner)
+* [Configure VS Code for Microsoft C++](https://code.visualstudio.com/docs/cpp/config-msvc)
+
 
     ```console
     # Ctrl + P (quick open)
@@ -626,6 +631,9 @@
         Save All Files Before Run: enable
     Ctrl + Alt + N => compiles and executes current file
     ```
+
+
+#### Άλλοι editors
 
 * [Atom](https://atom.io/)
 * [Notepad++](https://notepad-plus-plus.org/)
