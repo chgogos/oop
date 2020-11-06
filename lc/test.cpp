@@ -2,12 +2,22 @@
 
 using namespace std;
 
-int fun(const int a){
-    a *= 2;
-    return a;
-}
+class MyClass{
+    private:
+        int x;
+    public:
+        MyClass(int _x): x(_x){}
+        void fun(){
+            x++;
+        }
+        void print() const
+        {
+            cout << x << endl;
+        }
+};
 
 int main(){
-    int x = 5;
-    cout << fun(x) << endl;
+    MyClass obj(42);
+    obj.fun();
+    obj.print();
 }
