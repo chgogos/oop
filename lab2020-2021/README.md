@@ -4,15 +4,30 @@
 
 ### C++
 
-* [Εργαστήριο 1](./lab01/) Δομές (structs), κλάσεις (classes), αντικείμενα (objects), επίπεδα προστασίας (public, private), κατασκευαστές (constructors), καταστροφείς (destructors)
-* [Εργαστήριο 2](./lab02/) Δείκτες (pointers), αναφορές (references), πέρασμα με τιμή (pass by  value), πέρασμα με αναφορά (pass by reference), υπερφόρτωση συναρτήσεων (overload), υπερφόρτωση τελεστών (operator overload)
-* [Εργαστήριο 3](./lab03/) Κληρονομικότητα (inheritance), παράκαμψη (override), διαμέριση κώδικα σε αρχεία κεφαλίδων και αρχεία κώδικα (code partitioning)
-* [Εργαστήριο 4](./lab04/) Πρότυπα (templates), STL (Standard Template Library) 
+Δια ζώσης
 
-### Java
+* [Συνάντηση 1](./lab01/) Δομές (structs), κλάσεις (classes), αντικείμενα (objects), επίπεδα προστασίας (public, private), κατασκευαστές (constructors), καταστροφείς (destructors)
+* [Συνάντηση 2](./lab02/) Δείκτες (pointers), αναφορές (references), πέρασμα με τιμή (pass by  value), πέρασμα με αναφορά (pass by reference), υπερφόρτωση συναρτήσεων (overload), υπερφόρτωση τελεστών (operator overload)
+
+Εξ' αποστάσεως
+
+* Συνάντηση 3:
+  * Επανάληψη εργαστηρίου 1 και 2
+  * Παραδείγματα με const
+    * <https://chgogos.github.io/oop/cpp_playground/ex005/const1.cpp>
+    * <https://chgogos.github.io/oop/cpp_playground/ex005/const4.cpp>
+  * Επίδειξη επίλυσης λυμένης άσκησης 1 <https://chgogos.github.io/oop/lab2020-2021/lab_ex1/cargo_example.cpp>
+  * Επιπλέον ερωτήματα λυμένης άσκησης 1
+
+* [Συνάντηση 4](./lab03/) Κληρονομικότητα (inheritance), παράκαμψη (override), διαμέριση κώδικα σε αρχεία κεφαλίδων και αρχεία κώδικα (code partitioning)
+* [Συνάντηση 5](./lab04/) Πρότυπα (templates), STL (Standard Template Library) 
+* ...
+
+
+<!-- ### Java
 
 * [Εργαστήριο 5](./lab05/) Κλάσεις (classes), αντικείμενα (objects), επίπεδα προστασίας (public, package, private), κληρονομικότητα (inheritance)
-* [Εργαστήριο 6](./lab06/) Διεπαφές (interfaces), παραμετρικοί τύποι (Generics), συλλογές της Java (Java Collections) 
+* [Εργαστήριο 6](./lab06/) Διεπαφές (interfaces), παραμετρικοί τύποι (Generics), συλλογές της Java (Java Collections)  -->
 
 ---
 
