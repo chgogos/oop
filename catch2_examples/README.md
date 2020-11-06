@@ -3,6 +3,7 @@
 ## Catch2 (Catch v2.11.1) με χρήση ενός μόνο header (catch.hpp)
 
 * [test.cpp](./v2/test.cpp)
+* [test2.cpp](./v2/test.cpp)
 * [catch.hpp](./v2/catch.hpp)
 
 Εντολές μεταγλώττισης και εκτέλεσης

@@ -185,14 +185,6 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 
 [Παραδείγματα χρήσης του catch2](./../catch2_examples)
 
-* [main.cpp](./simple_catch_example/main.cpp)
-* [catch.hpp](../catch.hpp)
-
-  ```sh
-  g++ main.cpp -std=c++11 -o main
-  ./main
-  ```
-
 ### wxWidgets
 
 * [Εγκατάσταση του wxWidgets](../various/wxwidgets)
