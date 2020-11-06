@@ -48,7 +48,7 @@
 
 Πληροφορίες για τους μιγαδικούς και τις πράξεις με αυτούς μπορείτε να βρείτε στο διαδίκτυο.
 
-Β) Ελέγξτε όλες τις λειτουργίες της κλάσης με unit tests της βιβλιοθήκης catch2 και με τη χρήση της κλάσης std::complex που ορίζεται στο αρχείο επικεφαλίδας complex. Δείτε το <https://en.cppreference.com/w/cpp/numeric/complex> και το <https://github.com/catchorg/Catch2>.
+Β) Ελέγξτε όλες τις λειτουργίες της κλάσης με unit tests της βιβλιοθήκης catch2 και με τη χρήση της κλάσης std::complex που ορίζεται στο αρχείο επικεφαλίδας complex. Δείτε το <https://en.cppreference.com/w/cpp/numeric/complex> και το <https://github.com/catchorg/Catch2>. Μπορείτε να κατεβάσετε τη single file header από [εδώ](../catch.hpp).
 
 Γ) Δημιουργήστε ένα GUI (Graphical User Interface) χρησιμοποιώντας το framework wxWidgets <https://www.wxwidgets.org/>. To GUI να δίνει τη δυνατότητα στο χρήστη να συμπληρώσει τα στοιχεία 2 μιγαδικών αριθμών και να επιτρέπει τη διενέργεια των πράξεων πρόσθεση, αφαίρεση, πολλαπλασιασμός και διαίρεση, πατώντας πλήκτρα σε μια γραφική διεπαφή. 
 
@@ -183,7 +183,10 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 
 <https://github.com/catchorg/Catch2>
 
+[Παραδείγματα χρήσης του catch2](./../catch2_examples)
+
 * [main.cpp](./simple_catch_example/main.cpp)
+* [catch.hpp](../catch.hpp)
 
   ```sh
   g++ main.cpp -std=c++11 -o main

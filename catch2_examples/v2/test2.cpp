@@ -1,9 +1,6 @@
-// g++ main.cpp -std=c++11 -o main
-// ./main
-
 #define CATCH_CONFIG_MAIN
 
-#include "../catch.hpp"
+#include "catch.hpp"
 #include <iostream>
 
 using namespace std;
