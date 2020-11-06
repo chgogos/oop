@@ -22,10 +22,32 @@ class Cargo{
         void set_weight(double w){
             weight = w;
         }
+
+        void make_safe(){
+            if (fragile==false){
+                weight = weight + 5;
+            }
+            fragile = true;
+        }
 };
 
 int main(){
-        Cargo c1, c2(12345, "ATHENS", 1000, true);
+        Cargo c1, c2(12345, "ATHENS", 1000, false);
         c1.show();
         c2.show();
+        c2.make_safe();
+        c2.show();
+
+    Cargo a[]={
+        {1, "Patras", 1000, false},
+        {2, "Athens", 200, true},
+        {3, "Kalamata", 2000, false},
+        {4, "Patras", 1500, true},
+        {5, "Athens", 1100, false},
+        };
+    
+    for(int i=0;i<5;i++){
+        a[i].show();
+    }
+
 }
