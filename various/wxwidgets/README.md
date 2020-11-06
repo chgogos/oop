@@ -159,4 +159,7 @@
 
 ---
 
-Δείτε και τις οδηγίες για [εγκατάσταση των wxWidgets με Microsoft Visual Studio 2019](<https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/>) που έχουν γραφεί από τον φοιτητή του τμήματος και βοηθό διδασκαλίας, Βασίλη Νάστο.
+## Άλλες πηγές
+
+* [wxWiki Install](https://wiki.wxwidgets.org/Install)
+* Δείτε και τις οδηγίες για [εγκατάσταση των wxWidgets με Microsoft Visual Studio 2019](<https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/>) που έχουν γραφεί από τον φοιτητή του τμήματος και βοηθό διδασκαλίας, Βασίλη Νάστο.

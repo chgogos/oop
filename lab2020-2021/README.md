@@ -205,6 +205,12 @@ $ g++ date2020.cpp tests.cpp -o tests -std=c++11
 * [Εγκατάσταση του wxWidgets](../various/wxwidgets)
 * [Ultra Simple Calculator](./wx_examples/usc)
 
+#### Tutorials για wxWidgets
+
+* <http://zetcode.com/gui/wxwidgets/>
+* <https://www.wxwidgets.org/docs/tutorials/>
+* [wxWiki Guides & Tutorials](https://wiki.wxwidgets.org/Guides_%26_Tutorials)
+
 <!-- ### fmt
 
 ### spdlog -->
