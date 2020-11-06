@@ -2,22 +2,21 @@
 
 using namespace std;
 
-class MyClass{
+class Cargo{
     private:
-        int x;
+        int id;
+        string destination;
+        double weight;
+        bool fragile;
     public:
-        MyClass(int _x): x(_x){}
-        void fun(){
-            x++;
-        }
-        void print() const
-        {
-            cout << x << endl;
+
+        void show(){
+            cout << "ID:" << id << " DESTINATION:" << destination << " WEIGHT:" << weight << " FRAGILE:" << fragile << endl; 
         }
 };
 
+
 int main(){
-    MyClass obj(42);
-    obj.fun();
-    obj.print();
+        Cargo c1;
+        c1.show();
 }
