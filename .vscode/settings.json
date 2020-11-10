@@ -123,5 +123,9 @@
         "statusBarItem.hoverBackground": "#f7df1e"
     },
     "cmake.configureOnOpen": false,
-    "peacock.color": "#f9e64f"
+    "peacock.color": "#f9e64f",
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true
 }
