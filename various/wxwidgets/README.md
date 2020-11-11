@@ -79,6 +79,7 @@
 4. Μεταγλώττιση wxWidgets
 
     ```console
+    $ cd ~/wxWidgets-3.1.4
     $ mkdir build-gtk 
     $ cd build-gtk
     $ ../configure --with-gtk  
@@ -125,6 +126,7 @@
 3. Μεταγλώττιση wxWidgets
 
     ```console
+    $ cd ~/wxWidgets-3.1.4
     $ mkdir build-cocoa-debug
     $ cd build-cocoa-debug
     $ ../configure --enable-debug

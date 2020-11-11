@@ -12,5 +12,5 @@
 ## Μεταγλώττιση και εκτέλεση σε Linux (π.χ. Ubuntu 18.04) και στο OSX
 
     $ g++ usc.cpp baseframe.cpp `wx-config --cxxflags --libs` -o usc
-    ./usc
+    $ ./usc
 
