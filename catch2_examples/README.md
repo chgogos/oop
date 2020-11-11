@@ -1,9 +1,10 @@
 # Catch2 examples
 
-## Catch2 (Catch v2.11.1) με χρήση ενός μόνο header (catch.hpp)
+## 1 Catch2 (Catch v2.11.1) με χρήση ενός μόνο header (catch.hpp)
 
 * [test.cpp](./v2/test.cpp)
-* [test2.cpp](./v2/test.cpp)
+* [test2.cpp](./v2/test2.cpp)
+* [test3.cpp](./v2/test3.cpp) παράδειγμα με Approx
 * [catch.hpp](./v2/catch.hpp)
 
 Εντολές μεταγλώττισης και εκτέλεσης
@@ -14,7 +15,11 @@
     $ g++ test2.cpp -o test2 -std=c++14
     $ test2.exe
 
-### Catch2 (Catch v2.11.1) με χρήση ενός μόνο header (catch.hpp) ταχύτερη μεταγλώττιση
+    $ g++ test3.cpp -o test2 -std=c++14
+    $ test2.exe
+
+
+### 1.1 Catch2 (Catch v2.11.1) με χρήση ενός μόνο header (catch.hpp) ταχύτερη μεταγλώττιση
 
 * [test.cpp](./v2_fast/test.cpp)
 * [tests_main.cpp](./v2_fast/test.cpp)
@@ -29,7 +34,7 @@
     $ g++ tests_main.o test.cpp -o test -std=c++14
     $ test.exe
 
-## Catch2 (Catch v3) με χρήση του header file (catch_amalgamated.hpp) και του source file (catch_amalgamated.cpp)
+## 2. Catch2 (Catch v3) με χρήση του header file (catch_amalgamated.hpp) και του source file (catch_amalgamated.cpp)
 
 Παράδειγμα από το <https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md>.
 
