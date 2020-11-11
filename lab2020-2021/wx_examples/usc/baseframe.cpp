@@ -9,8 +9,6 @@ enum
 BaseFrame::BaseFrame(const wxString &title) : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(500, 200))
 {
     wxPanel *panel = new wxPanel(this, wxID_ANY);
-    wxBoxSizer *hbox1 = new wxBoxSizer(wxHORIZONTAL);
-    hbox1->Add(panel, 1, wxEXPAND | wxALL, 5);
 
     tc1 = new wxTextCtrl(panel, wxID_ANY, wxT("20")); // default text value = 20, user can change this
     button1 = new wxButton(panel, PLUS_BTN_CLICKED, wxT("+"));
@@ -20,15 +18,15 @@ BaseFrame::BaseFrame(const wxString &title) : wxFrame(NULL, wxID_ANY, title, wxD
     tc3 = new wxTextCtrl(panel, wxID_ANY, wxT("0"));
     tc3->SetEditable(false);
 
-    wxBoxSizer *hbox2 = new wxBoxSizer(wxHORIZONTAL);
-    hbox2->Add(tc1);
-    hbox2->Add(button1);
-    hbox2->Add(button2);
-    hbox2->Add(tc2);
-    hbox2->Add(st, wxEXPAND | wxHORIZONTAL);
-    hbox2->Add(tc3);
+    wxBoxSizer *hbox = new wxBoxSizer(wxHORIZONTAL);
+    hbox->Add(tc1);
+    hbox->Add(button1);
+    hbox->Add(button2);
+    hbox->Add(tc2);
+    hbox->Add(st, wxEXPAND);
+    hbox->Add(tc3);
 
-    panel->SetSizer(hbox2);
+    panel->SetSizer(hbox);
     Centre();
 
     Connect(PLUS_BTN_CLICKED, wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler(BaseFrame::OnAddClick));

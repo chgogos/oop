@@ -7,7 +7,7 @@
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
 
-Τελευταία ενημέρωση: 10/11/2020
+Τελευταία ενημέρωση: 11/11/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -618,7 +618,7 @@
 
 #### Visual Studio Code
 
-* To VSCode στα Windows μπορεί να λειτουργήσει: 
+* To VSCode στα Windows μπορεί να λειτουργήσει μεταξύ άλλων: 
   * είτε με το [μεταγλωττιστή C/C++ gcc](http://tdm-gcc.tdragon.net/) - Οδηγίες [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
   * είτε με το [μεταγλωττιστή C/C++ της Microsoft](https://visualstudio.microsoft.com/visual-cpp-build-tools/) - Οδηγίες: [Configure VS Code for Microsoft C++](https://code.visualstudio.com/docs/cpp/config-msvc)
 
@@ -640,9 +640,9 @@
 
 #### Άλλοι editors
 
+* [Sublime Text](https://www.sublimetext.com/)
 * [Atom](https://atom.io/)
 * [Notepad++](https://notepad-plus-plus.org/)
-* [Sublime Text](https://www.sublimetext.com/)
 
 ### Build tools
 
@@ -650,7 +650,6 @@
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
   * <https://cmake.org/>
   * <https://github.com/pr0g/cmake-examples>
-
 
 ## DEBUG 
 
