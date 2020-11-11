@@ -7,7 +7,7 @@
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
 
-Τελευταία ενημέρωση: 6/11/2020
+Τελευταία ενημέρωση: 10/11/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -20,7 +20,7 @@
 * [Παρουσίαση 7 - Σύνθεση](./OOP7.pdf) (30/10/2020)
 * [Παρουσίαση 8 - Πίνακες αντικειμένων](./OOP8.pdf) (3/11/2020)
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf) (6/11/2020)
-* [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf)
+* [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf) (10/11/2020)
 * [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf)
 * [Παρουσίαση 12 - Κατασκευαστής αντιγραφής και αντιγραφή μέσω ανάθεσης](./OOP12.pdf)
 * [Παρουσίαση 13 - Λεκτικά, υπερφόρτωση του τελεστή [] και του τελεστή &](./OOP13.pdf)
@@ -607,8 +607,8 @@
 ### Μεταγλωττιστές για τη C++
 
   * gcc <https://gcc.gnu.org/>
-    * <http://www.mingw.org/>
     * <http://tdm-gcc.tdragon.net/>
+    * <http://www.mingw.org/>
   * clang <http://clang.llvm.org/get_started.html>
   * [Microsoft C++ compiler](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
   * [Intel C++ compiler](https://software.intel.com/en-us/c-compilers)
@@ -618,22 +618,25 @@
 
 #### Visual Studio Code
 
-* [Visual Studio Code by Microsoft](https://code.visualstudio.com/)
-  * Extensions (ms-vscode.cpptools, formulahendry.code-runner)
-* [Configure VS Code for Microsoft C++](https://code.visualstudio.com/docs/cpp/config-msvc)
+* To VSCode στα Windows μπορεί να λειτουργήσει: 
+  * είτε με το [μεταγλωττιστή C/C++ gcc](http://tdm-gcc.tdragon.net/) - Οδηγίες [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
+  * είτε με το [μεταγλωττιστή C/C++ της Microsoft](https://visualstudio.microsoft.com/visual-cpp-build-tools/) - Οδηγίες: [Configure VS Code for Microsoft C++](https://code.visualstudio.com/docs/cpp/config-msvc)
 
+* [Visual Studio Code by Microsoft](https://code.visualstudio.com/)
+  * Extensions (ms-vscode.cpptools, vadimcn.vscode-lldb, formulahendry.code-runner)
 
     ```console
     # Ctrl + P (quick open)
     ext install ms-vscode.cpptools
+    ext install vadimcn.vscode-lldb
     ext install formulahendry.code-runner
     # Ctrl + , (settings dialog)
     Extensions > Run Code configuration Here
         Run in Terminal: enable
         Save All Files Before Run: enable
+        Clear Previous Output: enable
     Ctrl + Alt + N => compiles and executes current file
     ```
-
 
 #### Άλλοι editors
 
