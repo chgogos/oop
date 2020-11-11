@@ -12,10 +12,10 @@ BaseFrame::BaseFrame(const wxString &title) : wxFrame(NULL, wxID_ANY, title, wxD
     wxBoxSizer *hbox1 = new wxBoxSizer(wxHORIZONTAL);
     hbox1->Add(panel, 1, wxEXPAND | wxALL, 5);
 
-    tc1 = new wxTextCtrl(panel, wxID_ANY, wxT("20"));
+    tc1 = new wxTextCtrl(panel, wxID_ANY, wxT("20")); // default text value = 20, user can change this
     button1 = new wxButton(panel, PLUS_BTN_CLICKED, wxT("+"));
     button2 = new wxButton(panel, MINUS_BTN_CLICKED, wxT("-"));
-    tc2 = new wxTextCtrl(panel, wxID_ANY, wxT("22"));
+    tc2 = new wxTextCtrl(panel, wxID_ANY, wxT("22")); // default text value = 22, user can change this
     st = new wxStaticText(panel, wxID_ANY, wxT("="));
     tc3 = new wxTextCtrl(panel, wxID_ANY, wxT("0"));
     tc3->SetEditable(false);

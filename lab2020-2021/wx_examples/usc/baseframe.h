@@ -7,8 +7,8 @@ public:
 
   wxTextCtrl *tc1; // input A
   wxTextCtrl *tc2; // input B
-  wxButton *button1;
-  wxButton *button2;
+  wxButton *button1; // plus button
+  wxButton *button2; // minus button
   wxStaticText *st;
   wxTextCtrl *tc3; // result
 
