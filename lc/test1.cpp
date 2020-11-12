@@ -1,52 +1,41 @@
-#include <string>
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-class Person
+class date
 {
-protected:
-    string name;
-    int age;
+private:
+    int day, month, year;
 
 public:
-    Person(string n, int a) : name(n), age(a)
-    {
-        cout << "Calling Person(string, int) constructor " << this << endl;
-    };
-
-    void modify_age(int x){
-        age += x;
-    }
-    virtual void say(string msg)
-    {
-        cout << "The person (" << age << ") says: " << msg << std::endl;
-    }
+    date() : day(1), month(1), year(2020){};
+    date(int d, int m) : day(d), month(m), year(2020){};     
+    date(int d, int m, int y) : day(d), month(m), year(y){};
+    int get_day() const { return day; }
+    int get_month() const { return month; }
+    int get_year() const { return year; }
+    virtual string desc() const { return to_string(day) + '/' + to_string(month) + '/' + to_string(year); }
 };
 
-class Student : public Person
+class holiday : public date
 {
-    int semester;
+private:
+    string name;
 
 public:
-    Student(string n, int a, int s) : Person(n, a), semester(s)
+    holiday(string n) : date(), name(n) {} // constructor που καλεί τον constructor της βασικής κλάσης
+    holiday(string n, int d, int m) : date(d, m), name(n) {} // constructor που καλεί τον constructor της βασικής κλάσης
+    string get_name() const { return name; }
+    virtual string desc() const
     {
-        cout << "Calling Student(string, int, int) constructor " << this << endl;
-    }
-    void say(string msg) // override
-    {
-        cout << "The student (" << age << ") says: " << msg << endl;
+        return name + " " + date::desc();
     }
 };
 
 int main()
 {
-    Person p1("Jane", 21);
-    p1.say("Hi");
-    p1.modify_age(1);
-    p1.say("Hi");
+    holiday h("Christmas", 25, 12);
+    cout << h.desc() << endl; // Christmas 25/12/2020
 
-    Student p2("John", 20, 1);
-    p2.modify_age(1);
-    p2.say("Hi");
 }
