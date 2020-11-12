@@ -1,4 +1,4 @@
-// https://stackoverflow.com/questions/14859875/c-how-to-avoid-floating-point-arithmetic-error
+// https://stackoverflow.com/questions/588004/is-floating-point-math-broken
 
 #include <iostream>
 #include <iomanip>
