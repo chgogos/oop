@@ -46,16 +46,3 @@ int main()
 
 
 }
-
-
-/*
-Calling Person(string, int) constructor 0x63fc80
-The person says: Hi
-Calling Person(string, int) constructor 0x63fc50
-Calling Student(string, int, int) constructor 0x63fc50
-The student says: Hi
-The student says: Hi
-Calling Person(string, int) constructor 0xd61320
-Calling Student(string, int, int) constructor 0xd61320
-The student says: Hi
-*/

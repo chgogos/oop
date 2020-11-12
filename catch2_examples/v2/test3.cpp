@@ -10,8 +10,8 @@ double fun()
     return 0.99999999;
 }
 
-// unit tests για τη συνάρτηση rectangle_area
 TEST_CASE()
 {
+    // REQUIRE(fun() == 1.0);
     REQUIRE(fun() == Approx(1.0));
 }
