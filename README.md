@@ -63,9 +63,9 @@
 * [Ενδεικτικά θέματα 2](./preparation/telikes.pdf)
 * [Πρόοδος 15/04/2019 ΟΜΑΔΑ Α](./preparation/20190415_proodos_a.pdf)
 * [Πρόοδος 15/04/2019 ΟΜΑΔΑ Β](./preparation/20190415_proodos_b.pdf)
-* [Τελική εξέτασης 25/06/2019 ΟΜΑΔΑ Α](./preparation/20190625_telikh_exetash_a.pdf)
-* [Τελική εξέτασης 25/06/2019 ΟΜΑΔΑ Β](./preparation/20190625_telikh_exetash_b.pdf)
-* [Δοκιμή εξέτασης 29/05/2020](./preparation/20200529.%20ΔΟΚΙΜΗ%20ΕΞΕΤΑΣΗΣ.pdf)
+* [Τελική εξέταση 25/06/2019 ΟΜΑΔΑ Α](./preparation/20190625_telikh_exetash_a.pdf)
+* [Τελική εξέταση 25/06/2019 ΟΜΑΔΑ Β](./preparation/20190625_telikh_exetash_b.pdf)
+* [Δοκιμή εξέταση 29/05/2020](./preparation/20200529.%20ΔΟΚΙΜΗ%20ΕΞΕΤΑΣΗΣ.pdf)
 
 Οι λύσεις των θεμάτων βρίσκονται στο <https://github.com/chgogos/oop/tree/master/preparation>
 
