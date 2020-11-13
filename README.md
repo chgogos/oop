@@ -6,8 +6,7 @@
 
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
-
-Τελευταία ενημέρωση: 11/11/2020
+Τελευταία ενημέρωση: 13/11/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -22,7 +21,7 @@
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf) (6/11/2020)
 * [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf) (10/11/2020)
 * [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf)
-* [Παρουσίαση 12 - Κατασκευαστής αντιγραφής και αντιγραφή μέσω ανάθεσης](./OOP12.pdf)
+* [Παρουσίαση 12 - Κατασκευαστής αντιγραφής και αντιγραφή μέσω ανάθεσης](./OOP12.pdf) (13/11/2020)
 * [Παρουσίαση 13 - Λεκτικά, υπερφόρτωση του τελεστή [] και του τελεστή &](./OOP13.pdf)
 * [Παρουσίαση 14 - Κληρονομικότητα](./OOP14.pdf)
 * [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf)
@@ -48,14 +47,25 @@
 
 ## Σύνοψη της C++, STL, UML διαγραμμάτων κλάσεων
 
-* [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις :eyes:
+* [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις
 * [C++ reference](https://en.cppreference.com/w/cpp)
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
 
-## Quiz
+## Quizzes
 
 * [Quiz 1 στο ecourse](http://ecourse.uoi.gr/mod/quiz/view.php?id=84785)
+* [Quiz 2 στο ecourse](http://ecourse.uoi.gr/mod/quiz/view.php?id=85791)
+
+## Θέματα προηγούμενων ετών
+
+* [ΠΡΟΟΔΟΣ 15/04/2019 ΟΜΑΔΑ Α](./preparation/20190415_proodos_a.pdf)
+* [ΠΡΟΟΔΟΣ 15/04/2019 ΟΜΑΔΑ Β](./preparation/20190415_proodos_b.pdf)
+* [ΤΕΛΙΚΗ ΕΞΕΤΑΣΗ 25/06/2019 ΟΜΑΔΑ Α](./preparation/20190625_telikh_exetash_a.pdf)
+* [ΤΕΛΙΚΗ ΕΞΕΤΑΣΗ 25/06/2019 ΟΜΑΔΑ Β](./preparation/20190625_telikh_exetash_b.pdf)
+* [ΔΟΚΙΜΗ ΕΞΕΤΑΣΗΣ 29/05/2020](./preparation/20200529.%20ΔΟΚΙΜΗ%20ΕΞΕΤΑΣΗΣ.pdf)
+
+Οι λύσεις των θεμάτων βρίσκονται στο <https://github.com/chgogos/oop/tree/master/preparation>.
 
 <!-- ## Quizzes
 
