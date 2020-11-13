@@ -239,6 +239,8 @@
     * [map_filter_reduce.cpp](./cpp_playground/ex071/map_filter_reduce.cpp)
 * Ακρίβεια πράξεων
   * floating points [floating_point.cpp](./cpp_playground/ex079/floating_point.cpp)
+  * [floating1.cpp](./cpp_playground/ex096/floating1.cpp)
+  * [floating2.cpp](./cpp_playground/ex096/floating2.cpp)
   * Όρια τύπων δεδομένων [limits.cpp](./cpp_playground/ex079/limits.cpp)
   * Χειρισμός χρηματικών ποσών μέσω ειδικής κλάσης [money.hpp](./cpp_playground/ex079/money.hpp), [main.cpp](./cpp_playground/ex079/main.cpp)
 * Δείκτες σε συναρτήσεις (function pointers)
