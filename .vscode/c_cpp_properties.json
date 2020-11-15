@@ -22,9 +22,8 @@
             "compilerPath": "C:/TDM-GCC-64/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+                "intelliSenseMode": "gcc-x64"
         }
-
     ],
     "version": 4
 }
