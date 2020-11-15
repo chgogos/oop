@@ -6,7 +6,7 @@
 
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
-Τελευταία ενημέρωση: 13/11/2020
+Τελευταία ενημέρωση: 15/11/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -621,12 +621,14 @@
 ### Μεταγλωττιστές για τη C++
 
   * gcc <https://gcc.gnu.org/>
-    * <http://tdm-gcc.tdragon.net/>
-    * <http://www.mingw.org/>
+    * <http://tdm-gcc.tdragon.net/> για Windows
+    * <http://www.mingw.org/> για Windows
   * clang <http://clang.llvm.org/get_started.html>
   * [Microsoft C++ compiler](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
   * [Intel C++ compiler](https://software.intel.com/en-us/c-compilers)
-  * [Embacadero C++ compiler](https://www.embarcadero.com/free-tools/ccompiler)
+  * [Embarcadero C++ compiler](https://www.embarcadero.com/free-tools/ccompiler)
+
+[C++ compiler support](https://en.cppreference.com/w/cpp/compiler_support)
 
 ### Editors
 

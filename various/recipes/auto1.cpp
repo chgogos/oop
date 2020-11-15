@@ -12,7 +12,7 @@ int main()
 
     cout << add(2.1, 3.2) << endl;
 
-    cout << add("Hello"s, " World"s) << endl;
+    cout << add("Hello"s, " World"s) << endl; // C++14 user defined literal operator ""s
 }
 
 /*
