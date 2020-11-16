@@ -6,7 +6,7 @@
 
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
-Τελευταία ενημέρωση: 15/11/2020
+Τελευταία ενημέρωση: 16/11/2020
 
 ## ΘΕΩΡΙΑ
 
@@ -428,12 +428,15 @@
 * Πολυμορφισμός (polymorphism)
 * Κληρονομικότητα (inheritance)
 
-## Βέλτιστες πρακτικές
+## Καλές αρχές λογισμικού
 
 ### S.O.L.I.D. principles
 
   * **S**ingle Responsibility Principle (SRP). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να έχει μια μόνο καλά ορισμένη υπευθυνότητα.
     * <https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137>
+      * Παράδειγμα εφαρμογής του Single Responsibility Principle (SRP):
+        * [no_srp.cpp](./various/SOLID/SRP/no_srp.cpp) παραβίαση της αρχής SRP
+        * [srp.cpp](./various/SOLID/SRP/srp.cpp) SRP
   * **O**pen-Closed Principle (OCP). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να είναι ανοικτή για επέκταση (να μπορούν να προστίθενται νέες δυνατότητες) και κλειστή για αλλαγές (ο κώδικας που έχει ήδη γραφεί να μην χρειάζεται να τροποποιηθεί προκειμένου να ενσωματώσει τις επεκτάσεις).
     * <https://hackernoon.com/the-open-closed-principle-c3dc45419784>
     * Παράδειγμα εφαρμογής του Open Closed Principle: 
@@ -447,7 +450,7 @@
       * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP
       * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP
       * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP
-  * **I**nterface Segregation Principle (ISP). Κανείς πελάτης ενός interface δεν θα πρέπει να εξαναγκάζεται να εξαρτάται από μεθόδους που δεν χρησιμοποιεί.
+  * **I**nterface Segregation Principle (ISP). Κανείς "πελάτης" ενός interface δεν θα πρέπει να εξαναγκάζεται να εξαρτάται από μεθόδους που δεν χρησιμοποιεί.
     * <https://hackernoon.com/interface-segregation-principle-bdf3f94f1d11>
     * Παράδειγμα εφαρμογής Interface Segregation Principle (ISP):
       * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP
@@ -460,7 +463,7 @@
       * [customer.hpp](./cpp_playground/ex054/customer.hpp)
       * [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp)
 
-### Άλλες βέλτιστες πρακτικές
+### Μερικές ακόμα καλές αρχές λογισμικού
 
 * DRY (Don't Repeat Yourself =  Μην επαναλαμβάνεις τον εαυτό σου). Η επανάληψη του ίδιου κώδικα σε διάφορα σημεία προκαλεί προβλήματα στη συντήρηση του λογισμικού.
 * YAGNI (You Ain't Gonna Need It = Δεν πρόκειται να το χρειαστείς). Θα πρέπει να υλοποιούνται οι απαραίτητες λειτουργίες και μόνο αυτές.
