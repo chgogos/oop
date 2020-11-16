@@ -370,23 +370,11 @@
   * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :confused:
   * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :confused:
   * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
-* Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP)
-  * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP :confused:
-  * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP
-  * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP
-* Παράδειγμα εφαρμογής Interface Segregation Principle (ISP)
-  * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP :confused:
-  * [isp2.cpp](./cpp_playground/ex052/isp2.cpp) ISP
 * Παράδειγμα κυκλικής εξάρτησης (circular dependency) και επίλυση με forward declaration
   * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.cpp) :confused:
-* Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP)
-  * [owner.hpp](./cpp_playground/ex054/owner.hpp), [account.hpp](./cpp_playground/ex054/account.hpp), [customer.hpp](./cpp_playground/ex054/customer.hpp), [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp) 
 * Anemic classes (anti-pattern)
-  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία αναιμικής κλάσης :confused:
+  * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία αναιμικής κλάσης
   * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp) λύση του προβλήματος με ένα απλό struct
-* Law of Demeter
-  * [lod1.cpp](./cpp_playground/ex055/lod1.cpp) παραβίαση του LoD :confused:
-  * [lod2.cpp](./cpp_playground/ex055/lod2.cpp)
 
 ## TDD με τη βιβλιοθήκη Catch2
 
@@ -448,17 +436,29 @@
     * <https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137>
   * **O**pen-Closed Principle (OCP). Κάθε μονάδα λογισμικού (π.χ. συναρτήσεις, κλάσεις) πρέπει να είναι ανοικτή για επέκταση (να μπορούν να προστίθενται νέες δυνατότητες) και κλειστή για αλλαγές (ο κώδικας που έχει ήδη γραφεί να μην χρειάζεται να τροποποιηθεί προκειμένου να ενσωματώσει τις επεκτάσεις).
     * <https://hackernoon.com/the-open-closed-principle-c3dc45419784>
-    * Παράδειγμα: 
-      * [no_open_closed_principle1.cpp](./various/SOLID/OCP/no_open_closed_principle1.cpp)
-      * [no_open_closed_principle2.cpp](./various/SOLID/OCP/no_open_closed_principle2.cpp)
-      * [open_closed_principle1.cpp](./various/SOLID/OCP/open_closed_principle1.cpp)
-      * [open_closed_principle2.cpp](./various/SOLID/OCP/open_closed_principle2.cpp)
+    * Παράδειγμα εφαρμογής του Open Closed Principle: 
+      * [no_open_closed_principle1.cpp](./various/SOLID/OCP/no_open_closed_principle1.cpp) παραβίαση της αρχής OCP
+      * [no_open_closed_principle2.cpp](./various/SOLID/OCP/no_open_closed_principle2.cpp) παραβίαση της αρχής OCP
+      * [open_closed_principle1.cpp](./various/SOLID/OCP/open_closed_principle1.cpp) OCP
+      * [open_closed_principle2.cpp](./various/SOLID/OCP/open_closed_principle2.cpp) OCP
   * **L**iskov Substitution Principle (LSP). Τα αντικείμενα ενός προγράμματος θα πρέπει να μπορούν να αντικατασταθούν από στιγμιότυπα υποκλάσεων χωρίς να παραβιάζεται η ορθότητα του προγράμματος. Οι συναρτήσεις που χρησιμοποιούν δείκτες ή αναφορές σε βασικές κλάσεις (Base) θα πρέπει να είναι σε θέση να χρησιμοποιούν αντικείμενα της παραγόμενης κλάσης (Derived) χωρίς να γνωρίζουν ότι έχουν  να κάνουν με τέτοια αντικείμενα.
     * <https://hackernoon.com/liskov-substitution-principle-a982551d584a>
+    * Παράδειγμα εφαρμογής του Liskov Substitution Principle (LSP):
+      * [lsp1.cpp](./cpp_playground/ex050/lsp1.cpp) παραβίαση της αρχής LSP
+      * [lsp2.cpp](./cpp_playground/ex050/lsp2.cpp) LSP
+      * [lsp3.cpp](./cpp_playground/ex050/lsp3.cpp) LSP
   * **I**nterface Segregation Principle (ISP). Κανείς πελάτης ενός interface δεν θα πρέπει να εξαναγκάζεται να εξαρτάται από μεθόδους που δεν χρησιμοποιεί.
     * <https://hackernoon.com/interface-segregation-principle-bdf3f94f1d11>
+    * Παράδειγμα εφαρμογής Interface Segregation Principle (ISP):
+      * [isp1.cpp](./cpp_playground/ex052/isp1.cpp) παραβίαση της αρχής ISP
+      * [isp2.cpp](./cpp_playground/ex052/isp2.cpp) ISP
   * **D**ependency Inversion Principle (DIP). Τα υψηλού επιπέδου τμήματα λογισμικού δεν θα πρέπει να στηρίζονται σε χαμηλού επιπέδου λεπτομέρειες. Τα τμήματα λογισμικού σε όλα τα επίπεδα ιεραρχίας θα πρέπει να στηρίζονται σε αφαιρέσεις.
     * <https://hackernoon.com/dependency-inversion-principle-e402e5b69e70>
+    * Παράδειγμα εφαρμογής του Dependency Inversion Principle (DIP):
+      * [owner.hpp](./cpp_playground/ex054/owner.hpp)
+      * [account.hpp](./cpp_playground/ex054/account.hpp)
+      * [customer.hpp](./cpp_playground/ex054/customer.hpp)
+      * [dependency_inversion.cpp](./cpp_playground/ex054/dependency_inversion.cpp)
 
 ### Άλλες βέλτιστες πρακτικές
 
@@ -466,6 +466,9 @@
 * YAGNI (You Ain't Gonna Need It = Δεν πρόκειται να το χρειαστείς). Θα πρέπει να υλοποιούνται οι απαραίτητες λειτουργίες και μόνο αυτές.
   * <https://martinfowler.com/bliki/Yagni.html>
 * Law of Demeter (αρχή της ελάχιστης δυνατής γνώσης).
+  * Παράδειγμα εφαρμογής του Law of Demeter
+    * [lod1.cpp](./cpp_playground/ex055/lod1.cpp) παραβίαση του LoD
+    * [lod2.cpp](./cpp_playground/ex055/lod2.cpp) LoD
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
 * PLoP (Principle of Least Privilege = Αρχή του ελάχιστου δικαιώματος) κάθε τμήμα θα πρέπει να μπορεί να προσπελάσει μόνο πληροφορίες και πόρους που απαιτούνται για να φέρει εις πέρας το ρόλο που οφείλει να επιτελεί και τίποτα περισσότερο.
 
