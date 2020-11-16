@@ -48,7 +48,7 @@ int main()
 
 /*
 Move constructor invoked.
-Move assignement invoked.
+Move assignment invoked.
 x:1 s:
 x:2 s:
 x:2 s:another test
