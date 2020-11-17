@@ -18,7 +18,7 @@ public:
         size_=size;
         try
         {
-            data = new double(size_);
+            data = new double[size_];
         }
         catch (std::bad_alloc &)
         {
@@ -34,20 +34,18 @@ public:
         size_ = other.size_;
         try
         {
-            data = new double(size_);
+            data = new double[size_];
         }
         catch (std::bad_alloc &)
         {
             cerr << "Cannot allocate memory" << endl;
         }
         id = ++count;
-        cerr << "COPY" << endl;
         for (int i = 0; i < size_; i++)
         {
             // cerr << "COPY" << i << endl;
             data[i] = other.data[i];
         }
-        cerr << "COPY" << endl;
         cout << "COPY CONSTRUCTOR: " << id << " Memory allocated starting at " << data << " bytes = " << sizeof(double) * size_ << endl;
     }
 
@@ -70,7 +68,7 @@ public:
         try
         {
             size_ = other.size_;
-            data = new double(size_);
+            data = new double[size_];
         }
         catch (std::bad_alloc &)
         {
@@ -113,7 +111,6 @@ int main()
 {
     MyVector v1(10000);
     MyVector v2(v1); // copy constructor
-    // v1 = v2;         // copy assignment
-    // v1 = fun(v2);
-    cout << "Finish!" << endl;
+    v1 = v2;         // copy assignment
+    v1 = fun(v2);
 }
