@@ -22,7 +22,7 @@
 ### 1.1 Catch2 (Catch v2.11.1) με χρήση ενός μόνο header (catch.hpp) ταχύτερη μεταγλώττιση
 
 * [test.cpp](./v2_fast/test.cpp)
-* [tests_main.cpp](./v2_fast/test.cpp)
+* [tests_main.cpp](./v2_fast/tests_main.cpp)
 * [catch.hpp](./v2_fast/catch.hpp)
 
 Εκτέλεση της επόμενης εντολής 1 μόνο φορά για δημιουργία του object file (tests_main.o)
