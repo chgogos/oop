@@ -15,6 +15,14 @@ public:
     int get_day() const { return day; }
     int get_month() const { return month; }
     int get_year() const { return year; }
+    void add_one_day(){
+        // λειτουργεί μόνο για την τρέχουσα ημερομηνία (19/11/2020)
+        day++;
+        if (day == 32){
+            day=1;
+            month++;
+        }
+    }
     virtual string desc() const { return to_string(day) + '/' + to_string(month) + '/' + to_string(year); }
 };
 
@@ -37,5 +45,9 @@ int main()
 {
     holiday h("Christmas", 25, 12);
     cout << h.desc() << endl; // Christmas 25/12/2020
+
+    date d(19,11,2020);
+    d.add_one_day();
+    cout << d.desc() << endl;
 
 }
