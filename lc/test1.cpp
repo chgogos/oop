@@ -17,6 +17,9 @@ public:
         _x += dx;
         _y += dy;
     }
+
+    // συνάρτηση μέλος reset που θέτει τα _x και _y στο μηδέν
+
     friend std::ostream &operator<<(std::ostream &os, const point &c);
 };
 
@@ -31,4 +34,6 @@ int main()
     point p1(3, 7);
     p1.move(2, 6);
     cout << p1 << endl;
+
+    // κλήση της reset για το σημείο p1 και εμφάνιση του σημείου p1
 }
