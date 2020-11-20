@@ -1,41 +1,34 @@
 #include <iostream>
-#include <string>
+#include <ostream>
 
 using namespace std;
 
-class date
+class point
 {
 private:
-    int day, month, year;
+    int _x, _y;
 
 public:
-    date() : day(1), month(1), year(2020){};
-    date(int d, int m) : day(d), month(m), year(2020){};     
-    date(int d, int m, int y) : day(d), month(m), year(y){};
-    int get_day() const { return day; }
-    int get_month() const { return month; }
-    int get_year() const { return year; }
-    virtual string desc() const { return to_string(day) + '/' + to_string(month) + '/' + to_string(year); }
-};
-
-class holiday : public date
-{
-private:
-    string name;
-
-public:
-    holiday(string n) : date(), name(n) {} // constructor που καλεί τον constructor της βασικής κλάσης
-    holiday(string n, int d, int m) : date(d, m), name(n) {} // constructor που καλεί τον constructor της βασικής κλάσης
-    string get_name() const { return name; }
-    virtual string desc() const
+    point(int x, int y) : _x(x), _y(y) {}
+    int x() const { return _x; }
+    int y() const { return _y; }
+    void move(int dx, int dy)
     {
-        return name + " " + date::desc();
+        _x += dx;
+        _y += dy;
     }
+    friend std::ostream &operator<<(std::ostream &os, const point &c);
 };
+
+std::ostream &operator<<(std::ostream &os, const point &c)
+{
+    os << c._x << "," << c._y;
+    return os;
+}
 
 int main()
 {
-    holiday h("Christmas", 25, 12);
-    cout << h.desc() << endl; // Christmas 25/12/2020
-
+    point p1(3, 7);
+    p1.move(2, 6);
+    cout << p1 << endl;
 }
