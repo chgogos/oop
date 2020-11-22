@@ -1,5 +1,14 @@
 # Λύση άσκησης
 
+* [Complex.hpp](./Complex.hpp)
+* [Complex.cpp](./Complex.cpp)
+* [Main.cpp](./Main.cpp)
+* [speedup.cpp](./speedup.cpp)
+* [Tests.cpp](./Tests.cpp)
+* [BaseFrame.hpp](./BaseFrame.hpp)
+* [BaseFrame.cpp](./BaseFrame.cpp)
+* [GUI.cpp](./GUI.cpp)
+
 ## Μεταγλώττιση και εκτέλεση του Console app
 
     $ g++ Complex.cpp Main.cpp -o Main -std=c++14
