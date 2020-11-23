@@ -27,7 +27,8 @@
   * Θέμα 2 από τα [θέματα προόδου 15/4/2019](https://chgogos.github.io/oop/preparation/20190415_proodos_a.pdf)
     * [Λύση](https://github.com/chgogos/oop/blob/master/preparation/proodos20190415a_2.cpp)
 
-* [Συνάντηση 6](./lab04/) Πρότυπα (templates), STL (Standard Template Library) 
+* [Συνάντηση 6](./lab04/) Πρότυπα (templates) - generic programming
+* Συνάντηση 7: STL (Standard Template Library) 
 * ...
 
 
