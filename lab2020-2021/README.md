@@ -20,7 +20,14 @@
   * Επιπλέον ερωτήματα λυμένης άσκησης 1
 
 * [Συνάντηση 4](./lab03/) Κληρονομικότητα (inheritance), παράκαμψη (override), διαμέριση κώδικα σε αρχεία κεφαλίδων και αρχεία κώδικα (code partitioning)
-* [Συνάντηση 5](./lab04/) Πρότυπα (templates), STL (Standard Template Library) 
+
+* Συνάντηση 5:
+  * Θέμα 2 από τα [ενδεικτικά θέματα 1](https://chgogos.github.io/oop/preparation/proodos.pdf)
+    * [Λύση](https://github.com/chgogos/oop/blob/master/preparation/prepare02.cpp)
+  * Θέμα 2 από τα [θέματα προόδου 15/4/2019](https://chgogos.github.io/oop/preparation/20190415_proodos_a.pdf)
+    * [Λύση](https://github.com/chgogos/oop/blob/master/preparation/proodos20190415a_2.cpp)
+
+* [Συνάντηση 6](./lab04/) Πρότυπα (templates), STL (Standard Template Library) 
 * ...
 
 
