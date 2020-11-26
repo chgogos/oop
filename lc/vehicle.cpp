@@ -14,6 +14,8 @@ public:
     {
         cout << "Vehicle constructed at memory address: " << this << endl;
     }
+
+    virtual double traffic_tax() = 0; // pure virtual function (abstract class)
 };
 
 class truck : public vehicle
@@ -26,16 +28,35 @@ public:
     {
         cout << "Truck constructed at memory address: " << this << endl;
     }
+    double traffic_tax()
+    {
+        return 0;
+    }
 };
 
 class car : public vehicle
 {
 private:
     int number_of_doors;
+
+public:
+    car(string rn, string on, double c, int nod) : vehicle(rn, on, c), number_of_doors(nod)
+    {
+        cout << "Car constructed at memory address: " << this << endl;
+    }
+    double traffic_tax()
+    {
+        return 0;
+    }
+
+public:
 };
 
 int main()
 {
-    vehicle v("12334626", "Nikos", 1400);
     truck t("1452235", "Petros", 3000, 3500);
+    car c("52367346", "Maria", 1600, 5);
+
+    cout << t.traffic_tax() << endl;
+    cout << c.traffic_tax() << endl;
 }
