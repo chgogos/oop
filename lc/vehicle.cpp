@@ -44,7 +44,8 @@ public:
             return 600.0;
         }
     }
-    friend ostream& operator<<(ostream& o, const truck& x) {
+    friend ostream &operator<<(ostream &o, const truck &x)
+    {
         o << x.registration_number << " - "
           << x.owner_name << " - "
           << x.cc << " - "
@@ -74,18 +75,41 @@ public:
             return 140.0 + (int)((cc - 1000.0) / 100.0) * 10.0;
         }
     }
-
-public:
+    friend ostream &operator<<(ostream &o, const car &x)
+    {
+        o << x.registration_number << " - "
+          << x.owner_name << " - "
+          << x.cc << " - "
+          << x.number_of_doors;
+        return o;
+    }
 };
+
+double total_tax(vehicle* v[5])
+{
+    double sum =0.0;
+    for(int i=0;i<5;i++){
+        sum += v[i]->traffic_tax();
+    }
+    return sum;
+}
 
 int main()
 {
     truck t("1452235", "Petros", 3000.0, 3500.0);
-    car c("52367346", "Maria", 1612.0, 5);
+    car c("52267341", "Maria", 1612.0, 5);
+    car c2("52367316", "Kostas", 1412.0, 5);
+    car c3("51363146", "Ioanna", 1012.0, 5);
+    car c4("51367316", "Christos", 600.0, 4);
 
     cout << t.traffic_tax() << endl;
     cout << c.traffic_tax() << endl;
+    cout << c2.traffic_tax() << endl;
+    cout << c3.traffic_tax() << endl;
+    cout << c4.traffic_tax() << endl;
 
-    cout << t << endl;
-    // cout << c << endl;
+    vehicle* a[]={&t, &c, &c2, &c3, &c4};
+    double total =  total_tax(a);
+    cout << "TOTAL " << total << endl;
+
 }
