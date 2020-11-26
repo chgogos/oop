@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ostream>
 
 using namespace std;
 
@@ -30,7 +31,25 @@ public:
     }
     double traffic_tax()
     {
-        return 0;
+        if (max_weight <= 3000.0)
+        {
+            return 300.0;
+        }
+        else if (max_weight <= 6000)
+        {
+            return 400.0;
+        }
+        else
+        {
+            return 600.0;
+        }
+    }
+    friend ostream& operator<<(ostream& o, const truck& x) {
+        o << x.registration_number << " - "
+          << x.owner_name << " - "
+          << x.cc << " - "
+          << x.max_weight;
+        return o;
     }
 };
 
@@ -46,7 +65,14 @@ public:
     }
     double traffic_tax()
     {
-        return 0;
+        if (cc <= 1000.0)
+        {
+            return 140.0;
+        }
+        else
+        {
+            return 140.0 + (int)((cc - 1000.0) / 100.0) * 10.0;
+        }
     }
 
 public:
@@ -54,9 +80,12 @@ public:
 
 int main()
 {
-    truck t("1452235", "Petros", 3000, 3500);
-    car c("52367346", "Maria", 1600, 5);
+    truck t("1452235", "Petros", 3000.0, 3500.0);
+    car c("52367346", "Maria", 1612.0, 5);
 
     cout << t.traffic_tax() << endl;
     cout << c.traffic_tax() << endl;
+
+    cout << t << endl;
+    // cout << c << endl;
 }
