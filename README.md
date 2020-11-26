@@ -632,6 +632,9 @@
 
 * [Geany](https://www.geany.org/)
 
+#### DevC++
+
+* [Dev-Cpp](https://github.com/Embarcadero/Dev-Cpp)
 
 ### Μεταγλωττιστές για τη C++
 
