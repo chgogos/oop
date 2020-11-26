@@ -85,10 +85,11 @@ public:
     }
 };
 
-double total_tax(vehicle* v[5])
+double total_tax(vehicle *v[5])
 {
-    double sum =0.0;
-    for(int i=0;i<5;i++){
+    double sum = 0.0;
+    for (int i = 0; i < 5; i++)
+    {
         sum += v[i]->traffic_tax();
     }
     return sum;
@@ -96,20 +97,35 @@ double total_tax(vehicle* v[5])
 
 int main()
 {
-    truck t("1452235", "Petros", 3000.0, 3500.0);
-    car c("52267341", "Maria", 1612.0, 5);
-    car c2("52367316", "Kostas", 1412.0, 5);
-    car c3("51363146", "Ioanna", 1012.0, 5);
-    car c4("51367316", "Christos", 600.0, 4);
+    vehicle *a[5];
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout << "Input type of vehicle (car=1/truck=2): ";
+        int t;
+        std::cin >> t;
+        if (t == 1)
+        {
+            std::string rn, on;
+            double cc;
+            int nod;
+            std::cout << "Enter registration number, owner name, cubic centimeters, number of doors: ";
+            std::cin >> rn >> on >> cc >> nod;
+            a[i] = new car(rn, on, cc, nod);
+        }
+        else
+        {
+            std::string rn, on;
+            double cc, mw;
+            std::cout << "Enter registration number, owner name, cubic centimeters, maximum weight: ";
+            std::cin >> rn >> on >> cc >> mw;
+            a[i] = new truck(rn, on, cc, mw);
+        }
+    }
 
-    cout << t.traffic_tax() << endl;
-    cout << c.traffic_tax() << endl;
-    cout << c2.traffic_tax() << endl;
-    cout << c3.traffic_tax() << endl;
-    cout << c4.traffic_tax() << endl;
+    std::cout << "\nTOTAL TAX " << total_tax(a) << std::endl;
 
-    vehicle* a[]={&t, &c, &c2, &c3, &c4};
-    double total =  total_tax(a);
-    cout << "TOTAL " << total << endl;
-
+    for (int i = 0; i < 5; i++)
+    {
+        delete a[i];
+    }
 }
