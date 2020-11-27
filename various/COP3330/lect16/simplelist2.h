@@ -1,3 +1,5 @@
+#pragma once
+
 const int MAX = 10;
 
 // typedef int mytype;

@@ -5,7 +5,7 @@ private:
     Object storedValue;
 
 public:
-    explicit MemoryCell(const Object &initialValue = Object()) : storedValue(initialValue) {}
+    MemoryCell(const Object &initialValue = Object()) : storedValue(initialValue) {}
     const Object &read() const
     {
         return storedValue;
@@ -16,3 +16,20 @@ public:
     }
 };
 
+
+
+class MyClassNotOK
+{
+public:
+    int x;
+    MyClassNotOK(int x) : x(x) {}
+    MyClassNotOK(const MyClassNotOK &other) = delete;
+    // MyClassNotOK& operator=(const MyClassNotOK &other) = delete;
+};
+
+class MyClassOK
+{
+public:
+    int x;
+    MyClassOK(int x) : x(x) {}
+};

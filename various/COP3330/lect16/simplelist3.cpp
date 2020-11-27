@@ -1,5 +1,3 @@
-#pragma once
-
 #include <iostream>
 #include "simplelist3.h"
 
