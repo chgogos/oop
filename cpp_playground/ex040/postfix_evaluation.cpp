@@ -3,6 +3,7 @@
 
 int main()
 {
+    // 123*+9- ==> 16+9- ==> 79- ==> -2
     int postfix[]={'1', '2', '3', '*', '+', '9', '-'};
 
     Stack<int> stack;
@@ -12,7 +13,7 @@ int main()
         std::cout << "Process symbol " << static_cast<char>(ch) << " stack: ";
         if (isdigit(ch))
         {
-            stack.push(ch - '0');
+            stack.push(ch - '0');  // '5' - '0' ==> 53 - 48 = 5
         }
         else
         {

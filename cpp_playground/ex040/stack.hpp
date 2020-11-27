@@ -31,7 +31,7 @@ class Stack
     {
         for (int i = top_; i >= 0; i--)
         {
-            std::cout << data[i];
+            std::cout << data[i] << " ";
         }
         std::cout << std::endl;
     }
