@@ -28,9 +28,7 @@
     * [Λύση](https://github.com/chgogos/oop/blob/master/preparation/proodos20190415a_2.cpp)
 
 * [Συνάντηση 6](./lab04/) Πρότυπα (templates) - generic programming
-* Συνάντηση 7: STL (Standard Template Library) 
-* ...
-
+* [Συνάντηση 7](./lab05) STL (Standard Template Library) - lambdas
 
 <!-- ### Java
 
