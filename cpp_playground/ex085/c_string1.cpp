@@ -17,7 +17,9 @@ int main()
     cout << dest << endl;
 
     string s{"another text"};
-    cout << s.c_str() << endl; // μετατροπή string σε c-string
+    cout << s << endl;
+    cout << s.length() << endl;
+    cout << strlen(s.c_str()) << endl; // μετατροπή std::string σε c-string έτσι ώστε να χρησιμοποιηθεί η strlen
 }
 
 /*
@@ -37,4 +39,6 @@ int main()
 't' 116
 This is a test
 another text
+12
+12
 */

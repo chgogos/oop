@@ -256,7 +256,9 @@
 * Λεκτικά (C-strings,std::string, std::string_view)
   * [c_string1.cpp](./cpp_playground/ex085/c_string1.cpp)
   * [string1.cpp](./cpp_playground/ex085/string1.cpp)
+  * [string2.cpp](./cpp_playground/ex085/string2.cpp)
   * [string_view1.cpp](./cpp_playground/ex085/string_view1.cpp)
+  * [string_view2.cpp](./cpp_playground/ex085/string_view2.cpp)
 * Αναδρομή
   * [stack_overflow.cpp](./cpp_playground/ex090/stack_overflow.cpp)
 * Μετατροπή από πεζά σε κεφαλαία
