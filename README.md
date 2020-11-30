@@ -86,7 +86,7 @@
   * [Λύση 2ου θέματος](./preparation/exams20190625_b2.cpp) 
 * [Δοκιμή εξέτασης 29/05/2020](./preparation/20200529.%20ΔΟΚΙΜΗ%20ΕΞΕΤΑΣΗΣ.pdf)
 
-Οι λύσεις των θεμάτων βρίσκονται στο <https://github.com/chgogos/oop/tree/master/preparation>
+<!-- Οι λύσεις των θεμάτων βρίσκονται στο <https://github.com/chgogos/oop/tree/master/preparation> -->
 
 <!-- ## Quizzes
 
