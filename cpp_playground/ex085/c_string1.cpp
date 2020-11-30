@@ -11,15 +11,13 @@ int main()
     {
         cout << "'" << c_s[i] << "' " << (int)c_s[i] << endl;
     }
-
     char dest[50];
     strcpy(dest, c_s);
     cout << dest << endl;
-
-    string s{"another text"};
-    cout << s << endl;
-    cout << s.length() << endl;
-    cout << strlen(s.c_str()) << endl; // μετατροπή std::string σε c-string έτσι ώστε να χρησιμοποιηθεί η strlen
+    for (int i = 0; dest[i]; i++) // hack
+    {
+        cout << dest[i];
+    }
 }
 
 /*
@@ -38,7 +36,5 @@ int main()
 's' 115
 't' 116
 This is a test
-another text
-12
-12
+This is a test
 */

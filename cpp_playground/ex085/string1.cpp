@@ -9,7 +9,7 @@ int main()
     string s1;
     cout << "Input a word: ";
     cin >> s1;
-    cin.ignore(32767, '\n'); // αν ακολουθεί getline το cin
+    cin.ignore(32767, '\n'); // αν ακολουθεί getline μετά το cin
     string s2;
     cout << "Input a line: ";
     getline(cin, s2);
