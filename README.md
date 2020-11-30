@@ -93,6 +93,7 @@
 * Δισδιάστατοι πίνακες
   * Δισδιάστατος πίνακας δεδομένων διαστάσεων ως παράμετρος πίνακα [matrix1.cpp](./cpp_playground/ex001/matrix1.cpp)
   * Δισδιάστατος πίνακας δυναμικών διαστάσεων ως παράμετρος πίνακα [matrix2a.cpp](./cpp_playground/ex001/matrix2a.cpp), [matrix2b.cpp](./cpp_playground/ex001/matrix2b.cpp)
+  * Κλάση δυναμικού δισδιάστατου πίνακα με υπερφόρτωση του τελεστή [] [matrix.cpp](./various/agner_fog/matrix.cpp) - χρήσιμο για εύκολο χειρισμό δυναμικών δισδιάστατων πινάκων σε προγράμματα
 * Αναφορές (references) [references.cpp](./cpp_playground/ex001/references.cpp)
 * Κλήση με τιμή (call by value), κλήση με αναφορά (call by reference) [calls.cpp](./cpp_playground/ex001/calls.cpp)
 * Απαριθμήσεις - enumerations
