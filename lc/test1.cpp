@@ -7,8 +7,13 @@
 using namespace std;
 
 int my_fun(int a[5], int key){
-    // TODO
-    return 0;
+    int c = 0;
+    for(int i=0;i<5;i++){
+        if (a[i]==key){
+            c++;
+        }
+    }
+    return c;
 }
 
 int main()
