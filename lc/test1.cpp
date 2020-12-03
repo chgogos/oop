@@ -1,27 +1,24 @@
+// templated συνάρτηση που να δέχεται έναν πίνακα 5 θέσεων με στοιχεία τύπου Τ
+// και ένα στοιχείο προς αναζήτηση και να επιστρέφει πόσες φορές υπάρχει το
+// στοιχείο στον πίνακα
+
 #include <iostream>
-#include <cstring>
 
-template<class T>
-T max(T a, T b)
-{
-    if (a > b)
-    {
-        return a;
-    }
-    else
-    {
-        return b;
-    }
+using namespace std;
+
+int my_fun(int a[5], int key){
+    // TODO
+    return 0;
 }
-
 
 int main()
 {
-    int x1 = 5, x2 = 7, x3 = max(x1, x2);
-    std::cout << x3 << std::endl;
+    int a[5]={2,3,2,2,4};
+    int res = my_fun(a, 2);
+    cout << res << endl;
 
-    double y1 = 5.2, y2 = 7.5, y3 = max(y1, y2);
-    std::cout << y3 << std::endl;
-    return 0;
+    // double b[5]={2.1,3.2,2.1,2.4,4.5};
+    // int res = my_fun(b, 2.1);
+    // cout << res << endl;
 }
 
