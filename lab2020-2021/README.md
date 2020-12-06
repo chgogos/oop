@@ -96,6 +96,7 @@
 
 ### Παράδειγμα εκτέλεσης προγράμματος
 
+  ```sh
   $ lexicon.exe
   File loaded:wordlist.10000.txt
   1. Find words of size
@@ -137,6 +138,7 @@
   5. Find words including pattern
   6. Exit
   Input choice:6                                                                                                                
+  ```  
 
 ---
 
