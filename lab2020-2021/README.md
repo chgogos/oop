@@ -97,47 +97,68 @@
 ### Παράδειγμα εκτέλεσης προγράμματος
 
   ```sh
-  $ lexicon.exe
-  File loaded:wordlist.10000.txt
-  1. Find words of size
-  2. Find words starting with
-  3. Find words ending with
-  4. Find words including
-  5. Find words including pattern
-  6. Exit
-  Input choice:1
-  Input word length:16
-  Words found=3
-  Display words (y/n):y
-  characterization responsibilities sublimedirectory
-  1. Find words of size
-  2. Find words starting with
-  3. Find words ending with
-  4. Find words including
-  5. Find words including pattern
-  6. Exit
-  Input choice:5
-  Input pattern:ba-a-a
-  Words found=2
-  Display words (y/n):y
-  bahamas banana
-  1. Find words of size
-  2. Find words starting with
-  3. Find words ending with
-  4. Find words including
-  5. Find words including pattern
-  6. Exit
-  Input choice:3
-  Input ending letters:ing
-  Words found=522
-  Display words (y/n):n
-  1. Find words of size
-  2. Find words starting with
-  3. Find words ending with
-  4. Find words including
-  5. Find words including pattern
-  6. Exit
-  Input choice:6                                                                                                                
+  $ lexicon.exe                                                      
+  File loaded:wordlist.10000.txt                                     
+  1. Find words of size                                              
+  2. Find words starting with                                        
+  3. Find words ending with                                          
+  4. Find words including                                            
+  5. Find words including pattern                                    
+  6. Exit                                                            
+  Input choice:1                                                     
+  Input word length:16                                               
+  Words found=3                                                      
+  Display words (y/n):y                                              
+  characterization responsibilities sublimedirectory                 
+  1. Find words of size                                              
+  2. Find words starting with                                        
+  3. Find words ending with                                          
+  4. Find words including                                            
+  5. Find words including pattern                                    
+  6. Exit                                                            
+  Input choice:2                                                     
+  Input starting letters:re                                          
+  Words found=360                                                    
+  Display words (y/n):n                                              
+  1. Find words of size                                              
+  2. Find words starting with                                        
+  3. Find words ending with                                          
+  4. Find words including                                            
+  5. Find words including pattern                                    
+  6. Exit                                                            
+  Input choice:3                                                     
+  Input ending letters:ing                                           
+  Words found=522                                                    
+  Display words (y/n):n                                              
+  1. Find words of size                                              
+  2. Find words starting with                                        
+  3. Find words ending with                                          
+  4. Find words including                                            
+  5. Find words including pattern                                    
+  6. Exit                                                            
+  Input choice:4                                                     
+  Input sequence of letters and repetitions:an 2                     
+  Words found=1                                                      
+  Display words (y/n):y                                              
+  banana                                                             
+  1. Find words of size                                              
+  2. Find words starting with                                        
+  3. Find words ending with                                          
+  4. Find words including                                            
+  5. Find words including pattern                                    
+  6. Exit                                                            
+  Input choice:5                                                     
+  Input pattern:ba-a-a                                                                                                          
+  Words found=2                                                      
+  Display words (y/n):y                                              
+  bahamas banana                                                     
+  1. Find words of size                                              
+  2. Find words starting with                                        
+  3. Find words ending with                                          
+  4. Find words including                                            
+  5. Find words including pattern                                    
+  6. Exit                                                            
+  Input choice:6                                                                                                                                                                    
   ```  
 
 ---

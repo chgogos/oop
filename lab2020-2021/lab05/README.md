@@ -26,7 +26,7 @@
 
 ### Algorithms
 
-Παραδείγματα με sort, find, binary_search
+Παραδείγματα με sort, find, binary_search κ.α.
 
 * <https://chgogos.github.io/oop/cpp_playground/ex046/stl_vector4.cpp>
 * <https://chgogos.github.io/oop/cpp_playground/ex046/stl_algorithm4.cpp>
