@@ -87,12 +87,56 @@
 1. Nα εμφανίζει το πλήθος και εφόσον ο χρήστης επιθυμεί όλες τις λέξεις που έχουν το πλήθος γραμμάτων που θα δίνει ο χρήστης.
 2. Nα εμφανίζει το πλήθος και εφόσον ο χρήστης επιθυμεί όλες τις λέξεις που ξεκινούν με μια ακολουθία γραμμάτων που θα δίνει ο χρήστης.
 3. Nα εμφανίζει το πλήθος και εφόσον ο χρήστης επιθυμεί όλες τις λέξεις που τελειώνουν με μια ακολουθία γραμμάτων που θα δίνει ο χρήστης.
-4. Nα εμφανίζει το πλήθος και εφόσον ο χρήστης επιθυμεί όλες τις λέξεις που περιέχουν με μια ακολουθία γραμμάτων που θα δίνει ο χρήστης τόσες συνεχόμενες φορές όσες επίσης θα δίνει ο χρήστης.
+4. Nα εμφανίζει το πλήθος και εφόσον ο χρήστης επιθυμεί όλες τις λέξεις που περιέχουν μια ακολουθία γραμμάτων που θα δίνει ο χρήστης τόσες συνεχόμενες φορές όσες επίσης θα δίνει ο χρήστης.
 5. Nα εμφανίζει το πλήθος και εφόσον ο χρήστης επιθυμεί όλες τις λέξεις που περιέχουν σε θέσεις που θα επιλέγει ο χρήστης συγκεκριμένα γράμματα (για παράδειγμα ba-a-a σημαίνει ότι αναζητείται οποιαδήποτε λέξη που περιέχει σε οποιοδήποτε θέση τη σειρά γραμμάτων ba-a-a με το - να σημαίνει οποιοδήποτε γράμμα, οπότε τέτοιες λέξεις είναι οι bahamas και banana).
 
 Το πρόγραμμα να διαβάζει το αρχείο εισόδου ως παράμετρο γραμμής εντολών (χρησιμοποιήστε ως αρχείο που περιέχει λέξεις της αγγλικής γλώσσας, το αρχείο "wordlist.10000.txt" που μπορείτε να μεταφορτώσετε από το <https://www.mit.edu/~ecprice/wordlist.10000>). 
 
 Γράψτε συναρτήσεις ελέγχου στο catch2 που να ελέγχουν και τις 5 λειτουργίες του προγράμματος.
+
+### Παράδειγμα εκτέλεσης προγράμματος
+
+  $ lexicon.exe
+  File loaded:wordlist.10000.txt
+  1. Find words of size
+  2. Find words starting with
+  3. Find words ending with
+  4. Find words including
+  5. Find words including pattern
+  6. Exit
+  Input choice:1
+  Input word length:16
+  Words found=3
+  Display words (y/n):y
+  characterization responsibilities sublimedirectory
+  1. Find words of size
+  2. Find words starting with
+  3. Find words ending with
+  4. Find words including
+  5. Find words including pattern
+  6. Exit
+  Input choice:5
+  Input pattern:ba-a-a
+  Words found=2
+  Display words (y/n):y
+  bahamas banana
+  1. Find words of size
+  2. Find words starting with
+  3. Find words ending with
+  4. Find words including
+  5. Find words including pattern
+  6. Exit
+  Input choice:3
+  Input ending letters:ing
+  Words found=522
+  Display words (y/n):n
+  1. Find words of size
+  2. Find words starting with
+  3. Find words ending with
+  4. Find words including
+  5. Find words including pattern
+  6. Exit
+  Input choice:6                                                                                                                
 
 ---
 
