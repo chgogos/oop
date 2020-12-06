@@ -1,6 +1,6 @@
 /**
  * Ζητείται η δημιουργία μιας κλάσης circle με ιδιωτικά μέλη δεδομένων center_x, center_y για τις συντεταγμένες του κέντρου του κύκλου και το ιδιωτικό μέλος δεδομένων radius για την ακτίνα του κύκλου. 
- * Συμπληρώστε 2 constructors και τον destructor έτσι ώστε να εμφανίζονται μνηνύματα όταν δημιουργείται και όταν καταστρέφεται ένα αντικείμενο.
+ * Συμπληρώστε 2 constructors και τον destructor έτσι ώστε να εμφανίζονται μηνύματα όταν δημιουργείται και όταν καταστρέφεται ένα αντικείμενο.
  * Προσθέστε συναρτήσεις μέλη για τον υπολογισμό του εμβαδού και της περιμέτρου του κύκλου.
  * Προσθέστε μια συνάρτηση μέλος που να ελέγχει αν ένα σημείο βρίσκεται εντός ή εκτός του κύκλου.
  * Συμπληρώστε στη main κώδικα που να δημιουργεί αντικείμενα και να καλεί τις ανωτέρω συναρτήσεις.
@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-constexpr auto PI = 3.14159;
+constexpr auto M_PI = 3.14159;
 
 class circle
 {
@@ -23,12 +23,22 @@ public:
         std::cout << "The circle at memory position " << this << " is created" << std::endl;
     }
 
+    // ή εναλλακτικά ο 1ος constructor με αρχικοποίηση μελών δεοδομένων στο σώμα του κατασκευαστή
+    // circle()
+    // {
+    //     center_x = 0.0;
+    //     center_y = 0.0;
+    //     radius = 1.0;
+    //     std::cout << "The circle at memory position " << this << " is created" << std::endl;
+    // }
+
     // 2ος constructor με λίστα αρχικοποίησης μελών (member initialization list)
     circle(double c_x, double c_y, double r) : center_x(c_x), center_y(c_y), radius(r)
     {
         std::cout << "The circle at memory position " << this << " is created" << std::endl;
     }
 
+    // καταστροφέας
     ~circle()
     {
         std::cout << "The circle at memory position " << this << " is destroyed" << std::endl;
@@ -36,13 +46,13 @@ public:
 
     double area() const
     {
-        return PI * radius * radius;
+        return M_PI * radius * radius;
         // return M_PI * this->radius * this->radius; // εναλλακτικά
     }
 
     double perimeter() const
     {
-        return 2 * PI * radius;
+        return 2 * M_PI * radius;
     }
 
     bool is_point_inside(double x, double y) const

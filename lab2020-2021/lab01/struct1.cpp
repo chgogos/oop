@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-constexpr auto PI = 3.14159;
+constexpr auto M_PI = 3.14159;
 
 struct circle
 {
@@ -23,12 +23,12 @@ struct circle
 
 double area(const circle &c)
 {
-    return PI * c.radius * c.radius;
+    return M_PI * c.radius * c.radius;
 }
 
 double perimeter(const circle &c)
 {
-    return 2 * PI * c.radius;
+    return 2 * M_PI * c.radius;
 }
 
 bool is_point_inside(const circle &c, double x, double y)
