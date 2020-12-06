@@ -6,9 +6,9 @@
 
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
-Τελευταία ενημέρωση: 1/12/2020
+Τελευταία ενημέρωση: 6/12/2020
 
-[Ύλη προόδου για την εξέταση την Παρασκευή 4/12/2020 στις 15:00](./proodos-20201204.md)
+[Ύλη προόδου για την εξέταση την ~~Παρασκευή 4/12/2020 στις 15:00~~](./proodos-20201204.md)
 
 ## ΘΕΩΡΙΑ
 
@@ -391,19 +391,6 @@
   * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία αναιμικής κλάσης
   * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp) λύση του προβλήματος με ένα απλό struct
 
-## TDD με τη βιβλιοθήκη Catch2
-
-* TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2) 
-  * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp) απλό παράδειγμα TDD
-  * [tdd1.cpp](./cpp_playground/ex057/tdd1.cpp) -> [tdd2.cpp](./cpp_playground/ex057/tdd2.cpp) -> [tdd3.cpp](./cpp_playground/ex057/tdd3.cpp) -> [tdd4.cpp](./cpp_playground/ex057/tdd4.cpp) -> [tdd5.cpp](./cpp_playground/ex057/tdd5.cpp) -> [tdd6.cpp](./cpp_playground/ex057/tdd6.cpp) -> [tdd7.cpp](./cpp_playground/ex057/tdd7.cpp) -> [tdd8.cpp](./cpp_playground/ex057/tdd8.cpp) -> [tdd9.cpp](./cpp_playground/ex057/tdd9.cpp) -> [tdd10.cpp](./cpp_playground/ex057/tdd10.cpp) -> [tdd11.cpp](./cpp_playground/ex057/tdd11.cpp) -> [tdd12.cpp](./cpp_playground/ex057/tdd12.cpp) -> [tdd13.cpp](./cpp_playground/ex057/tdd13.cpp) -> [tdd14.cpp](./cpp_playground/ex057/tdd14.cpp), [arabic_to_roman.hpp](./cpp_playground/ex057/arabic_to_roman.hpp) -> [demo.cpp](./cpp_playground/ex057/demo.cpp)
-
-
-## Η βιβλιοθήκη fmt για εύκολη μορφοποίηση εξόδου (python-like)
-
-* Παραδείγματα χρήσης της βιβλιοθήκης fmt
-  * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
-  * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
-
 ## Design Patterns
 
 * Creational
@@ -489,6 +476,26 @@
     * [lod2.cpp](./cpp_playground/ex055/lod2.cpp) LoD
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
 * PLoP (Principle of Least Privilege = Αρχή του ελάχιστου δικαιώματος) κάθε τμήμα θα πρέπει να μπορεί να προσπελάσει μόνο πληροφορίες και πόρους που απαιτούνται για να φέρει εις πέρας το ρόλο που οφείλει να επιτελεί και τίποτα περισσότερο.
+
+## Regular Expressions 
+
+* <http://www.cplusplus.com/reference/regex/>
+* <https://regex101.com/>
+
+## TDD με τη βιβλιοθήκη Catch2
+
+* TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2) 
+  * [Rectangle.hpp](./cpp_playground/ex014/Rectangle.hpp), [TestRectangle.cpp](./cpp_playground/ex014/TestRectangle.cpp) απλό παράδειγμα TDD
+  * [tdd1.cpp](./cpp_playground/ex057/tdd1.cpp) -> [tdd2.cpp](./cpp_playground/ex057/tdd2.cpp) -> [tdd3.cpp](./cpp_playground/ex057/tdd3.cpp) -> [tdd4.cpp](./cpp_playground/ex057/tdd4.cpp) -> [tdd5.cpp](./cpp_playground/ex057/tdd5.cpp) -> [tdd6.cpp](./cpp_playground/ex057/tdd6.cpp) -> [tdd7.cpp](./cpp_playground/ex057/tdd7.cpp) -> [tdd8.cpp](./cpp_playground/ex057/tdd8.cpp) -> [tdd9.cpp](./cpp_playground/ex057/tdd9.cpp) -> [tdd10.cpp](./cpp_playground/ex057/tdd10.cpp) -> [tdd11.cpp](./cpp_playground/ex057/tdd11.cpp) -> [tdd12.cpp](./cpp_playground/ex057/tdd12.cpp) -> [tdd13.cpp](./cpp_playground/ex057/tdd13.cpp) -> [tdd14.cpp](./cpp_playground/ex057/tdd14.cpp), [arabic_to_roman.hpp](./cpp_playground/ex057/arabic_to_roman.hpp) -> [demo.cpp](./cpp_playground/ex057/demo.cpp)
+
+
+## Η βιβλιοθήκη fmt για εύκολη μορφοποίηση εξόδου (python-like)
+
+* Παραδείγματα χρήσης της βιβλιοθήκης fmt
+  * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
+  * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
+
+---
 
 ## Σημειώσεις - Συγγράμματα
 
