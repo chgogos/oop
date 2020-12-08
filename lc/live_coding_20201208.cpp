@@ -9,7 +9,8 @@ int main()
     vector<string> v;
     fstream ifs("data.txt");
     string s;
-    while (ifs >> s)
+    while (getline(ifs, s))
+    // while (ifs >> s)
     {
         v.push_back(s);
         cout << s << endl;
@@ -20,5 +21,6 @@ int main()
     for(string s: v){
         cout << s << " ";
     }
+    cout << "\nvector size=" << v.size() << endl;
     cout << endl;
 }
