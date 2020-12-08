@@ -5,7 +5,7 @@ int main()
 {
 
     // std::function<int(int, int)> lambda1 = [](double x, double y) { return x * y; };
-    auto lambda1 = [](double x, double y) { return x * y; };
+    auto lambda1 = [](double x, double y) { return  x * y; };
     std::cout << "1. " << lambda1(5, 6) << std::endl;
 
     int a = 10;

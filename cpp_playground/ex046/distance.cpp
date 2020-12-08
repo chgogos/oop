@@ -17,6 +17,6 @@ int main(){
 
 /*
 5
-2
-3
+Distance to end: 2
+Distance from begin: 4
 */

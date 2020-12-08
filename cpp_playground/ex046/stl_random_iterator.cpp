@@ -27,9 +27,15 @@ int main()
     }
     std::cout << std::endl;
 
-
     itr1 = v.begin();
     std::cout << v[4] << " " << *(itr1 + 4) << std::endl;
 
     return 0;
 }
+
+/*
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9
+9 8 7 6 5 4 3 2 1 0
+4 4
+*/
