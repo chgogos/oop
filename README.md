@@ -204,7 +204,6 @@
   * [exception4.cpp](./cpp_playground/ex038/exception4.cpp)
   * [exception5.cpp](./cpp_playground/ex038/exception5.cpp)
   * [stl_container_out_of_range.cpp](./cpp_playground/ex046/stl_container_out_of_range.cpp) σύλληψη εξαίρεσης για αναφορά εκτός των ορίων του vector
-  * [](./cpp_playground/ex046/stl_map_out_of_range.cpp) σύλληψη εξαίρεσης για αναφορά σε κλειδί που δεν υπάρχει στο map
 * Πρότυπα (templates)
   * [template1.cpp](./cpp_playground/ex039/template1.cpp)
   * [template2.cpp](./cpp_playground/ex039/template2.cpp)
@@ -317,6 +316,8 @@
     * std::map 
       * [stl_map.cpp](./cpp_playground/ex046/stl_map.cpp)
       * [stl_map2.cpp](./cpp_playground/ex046/stl_map2.cpp)
+      * [stl_map3.cpp](./cpp_playground/ex046/stl_map3.cpp) 
+      * [stl_map4.cpp](./cpp_playground/ex046/stl_map4.cpp) 
     * std::multimap
       * [stl_multimap.cpp](./cpp_playground/ex046/stl_multimap.cpp)
     * std::unordered_set
