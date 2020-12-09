@@ -204,6 +204,7 @@
   * [exception4.cpp](./cpp_playground/ex038/exception4.cpp)
   * [exception5.cpp](./cpp_playground/ex038/exception5.cpp)
   * [stl_container_out_of_range.cpp](./cpp_playground/ex046/stl_container_out_of_range.cpp) σύλληψη εξαίρεσης για αναφορά εκτός των ορίων του vector
+  * [](./cpp_playground/ex046/stl_map_out_of_range.cpp) σύλληψη εξαίρεσης για αναφορά σε κλειδί που δεν υπάρχει στο map
 * Πρότυπα (templates)
   * [template1.cpp](./cpp_playground/ex039/template1.cpp)
   * [template2.cpp](./cpp_playground/ex039/template2.cpp)
@@ -302,26 +303,27 @@
       * [stl_vector_common_mistake.cpp](./cpp_playground/ex086/stl_vector_common_mistake.cpp)
     * std::list
       * [stl_list.cpp](./cpp_playground/ex046/stl_list.cpp)
+      * [stl_vector_vs_list.cpp](./cpp_playground/ex046/stl_vector_vs_list.cpp)
     * std::forward_list
       * [stl_forward_list.cpp](./cpp_playground/ex046/stl_forward_list.cpp) push_front, insert_after, sort, reverse, remove_if
     * std::deque
       * [stl_deque.cpp](./cpp_playground/ex046/stl_deque.cpp)
   * Περιέκτες συσχέτισης
-    * std::multiset
-      * [stl_multiset.cpp](./cpp_playground/ex046/stl_multiset.cpp)
     * std::set
       * [stl_set.cpp](./cpp_playground/ex046/stl_set.cpp)
       * [stl_set2.cpp](./cpp_playground/ex046/stl_set2.cpp)
-    * std::multimap
-      * [stl_multimap.cpp](./cpp_playground/ex046/stl_multimap.cpp)
+    * std::multiset
+      * [stl_multiset.cpp](./cpp_playground/ex046/stl_multiset.cpp)
     * std::map 
       * [stl_map.cpp](./cpp_playground/ex046/stl_map.cpp)
       * [stl_map2.cpp](./cpp_playground/ex046/stl_map2.cpp)
-    * std::unordered_multiset
+    * std::multimap
+      * [stl_multimap.cpp](./cpp_playground/ex046/stl_multimap.cpp)
     * std::unordered_set
       * [stl_unordered_set.cpp](./cpp_playground/ex046/stl_unordered_set.cpp)
-    * std::unordered_multimap
+    * std::unordered_multiset
     * std::unordered_map
+    * std::unordered_multimap
   * Προσαρμογείς περιεκτών (container adaptors)
     * std::stack
       * [stl_stack.cpp](./cpp_playground/ex046/stl_stack.cpp)
