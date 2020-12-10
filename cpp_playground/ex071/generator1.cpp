@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <numeric> // iota
+#include <algorithm> // generate
 
 class my_generator
 {
