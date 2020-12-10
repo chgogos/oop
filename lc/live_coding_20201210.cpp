@@ -10,11 +10,15 @@ int main()
     for_each(v.begin(), v.end(), lambda);
 
     // διπλασιασμός κάθε στοιχείου του vector με for_each (1 γραμμή)
-
+    for_each(v.begin(), v.end(), [](int &x){x=3*x;});
 
     cout << "####################" << endl;
     for (int x : v) // range based for
     {
         cout << x << endl;
     }
+
+    // count_if (καταμέτρηση των περιττών αριθμών του vector)
+    int c = count_if(v.begin(), v.end(), [](int x){return x%2==1;});
+    cout << c << endl;
 }
