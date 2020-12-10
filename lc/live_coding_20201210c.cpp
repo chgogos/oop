@@ -18,5 +18,8 @@ int main()
 
     // εμφάνιση όλων των στοιχείων του map με iterator
     cout << "#######################" << endl;
-    
+    for(auto it=telephones.begin();it!=telephones.end();it++){
+        cout << it->first << " " << it->second << endl;
+    }
+
 }
