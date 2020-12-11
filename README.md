@@ -356,6 +356,7 @@
   * [stl_algorithm9.cpp](./cpp_playground/ex046/stl_algorithm9.cpp) heap (make_heap, pop_heap, push_heap, is_heap, sort_heap)
   * [stl_algorithm10.cpp](./cpp_playground/ex046/stl_algorithm10.cpp) παράδειγμα με αντικείμενα και STL
   * [stl_algorithm11.cpp](./cpp_playground/ex046/stl_algorithm11.cpp) δημιουργία 1.000 ακεραίων τιμών στο διάστημα [0,1.000.000], εμφάνιση των 10 μεγαλύτερων άρτιων τιμών
+  * [stl_algorithm12.cpp](./cpp_playground/ex046/stl_algorithm12.cpp) εύρεση μέγιστου και ελάχιστου στοιχείου ενός vector με διάφορους τρόπους
 * Ζεύγη (pairs), πλειάδες (tuples)
   * [pair.cpp](./cpp_playground/ex032/pair.cpp)
   * [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp)
