@@ -14,6 +14,7 @@ int main()
 {
     vector<person> a{{"nikos", 20}, {"petros", 25}, {"maria", 30}, {"kostas", 22}, {"andreas", 37}};
 
+    // εύρεση μεγαλύτερης και μικρότερης ηλικίας
     cout << "1. MIN + MAX\n";
     auto pp = minmax_element(a.begin(), a.end(), [](const person &p1, const person &p2) { return p1.age < p2.age; });
     cout << "MIN AGE=" << pp.first->age << endl;
@@ -35,11 +36,10 @@ int main()
     // ταξινόμηση με βάση το όνομα
     cout << "3. SORT BY NAMES IN ASCENDING ORDER\n";
     sort(a.begin(), a.end(), [](const person &p1, const person &p2) { return p1.name < p2.name; });
-    for (auto p : a)
+    for (const auto &p : a)
     {
         cout << p.name << " " << p.age << endl;
     }
-
 }
 
 /*

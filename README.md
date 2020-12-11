@@ -361,11 +361,11 @@
   * [pair.cpp](./cpp_playground/ex032/pair.cpp)
   * [tuple1.cpp](./cpp_playground/ex032/tuple1.cpp)
   * [tuple2.cpp](./cpp_playground/ex032/tuple2.cpp)
-  * [tuple3.cpp](./cpp_playground/ex032/tuple3.cpp) επιστροφή πολλών αποτελεσμάτων από μια συνάρτηση με 10 διαφορετικούς τρόπους
-* C vs C++ 
-  * [max_search_sort.c](./various/FROM_C_TO_CPP/max_search_sort.c)
-    * [max_search_qsort.c](./various/FROM_C_TO_CPP/max_search_qsort.c)
-  * [max_search_sort.cpp](./various/FROM_C_TO_CPP/max_search_sort.cpp)
+  * [tuple3.cpp](./cpp_playground/ex032/tuple3.cpp) επιστροφή δύο αποτελεσμάτων από μια συνάρτηση με 10 διαφορετικούς τρόπους
+* C vs C++ παράδειγμα κώδικα (ελάχιστο, μέγιστο, αναζήτηση, ταξινόμηση) σε C και ισοδύναμου κώδικα σε C++
+  * [max_search_sort.c](./various/FROM_C_TO_CPP/max_search_sort.c) με insertion sort 
+    * [max_search_qsort.c](./various/FROM_C_TO_CPP/max_search_qsort.c) με χρήση της quicksort για την ταξινόμηση
+  * [max_search_sort.cpp](./various/FROM_C_TO_CPP/max_search_sort.cpp) STL!!!
 
 
 ## Σχέσεις αντικειμένων - UML - αρχές καλής σχεδίασης
