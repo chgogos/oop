@@ -13,7 +13,7 @@ main()
         cout << "Enter number of glasses of milk:\n";
         cin >> milk;
         if (milk <= 0)
-            throw 0.1;
+            throw 0.1; // δεν συλλαμβάνεται η εξαίρεση διότι κάνει throw double τιμή και δεν υπάρχει αντίστοιχο catch
 
         dpg = donuts / static_cast<double>(milk);
         cout << donuts << " donuts.\n"
