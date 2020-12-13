@@ -61,7 +61,7 @@ public class Account implements Comparable<Account> {
         type = t;
     }
 
-    // methods
+    // other methods
     public void deposit(double amt) {
         balance += amt;
     }
@@ -77,6 +77,7 @@ public class Account implements Comparable<Account> {
         }
     }
 
+    @Override
     public String toString() {
         return String.format("%s %.2f", owner, balance);
     }
@@ -125,9 +126,9 @@ Noname 0,00
 Ken Lay 100000,00
 Ken Lay 100000,00
 Number of account objects = 3
-Withdraw an amount from account2:15000 
-Noname 3000,00
-Ken Lay 85000,00
-Ken Lay 112000,00
-MORE MONEY AT: Ken Lay 112000,00
+Withdraw an amount from account2:5000
+Noname 1000,00
+Ken Lay 95000,00
+Ken Lay 104000,00
+MORE MONEY AT: Ken Lay 104000,00
 */
