@@ -3,8 +3,8 @@
 Πολυμορφική ιεραρχία 
 
 * Δημιουργία interface Shape.
-* Δημιουργία 3 κλάσεων Triangle, Rectangle, Circle που υλοποιεί το interface Shape.
-* Πίνακας με αντικείμενα που υλοποιούν το Shape και το καθένα μπορεί να δεχθεί οποιοδήποτε αντικείμενο είτε Triangle, είτε Rectangle, είτε Circle.
+* Δημιουργία 3 κλάσεων Triangle, Rectangle, Circle που υλοποιούν το interface Shape.
+* Πίνακας με αντικείμενα Shape που το καθένα μπορεί να δεχθεί οποιοδήποτε αντικείμενο είτε Triangle, είτε Rectangle, είτε Circle.
 
 ## Κώδικας
 

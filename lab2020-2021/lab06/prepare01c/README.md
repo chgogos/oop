@@ -9,4 +9,8 @@
 ## Μεταγλώττιση και εκτέλεση
 
     $ javac Exercise3.java
+    $ java Exercise3
+    2
+    3
+    2
 
