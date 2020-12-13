@@ -29,11 +29,8 @@
 
 * [Συνάντηση 6](./lab04/) Πρότυπα (templates) - generic programming
 * [Συνάντηση 7](./lab05) STL (Standard Template Library) - lambdas
+* [Συνάντηση 8](./lab06) Java 
 
-<!-- ### Java
-
-* [Εργαστήριο 5](./lab05/) Κλάσεις (classes), αντικείμενα (objects), επίπεδα προστασίας (public, package, private), κληρονομικότητα (inheritance)
-* [Εργαστήριο 6](./lab06/) Διεπαφές (interfaces), παραμετρικοί τύποι (Generics), συλλογές της Java (Java Collections)  -->
 
 ---
 
