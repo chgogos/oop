@@ -32,7 +32,7 @@ int main()
         if (typeid(*a[i]) == typeid(Base))
         {
             a[i]->fun1();
-            std::cout << "No fun2" << std::endl;
+            std::cout << "Cannot execute fun2" << std::endl;
         }
         else if (typeid(*a[i]) == typeid(Derived))
         {
@@ -43,3 +43,10 @@ int main()
     }
     return 0;
 }
+
+/*
+Base::fun1
+Cannot execute fun2
+Derived::fun1
+Derived::fun2
+*/
