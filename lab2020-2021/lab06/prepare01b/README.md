@@ -11,7 +11,7 @@
 
 ## Μεταγλώττιση και εκτέλεση
 
-Ο κώδικας είναι εφαρμογή στο Eclipse for Java και βρίσκεται στον φάκελο prepare01b
+Ο κώδικας είναι εφαρμογή στο Eclipse for Java και βρίσκεται στον φάκελο [prepare01b](https://github.com/chgogos/oop/tree/master/lab2020-2021/lab06/prepare01b)
 
 Eclipse: Run -> Run
 

@@ -1,3 +1,7 @@
+// Christos Gogos - 2020
+// Dept. of Informatics and Telecommunications (Arta-Greece)
+// University of Ioannina
+
 public class App {
     public static void main(String[] args) {
         Shape a[] = new Shape[3];

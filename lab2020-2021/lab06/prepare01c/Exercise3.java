@@ -1,3 +1,7 @@
+// Christos Gogos - 2020
+// Dept. of Informatics and Telecommunications (Arta-Greece)
+// University of Ioannina
+
 import java.util.*;
 
 public class Exercise3 {

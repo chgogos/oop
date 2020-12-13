@@ -60,7 +60,7 @@ public class App {
 }
 
 /*
- Enter type of vehicle (C=Car/T=Truck):C
+Enter type of vehicle (C=Car/T=Truck):C
 Enter registration number:32632636
 Enter owner name:Nikos
 Enter cubic centimeters:1200
@@ -79,5 +79,4 @@ Vehicle 32632636-Nikos-1200,0-4 tax:160.0
 Vehicle 32643634-Petros-4000,0-5000,0 tax:400.0
 Vehicle 14374743-Maria-1600,0-5 tax:200.0
 TOTAL TAX=760.0
-
 */ 
