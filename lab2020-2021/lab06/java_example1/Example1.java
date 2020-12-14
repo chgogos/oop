@@ -73,3 +73,27 @@ public class Example1 {
         ConstructObjectsExample();
     }
 }
+
+/*
+0 0 0 0 0 0 0 0 0 0 
+####################
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+####################
+MyClass object created:MyClass@7ef20235
+42
+--------------------
+MyClass object created:MyClass@27d6c5e0
+MyClass object created:MyClass@4f3f5b24
+MyClass object created:MyClass@15aeb7ab
+MyClass object created:MyClass@7b23ec81
+MyClass object created:MyClass@6acbcfc0
+1 2 3 4 5
+--------------------
+MyClass object created:MyClass@5f184fc6
+MyClass object created:MyClass@3feba861
+MyClass object created:MyClass@5b480cf9
+MyClass object created:MyClass@6f496d9f
+100 200 300 400
+*/
