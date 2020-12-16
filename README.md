@@ -496,6 +496,11 @@
 * <http://www.cplusplus.com/reference/regex/>
 * <https://regex101.com/>
 
+### Παραδείγματα κώδικα με regular expressions στη C++
+
+* [regex1.cpp](./various/regex/regex1.cpp)
+* [regex2.cpp](./various/regex/regex2.cpp)
+
 ## TDD με τη βιβλιοθήκη Catch2
 
 * TDD (Test Driven Development) με το [catch2](https://github.com/catchorg/Catch2) 
