@@ -84,3 +84,29 @@ int main()
     cout << string(20, '#') << endl;
     regex_example3();
 }
+
+/*
+Example of regex_search using pattern:gr[ae]y
+grey MATCH
+gray MATCH
+green NO MATCH
+This is grey MATCH
+This is gray MATCH
+####################
+Example of regex_match using pattern:gr[ae]y 
+grey MATCH
+gray MATCH
+green NO MATCH
+This is grey NO MATCH
+This is gray NO MATCH
+####################
+Example of regex_search (smatch) using pattern:\d+
+12
+34
+10
+20
+--------------------
+Example of regex_search (smatch) using pattern::\d+
+10
+20
+*/
