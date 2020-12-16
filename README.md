@@ -368,6 +368,15 @@
     * [max_search_qsort.c](./various/FROM_C_TO_CPP/max_search_qsort.c) με χρήση της quicksort για την ταξινόμηση
   * [max_search_sort.cpp](./various/FROM_C_TO_CPP/max_search_sort.cpp) STL!!!
 
+## Regular Expressions 
+
+* <http://www.cplusplus.com/reference/regex/>
+* <https://regex101.com/>
+
+### Παραδείγματα κώδικα με regular expressions στη C++
+
+* [regex1.cpp](./various/regex/regex1.cpp)
+* [regex2.cpp](./various/regex/regex2.cpp)
 
 ## Σχέσεις αντικειμένων - UML - αρχές καλής σχεδίασης
 
@@ -412,7 +421,8 @@
     * [factory.cpp](./cpp_playground/ex069/factory.cpp)
   * Builder
   * Singleton
-    * [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp) :confused:
+    * [Singleton.cpp](./cpp_playground/ex011/Singleton.cpp)
+    * [meyers_singleton.hpp](./cpp_playground/ex061/meyers_singleton.hpp)
     * [meyers_singleton.cpp](./cpp_playground/ex061/meyers_singleton.cpp)
 * Structural
   * Adapter: Μετατροπή του interface (διεπαφής) μιας κλάσης σε ένα άλλο interface που οι πελάτες της κλάσης αναμένουν. Επιτρέπει σε κλάσεις που δεν θα μπορούσαν να λειτουργήσουν μαζί λόγω μη συμβατών interfaces, να λειτουργήσουν.
@@ -490,16 +500,6 @@
     * [lod2.cpp](./cpp_playground/ex055/lod2.cpp) LoD
 * Information Hiding (απόκρυψη πληροφορίας). Ένα τμήμα κώδικα Α που καλεί ένα τμήμα κώδικα Β δεν θα πρέπει να "γνωρίζει" εσωτερικά θέματα της λειτουργίας του Β.
 * PLoP (Principle of Least Privilege = Αρχή του ελάχιστου δικαιώματος) κάθε τμήμα θα πρέπει να μπορεί να προσπελάσει μόνο πληροφορίες και πόρους που απαιτούνται για να φέρει εις πέρας το ρόλο που οφείλει να επιτελεί και τίποτα περισσότερο.
-
-## Regular Expressions 
-
-* <http://www.cplusplus.com/reference/regex/>
-* <https://regex101.com/>
-
-### Παραδείγματα κώδικα με regular expressions στη C++
-
-* [regex1.cpp](./various/regex/regex1.cpp)
-* [regex2.cpp](./various/regex/regex2.cpp)
 
 ## TDD με τη βιβλιοθήκη Catch2
 
