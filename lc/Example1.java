@@ -23,6 +23,15 @@ public class Example1 {
             System.out.print(x.data + " ");
         }
         System.out.println();
+        
+        System.out.println("-".repeat(20));
+
+        obj.data=43;
+        for(MyClass x: a){
+            System.out.print(x.data + " ");
+        }
+        System.out.println();
+
     }
 
     public static void main(String[] args) {
