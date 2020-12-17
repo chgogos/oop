@@ -551,6 +551,8 @@
 * [coliru](http://coliru.stacked-crooked.com/)
 * [C++ shell](http://cpp.sh/)
 * [repl.it](https://repl.it/languages/cpp)
+* [onlinegdb](https://www.onlinegdb.com/)
+* [techiedelight](https://techiedelight.com/compiler/)
 * [rextester - compile c++ gcc online](https://rextester.com/l/cpp_online_compiler_gcc)
 
 ## Εξάσκηση στη C++
@@ -748,11 +750,13 @@
 ## Java
 
 * [Εγκατάσταση JDK + IDE](https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/javainstallation.html)
+* [techiedelight.com - online Java Compiler](https://techiedelight.com/compiler/)
+* [onlinegdb - online Java Compiler](https://www.onlinegdb.com/online_java_compiler)
 
 ## Τεκμηρίωση γλώσσας C++ και STL
 
 * [https://devdocs.io/](https://devdocs.io/) και με δυνατότητα για offline χρήση
-* [zeal](https://zealdocs.org/) και με δυνατότητα για offline χρήση
+* [zeal](https://zealdocs.org/) για offline χρήση
 * [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
 * [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
 
