@@ -63,7 +63,7 @@ void regex_example3()
 void regex_example4()
 {
     string ptrn = "a.a";
-    regex r{"a.a"}; // κείμενο με a.a όπου . είναι οποιοσδήποτε χαρακτήρας
+    regex r{ptrn}; // κείμενο με a.a όπου . είναι οποιοσδήποτε χαρακτήρας
     cout << "Example of regex_search using pattern:" << ptrn << endl;
     for (string text : words)
     {
@@ -131,7 +131,7 @@ xxababxx MATCH
 Example of regex_search using pattern:a.a
 test NO MATCH
 abc NO MATCH
-aababt MATCH
+aababt MATCH    
 ababb MATCH
 tabt NO MATCH
 xxabxxab NO MATCH
