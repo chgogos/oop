@@ -1,15 +1,17 @@
 public class Example1 {
 
-    public static void ArrayBoundsCheckExample() {
-        int a[] = new int[10];
-        for (int i = 0; i < 10; i++) {
-            System.out.print(a[i] + " ");
+    public static void test() {
+        int a[][] = new int[3][4];
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                System.out.printf("%4d", a[i][j]);
+            }
+            System.out.println();
         }
-        System.out.println();
     }
     
     public static void main(String[] args) {
-		ArrayBoundsCheckExample();
+		test();
 	}
 
 }
