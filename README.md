@@ -6,7 +6,7 @@
 
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
-Τελευταία ενημέρωση: 15/12/2020
+Τελευταία ενημέρωση: 17/12/2020
 
 [Ύλη προόδου για την εξέταση την ~~Παρασκευή 4/12/2020 στις 15:00~~](./proodos-20201204.md)
 
@@ -745,6 +745,16 @@
 * [Docker](https://www.docker.com/)
 * [Cygwin](https://www.cygwin.com/)
 
+## Java
+
+* [Εγκατάσταση JDK + IDE](https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/javainstallation.html)
+
+## Τεκμηρίωση γλώσσας C++ και STL
+
+* [https://devdocs.io/](https://devdocs.io/) και με δυνατότητα για offline χρήση
+* [zeal](https://zealdocs.org/) και με δυνατότητα για offline χρήση
+* [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
+* [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
 
 ## Προηγούμενα έτη
 
