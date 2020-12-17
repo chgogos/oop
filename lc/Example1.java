@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class MyClass {
     public int data;
 
@@ -11,7 +13,16 @@ public class Example1 {
 
     public static void test() {
         MyClass obj = new MyClass(42);
-        System.out.println(obj.data);
+        
+        ArrayList<MyClass> a = new ArrayList<>();
+        a.add(obj);
+        a.add(obj);
+        a.add(new MyClass(54));
+
+        for(MyClass x: a){
+            System.out.print(x.data + " ");
+        }
+        System.out.println();
     }
 
     public static void main(String[] args) {
