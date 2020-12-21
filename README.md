@@ -40,13 +40,13 @@
 * [STL](./STL.pdf) (1/12/2020 + 8/12/2020 + 11/12/2020)
 * [C++ vs Java](./C++%20vs%20Java.pdf) (15/12/2020)
 
-## ΕΡΓΑΣΙΑ ΜΑΘΗΜΑΤΟΣ (2020-2021)
+## ΕΡΓΑΣΙΑ ΜΑΘΗΜΑΤΟΣ (2020-2021) <img src="./resources/red_info_icon.png" height="16"> 
 
-Τελική ημερομηνία παράδοσης 10/01/2020 [](./resources/red_info_icon.png)
+Τελική ημερομηνία παράδοσης 10/01/2020  
 
 <!-- χρόνος που απομένει: <iframe src="http://free.timeanddate.com/countdown/i7kxnyqe/n26/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fn3/fs100/szw192/szh81/iso2021-01-10T23:55:00" allowTransparency="true" frameborder="0" width="88" height="19"></iframe> -->
 
-* [Random Surfer](./2020f_assignment) δείτε τη βοήθεια για την έναρξη της εργασίας
+* [Random Surfer](./2020f_assignment) *δείτε τη βοήθεια για την έναρξη της εργασίας*
 
 ## ΕΡΓΑΣΤΗΡΙΟ
 
