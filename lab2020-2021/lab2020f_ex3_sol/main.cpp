@@ -32,7 +32,6 @@ int main(int argc, char *argv[])
         fn = argv[1];
     }
     cout << "File loaded:" << fn << endl;
-    // cin.clear();
     Lexicon lexicon(fn);
     vector<string> results;
     int choice;
@@ -46,8 +45,6 @@ int main(int argc, char *argv[])
         cout << "6. Exit" << endl;
         cout << "Input choice:";
         cin >> choice;
-        // cin.clear();
-        // cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         switch (choice)
         {
