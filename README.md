@@ -72,11 +72,11 @@
   * [Λύση 3ου θέματος](./preparation/prepare03.cpp)
 * [Ενδεικτικά θέματα 2](./preparation/telikes.pdf)
   * [Λύση 1ου θέματος](./preparation/prepare04.cpp)
-  * [Λύση 2ου θέματος](./preparation/prepare05.cpp)
-  * [Λύση 3ου θέματος](./preparation/prepare06.cpp)
-  * [Λύση 3ου θέματος - β' τρόπος](./preparation/prepare06_ptrs.cpp)
-  * [Λύση 4ου θέματος](./preparation/prepare07.cpp)
-  * [Λύση 5ου θέματος](./preparation/prepare08.cpp)
+  * [Λύση 2ου θέματος](./preparation/prepare09.cpp)
+  * [Λύση 3ου θέματος](./preparation/prepare05.cpp)
+  * [Λύση 4ου θέματος](./preparation/prepare06.cpp)
+  * [Λύση 4ου θέματος - β' τρόπος](./preparation/prepare06_ptrs.cpp)
+  * [Λύση 5ου θέματος](./preparation/prepare07.cpp)
 * [Πρόοδος 15/04/2019 ΟΜΑΔΑ Α](./preparation/20190415_proodos_a.pdf)
   * [Λύση 1ου θέματος](./preparation/proodos20190415a_1.cpp)
   * [Λύση 2ου θέματος](./preparation/proodos20190415a_2.cpp)
@@ -90,6 +90,7 @@
   * [Λύση 1ου θέματος](./preparation/exams20190625_b1.cpp)
   * [Λύση 2ου θέματος](./preparation/exams20190625_b2.cpp) 
 * [Δοκιμή εξέτασης 29/05/2020](./preparation/20200529.%20ΔΟΚΙΜΗ%20ΕΞΕΤΑΣΗΣ.pdf)
+  * [Λύση](./preparation/prepare08.cpp)
 
 <!-- Οι λύσεις των θεμάτων βρίσκονται στο <https://github.com/chgogos/oop/tree/master/preparation> -->
 
