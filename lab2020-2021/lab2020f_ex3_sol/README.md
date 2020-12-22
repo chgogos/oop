@@ -98,14 +98,14 @@
 Μεταγλώττιση 
 
     ```
-    $ g++ lexicon.cpp main.cpp -o main -std=c++17
-    $ g++ lexicon.cpp tests.cpp -o main -std=c++17
+    $ g++ lexicon.cpp main.cpp -o lexicon -std=c++17
+    $ g++ lexicon.cpp tests.cpp -o tests -std=c++17
     ```
 
 Εκτέλεση
 
     ```
-    $ main.exe
+    $ lexicon.exe wordlist.10000.txt
     File loaded:wordlist.10000.txt                                                                                      
     1. Find words of size                                                                                               
     2. Find words starting with                                                                                         
