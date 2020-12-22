@@ -6,7 +6,7 @@
 
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
-Τελευταία ενημέρωση: 21/12/2020
+Τελευταία ενημέρωση: 22/12/2020
 
 [Ύλη προόδου για την εξέταση την ~~Παρασκευή 4/12/2020 στις 15:00~~](./proodos-20201204.md)
 
@@ -42,7 +42,7 @@
 
 ## ΕΡΓΑΣΙΑ ΜΑΘΗΜΑΤΟΣ (2020-2021) <img src="./resources/red_info_icon.png" height="16"> 
 
-Τελική ημερομηνία παράδοσης 10/01/2020  
+Τελική ημερομηνία παράδοσης **17/01/2020**  
 
 <!-- χρόνος που απομένει: <iframe src="http://free.timeanddate.com/countdown/i7kxnyqe/n26/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fn3/fs100/szw192/szh81/iso2021-01-10T23:55:00" allowTransparency="true" frameborder="0" width="88" height="19"></iframe> -->
 
