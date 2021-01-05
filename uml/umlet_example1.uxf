@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>370</x>
-      <y>190</y>
-      <w>220</w>
-      <h>160</h>
-    </coordinates>
-    <panel_attributes>account
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>180</y><w>220</w><h>160</h></coordinates><panel_attributes>account
 --
 - name:string
 - balance: double
@@ -23,7 +12,4 @@
 
 
 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-</diagram>
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

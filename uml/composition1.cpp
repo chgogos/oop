@@ -1,50 +1,54 @@
-#include <iostream>
-#include <vector>
+// HAS-A relationship (composition)
 
-using namespace std;
+#include <iostream>
 
 class B
 {
+private:
+    int data[100];
+
 public:
-    void foo()
+    B()
     {
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
+        std::cout << "Object of class B at memory " << this << " having size " << sizeof(*this) << " created" << std::endl;
+    }
+    ~B()
+    {
+        std::cout << "Object of class B at memory " << this << " having size " << sizeof(*this) << " destroyed" << std::endl;
     }
 };
 
 class A
 {
 private:
-    vector<B> v_bs;
-
+    int x;
+    B b; // composition (strong containment)
 public:
-    A(vector<B> v) : v_bs(v)
+    A()
     {
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
+        std::cout << "Object of class A at memory " << this << " having size " << sizeof(*this) << " created" << std::endl;
     }
-    void bar()
+    ~A()
     {
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
-        for (B &obj : v_bs)
-        {
-            obj.foo();
-        }
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
+        std::cout << "Object of class A at memory " << this << " having size " << sizeof(*this) << " destroyed" << std::endl;
     }
 };
 
 int main()
 {
-    vector<B> v{B(), B(), B()};
-    A obj(v);
-    obj.bar();
+    A obj1;
+    A obj2;
+
+    return 0;
 }
 
 /*
-23 A::A(std::vector<B>)
-27 void A::bar()
-11 void B::foo()
-11 void B::foo()
-11 void B::foo()
-32 void A::bar()
+Object of class B at memory 0x7afc74 having size 400 created
+Object of class A at memory 0x7afc70 having size 404 created
+Object of class B at memory 0x7afad4 having size 400 created
+Object of class A at memory 0x7afad0 having size 404 created
+Object of class A at memory 0x7afad0 having size 404 destroyed
+Object of class B at memory 0x7afad4 having size 400 destroyed
+Object of class A at memory 0x7afc70 having size 404 destroyed
+Object of class B at memory 0x7afc74 having size 400 destroyed
 */

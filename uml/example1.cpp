@@ -17,6 +17,6 @@ protected:
 public:
     Example()
     {
-        //...}
+        //...
     }
 };

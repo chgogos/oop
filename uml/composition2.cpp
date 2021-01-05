@@ -1,58 +1,56 @@
-#include <iostream>
-#include <vector>
+// HAS-A relationship (composition using pointers)
 
-using namespace std;
+#include <iostream>
 
 class B
 {
+private:
+    int data[100];
+
 public:
-    void foo()
+    B()
     {
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
+        std::cout << "Object of class B at memory " << this << " having size " << sizeof(*this) << " created" << std::endl;
+    }
+    ~B()
+    {
+        std::cout << "Object of class B at memory " << this << " having size " << sizeof(*this) << " destroyed" << std::endl;
     }
 };
 
 class A
 {
 private:
-    B *bs;
-    int N;
-
+    int x;
+    B *b; // composition (strong containment)
 public:
-    A(int N)
+    A()
     {
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
-        this->N = N;
-        bs = new B[N];
+        b = new B();
+        std::cout << "Object of class A at memory " << this << " having size " << sizeof(*this) << " created" << std::endl;
     }
     ~A()
     {
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
-        delete[] bs;
-    }
-    void bar()
-    {
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
-        for (int i=0;i<N;i++)
-        {
-            bs[i].foo();
-        }
-        cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
+        std::cout << "Object of class A at memory " << this << " having size " << sizeof(*this) << " destroyed" << std::endl;
+        delete b;
     }
 };
 
 int main()
 {
-    A obj(3);
-    obj.bar();
+    A obj1;
+    A obj2;
+
+    return 0;
 }
 
 /*
-24 A::A(int)
-35 void A::bar()
-11 void B::foo()
-11 void B::foo()
-11 void B::foo()
-40 void A::bar()
-30 A::~A()
+Object of class B at memory 0xdb28d0 having size 400 created
+Object of class A at memory 0x7afe00 having size 16 created
+Object of class B at memory 0xdb2a70 having size 400 created
+Object of class A at memory 0x7afdf0 having size 16 created
+Object of class A at memory 0x7afdf0 having size 16 destroyed
+Object of class B at memory 0xdb2a70 having size 400 destroyed
+Object of class A at memory 0x7afe00 having size 16 destroyed
+Object of class B at memory 0xdb28d0 having size 400 destroyed
 */

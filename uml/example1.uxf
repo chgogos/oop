@@ -1,0 +1,9 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>90</x><y>100</y><w>230</w><h>130</h></coordinates><panel_attributes>Example
+--
+-x:int
+#y:int
++z:int
+--
++&lt;&lt;constructor&gt;&gt;Example()
+-foo(x:int)
+#bar(y:int, z:int):int</panel_attributes><additional_attributes></additional_attributes></element></diagram>
