@@ -1,8 +1,0 @@
-Object of class B at memory 0x7ffee676985c having size 400 created
-Object of class A at memory 0x7ffee6769858 having size 404 created
-Object of class B at memory 0x7ffee67696c4 having size 400 created
-Object of class A at memory 0x7ffee67696c0 having size 404 created
-Object of class A at memory 0x7ffee67696c0 having size 404 destroyed
-Object of class B at memory 0x7ffee67696c4 having size 400 destroyed
-Object of class A at memory 0x7ffee6769858 having size 404 destroyed
-Object of class B at memory 0x7ffee676985c having size 400 destroyed

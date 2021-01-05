@@ -42,3 +42,12 @@ int main()
 
     return 0;
 }
+
+/*
+Object of class B at memory 0x7afc80 having size 400 created  
+Object of class A at memory 0x7afc70 having size 16 created   
+Object of class A at memory 0x7afc60 having size 16 created   
+Object of class A at memory 0x7afc60 having size 16 destroyed 
+Object of class A at memory 0x7afc70 having size 16 destroyed 
+Object of class B at memory 0x7afc80 having size 400 destroyed
+*/

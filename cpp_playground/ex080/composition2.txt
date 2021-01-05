@@ -1,8 +1,0 @@
-Object of class B at memory 0x7fd7a8c02b40 having size 400 created
-Object of class A at memory 0x7ffee5aa79d8 having size 16 created
-Object of class B at memory 0x7fd7a8c02cd0 having size 400 created
-Object of class A at memory 0x7ffee5aa79c8 having size 16 created
-Object of class A at memory 0x7ffee5aa79c8 having size 16 destroyed
-Object of class B at memory 0x7fd7a8c02cd0 having size 400 destroyed
-Object of class A at memory 0x7ffee5aa79d8 having size 16 destroyed
-Object of class B at memory 0x7fd7a8c02b40 having size 400 destroyed
