@@ -4,43 +4,35 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>290</x>
-      <y>200</y>
+      <x>260</x>
+      <y>360</y>
       <w>100</w>
-      <h>70</h>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>Base
---
-#x:int
---
-</panel_attributes>
+    <panel_attributes>B</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>290</x>
-      <y>360</y>
+      <x>260</x>
+      <y>230</y>
       <w>100</w>
-      <h>70</h>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>Derived
---
--y:int
---
-+foo():void
-</panel_attributes>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+A</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
+      <x>300</x>
       <y>260</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
 </diagram>

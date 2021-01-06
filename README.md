@@ -383,10 +383,10 @@
 
 * Σχέσεις μεταξύ αντικειμένων
   * IS_A (inheritance=κληρονομικότητα) [isa.cpp](./cpp_playground/ex080/isa.cpp)
-  * HAS-A (composition=σύνθεση) [composition1.cpp](./cpp_playground/ex080/composition1.cpp)
-  * HAS-A (composition with pointer = σύνθεση με δείκτη) [composition2.cpp](./cpp_playground/ex080/composition2.cpp)
-  * HAS-A (aggregation with reference = συνάθροιση με αναφορά) [aggregation1.cpp](./cpp_playground/ex080/aggregation1.cpp)
-  * HAS_A (aggregation with pointer = συνάθροιση με δείκτη) [aggregation2.cpp](./cpp_playground/ex080/aggregation2.cpp)
+  * HAS-A (composition=σύνθεση) [composition1.cpp](./uml/composition1.cpp)
+  * HAS-A (composition with pointer = σύνθεση με δείκτη) [composition2.cpp](./uml/composition2.cpp)
+  * HAS-A (aggregation with reference = συνάθροιση με αναφορά) [aggregation1.cpp](./uml/aggregation1.cpp)
+  * HAS_A (aggregation with pointer = συνάθροιση με δείκτη) [aggregation2.cpp](./uml/aggregation2.cpp)
 * Παραδείγματα κώδικα και UML
   * Μια κλάση: η κλάση account που αφορά έναν λογαριασμό τράπεζας
     * [διάγραμμα UML](./uml/uml1.png)
