@@ -66,3 +66,24 @@ int main()
 
     return 0;
 }
+
+/*
+CHECKPOINT 1
+func1: do something
+Base::test
+CHECKPOINT 2
+func1: do something
+Base::test
+Derived::test
+CHECKPOINT 3
+func2: do something
+Base::test
+Derived::test
+CHECKPOINT 4
+Base::test
+Derived::test
+CHECKPOINT 4
+Derived::test2
+CHECKPOINT 5
+Derived::test2
+*/

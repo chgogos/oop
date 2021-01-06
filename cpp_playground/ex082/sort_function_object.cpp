@@ -49,3 +49,17 @@ int main()
         cout << r.name << " " << r.addr << endl;
     }
 }
+
+/*
+Nick BBB
+Andreas CCC
+Panos AAA
+SORT BY NAME
+Andreas CCC
+Nick BBB
+Panos AAA
+SORT BY ADDR
+Panos AAA
+Nick BBB
+Andreas CCC
+*/
