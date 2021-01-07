@@ -1,10 +1,32 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>200</x><y>250</y><w>130</w><h>100</h></coordinates><panel_attributes>person
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>180</x>
+      <y>250</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>person
 --
 -name:String
 --
 +person()
 +person(name:String)
-+get_name():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>250</y><w>160</w><h>140</h></coordinates><panel_attributes>movie
++get_name():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>250</y>
+      <w>190</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>movie
 --
 -title:String
 -year:Int
@@ -13,5 +35,19 @@
 +movie(title:String)
 +set_director(p:person):void
 +add_cast(p:person):void
-+display_info():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>270</y><w>200</w><h>50</h></coordinates><panel_attributes>lt=-&gt;
-m2=*\n-actors</panel_attributes><additional_attributes>180;10;10;10</additional_attributes></element></diagram>
++display_info():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>270</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=*\n-actors</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

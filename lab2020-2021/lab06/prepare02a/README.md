@@ -12,7 +12,7 @@
 
 ## Μεταγλώττιση και εκτέλεση
 
-Ο κώδικας είναι εφαρμογή στο Eclipse for Java και βρίσκεται στον φάκελο [prepare04](https://github.com/chgogos/oop/tree/master/lab2020-2021/lab06/prepare02a)
+Ο κώδικας είναι εφαρμογή στο Eclipse for Java και βρίσκεται στον φάκελο [prepare02a](https://github.com/chgogos/oop/tree/master/lab2020-2021/lab06/prepare02a)
 
 Eclipse: Run -> Run
 
