@@ -407,11 +407,11 @@
     * [researcher.cpp](./cpp_playground/ex077/researcher.cpp)
     * [main.cpp](./cpp_playground/ex077/main.cpp)
 * Σύζευξη (coupling)
-  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :confused:
-  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :confused:
+  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη  <img src="./resources/confused_icon.png" height="16"> 
+  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη  <img src="./resources/confused_icon.png" height="16"> 
   * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
 * Παράδειγμα κυκλικής εξάρτησης (circular dependency) και επίλυση με forward declaration
-  * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.cpp) :confused:
+  * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.cpp) <img src="./resources/confused_icon.png" height="16">
 * Anemic classes (anti-pattern)
   * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία αναιμικής κλάσης
   * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp) λύση του προβλήματος με ένα απλό struct
