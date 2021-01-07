@@ -28,9 +28,9 @@
 * [Παρουσίαση 14 - Κληρονομικότητα](./OOP14.pdf) (20/11/2020)
 * [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf) (24/11/2020)
 * [Παρουσίαση 16 - Πρότυπα](./OOP16.pdf) (27/11/2020)
-* [Παρουσίαση 17 - Συνδεδεμένες λίστες](./OOP17.pdf)
+* [Παρουσίαση 17 - Συνδεδεμένες λίστες](./OOP17.pdf) (22/12/2020)
 * [Παρουσίαση 18 - Εξαιρέσεις](./OOP18.pdf) (11/12/2020)
-* [Παρουσίαση 19 - Χρήσιμες έννοιες στη C++ και μερικές ακόμα δομές δεδομένων](./OOP19.pdf)
+* [Παρουσίαση 19 - Χρήσιμες έννοιες στη C++ και μερικές ακόμα δομές δεδομένων](./OOP19.pdf) (22/12/2020)
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
@@ -601,13 +601,14 @@
   * [UML Association vs Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
   * <https://www.uml-diagrams.org/>
 * Λογισμικά για σχεδίαση UML
+  * [UMLET](https://www.umlet.com/)
+    * [UMLETINO](http://www.umletino.com/umletino.html)
+  * [Plant UML](http://plantuml.com/)
   * [Visual Paradigm - Community Edition](https://www.visual-paradigm.com/)
   * [Modelio](https://www.modelio.org/)
   * [ArgoUML](http://argouml.tigris.org/)
   * [BOUML](http://argouml.tigris.org/)
-  * [Plant UML](http://plantuml.com/)
   * [Violet UML](http://alexdp.free.fr/violetumleditor/page.php)
-  * [UMLET](https://www.umlet.com/)
   * [Umbrello](https://umbrello.kde.org/)
 
 ## Βιβλιοθήκες
