@@ -15,3 +15,5 @@
   * [Λύση θέματος 1](./prepare01a/README.md)
   * [Λύση θέματος 2](./prepare01b/README.md) ως εφαρμογή στο Eclipse for Java [eclipse installer](https://www.eclipse.org/downloads/packages/installer)
   * [Λύση θέματος 3](./prepare01c/README.md)
+* Υλοποίηση θεμάτων προετοιμασίας 2 με Java [εκφωνήσεις (pdf)](./../../preparation/telikes.pdf)
+  * [Λύση θέματος 1](./prepare02a/README.md)

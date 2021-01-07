@@ -10,7 +10,7 @@ private:
 public:
     person(){};
     person(std::string n) : name(n) {}
-    std::string get_name()
+    std::string get_name() const
     {
         return name;
     }
@@ -27,20 +27,21 @@ private:
 public:
     movie(std::string t) : title(t) {}
 
-    void set_director(person &p)
+    void set_director(const person &p)
     {
         director = p;
     }
 
-    void add_cast(person &p)
+    void add_cast(const person &p)
     {
         actors.push_back(p);
     }
 
-    void display_info()
+    void display_info() const
     {
         std::cout << title << " ";
         std::cout << "directed by " << director.get_name() << std::endl;
+        std::cout << "Cast:" << std::endl;
         for (auto p : actors)
         {
             std::cout << p.get_name() << std::endl;
@@ -70,3 +71,14 @@ int main()
 
     return 0;
 }
+
+/*
+Movie 1 directed by Director 1
+Cast:
+Actor 1
+Actor 2
+Movie 2 directed by Director 2
+Cast:
+Actor 2
+Actor 3
+*/

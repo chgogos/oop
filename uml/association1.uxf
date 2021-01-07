@@ -36,12 +36,12 @@
     <id>Relation</id>
     <coordinates>
       <x>280</x>
-      <y>220</y>
+      <y>210</y>
       <w>170</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m1=1</panel_attributes>
-    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>

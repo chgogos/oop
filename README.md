@@ -6,7 +6,7 @@
 
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
-Τελευταία ενημέρωση: 22/12/2020
+Τελευταία ενημέρωση: 07/01/2021
 
 [Ύλη προόδου για την εξέταση την ~~Παρασκευή 4/12/2020 στις 15:00~~](./proodos-20201204.md)
 
@@ -39,6 +39,7 @@
 * [Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf) 
 * [STL](./STL.pdf) (1/12/2020 + 8/12/2020 + 11/12/2020)
 * [C++ vs Java](./C++%20vs%20Java.pdf) (15/12/2020)
+* [UML - Διαγράμματα κλάσεων](./UML.pdf)
 
 ## ΕΡΓΑΣΙΑ ΜΑΘΗΜΑΤΟΣ (2020-2021) <img src="./resources/red_info_icon.png" height="16"> 
 

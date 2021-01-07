@@ -29,7 +29,7 @@
 
 * [Συνάντηση 6](./lab04/) Πρότυπα (templates) - generic programming
 * [Συνάντηση 7](./lab05) STL (Standard Template Library) - lambdas
-* [Συνάντηση 8](./lab06) Java 
+* [Συνάντηση 8+9](./lab06) Java 
 
 
 ---
