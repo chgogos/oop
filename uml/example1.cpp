@@ -24,6 +24,7 @@ public:
     {
         cout << __LINE__ << " " << __PRETTY_FUNCTION__ << endl;
     }
+    int z;
 };
 
 int main()

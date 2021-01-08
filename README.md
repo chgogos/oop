@@ -39,7 +39,7 @@
 * [Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf) 
 * [STL](./STL.pdf) (1/12/2020 + 8/12/2020 + 11/12/2020)
 * [C++ vs Java](./C++%20vs%20Java.pdf) (15/12/2020)
-* [UML - Διαγράμματα κλάσεων](./UML.pdf)
+* [UML - Διαγράμματα κλάσεων](./UML.pdf) (8/1/2021)
 
 ## ΕΡΓΑΣΙΑ ΜΑΘΗΜΑΤΟΣ (2020-2021) <img src="./resources/red_info_icon.png" height="16"> 
 
