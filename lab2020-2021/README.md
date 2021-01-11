@@ -30,6 +30,9 @@
 * [Συνάντηση 6](./lab04/) Πρότυπα (templates) - generic programming
 * [Συνάντηση 7](./lab05) STL (Standard Template Library) - lambdas
 * [Συνάντηση 8+9](./lab06) Java 
+* Συνάντηση 10 Επανάληψη 
+  * [Ενδεικτικά θέματα 1](https://chgogos.github.io/oop/preparation/proodos.pdf) 
+  * [Ενδεικτικά θέματα 2](https://chgogos.github.io/oop/preparation/telikes.pdf)
 
 
 ---
