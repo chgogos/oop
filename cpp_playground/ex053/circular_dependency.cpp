@@ -16,3 +16,7 @@ int main()
     delete customer;
     return 0;
 }
+
+/*
+John Doe
+*/

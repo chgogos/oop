@@ -6,9 +6,11 @@
 
   e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
-Τελευταία ενημέρωση: 07/01/2021
+Τελευταία ενημέρωση: 11/01/2021
 
 [Ύλη προόδου για την εξέταση την ~~Παρασκευή 4/12/2020 στις 15:00~~](./proodos-20201204.md)
+
+[Ύλη για την τελική εξέταση τη Δευτέρα 8/2/2020 στις 13:00](./final-20210112.md)
 
 ## ΘΕΩΡΙΑ
 
@@ -407,11 +409,17 @@
     * [researcher.cpp](./cpp_playground/ex077/researcher.cpp)
     * [main.cpp](./cpp_playground/ex077/main.cpp)
 * Σύζευξη (coupling)
-  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη  <img src="./resources/confused_icon.png" height="16"> 
-  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη  <img src="./resources/confused_icon.png" height="16"> 
-  * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη
+  * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :( 
+  * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :( 
+    * [διάγραμμα UML](./uml/coupling1.png)
+  * [loose_coupling.cpp](./cpp_playground/ex034/loose_coupling.cpp) χαλαρή σύζευξη :)
+    * [διάγραμμα UML](./uml/coupling2.png)
 * Παράδειγμα κυκλικής εξάρτησης (circular dependency) και επίλυση με forward declaration
-  * [account.hpp](./cpp_playground/ex053/account.hpp), [customer.hpp](./cpp_playground/ex053/customer.hpp), [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.cpp) <img src="./resources/confused_icon.png" height="16">
+  * Χωρίς διαμέριση κώδικα: [single_file.cpp](./cpp_playground/ex053/single_file.cpp)
+  * Με διαμέριση κώδικα: 
+    * [account.hpp](./cpp_playground/ex053/account.hpp)
+    * [customer.hpp](./cpp_playground/ex053/customer.hpp)
+    * [circular_dependency.cpp](./cpp_playground/ex053/circular_dependency.cpp)
 * Anemic classes (anti-pattern)
   * [anemic_class.cpp](./cpp_playground/ex056/anemic_class.cpp) δημιουργία αναιμικής κλάσης
   * [struct_only.cpp](./cpp_playground/ex056/struct_only.cpp) λύση του προβλήματος με ένα απλό struct
