@@ -15,8 +15,8 @@ int main()
     long seed = 123456789l; // ίδια αποτελέσματα κάθε φορά που εκτελείται το πρόγραμμα
     // long seed = chrono::system_clock::now().time_since_epoch().count(); // // διαφορετικά αποτελέσματα κάθε φορά που εκτελείται το πρόγραμμα
     mt19937 engine(seed);
-    uniform_int_distribution<int> dist1 = uniform_int_distribution<int>(0, 1); // χρησιμοποιείται για την τυχαία δημιουργία του γραφήματος συνδέσεων
-    uniform_int_distribution<int> dist2 = uniform_int_distribution<int>(0, n); // χρησιμοποιείται για την τυχαία τοποθέτηση επισκεπτών σε ιστοσελίδες
+    uniform_int_distribution<int> dist1(0, 1); // χρησιμοποιείται για την τυχαία δημιουργία του γραφήματος συνδέσεων
+    uniform_int_distribution<int> dist2(0, n); // χρησιμοποιείται για την τυχαία τοποθέτηση επισκεπτών σε ιστοσελίδες
 
     // Δημιουργία γραφήματος
     Matrix links(n, n); // δισδιάστατος πίνακας που περιέχει την πληροφορία σύνδεσης ανάμεσα στις ιστοσελίδες
