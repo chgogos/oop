@@ -69,3 +69,11 @@
     Round 9                                     
     Surfer 0 moves from web page 2 to web page 3
     Surfer 1 moves from web page 4 to web page 0
+
+---
+
+## Εκτέλεσης ενέργειας βάσει πιθανοτήτων (παράδειγμα: εμφάνιση true με πιθανότητα 85% και false με πιθανότητα 15% για 10 δοκιμές)
+
+* [damping_factor1.cpp](./damping_factor1.cpp) χρήση rand()
+* [damping_factor2.cpp](./damping_factor2.cpp) χρήση uniform_real_distribution()
+* [damping_factor3.cpp](./damping_factor3.cpp) χρήση discrete_distribution()
