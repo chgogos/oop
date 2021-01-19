@@ -29,3 +29,9 @@ int main()
     uoi::fun();
     uoi::dit::fun();
 }
+
+/*
+global ns
+uoi ns
+dit ns
+*/

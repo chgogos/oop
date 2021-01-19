@@ -25,3 +25,8 @@ int main()
         cout << ex.what() << endl;
     }
 }
+
+/*
+1.5
+std::exception
+*/

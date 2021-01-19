@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 int main()
 {
     // 2x^2+4x-4=0

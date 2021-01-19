@@ -14,7 +14,7 @@ public:
     }
 };
 
-void bar(const int &a) // το a περνά με αναφορά αλλά δεν μπορεί να αλλάξει μέσα στην fun
+void bar(const int &a) // το a περνά με αναφορά αλλά δεν μπορεί να αλλάξει μέσα στην fun λόγω του const (αυτό γίνεται για καλύτερη απόδοση)
 {
     // a++; // error: increment of read-only reference 'a'
 }
@@ -25,4 +25,7 @@ int main()
     // x++; // error: increment of read-only variable 'x'
     int y = 1;
     bar(y);
+
+    A obj;
+    obj.foo(); // γνωρίζω ότι η συνάρτηση foo δεν αλλάζει την εσωτερική κατάσταση του αντικειμένου obj διότι είναι const
 }

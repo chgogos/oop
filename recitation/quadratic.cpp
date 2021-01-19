@@ -1,3 +1,4 @@
+#include "quadratic.hpp"
 #include <cmath>
 
 double discriminant(double a, double b, double c)
