@@ -12,7 +12,7 @@
 
 [Ύλη για την τελική εξέταση τη Δευτέρα 8/2/2021 στις 13:00](./final-20210112.md)
 
-[Προετοιμασία για τις εξετάσεις](./recitation/recitation.md)
+[Προετοιμασία για τις εξετάσεις](./recitation/recitation.md)  <img src="./resources/red_info_icon.png" height="16"> 
 
 ## ΘΕΩΡΙΑ
 
@@ -46,7 +46,6 @@
 * [UML - Διαγράμματα κλάσεων](./UML.pdf) (8/1/2021)
 
 ## ΕΡΓΑΣΙΑ ΜΑΘΗΜΑΤΟΣ (2020-2021) 
-<!-- <img src="./resources/red_info_icon.png" height="16">  -->
 
 Τελική ημερομηνία παράδοσης ~~17/01/2021~~  
 
@@ -58,9 +57,10 @@
 
 * [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2020-2021](./lab2020-2021/README.md)
 
-## Σύνοψη της C++, STL, UML διαγραμμάτων κλάσεων
+## Σύνοψη των C, C++, STL, UML διαγραμμάτων κλάσεων
 
-* [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε μαζί σας στις εξετάσεις
+* [C reference card](./resources/CRefCard.v2.2.pdf)
+* [C++ reference card](./resources/Cpp_refcard.pdf)
 * [C++ reference](https://en.cppreference.com/w/cpp)
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
