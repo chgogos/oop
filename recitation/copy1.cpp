@@ -1,3 +1,6 @@
+// Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. 
+// Αντιγράψτε τις 5 πρώτες τιμές σε ένα άλλο std::vector.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

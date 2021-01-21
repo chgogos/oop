@@ -1,3 +1,6 @@
+// Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. 
+// Εξετάστε αν το ακέραιο μέρος του μέσου όρου των τιμών υπάρχει στο std::vector.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

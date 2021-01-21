@@ -1,3 +1,7 @@
+// Ορίστε ένα namespace uoi και μέσα σε αυτό ένα άλλο namespace dit. 
+// Ορίστε 3 συναρτήσεις με όνομα fun στο global, στο uoi και στο dit namespace. 
+// Στη main καλέστε και τις 3 συναρτήσεις fun.
+
 #include <iostream>
 using namespace std;
 

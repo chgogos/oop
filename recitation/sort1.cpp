@@ -1,3 +1,6 @@
+// Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. 
+// Εμφανίστε το άθροισμα των 5 μεγαλύτερων τιμών.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

@@ -1,3 +1,6 @@
+// Εισάγετε 10 ακέραιες τιμές σε ένα std::unordered_set. Εμφανίστε ταξινομημένες τις τιμές. 
+// Πόσες τιμές εμφανίζονται;
+
 #include <iostream>
 #include <unordered_set>
 #include <vector>

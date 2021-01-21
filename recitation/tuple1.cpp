@@ -1,3 +1,6 @@
+// Χρησιμοποιώντας std::tuple για την αναπαράσταση μιας τριάδας ακεραίων τιμών εισάγεται 5 τριάδες τιμών σε ένα std::vector,
+// ταξινομήστε τα στοιχεία του με βάση το άθροισμα των στοιχείων κάθε τριάδας και εμφανίστε τις τριάδες.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -8,7 +11,7 @@ int main()
 {
     vector<tuple<int, int, int>> v{{1, 2, 3}, {4, 2, 1}, {8, 3, 6}, {5, 2, 9}, {6, 1, 4}};
     sort(v.begin(), v.end(), [](tuple<int, int, int> x, tuple<int, int, int> y) { return get<0>(x) + get<1>(x) + get<2>(x) < get<0>(y) + get<1>(y) + get<2>(y); });
-    for (tuple<int, int,int> t : v)
+    for (tuple<int, int, int> t : v)
     {
         cout << get<0>(t) << "," << get<1>(t) << "," << get<2>(t) << " -> " << get<0>(t) + get<1>(t) + get<2>(t) << endl;
     }

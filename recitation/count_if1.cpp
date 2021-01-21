@@ -1,3 +1,6 @@
+// Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. 
+// Μετρήστε τις άρτιες τιμές.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

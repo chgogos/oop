@@ -1,3 +1,5 @@
+// Τι θα εμφανίσει ο ακόλουθος κώδικας;
+
 #include <iostream>
 
 using namespace std;
