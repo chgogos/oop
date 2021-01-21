@@ -1,5 +1,6 @@
-// Εισάγετε σε ένα std::vector όλες τις άρτιες τιμές από το 0 μέχρι και το 100.
-// Εμφανίστε με range based for το περιεχόμενο του διανύσματος σε μια γραμμή.
+// Εισάγετε σε ένα std::vector ακεραίων 10 τιμές.
+// Διανύστε με iterator τις άρτιες θέσεις του vector
+// προσθέστε τις τιμές που συναντάτε
 
 #include <iostream>
 #include <vector>
@@ -7,24 +8,8 @@
 using namespace std;
 int main()
 {
-    vector<int> v;
-    for (int i = 0; i <= 100; i += 2)
-    {
-        v.push_back(i);
-    }
+    vector<int> v{7,2,45,7,81,9,16,10,11,22};
 
-    // range based for
-    for (auto& x : v)
-    {
-        x++;
-        cout << x << " ";
-    }
-    
-    cout << endl;
 
-    for (auto x : v)
-    {
-        cout << x << " ";
-    }
 
 }
