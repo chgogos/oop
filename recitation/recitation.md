@@ -416,10 +416,16 @@
 
     * [generalization3.cpp](./generalization3.cpp)
 
-### HAS-A (συσχέτιση, composition=σύνθεση ή aggregation=συνάθροιση)
+### HAS-A (συσχέτιση, aggregation=συνάθροιση ή composition=σύνθεση)
 
 * Συσχετίσεις μιας κατεύθυνσης (one way associations)
 
 * Συνάθροιση (aggregation)
+
+    Μεταττρέψτε το ακόλουθο διάγραμμα κλάσεων σε κώδικα C++. Δημιουργήστε 1 αντικείμενο ασθενή (patient) και προσθέστε 2 επισκέψεις (consultations). Εμφανίστε με τη συνάρτηση log() όλες τις πληροφορίες των επισκέψεων για τον ασθενή.
+
+    ![aggregation4.png](./../uml/aggregation4.png)
+
+  *  [aggregation4.cpp](./aggregation4.cpp)
 
 * Σύνθεση (composition)

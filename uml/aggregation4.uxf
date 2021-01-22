@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>130</y>
+      <w>390</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Patient
+--
+-amka:String
+-name:String
+--
++Patient(amka:String, name:String)
++addConsultation(cons: Consultation):void
++log():void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>350</y>
+      <w>330</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Consultation
+--
+-dateTime:String
+-physician:String
+-diagnosis:String
+-isEmergency:Boolean
+--
++Consultation(date_time:String, physician:String)
++setEmergency(f:Boolean):void
++setDiagnosis(text:String):void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>240</y>
+      <w>50</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m1=1
+m2=0..*
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+</diagram>
