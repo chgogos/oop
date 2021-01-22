@@ -420,6 +420,12 @@
 
 * Συσχετίσεις μιας κατεύθυνσης (one way associations)
 
+    Μεταττρέψτε το ακόλουθο διάγραμμα κλάσεων σε κώδικα C++.
+
+    ![](./../uml/association1.png)
+
+    * [association1.cpp](./../uml/association1.cpp)
+
 * Συνάθροιση (aggregation)
 
     Μεταττρέψτε το ακόλουθο διάγραμμα κλάσεων σε κώδικα C++. Δημιουργήστε 1 αντικείμενο ασθενή (patient) και προσθέστε 2 επισκέψεις (consultations). Εμφανίστε με τη συνάρτηση log() όλες τις πληροφορίες των επισκέψεων για τον ασθενή.
@@ -429,3 +435,9 @@
   *  [aggregation4.cpp](./aggregation4.cpp)
 
 * Σύνθεση (composition)
+
+    Μεταττρέψτε το ακόλουθο διάγραμμα κλάσεων σε κώδικα C++.
+
+    ![](./../uml/composition1.png)
+
+    * [composition1.cpp](./../uml/composition1.cpp)
