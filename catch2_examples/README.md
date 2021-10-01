@@ -15,7 +15,7 @@
     $ g++ test2.cpp -o test2 -std=c++14
     $ test2.exe
 
-    $ g++ test3.cpp -o test2 -std=c++14
+    $ g++ test3.cpp -o test3 -std=c++14
     $ test2.exe
 
 
