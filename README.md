@@ -57,9 +57,13 @@
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
 
-## Τεκμηρίωση C++ και STL
+## Τεκμηρίωση της C++ και της STL
 
 * [https://devdocs.io/](https://devdocs.io/) και με δυνατότητα για offline χρήση
 * [zeal](https://zealdocs.org/) για offline χρήση
 * [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
 * [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
+
+---
+
+[Επιπλέον υλικό](./more_resources.md)
