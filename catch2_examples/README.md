@@ -39,8 +39,8 @@
 Παράδειγμα από το <https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md>.
 
 * [test.cpp](./v3/test.cpp)
-* [catch-amalgamated.hpp](./v3/catch-amalgamated.hpp)
-* [catch-amalgamated.cpp](./v3/catch-amalgamated.cpp)
+* [catch-amalgamated.hpp](./v3/catch_amalgamated.hpp)
+* [catch-amalgamated.cpp](./v3/catch_amalgamated.cpp)
 
 Εντολές μεταγλώττισης και εκτέλεσης
 
