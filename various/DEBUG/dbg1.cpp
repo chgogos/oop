@@ -1,21 +1,15 @@
 #include <iostream>
+#include <vector>
+#include <string>
 
-using std::cout;
-using std::endl;
+using namespace std;
 
 int main()
 {
-    int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int sum = a[0];
-    for (int i = 1; i <= 10; i++)
+    vector<string> msg{"Hello", "World", "from", "C++"};
+    for (const string &word : msg)
     {
-        sum += a[i];
+        cout << word << " ";
     }
-    cout << sum << endl;
+    cout << endl;
 }
-
-/*
-65
-ΠΙΘΑΝΟ ΛΑΘΟΣ ΑΠΟΤΕΛΕΣΜΑ ΤΟ ΣΩΣΤΟ ΕΙΝΑΙ 55
-*/
-
