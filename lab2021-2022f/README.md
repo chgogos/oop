@@ -8,7 +8,7 @@
 * Δευτέρα 4-6 (ΟΜΑΔΑ 2 - εργαστήριο Ε4) 18/10/2021, 01/11/2021, ...
 * Δευτέρα 6-8 (ΟΜΑΔΑ 3 - εργαστήριο Ε4) 11/10/2021, 25/10/2021, ...
 * Δευτέρα 6-8 (ΟΜΑΔΑ 4 - εργαστήριο Ε4) 18/10/2021, 01/11/2021, ...
-* Πέμπτη 2-4 (ΟΜΑΔΑ 5 - εργαστήριο Ε5) 14/10/2021, ~~28/10/2021~~, ...
+* Πέμπτη 2-4 (ΟΜΑΔΑ 5 - εργαστήριο Ε5)  14/10/2021, ~~28/10/2021~~, ...
 * Πέμπτη 2-4 (ΟΜΑΔΑ 6 - εργαστήριο Ε5) 21/10/2021, 04/11/2021, ...
 * Παρασκευή 4-6 (ΟΜΑΔΑ 7 - εργαστήριο Ε5) 15/10/2021, 29/10/2021, ...
 * Παρασκευή 4-6 (ΟΜΑΔΑ 8 - εργαστήριο Ε5) 22/10/2021, 05/11/2021, ...
@@ -22,14 +22,29 @@
     * [ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
     * [formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 * Συγγραφή προγραμμάτων σε C++, μεταγλώττιση και εκτέλεση από το VS Code
+  * [hello1.cpp](./../cpp_playground/ex001/hello1.cpp)
+  * [hello2.cpp](./../cpp_playground/ex001/hello2.cpp)
 * Μεταγλώττιση και εκτέλεση προγραμμάτων από τη γραμμή εντολών
   * τα switches -c, -o, -g, -O2, -Wall, -Werror, -std
 * Αποσφαλμάτωση κώδικα (debugging)
   * Χρήση του Run & Debug του VS Code (βηματική εκτέλεση, breakpoints, watches ...)
-  * [Παραδείγματα debugging](../various/DEBUG/README.md)
+  * [Παραδείγματα debugging](../various/DEBUG_EXAMPLES/README.md)
 * Διαχωρισμός header / source αρχείων
+  * [numbers.hpp](./../cpp_playground/ex110/numbers.hpp)
+  * [numbers.cpp](./../cpp_playground/ex110/numbers.cpp)
+  * [main.cpp](./../cpp_playground/ex110/main.cpp)
+  * Μεταγλώττιση και εκτέλεση
+    ```
+    > g++ numbers.cpp main.cpp -o main
+    > main.exe
+    GCD of 30 and 12 is 6
+    LCM of 30 and 12 is 60
+    ```
 * Συναρτήσεις, πέρασμα με τιμή, πέρασμα με αναφορά
+  * [calls.cpp](./../cpp_playground/ex001/calls.cpp)
 * Ο ρόλος των στατικών μεταβλητών σε συναρτήσεις
+  * [static1.c](./../cpp_playground/ex013/static1.c)
+  * [static2.cpp](./../cpp_playground/ex013/static2.cpp)
 * Η βιβλιοθήκη Catch2 για συγγραφή ελέγχων
   * [Παραδείγματα](../catch2_examples/README.md) 
 
