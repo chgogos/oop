@@ -1,3 +1,5 @@
+#include "numbers.hpp"
+
 int gcd(int x, int y)
 {
     int a, b, r;
@@ -19,6 +21,7 @@ int gcd(int x, int y)
     }
     return a;
 }
+
 // x * y = LCM(x, y) * GCD (x, y)
 int lcm(int x, int y)
 {
