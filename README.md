@@ -5,11 +5,12 @@
   Γκόγκος Χρήστος - Άρτα@2021
 
 * e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
-* MS-TEAMS ομάδα μαθήματος: <https://tinyurl.com/r4vjxne6>
-* Θεωρία κάθε Πέμπτη 12:00-14:00 στο ΑΜΦ-Α και Παρασκευή 11:00-13:00 στο ΑΜΦ-Α
+* MS-TEAMS ομάδα για ερωτήσεις - επίλυση αποριών: [ALGOLAB](https://teams.microsoft.com/l/team/19%3a-fnQq9RQJ8JSOscJkXcLWcOw6FErthoChW-UH4PAONY1%40thread.tacv2/conversations?groupId=c3f45559-abd2-4e05-93a9-f5cc9dcc39ce&tenantId=08bea52a-5ad3-4627-9549-5ff3a65676be)
+* Θεωρία κάθε Πέμπτη 12:00-14:00 στο ΑΜΦ-Γ και Παρασκευή 11:00-13:00 στο ΑΜΦ-Α
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της ομάδας
+  * MS-TEAMS ομάδα μαθήματος: <https://tinyurl.com/r4vjxne6> για επανάληψη εργαστηρίων
 
-Τελευταία ενημέρωση: 10/10/2021
+Τελευταία ενημέρωση: 14/10/2021
 
 ## ΕΡΓΑΣΙΕΣ
 
@@ -39,10 +40,10 @@
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
-* [Παρουσίαση 20 Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf) 
-* [Παρουσίαση 21 STL](./STL.pdf)
-* [Παρουσίαση 22 C++ vs Java](./C++%20vs%20Java.pdf)
-* [Παρουσίαση 23 UML - Διαγράμματα κλάσεων](./UML.pdf)
+* [Παρουσίαση 20 - Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf) 
+* [Παρουσίαση 21 - STL](./STL.pdf)
+* [Παρουσίαση 22 - C++ vs Java](./C++%20vs%20Java.pdf)
+* [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./UML.pdf)
 
 ## ΕΡΓΑΣΤΗΡΙΟ
 
