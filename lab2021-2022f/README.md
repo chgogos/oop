@@ -28,7 +28,7 @@
 * Μεταγλώττιση και εκτέλεση προγραμμάτων από τη γραμμή εντολών
   * τα switches -c, -o, -g, -O2, -Wall, -Werror, -std (c++98, c++03, c++11, c++14, c++17, c++20, ...)
     * [source.cpp](./lab01/source.cpp) για παραδείγματα μεταγλώττισης με -c, -o, -g, -O2
-    * [](./lab01/warning_examples.cpp) για παραδείγματα μεταγλώττισης με -Wall, -Werror
+    * [warning_examples.cpp](./lab01/warning_examples.cpp) για παραδείγματα μεταγλώττισης με -Wall, -Werror
     * [std_examples.cpp](./lab01/std_examples.cpp) για παραδείγματα μεταγλώττισης με -std=c++98, -std=c++11
 * Αποσφαλμάτωση κώδικα (debugging)
   * Χρήση του Run & Debug του VS Code (βηματική εκτέλεση, breakpoints, watches ...)
