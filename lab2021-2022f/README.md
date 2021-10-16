@@ -24,8 +24,12 @@
 * Συγγραφή προγραμμάτων σε C++, μεταγλώττιση και εκτέλεση από το VS Code
   * [hello1.cpp](./../cpp_playground/ex001/hello1.cpp)
   * [hello2.cpp](./../cpp_playground/ex001/hello2.cpp)
+  * [hello3.cpp](./../cpp_playground/ex001/hello3.cpp)
 * Μεταγλώττιση και εκτέλεση προγραμμάτων από τη γραμμή εντολών
-  * τα switches -c, -o, -g, -O2, -Wall, -Werror, -std
+  * τα switches -c, -o, -g, -O2, -Wall, -Werror, -std (c++98, c++03, c++11, c++14, c++17, c++20, ...)
+    * [source.cpp](./lab01/source.cpp) για παραδείγματα μεταγλώττισης με -c, -o, -g, -O2
+    * [](./lab01/warning_examples.cpp) για παραδείγματα μεταγλώττισης με -Wall, -Werror
+    * [std_examples.cpp](./lab01/std_examples.cpp) για παραδείγματα μεταγλώττισης με -std=c++98, -std=c++11
 * Αποσφαλμάτωση κώδικα (debugging)
   * Χρήση του Run & Debug του VS Code (βηματική εκτέλεση, breakpoints, watches ...)
   * [Παραδείγματα debugging](../various/DEBUG_EXAMPLES/README.md)
