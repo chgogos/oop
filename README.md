@@ -5,12 +5,12 @@
   Γκόγκος Χρήστος - Άρτα@2021
 
 * e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
-* MS-TEAMS ομάδα για ερωτήσεις - επίλυση αποριών: [ALGOLAB](https://teams.microsoft.com/l/team/19%3a-fnQq9RQJ8JSOscJkXcLWcOw6FErthoChW-UH4PAONY1%40thread.tacv2/conversations?groupId=c3f45559-abd2-4e05-93a9-f5cc9dcc39ce&tenantId=08bea52a-5ad3-4627-9549-5ff3a65676be)
+* MS-TEAMS ομάδα για ερωτήσεις - επίλυση αποριών: [ALGOLAB](https://teams.microsoft.com/l/team/19%3aHZIk7QkU5PRruBdkoIZDjqV5CqoWCdKccau1I_PcH-Q1%40thread.tacv2/conversations?groupId=45b4816f-3d33-4c1f-a164-8b499330c1d1&tenantId=08bea52a-5ad3-4627-9549-5ff3a65676be)
 * Θεωρία κάθε Πέμπτη 12:00-14:00 στο ΑΜΦ-Γ και Παρασκευή 11:00-13:00 στο ΑΜΦ-Α
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της ομάδας
-  * MS-TEAMS ομάδα μαθήματος: <https://tinyurl.com/r4vjxne6> για επανάληψη εργαστηρίων
+  * MS-TEAMS ομάδα μαθήματος: [OOP](https://tinyurl.com/r4vjxne6) για επανάληψη εργαστηρίων
 
-Τελευταία ενημέρωση: 21/10/2021
+Τελευταία ενημέρωση: 22/10/2021
 
 ## ΕΡΓΑΣΙΕΣ
 

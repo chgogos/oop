@@ -69,10 +69,10 @@
 * Φίλες συναρτήσεις. Παράδειγμα: Δημιουργήστε μια κλάση Α με ένα ακέραιο ιδιωτικό μέλος x. Συμπληρώστε μια φίλη συνάρτηση fun που να εκτυπώνει την τιμή του x για ένα αντικείμενο της κλάσης Α.
   * [friend_function_example.cpp](./lab02/friend_function_example.cpp)
 * Η βιβλιοθήκη fmt για εύκολη εμφάνιση αποτελεσμάτων
-  * [Usage](https://fmt.dev/latest/usage.html)
   * [fmt_example1.cpp](./lab02/fmt_example1.cpp)
+  * [Usage](https://fmt.dev/latest/usage.html) δημιουργία φακέλου fmt στον φάκελο που βρίσκεται το fmt_example1.cpp, αντιγραφή των core.h, format-inl.h, format.h από το zip του fmt στον φάκελο fmt, αντιγραφή του format.cc από το zip του fmt στον ίδιο φάκελο με το fmt_example1.cpp 
 
-Μεταγλώττιση και εκτέλεση
+Μεταγλώττιση και εκτέλεση του fmt_example1.cpp
 
 ```cmd
 $ g++ fmt_example1.cpp format.cc -ο fmt_example1 -std=c++11
