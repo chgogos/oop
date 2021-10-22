@@ -68,7 +68,7 @@
   * [member_functions_example_sol.cpp](./lab02/member_functions_example_sol.cpp)
 * Φίλες συναρτήσεις. Παράδειγμα: Δημιουργήστε μια κλάση Α με ένα ακέραιο ιδιωτικό μέλος x. Συμπληρώστε μια φίλη συνάρτηση fun που να εκτυπώνει την τιμή του x για ένα αντικείμενο της κλάσης Α.
   * [friend_function_example.cpp](./lab02/friend_function_example.cpp)
-* Η βιβλιοθήκη fmt για εύκολη εμφάνιση αποτελεσμάτων
+* Η βιβλιοθήκη [fmt](https://fmt.dev/latest/index.html) για εύκολη εμφάνιση αποτελεσμάτων
   * [fmt_example1.cpp](./lab02/fmt_example1.cpp)
   * [Usage](https://fmt.dev/latest/usage.html) δημιουργία φακέλου fmt στον φάκελο που βρίσκεται το fmt_example1.cpp, αντιγραφή των core.h, format-inl.h, format.h από το zip του fmt στον φάκελο fmt, αντιγραφή του format.cc από το zip του fmt στον ίδιο φάκελο με το fmt_example1.cpp 
 
