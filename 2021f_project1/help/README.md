@@ -64,3 +64,8 @@ $ random_values.exe
 
 * [cmd_line_args.cpp](./cmd_line_args.cpp)
 
+## Παράδειγμα σχεδίασης εξέλιξης αγώνα
+
+Σχεδίαση εξέλιξης αγώνα
+
+* [draw_race.cpp](./draw_race.cpp)
