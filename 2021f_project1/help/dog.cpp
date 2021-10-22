@@ -23,5 +23,5 @@ void dog::info()
 
 void dog::eat()
 {
-    status = "happy";
+    status = "sleep";
 }

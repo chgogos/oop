@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
     unsigned int seed = chrono::steady_clock::now().time_since_epoch().count();
+    // unsigned int seed = 1821;
     auto rng = default_random_engine{seed};
     uniform_int_distribution<int> dist(1, 6);
     uniform_real_distribution<double> dist2(0, 1);
