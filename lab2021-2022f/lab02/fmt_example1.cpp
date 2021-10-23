@@ -1,7 +1,7 @@
 #include "./fmt/format.h"
 
 // compile and link (header only installation)
-// g++ fmt1.cpp ./fmt/format.cc -std=c++11
+// g++ fmt_example1.cpp format.cc -std=c++11
 
 int main() {
   fmt::print("The answer is {}.\n", 42);
