@@ -1,5 +1,5 @@
 #define CATCH_CONFIG_MAIN
-#include "../catch.hpp"
+#include "catch.hpp"
 #include "account_bank.hpp"
 
 TEST_CASE("account class is tested - 1", "[account]")

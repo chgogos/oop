@@ -16,12 +16,12 @@ int main()
 
     vector<string> selected_horse_names;
 
-    for(int i=0;i<3;i++){
+    for (int i = 0; i < 3; i++)
+    {
         selected_horse_names.push_back(horse_names[i]);
     }
-    for (string n: selected_horse_names){
+    for (string n : selected_horse_names)
+    {
         cout << n << endl;
     }
-
-
 }
