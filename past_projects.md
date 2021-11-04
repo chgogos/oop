@@ -3,7 +3,6 @@
 ## Εργασία 1 (λογαριασμός τράπεζας)
 
 * [Εκφώνηση (pdf)](./lab2020/exercise1/20200217_assignment1.pdf)
-* [catch.hpp](./lab2020/exercise1/catch.hpp) το header file που χρειάζεται για την εκτέλεση των tests
 
 **Λύση εργασίας**
 

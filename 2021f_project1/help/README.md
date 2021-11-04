@@ -119,3 +119,18 @@ press any key to continue
 ## Παράδειγμα επιλογής 3 από 4 ονόματα αλόγων
 
 * [random_horse_names.cpp](./random_horse_names.cpp)
+
+Μεταγλώττιση και εκτέλεση
+
+```cmd
+$ g++ random_horse_names.cpp -o random_horse_names
+$ random_horse_names.exe
+Hercules
+Goliath
+Bolt
+$ random_horse_names.exe
+Blitz
+Goliath
+Bolt
+```
+
