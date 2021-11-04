@@ -116,3 +116,6 @@ press any key to continue
 |.....4..............|
 ```
 
+## Παράδειγμα επιλογής 3 από 4 ονόματα αλόγων
+
+* [random_horse_names.cpp](./random_horse_names.cpp)
