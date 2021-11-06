@@ -9,3 +9,8 @@ int main() {
   fmt::print(stderr, "Don't {}!\n", "panic");
   fmt::print("Elapsed time: {s:.2f} seconds\n", fmt::arg("s", 1.23));
 }
+
+// The answer is 42.
+// Elapsed time: 1.23 seconds
+// Don't panic!
+// Elapsed time: 1.23 seconds

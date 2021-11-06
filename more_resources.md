@@ -36,6 +36,7 @@
 * "Αόρατες" αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
 * Λίστα αρχικοποίησης (initializer list)
   * [initializer_list1.cpp](./cpp_playground/ex044/initializer_list1.cpp)
+  * [initializer_list_example.cpp](./cpp_playground/ex111/initializer_list_example.cpp)
 * Η χρήση του static στη C 
   * [static1.c](./cpp_playground/ex013/static1.c)
   * [static2.cpp](./cpp_playground/ex013/static2.cpp)
