@@ -199,11 +199,5 @@ Elapsed time: 1.23 seconds
 
 **Λύση άσκησης 2**
 
-* [rock_paper_scissors.cpp](./lab2020-2021/lab2020f_ex1_sol/rock_paper_scissors.cpp)
-
-
-
-
-
-
+* [rock_paper_scissors.cpp](./../lab2020-2021/lab2020f_ex1_sol/rock_paper_scissors.cpp)
 
