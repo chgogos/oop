@@ -30,9 +30,9 @@
 
 Πληροφορίες για τους μιγαδικούς και τις πράξεις με αυτούς μπορείτε να βρείτε στο διαδίκτυο.
 
-Β) Ελέγξτε όλες τις λειτουργίες της κλάσης με unit tests της βιβλιοθήκης catch2 και με τη χρήση της κλάσης std::complex που ορίζεται στο αρχείο επικεφαλίδας <complex>. Δείτε το <https://en.cppreference.com/w/cpp/numeric/complex> και το <https://github.com/catchorg/Catch2>.
+Β) Ελέγξτε όλες τις λειτουργίες της κλάσης με unit tests της βιβλιοθήκης [catch2](https://github.com/catchorg/Catch2) και με τη χρήση της κλάσης std::complex που ορίζεται στο αρχείο επικεφαλίδας <complex>. Δείτε το [https://en.cppreference.com/w/cpp/numeric/complex](https://en.cppreference.com/w/cpp/numeric/complex).
 
-Γ) Δημιουργήστε ένα GUI (Graphical User Interface) χρησιμοποιώντας το framework wxWidgets <https://www.wxwidgets.org/>. To GUI να δίνει τη δυνατότητα στο χρήστη να συμπληρώσει τα στοιχεία 2 μιγαδικών αριθμών και να επιτρέπει τη διενέργεια των πράξεων πρόσθεση, αφαίρεση, πολλαπλασιασμός και διαίρεση, πατώντας πλήκτρα σε μια γραφική διεπαφή. 
+Γ) Δημιουργήστε ένα GUI (Graphical User Interface) χρησιμοποιώντας το framework wxWidgets <https://www.wxwidgets.org/>. To GUI να δίνει τη δυνατότητα στο χρήστη να συμπληρώσει τα στοιχεία 2 μιγαδικών αριθμών και να επιτρέπει τη διενέργεια των πράξεων πρόσθεση, αφαίρεση, πολλαπλασιασμός, διαίρεση και ύψωση σε ακέραια σύναμη πατώντας πλήκτρα σε μια γραφική διεπαφή. 
 
 ---
 
@@ -74,6 +74,19 @@
 * [BaseFrame.cpp](./lab2020-2021/lab2020f_ex2_sol/BaseFrame.cpp)
 * [GUI.cpp](./lab2020-2021/lab2020f_ex2_sol/GUI.cpp)
 
+**Μεταγλώττιση και εκτέλεση των Tests**
+
+Για επιτάχυνση της μεταγλώττισης των tests
+
+    $ g++ -c speedup.cpp -o speedup.o -std=c++14
+
+Μεταγλώττιση και εκτέλεση των tests
+
+    $ g++ Complex.cpp Tests.cpp speedup.o -o Tests -std=c++14
+    $ Tests.exe                                                     
+    ===============================================================================
+    All tests passed (21 assertions in 9 test cases)                               
+
 **Μεταγλώττιση και εκτέλεση του Console app**
 
     $ g++ Complex.cpp Main.cpp -o Main -std=c++14
@@ -99,19 +112,6 @@
     122 - 597i
     Example of raising a complex number to a negative integer power
     0.000328581 + 0.00160789i
-
-**Μεταγλώττιση και εκτέλεση των Tests**
-
-Για επιτάχυνση της μεταγλώττισης των tests
-
-    $ g++ -c speedup.cpp -o speedup.o -std=c++14
-
-Μεταγλώττιση και εκτέλεση των tests
-
-    $ g++ Complex.cpp Tests.cpp speedup.o -o Tests -std=c++14
-    $ Tests.exe                                                     
-    ===============================================================================
-    All tests passed (21 assertions in 9 test cases)                               
 
 **Μεταγλώττιση και εκτέλεση του GUI app**
 
