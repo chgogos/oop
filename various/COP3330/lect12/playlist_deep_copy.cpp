@@ -24,7 +24,7 @@ public:
     playlist(int as) : array_size(as), plist(new song[as])
     {
     }
-    
+
     // copy constructor
     playlist(const playlist &other)
     {
@@ -37,7 +37,7 @@ public:
             plist[i].duration = other.plist[i].duration;
         }
     }
-    
+
     // copy assignment operator
     playlist &operator=(const playlist &other)
     {
@@ -53,7 +53,7 @@ public:
         }
         return *this;
     }
-    
+
     ~playlist()
     {
         cout << "delete array of songs" << endl;
@@ -64,7 +64,10 @@ public:
     void add_song(string t, int d)
     {
         if (num_songs >= array_size)
+        {
+            cerr << "Song not added, maximum playlist size reached" << endl;
             return;
+        }
         plist[num_songs].title = t;
         plist[num_songs].duration = d;
         num_songs++;
@@ -91,7 +94,7 @@ int main()
 
     playlist c_playlist(10);
     c_playlist = a_playlist; // κλήση του copy assignment
-    cout << a_playlist << endl; 
+    cout << a_playlist << endl;
 }
 
 /*

@@ -65,3 +65,14 @@ int main()
     p2.print();
     p3.print();
 }
+
+/*
+Constructor Player(string) called
+Default constructor called
+Mario 11 15 19
+Luigi 11 15 19 20
+Bowser 11 15 19 20 17
+Destructor ~Player() called
+Destructor ~Player() called
+Destructor ~Player() called
+*/

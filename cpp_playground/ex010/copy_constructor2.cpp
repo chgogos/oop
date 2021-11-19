@@ -78,3 +78,32 @@ int main()
     obj5.print();
     return 0;
 }
+
+/*
+default constructor
+deep copy constructor
+deep copy constructor
+deep copy constructor
+default constructor
+copy assignment
+obj1
+a=0
+b=0
+c=[ 99 -1 -1 -1 -1 -1 -1 -1 -1 -1 ]
+obj2
+a=0
+b=0
+c=[ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 ]
+obj3
+a=0
+b=0
+c=[ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 ]
+obj4
+a=0
+b=0
+c=[ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 ]
+obj5
+a=0
+b=0
+c=[ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 ]
+*/

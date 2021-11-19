@@ -38,7 +38,10 @@ public:
     void add_song(string t, int d)
     {
         if (num_songs >= array_size)
+        {
+            cerr << "Song not added, maximum playlist size reached" << endl;
             return;
+        }
         plist[num_songs].title = t;
         plist[num_songs].duration = d;
         num_songs++;
