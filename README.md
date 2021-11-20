@@ -55,7 +55,9 @@
 * [live_coding_20211015b.cpp](./lc/live_coding_20211015b.cpp)
 * [live_coding_20211105.cpp](./lc/live_coding_20211105.cpp)
 * [live_coding_20211105b.cpp](./lc/live_coding_20211105b.cpp)
-
+* [live_coding_20211119a.cpp](./lc/live_coding_20211119a.cpp)
+* [live_coding_20211119b.cpp](./lc/live_coding_20211119b.cpp)
+  
 ## ΕΡΓΑΣΤΗΡΙΟ
 
 * [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2021-2022](./lab2021-2022f/README.md)
