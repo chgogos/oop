@@ -120,7 +120,10 @@
         "activityBarBadge.foreground": "#15202b",
         "statusBar.background": "#f9e64f",
         "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#f7df1e"
+        "statusBarItem.hoverBackground": "#f7df1e",
+        "sash.hoverBorder": "#fbed80",
+        "statusBarItem.remoteBackground": "#f9e64f",
+        "statusBarItem.remoteForeground": "#15202b"
     },
     "cmake.configureOnOpen": false,
     "peacock.color": "#f9e64f",
