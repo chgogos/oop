@@ -16,7 +16,7 @@
 
 Θέματα προετοιμασίας για την πρόοδο
 
-* [Εκφωνήσεις]](./preparation/proodos.pdf)
+* [Εκφωνήσεις](./preparation/proodos.pdf)
   * [prepare01.cpp](./preparation/prepare01.cpp)
   * [prepare02.cpp](./preparation/prepare02.cpp)
 
