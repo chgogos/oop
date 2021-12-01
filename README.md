@@ -27,6 +27,8 @@
   * [Σχετικά αποσπάσματα κώδικα](./2021f_project1/help/README.md)
   * [Λύση πρώτης εργασίας](./2021f_project1_sol/README.md)
 - [ ] [<mark>Εκφώνηση δεύτερης εργασίας</mark>](./2021f_project2/2021f_oop_prj2.pdf) παράδοση μέχρι 18/12/2021
+- [ ] Τρίτη εργασία
+---
 
 - [X] [Εργασίες προηγούμενων ετών (με λύσεις)](./past_projects.md)
 
@@ -76,7 +78,7 @@
 
 ## Tutorials για τη C++
 
-* [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus)
+* [<mark>Sololearn: C++</mark>](https://www.sololearn.com/Play/CPlusPlus)
 * [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
 * [Saylor.org Academy: CS107 C++ Programming](https://learn.saylor.org/course/view.php?id=65)
 * [learncpp](https://www.learncpp.com/)
