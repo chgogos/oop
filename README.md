@@ -16,14 +16,14 @@
 
 * [<mark>Ύλη προόδου</mark>](./proodos-20211209.md)
 * Θέματα προετοιμασίας για την πρόοδο
-  * [Ομάδα θεμάτων 1](./preparation/proodos.pdf)
+  * [Θέματα προετοιμασίας Α](./preparation/proodos.pdf)
     * [Λύση θέματος 1](./preparation/prepare01.cpp)
     * [Λύση θέματος 2](./preparation/prepare02.cpp)
     * [Λύση θέματος 3](./preparation/prepare03.cpp)
-  * [Ομάδα θεμάτων 2](./preparation/20190415_proodos_a.pdf)
+  * [Θέματα προετοιμασίας Β](./preparation/20190415_proodos_a.pdf)
     * [Λύση θέματος 1](./preparation/exams20190625_a1.cpp)
     * [Λύση θέματος 2](./preparation/exams20190625_a2.cpp)
-  * [Ομάδα θεμάτων 3](./preparation/20190415_proodos_b.pdf)
+  * [Θέματα προετοιμασίας Γ](./preparation/20190415_proodos_b.pdf)
     * [Λύση θέματος 1](./preparation/exams20190625_b1.cpp)
     * [Λύση θέματος 2](./preparation/exams20190625_b2.cpp)
   
