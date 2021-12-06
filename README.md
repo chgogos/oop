@@ -10,7 +10,7 @@
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας
   * MS-TEAMS ομάδα μαθήματος: [OOP](https://tinyurl.com/r4vjxne6) για επανάληψη εργαστηρίων
 
-Τελευταία ενημέρωση: 5/12/2021
+Τελευταία ενημέρωση: 6/12/2021
 
 **Πρόοδος στις 9/12/2021 12:00-14:00 στο MSTEAMS**
 
@@ -21,11 +21,11 @@
     * [Λύση θέματος 2](./preparation/prepare02.cpp)
     * [Λύση θέματος 3](./preparation/prepare03.cpp)
   * [Θέματα προετοιμασίας Β](./preparation/20190415_proodos_a.pdf)
-    * [Λύση θέματος 1](./preparation/exams20190625_a1.cpp)
-    * [Λύση θέματος 2](./preparation/exams20190625_a2.cpp)
+    * [Λύση θέματος 1](./preparation/exams20190415_a1.cpp)
+    * [Λύση θέματος 2](./preparation/exams20190415_a2.cpp)
   * [Θέματα προετοιμασίας Γ](./preparation/20190415_proodos_b.pdf)
-    * [Λύση θέματος 1](./preparation/exams20190625_b1.cpp)
-    * [Λύση θέματος 2](./preparation/exams20190625_b2.cpp)
+    * [Λύση θέματος 1](./preparation/exams20190415_b1.cpp)
+    * [Λύση θέματος 2](./preparation/exams20190415_b2.cpp)
 
 **Τελική εξέταση τον Ιανουάριο του 2022**
 
@@ -38,6 +38,8 @@
   * [Σχετικά αποσπάσματα κώδικα](./2021f_project1/help/README.md)
   * [Λύση πρώτης εργασίας](./2021f_project1_sol/README.md)
 - [ ] [<mark>Εκφώνηση δεύτερης εργασίας</mark>](./2021f_project2/2021f_oop_prj2.pdf) παράδοση μέχρι 18/12/2021
+  * [Μεταγλώττιση εφαρμογής με wxWidgets από τη γραμμή εντολών](https://vasnastos.github.io/OOP/wxwidgets.html)
+  * [Μεταγλώττιση εφαρμογής με wxWidgets από από το Visual Studio 2022](https://vasnastos.github.io/OOP/wxwidgets_vs)
 - [ ] Τρίτη εργασία
 
 ---
