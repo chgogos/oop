@@ -21,11 +21,11 @@
     * [Λύση θέματος 2](./preparation/prepare02.cpp)
     * [Λύση θέματος 3](./preparation/prepare03.cpp)
   * [Θέματα προετοιμασίας Β](./preparation/20190415_proodos_a.pdf)
-    * [Λύση θέματος 1](./preparation/exams20190415_a1.cpp)
-    * [Λύση θέματος 2](./preparation/exams20190415_a2.cpp)
+    * [Λύση θέματος 1](./preparation/exams20190415a_1.cpp)
+    * [Λύση θέματος 2](./preparation/exams20190415a_2.cpp)
   * [Θέματα προετοιμασίας Γ](./preparation/20190415_proodos_b.pdf)
-    * [Λύση θέματος 1](./preparation/exams20190415_b1.cpp)
-    * [Λύση θέματος 2](./preparation/exams20190415_b2.cpp)
+    * [Λύση θέματος 1](./preparation/exams20190415b_1.cpp)
+    * [Λύση θέματος 2](./preparation/exams20190415b_2.cpp)
 
 **Τελική εξέταση τον Ιανουάριο του 2022**
 
