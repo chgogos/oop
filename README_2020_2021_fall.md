@@ -70,7 +70,7 @@
 * [Quiz 1 στο ecourse](http://ecourse.uoi.gr/mod/quiz/view.php?id=84785)
 * [Quiz 2 στο ecourse](http://ecourse.uoi.gr/mod/quiz/view.php?id=85791)
 
-## Θέματα προηγούμενων ετών
+## Θέματα προηγούμενων ετών 
 
 * [Ενδεικτικά θέματα 1](./preparation/proodos.pdf)
   * [Λύση 1ου θέματος](./preparation/prepare01.cpp)
