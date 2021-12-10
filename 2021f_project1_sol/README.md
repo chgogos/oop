@@ -20,6 +20,16 @@ Test για τη συνάρτηση horse::move_forward
 
 ## Ερώτημα Β
 
+
+Κλάση arena
+
+* [arena.hpp](./arena.hpp)
+* [arena.cpp](./arena.cpp)
+
+Πρόγραμμα οδηγός για το ερώτημα Β
+
+* [horse_races_b.cpp](./horse_races_b.cpp)
+
     $ g++ .\horse.cpp .\arena.cpp .\horse_races_b.cpp -o horse_races_b -Wall -Werror -pedantic -std=c++17
     $ horse_races_b.exe
     Race horses
@@ -118,6 +128,10 @@ Test για τη συνάρτηση horse::move_forward
     5 - 5 Rogue startup = 79 power = 66 stamina = 73   
 
 ## Ερώτημα Γ
+
+Πρόγραμμα οδηγός για το ερώτημα Γ
+
+* [horse_races_c.cpp](./horse_races_c.cpp)
 
     $ g++ .\horse.cpp .\arena.cpp .\horse_races_c.cpp -o horse_races_c -Wall -Werror -pedantic -std=c++17
     $ horse_races_c.exe
