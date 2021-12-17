@@ -10,7 +10,7 @@
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας
   * MS-TEAMS ομάδα μαθήματος: [OOP](https://tinyurl.com/r4vjxne6) για επανάληψη εργαστηρίων
 
-Τελευταία ενημέρωση: 16/12/2021
+Τελευταία ενημέρωση: 17/12/2021
 
 **Πρόοδος στις 9/12/2021 12:00-14:00 στο MSTEAMS**
 
@@ -30,7 +30,7 @@
 **Τελική εξέταση τον Ιανουάριο του 2022**
 
 * [<mark>Θέματα επανάληψης</mark>](./recitation/recitation.md)
-* [Θέματα πρετοιμασίας Δ](./preparation/telikes.pdf)
+* [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
   * [Λύση θέματος 1](./preparation/prepare04.cpp)
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
 
@@ -40,10 +40,10 @@
 - [X] [Εκφώνηση πρώτης εργασίας](./2021f_project1/2021f_oop_prj1.pdf) παράδοση μέχρι ~~21/11/2021~~
   <!-- * [Σχετικά αποσπάσματα κώδικα](./2021f_project1/help/README.md) -->
   * [Λύση πρώτης εργασίας](./2021f_project1_sol/README.md)
-- [ ] [<mark>Εκφώνηση δεύτερης εργασίας</mark>](./2021f_project2/2021f_oop_prj2.pdf) παράδοση μέχρι 18/12/2021
+- [ ] [<mark>Εκφώνηση δεύτερης εργασίας</mark>](./2021f_project2/2021f_oop_prj2.pdf) παράδοση μέχρι ~~18/12/2021~~ 23/12/2021
   * [Μεταγλώττιση εφαρμογής με wxWidgets από τη γραμμή εντολών](https://vasnastos.github.io/OOP/wxwidgets.html)
   * [Μεταγλώττιση εφαρμογής με wxWidgets από από το Visual Studio 2022](https://vasnastos.github.io/OOP/wxwidgets_vs)
-- [ ] Τρίτη εργασία
+* [<mark>Εκφώνηση τρίτης εργασίας</mark>](./2021f_project3/2021f_oop_prj3.pdf) παράδοση μέχρι 21/1/2022 
 
 ---
 
@@ -74,7 +74,7 @@
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
 * [Παρουσίαση 20 - Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf) 
-* [Παρουσίαση 21 - STL](./STL.pdf)
+* [<mark>Παρουσίαση 21 - STL</mark>](./STL.pdf)
 * [Παρουσίαση 22 - C++ vs Java](./C++%20vs%20Java.pdf)
 * [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./UML.pdf)
 
