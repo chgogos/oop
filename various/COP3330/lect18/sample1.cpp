@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-main()
+int main()
 {
   int donuts, milk;
   double dpg;
@@ -11,7 +11,7 @@ main()
   cout << "Enter number of glasses of milk:\n";
   cin >> milk;
 
-  dpg = donuts / static_cast<double>(milk);
+  dpg = donuts / (double)milk;
 
   cout << donuts << " donuts.\n" 
        << milk << " glasses of milk.\n"
