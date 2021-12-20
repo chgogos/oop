@@ -77,10 +77,11 @@
 * Φίλες συναρτήσεις 
   * Παράδειγμα: Δημιουργήστε μια κλάση Α με ένα ακέραιο ιδιωτικό μέλος x. Συμπληρώστε μια φίλη συνάρτηση fun που να εκτυπώνει την τιμή του x για ένα αντικείμενο της κλάσης Α.
     * [friend_function_example.cpp](./lab02/friend_function_example.cpp)
-* Η βιβλιοθήκη [fmt](https://fmt.dev/latest/index.html) για εύκολη εμφάνιση αποτελεσμάτων
+* Η βιβλιοθήκη [fmt](https://fmt.dev/latest/index.html) για εύκολη εμφάνιση αποτελεσμάτων. 
   * [fmt_example1.cpp](./lab02/fmt_example1.cpp)
   * [fmt_example2.cpp](./lab02/fmt_example2.cpp)
-  * [Usage](https://fmt.dev/latest/usage.html) δημιουργία φακέλου fmt στον φάκελο που βρίσκεται το fmt_example1.cpp, αντιγραφή των core.h, format-inl.h, format.h από το zip του fmt στον φάκελο fmt, αντιγραφή του format.cc από το zip του fmt στον ίδιο φάκελο με το fmt_example1.cpp 
+  * [Χρήση](https://fmt.dev/latest/usage.html) δημιουργία φακέλου fmt στον φάκελο που βρίσκεται το fmt_example1.cpp, αντιγραφή των core.h, format-inl.h, format.h από το zip του fmt στον φάκελο fmt, αντιγραφή του format.cc από το zip του fmt στον ίδιο φάκελο με το fmt_example1.cpp
+  * [Επιπλέον οδηγίες από το h/cpp hacking C++](https://hackingcpp.com/cpp/libs/fmt.html)
 
 Μεταγλώττιση και εκτέλεση του fmt_example1.cpp
 
@@ -165,12 +166,53 @@ Elapsed time: 1.23 seconds
 
 <!-- * Δείκτες συνάρτησης -->
 
-## Εργαστήριο 6
+## Εργαστήριο 6 (20/12/2021 - 14/01/2022)
 
-* STL
-    * Containers
-    * Iterators
-    * Algorithms
+* Η βιβλιοθήκη STL (Standard Template Library)
+* Containers (περιέκτες). Παραδείγματα με sequence containers (ακολουθιακούς περιέκτες) και με associative containers (συσχετιστικούς περιέκτες)
+  * [std::vector](https://hackingcpp.com/cpp/std/vector.html). Διάνυσμα μεταβλητού μεγέθους (δυναμικός πίνακας).
+    * Παράδειγμα: Εισάγετε σε ένα std::vector όλες τις άρτιες τιμές από το 0 μέχρι και το 100. Εμφανίστε με range based for το περιεχόμενο του διανύσματος σε μια γραμμή.
+    * [vector1.cpp](./../recitation/vector1.cpp) 
+  * [std::array](https://hackingcpp.com/cpp/std/sequence_containers.html#array). Πίνακας σταθερού μεγέθους.
+    * Παράδειγμα: Μεταφέρετε τα στοιχεία ενός πίνακα 10 θέσεων ακεραίων σε ένα std::array. Αλλάξτε τις τιμές κάθε θέσης του array έτσι ώστε να συσσωρεύουν το άθροισμα από όλες τις προηγούμενες θέσεις. Εμφανίστε το περιεχόμενο του array.
+    * [array1.cpp](./../recitation/array1.cpp)
+  * [std::list](https://hackingcpp.com/cpp/std/sequence_containers.html#list). Διπλά συνδεδεμένη λίστα.
+    * Παράδειγμα: Για όλες τις ακέραιες τιμές από το 1 μέχρι και το 20 εισάγετε τις τιμές εναλλάξ την μια στην αρχή και την άλλη στο τέλος ενός std::list. Εμφανίστε τη λίστα.
+    * [list1.cpp](./../recitation/list1.cpp)
+  * [std::set](https://hackingcpp.com/cpp/std/associative_containers.html). Σύνολο, δεν έχει διπλότυπα, διατηρεί τα στοιχεία του ταξινομημένα.
+    * Παράδειγμα: Εισάγετε 10 ακέραιες τιμές σε ένα std::set. Εμφανίστε ταξινομημένες τις τιμές. Πόσες τιμές εμφανίζονται;
+    * [set1.cpp](./../recitation/set1.cpp)
+  * [std::map](https://hackingcpp.com/cpp/std/associative_containers.html). Πίνακας αντιστοίχισης, διατηρεί ζεύγη της μορφής κλειδί-τιμή, τα ζεύγη είναι ταξινομημένα με βάση το κλειδί.
+    * Παράδειγμα: Χρησιμοποιώντας ένα std::map μετρήστε το πλήθος των ψηφίων που υπάρχουν σε όλους τους ακέραιους αριθμούς από το 1 μέχρι το 10000000. Εμφανίστε το πλήθος των παρατηρήσεων κάθε ψηφίου.
+    * [map1.cpp](./../recitation/map1.cpp)
+* [Iterators](https://hackingcpp.com/cpp/std/iterators_intro.html) (επαναλήπτες). Οι επαναλήπτες επιτρέπουν τη διάσχιση ενός container.
+  * random_iterator (τυχαίος επαναλήπτης, έχει δυνατότητα γρήγορης μεταφοράς σε  στοιχείο container με βάση τον αριθμό του δείκτη του στοιχείου)
+    * Παράδειγμα: Εισάγετε σε ένα std::vector ακεραίων 10 τιμές. Διανύστε με random iterator το διάνυσμα αυξάνοντας την τιμή κάθε στοιχείου του κατά 1. Εμφανίστε το διάνυσμα.
+    * [random_iterator1.cpp](./../recitation/random_iterator1.cpp)
+    * [random_iterator2.cpp](./../recitation/random_iterator2.cpp)
+  * forward_iterator (επαναλήπτης με δυνατότητα μετακίνησης μόνο προς τα εμπρός)
+    * Παράδειγμα: Εισάγετε σε ένα std::list ακεραίων 10 τιμές. Διανύστε τη λίστα με forward iterator διαγράφοντας όλες τις άρτιες τιμές. Εμφανίστε τη λίστα.
+    * [forward_iterator1.cpp](./../recitation/forward_iterator1.cpp)
+* [Algorithms](https://hackingcpp.com/cpp/std/algorithms/intro.html) (αλγόριθμοι). [Λίστα αλγορίθμων της STL](https://hackingcpp.com/cpp/std/algorithms.html).
+  * [std::sort](https://hackingcpp.com/cpp/std/algorithms/reordering.html#sort)
+    * Παράδειγμα: Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. Εμφανίστε το άθροισμα των 5 μεγαλύτερων τιμών.
+    * [sort1.cpp](./../recitation/sort1.cpp)
+  * [std::find](https://hackingcpp.com/cpp/std/algorithms/finding.html)
+    * Παράδειγμα: Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. Εξετάστε αν το ακέραιο μέρος του μέσου όρου των τιμών υπάρχει στο std::vector.
+    * [find1.cpp](./../recitation/find1.cpp)
+  * [std::copy](https://hackingcpp.com/cpp/std/algorithms/copying.html)
+    * Παράδειγμα: Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. Αντιγράψτε τις 5 πρώτες τιμές σε ένα άλλο std::vector.
+    * [copy1.cpp](./../recitation/copy1.cpp)
+  * [std::count_if](https://hackingcpp.com/cpp/std/algorithms.html#count_if)
+    * Παράδειγμα: Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. Μετρήστε τις άρτιες τιμές.
+    * [count_if1.cpp](./../recitation/count_if1.cpp)
+  * [std::accumulate](https://hackingcpp.com/cpp/std/algorithms/numeric.html#accumulate)
+    * Παράδειγμα: Εισάγετε 10 ακέραιες τιμές σε ένα std::vector. Υπολογίστε το άθροισμα και το γινόμενο των στοιχείων χωρίς να γράψετε εντολή επανάληψης.
+    * [accumulate1.cpp](./../recitation/accumulate1.cpp)
+
+## Εργαστήριο 7 
+
+Επανάληψη
 
 ---
 
