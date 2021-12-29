@@ -40,7 +40,7 @@
 - [X] [Εκφώνηση πρώτης εργασίας](./2021f_project1/2021f_oop_prj1.pdf) παράδοση μέχρι ~~21/11/2021~~
   <!-- * [Σχετικά αποσπάσματα κώδικα](./2021f_project1/help/README.md) -->
   * [Λύση πρώτης εργασίας](./2021f_project1_sol/README.md)
-- [X] [<mark>Εκφώνηση δεύτερης εργασίας</mark>](./2021f_project2/2021f_oop_prj2.pdf) παράδοση μέχρι ~~18/12/2021~~ δόθηκε παράταση μέχρι ~~23/12/2021~~
+- [X] [Εκφώνηση δεύτερης εργασίας](./2021f_project2/2021f_oop_prj2.pdf) παράδοση μέχρι ~~18/12/2021~~ δόθηκε παράταση μέχρι ~~23/12/2021~~
   * [Μεταγλώττιση εφαρμογής με wxWidgets από τη γραμμή εντολών](https://vasnastos.github.io/OOP/wxwidgets.html)
   * [Μεταγλώττιση εφαρμογής με wxWidgets από από το Visual Studio 2022](https://vasnastos.github.io/OOP/wxwidgets_vs)
   * [Λύση δεύτερης εργασίας](https://vasnastos.github.io/OOP/assignment_2_solution)
