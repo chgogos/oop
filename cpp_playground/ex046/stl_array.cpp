@@ -14,8 +14,8 @@ int main()
 
     std::cout << "array (example 2)" << std::endl;
     // δήλωση και αρχικοποίηση πίνακα 5 θέσεων
-    std::array array2{1, 2, 3, 4, 5};
-    // std::array<int, 5> array2{1, 2, 3, 4, 5}; // ισοδύναμο με το παραπάνω
+    // std::array array2{1, 2, 3, 4, 5};
+    std::array<int, 5> array2{1, 2, 3, 4, 5}; // ισοδύναμο με το παραπάνω
     for (size_t i = 0; i < array2.size(); i++)
     {
         std::cout << array2[i] << " ";
