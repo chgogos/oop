@@ -10,7 +10,7 @@
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας
   * MS-TEAMS ομάδα μαθήματος: [OOP](https://tinyurl.com/r4vjxne6) για επανάληψη εργαστηρίων
 
-Τελευταία ενημέρωση: 29/12/2021
+Τελευταία ενημέρωση: 12/1/2022
 
 **Πρόοδος στις 9/12/2021 12:00-14:00 στο MSTEAMS**
 
@@ -27,12 +27,15 @@
     * [Λύση θέματος 1](./preparation/proodos20190415b_1.cpp)
     * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp)
 
-**Τελική εξέταση τον Ιανουάριο του 2022**
+**Τελική εξέταση στις 8/2/2022**
 
 * [<mark>Θέματα επανάληψης</mark>](./recitation/recitation.md)
 * [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
   * [Λύση θέματος 1](./preparation/prepare04.cpp)
+  * [Λύση θέματος 2](./preparation/prepare09.cpp)
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
+  * [Λύση θέματος 4](./preparation/prepare06.cpp)
+  * [Λύση θέματος 5](./preparation/prepare07.cpp)
 
 
 ## ΕΡΓΑΣΙΕΣ
@@ -44,7 +47,7 @@
   * [Μεταγλώττιση εφαρμογής με wxWidgets από τη γραμμή εντολών](https://vasnastos.github.io/OOP/wxwidgets.html)
   * [Μεταγλώττιση εφαρμογής με wxWidgets από από το Visual Studio 2022](https://vasnastos.github.io/OOP/wxwidgets_vs)
   * [Λύση δεύτερης εργασίας](https://vasnastos.github.io/OOP/assignment_2_solution)
-* [<mark>Εκφώνηση τρίτης εργασίας</mark>](./2021f_project3/2021f_oop_prj3.pdf) παράδοση μέχρι 21/1/2022 
+* [ ] [<mark>Εκφώνηση τρίτης εργασίας</mark>](./2021f_project3/2021f_oop_prj3.pdf) παράδοση μέχρι 21/1/2022 
 
 ---
 
