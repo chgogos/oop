@@ -21,7 +21,7 @@ int main()
             dict[c - '0']++;
         }
     }
-    for (auto kv : dict)
+    for (const auto &kv : dict)
     {
         cout << kv.first << " " << kv.second << endl;
     }
