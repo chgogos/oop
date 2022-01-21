@@ -2,7 +2,7 @@
 
   Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
   
-  Γκόγκος Χρήστος - Άρτα@2021
+  Γκόγκος Χρήστος - Άρτα@2022
 
 * e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
 * MS-TEAMS ομάδα για ερωτήσεις - επίλυση αποριών: [ALGOLAB](https://teams.microsoft.com/l/team/19%3aHZIk7QkU5PRruBdkoIZDjqV5CqoWCdKccau1I_PcH-Q1%40thread.tacv2/conversations?groupId=45b4816f-3d33-4c1f-a164-8b499330c1d1&tenantId=08bea52a-5ad3-4627-9549-5ff3a65676be)
@@ -35,7 +35,7 @@
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
   * [Λύση θέματος 4](./preparation/prepare06.cpp)
   * [Λύση θέματος 5](./preparation/prepare07.cpp)
-* [Προσομοίωση εξετάσεων](./preparation/20220120%20-%20ΠΡΟΣΟΜΟΙΩΣΗ%20ΕΞΕΤΑΣΗΣ.pdf)
+* [<mark>Προσομοίωση εξετάσεων</mark>](./preparation/20220120%20-%20ΠΡΟΣΟΜΟΙΩΣΗ%20ΕΞΕΤΑΣΗΣ.pdf)
   * [Λύση θέματος 1](./preparation/prepare20220120_q1.cpp)
   * [Λύση θέματος 2a](./preparation/prepare20220120_q2a.cpp)
   * [Λύση θέματος 2b](./preparation/prepare20220120_q2b.cpp)
@@ -104,7 +104,7 @@
 
 ## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων 
 
-* [C++ reference card](./resources/Cpp_refcard.pdf)
+* [<mark>C++ reference card</mark>](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
 
