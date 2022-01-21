@@ -8,7 +8,7 @@ int main()
 {
     vector<int> v{46, 23, 78, 81, 95};
     sort(v.begin(), v.end(), greater<int>());
-    for (auto itr = v.begin(); itr != v.end(); itr++)
+    for (vector<int>::iterator itr = v.begin(); itr != v.end(); itr++)
     {
         cout << *itr << endl;
     }
