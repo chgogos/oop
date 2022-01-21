@@ -10,33 +10,37 @@
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας
   * MS-TEAMS ομάδα μαθήματος: [OOP](https://tinyurl.com/r4vjxne6) για επανάληψη εργαστηρίων
 
-Τελευταία ενημέρωση: 12/1/2022
+Τελευταία ενημέρωση: 21/1/2022
 
-**Πρόοδος στις 9/12/2021 12:00-14:00 στο MSTEAMS**
+<!-- * [Ύλη προόδου](./proodos-20211209.md) -->
 
-* [Ύλη προόδου](./proodos-20211209.md)
-* Θέματα προετοιμασίας για την πρόοδο
-  * [Θέματα προετοιμασίας Α](./preparation/proodos.pdf)
-    * [Λύση θέματος 1](./preparation/prepare01.cpp)
-    * [Λύση θέματος 2](./preparation/prepare02.cpp)
-    * [Λύση θέματος 3](./preparation/prepare03.cpp)
-  * [Θέματα προετοιμασίας Β](./preparation/20190415_proodos_a.pdf)
-    * [Λύση θέματος 1](./preparation/proodos20190415a_1.cpp)
-    * [Λύση θέματος 2](./preparation/proodos20190415a_2.cpp)
-  * [Θέματα προετοιμασίας Γ](./preparation/20190415_proodos_b.pdf)
-    * [Λύση θέματος 1](./preparation/proodos20190415b_1.cpp)
-    * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp)
+**Τελική εξέταση στις 8/2/2022 (δια ζώσης)**
 
-**Τελική εξέταση στις 8/2/2022**
+[<mark>Ύλη</mark>](./final-202201.md)
 
-* [<mark>Θέματα επανάληψης</mark>](./recitation/recitation.md)
+* [<mark>Θέματα γενικής επανάληψης</mark>](./recitation/recitation.md)
+* [Θέματα προετοιμασίας Α](./preparation/proodos.pdf)
+  * [Λύση θέματος 1](./preparation/prepare01.cpp)
+  * [Λύση θέματος 2](./preparation/prepare02.cpp)
+  * [Λύση θέματος 3](./preparation/prepare03.cpp)
+* [Θέματα προετοιμασίας Β](./preparation/20190415_proodos_a.pdf)
+  * [Λύση θέματος 1](./preparation/proodos20190415a_1.cpp)
+  * [Λύση θέματος 2](./preparation/proodos20190415a_2.cpp)
+* [Θέματα προετοιμασίας Γ](./preparation/20190415_proodos_b.pdf)
+  * [Λύση θέματος 1](./preparation/proodos20190415b_1.cpp)
+  * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp)
 * [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
   * [Λύση θέματος 1](./preparation/prepare04.cpp)
   * [Λύση θέματος 2](./preparation/prepare09.cpp)
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
   * [Λύση θέματος 4](./preparation/prepare06.cpp)
   * [Λύση θέματος 5](./preparation/prepare07.cpp)
-
+* [Προσομοίωση εξετάσεων](./preparation/20220120%20-%20ΠΡΟΣΟΜΟΙΩΣΗ%20ΕΞΕΤΑΣΗΣ.pdf)
+  * [Λύση θέματος 1](./preparation/prepare20220120_q1.cpp)
+  * [Λύση θέματος 2a](./preparation/prepare20220120_q2a.cpp)
+  * [Λύση θέματος 2b](./preparation/prepare20220120_q2b.cpp)
+  * [Λύση θέματος 2c](./preparation/prepare20220120_q2c.cpp)
+  * [Λύση θέματος 3](./preparation/prepare20220120_q3.cpp)
 
 ## ΕΡΓΑΣΙΕΣ
 
@@ -47,7 +51,7 @@
   * [Μεταγλώττιση εφαρμογής με wxWidgets από τη γραμμή εντολών](https://vasnastos.github.io/OOP/wxwidgets.html)
   * [Μεταγλώττιση εφαρμογής με wxWidgets από από το Visual Studio 2022](https://vasnastos.github.io/OOP/wxwidgets_vs)
   * [Λύση δεύτερης εργασίας](https://vasnastos.github.io/OOP/assignment_2_solution)
-* [ ] [<mark>Εκφώνηση τρίτης εργασίας</mark>](./2021f_project3/2021f_oop_prj3.pdf) παράδοση μέχρι 21/1/2022 
+* [ ] [Εκφώνηση τρίτης εργασίας](./2021f_project3/2021f_oop_prj3.pdf) παράδοση μέχρι 21/1/2022 
 
 ---
 
@@ -55,41 +59,32 @@
 
 ## ΘΕΩΡΙΑ
 
-* [<mark>Παρουσίαση 1 - Εισαγωγή</mark>](./OOP1.pdf)
-* [<mark>Παρουσίαση 2 - Επίπεδα προστασίας, κατασκευαστές</mark>](./OOP2.pdf)
-* [<mark>Παρουσίαση 3 - Περιβάλλον Unix και μεταγλώττιση</mark>](./OOP3.pdf)
-* [<mark>Παρουσίαση 4 - friend, κατασκευαστές μετατροπής, destructors</mark>](./OOP4.pdf)
-* [<mark>Παρουσίαση 5 - const</mark>](./OOP5.pdf)
-* [<mark>Παρουσίαση 6 - Υπερφόρτωση τελεστών</mark>](./OOP6.pdf)
-* [<mark>Παρουσίαση 7 - Σύνθεση</mark>](./OOP7.pdf)
-* [<mark>Παρουσίαση 8 - Πίνακες αντικειμένων</mark>](./OOP8.pdf)
-* [<mark>Παρουσίαση 9 - Δείκτες</mark>](./OOP9.pdf)
-* [<mark>Παρουσίαση 10 - Δυναμική δέσμευση μνήμης</mark>](./OOP10.pdf)
+* [Παρουσίαση 1 - Εισαγωγή](./OOP1.pdf)
+* [Παρουσίαση 2 - Επίπεδα προστασίας, κατασκευαστές](./OOP2.pdf)
+* [Παρουσίαση 3 - Περιβάλλον Unix και μεταγλώττιση](./OOP3.pdf)
+* [Παρουσίαση 4 - friend, κατασκευαστές μετατροπής, destructors](./OOP4.pdf)
+* [Παρουσίαση 5 - const](./OOP5.pdf)
+* [Παρουσίαση 6 - Υπερφόρτωση τελεστών](./OOP6.pdf)
+* [Παρουσίαση 7 - Σύνθεση](./OOP7.pdf)
+* [Παρουσίαση 8 - Πίνακες αντικειμένων](./OOP8.pdf)
+* [Παρουσίαση 9 - Δείκτες](./OOP9.pdf)
+* [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf)
 * [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf)
-* [<mark>Παρουσίαση 12 - Κατασκευαστής αντιγραφής και αντιγραφή μέσω ανάθεσης</mark>](./OOP12.pdf)
+* [Παρουσίαση 12 - Κατασκευαστής αντιγραφής και αντιγραφή μέσω ανάθεσης](./OOP12.pdf)
 * [Παρουσίαση 13 - Λεκτικά, υπερφόρτωση του τελεστή [] και του τελεστή &](./OOP13.pdf)
-* [<mark>Παρουσίαση 14 - Κληρονομικότητα</mark>](./OOP14.pdf)
-* [<mark>Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις</mark>](./OOP15.pdf)
-* [<mark>Παρουσίαση 16 - Πρότυπα</mark>](./OOP16.pdf)
+* [Παρουσίαση 14 - Κληρονομικότητα](./OOP14.pdf)
+* [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf)
+* [Παρουσίαση 16 - Πρότυπα](./OOP16.pdf)
 * [Παρουσίαση 17 - Συνδεδεμένες λίστες](./OOP17.pdf)
-* [<mark>Παρουσίαση 18 - Εξαιρέσεις</mark>](./OOP18.pdf)
+* [Παρουσίαση 18 - Εξαιρέσεις](./OOP18.pdf)
 * [Παρουσίαση 19 - Χρήσιμες έννοιες στη C++ και μερικές ακόμα δομές δεδομένων](./OOP19.pdf)
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
 * [Παρουσίαση 20 - Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf) 
-* [<mark>Παρουσίαση 21 - STL</mark>](./STL.pdf)
+* [Παρουσίαση 21 - STL](./STL.pdf)
 * [Παρουσίαση 22 - C++ vs Java](./C++%20vs%20Java.pdf)
 * [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./UML.pdf)
-
-<!-- **Τμήματα κώδικα που συζητήθηκαν στη θεωρία του μαθήματος**
-
-* [live_coding_20211015.cpp](./lc/live_coding_20211015.cpp)
-* [live_coding_20211015b.cpp](./lc/live_coding_20211015b.cpp)
-* [live_coding_20211105.cpp](./lc/live_coding_20211105.cpp)
-* [live_coding_20211105b.cpp](./lc/live_coding_20211105b.cpp)
-* [live_coding_20211119a.cpp](./lc/live_coding_20211119a.cpp)
-* [live_coding_20211119b.cpp](./lc/live_coding_20211119b.cpp) -->
   
 ## ΕΡΓΑΣΤΗΡΙΟ
 
@@ -99,7 +94,7 @@
 
 ## Tutorials για τη C++
 
-* [<mark>Sololearn: C++</mark>](https://www.sololearn.com/Play/CPlusPlus)
+* [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus)
 * [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
 * [Saylor.org Academy: CS107 C++ Programming](https://learn.saylor.org/course/view.php?id=65)
 * [learncpp](https://www.learncpp.com/)
@@ -107,7 +102,7 @@
 * [Educative.io - Learn C++ from scratch](https://www.educative.io/courses/learn-cpp-from-scratch)
 * [cplusplus.com tutorials](http://www.cplusplus.com/doc/tutorial/)
 
-## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων
+## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων 
 
 * [C++ reference card](./resources/Cpp_refcard.pdf)
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)

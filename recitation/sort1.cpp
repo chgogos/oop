@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     vector<int> v{3, 1, 6, 7, 2, 4, 5, 8, 9, 4};
-    sort(v.begin(), v.end(), greater<int>());
+    sort(v.begin(), v.end(), less<int>());
     int sum = 0;
     for (int i = 0; i < 5; i++)
     {
