@@ -19,7 +19,7 @@ public:
     }
     double get_volume()
     {
-        return 4.0 / 3.0 * 3.14159 * radius * radius;
+        return 4.0 / 3.0 * 3.14159 * radius * radius * radius;
     }
     friend ostream &operator<<(ostream &os, Sphere &s)
     {
