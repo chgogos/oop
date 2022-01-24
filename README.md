@@ -10,7 +10,7 @@
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας
   * MS-TEAMS ομάδα μαθήματος: [OOP](https://tinyurl.com/r4vjxne6) για επανάληψη εργαστηρίων
 
-Τελευταία ενημέρωση: 21/1/2022
+Τελευταία ενημέρωση: 24/1/2022
 
 <!-- * [Ύλη προόδου](./proodos-20211209.md) -->
 
@@ -51,7 +51,8 @@
   * [Μεταγλώττιση εφαρμογής με wxWidgets από τη γραμμή εντολών](https://vasnastos.github.io/OOP/wxwidgets.html)
   * [Μεταγλώττιση εφαρμογής με wxWidgets από από το Visual Studio 2022](https://vasnastos.github.io/OOP/wxwidgets_vs)
   * [Λύση δεύτερης εργασίας](https://vasnastos.github.io/OOP/assignment_2_solution)
-* [ ] [Εκφώνηση τρίτης εργασίας](./2021f_project3/2021f_oop_prj3.pdf) παράδοση μέχρι 21/1/2022 
+* [Χ] [Εκφώνηση τρίτης εργασίας](./2021f_project3/2021f_oop_prj3.pdf) παράδοση μέχρι ~~21/1/2022~~
+  * [Λύση τρίτης εργασίας](https://vasnastos.github.io/OOP/assignment_3_solution)
 
 ---
 
