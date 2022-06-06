@@ -14,8 +14,11 @@
 
 <!-- * [Ύλη προόδου](./proodos-20211209.md) -->
 
-**Τελική εξέταση στις ~~8/2/2022~~**
+<!-- **Τελική εξέταση στις ~~8/2/2022~~** -->
+
 **Τελική εξέταση στις 7/6/2022**
+
+[<mark>C++ reference card</mark>](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
 
 [<mark>Ύλη</mark>](./final-202201.md)
 
@@ -106,7 +109,7 @@
 
 ## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων 
 
-* [<mark>C++ reference card</mark>](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
+* [C++ reference card](./resources/Cpp_refcard.pdf)
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
 
