@@ -19,7 +19,7 @@
             ],
             "defines": [],
             "macFrameworkPath": [],
-            "compilerPath": "C:/TDM-GCC-64/bin/g++",
+            "compilerPath": "C:/ProgramData/chocolatey/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
                 "intelliSenseMode": "gcc-x64"
