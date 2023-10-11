@@ -464,7 +464,8 @@
 * [C++ Coding Standards](https://gist.github.com/lefticus/10191322)
 * [Software Engineering Institute CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * <https://www.cs.northwestern.edu/academics/courses/211/html/c++-style.html>
-* <https://web.cs.dal.ca/~jin/3132/assignments/style.html>
+
+<!-- * <https://web.cs.dal.ca/~jin/3132/assignments/style.html> -->
 
 ## C++ Guidelines
 
@@ -623,8 +624,7 @@
 
 ## DEBUG 
 
-* [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG)](./various/DEBUG) 
-<!-- * [DEBUG ΠΑΡΑΔΕΙΓΜΑΤΑ ΜΕ VISUAL STUDIO COMMUNITY](./various/DEBUG) -->
+* [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG)](./various/DEBUG_EXAMPLES/README.md) 
 
 ## GIT + GITHUB
 
@@ -642,9 +642,10 @@
 
 ## Java
 
-* [Εγκατάσταση JDK + IDE](https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/javainstallation.html)
 * [techiedelight.com - online Java Compiler](https://techiedelight.com/compiler/)
 * [onlinegdb - online Java Compiler](https://www.onlinegdb.com/online_java_compiler)
+
+<!-- * [Εγκατάσταση JDK + IDE](https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/javainstallation.html) -->
 
 ## Τεκμηρίωση γλώσσας C++ και STL
 

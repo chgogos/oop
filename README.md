@@ -9,7 +9,7 @@
 * Θεωρία κάθε Δευτέρα 14:00-16:00 στο ΑΜΦ-Α και Παρασκευή 14:00-16:00 στο ΑΜΦ-Β
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας
 
-Τελευταία ενημέρωση: 6/10/2023
+Τελευταία ενημέρωση: 11/10/2023
 
 <!-- * [Ύλη προόδου](./proodos-20211209.md) -->
 
@@ -95,6 +95,11 @@
 * [<mark>Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2023-2024</mark>](./lab2023-2024f/README.md)
 
 ---
+
+## Debugging με το GDB
+
+* [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
+* [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
 
 ## Tutorials για τη C++
 
