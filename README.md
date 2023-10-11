@@ -99,6 +99,7 @@
 ## Debugging με το GDB
 
 * [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
+* [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
 * [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
 
 ## Tutorials για τη C++
