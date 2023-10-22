@@ -46,6 +46,7 @@
 ## ΕΡΓΑΣΙΕΣ
 
 - [X] [Εκφώνηση πρώτης εργασίας](./2023f_project1/2023f_oop_prj1.pdf) με προθεσμία παράδοσης 26 Νοεμβρίου 2023
+  - [Παραδείγματα κώδικα](./2023f_project1/README.md)
 - [ ] Δεύτερη εργασία (δεν έχει ανακοινωθεί)
 
 <!-- - [X] [Εκφώνηση πρώτης εργασίας](./2021f_project1/2021f_oop_prj1.pdf) παράδοση μέχρι ~~21/11/2021~~
@@ -101,6 +102,11 @@
 * [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
 * [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
 * [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
+
+## Παράδειγμα με τη βιβλιοθήκη Catch2
+
+* [FizzBuzz](./catch2_examples/fizzbuzz/README.md)
+
 
 ## Tutorials για τη C++
 
