@@ -1,6 +1,8 @@
-# Catch2 examples
+# Παραδείγματα με το Catch2
 
-## 1 Catch2 (Catch v2.11.1) με χρήση ενός μόνο header (catch.hpp)
+* [FizzBuzz](./fizzbuzz/README.md)
+
+<!-- ## 1 Catch2 (Catch v2.11.1) με χρήση ενός μόνο header (catch.hpp)
 
 * [test.cpp](./v2/test.cpp)
 * [test2.cpp](./v2/test2.cpp)
@@ -45,4 +47,4 @@
 Εντολές μεταγλώττισης και εκτέλεσης
 
     $ g++ test.cpp catch_amalgamated.cpp -o test -std=c++14
-    $ test.exe
+    $ test.exe -->
