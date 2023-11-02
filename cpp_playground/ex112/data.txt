@@ -1,0 +1,5 @@
+Nikos 75
+Maria 82
+Petros 40
+Kostas 50
+Sofia 90
