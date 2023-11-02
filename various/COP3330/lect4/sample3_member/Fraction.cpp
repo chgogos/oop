@@ -51,7 +51,7 @@ void Fraction::Show()
 
 bool Fraction::Equals(Fraction other)
 {
-    if (numer * other.denom == other.numer * denom)
+    if (this->numer * other.denom == other.numer * this->denom)
         return true;
     else
         return false;
