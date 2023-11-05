@@ -9,7 +9,7 @@
 * Θεωρία κάθε Δευτέρα 14:00-16:00 στο ΑΜΦ-Α και Παρασκευή 14:00-16:00 στο ΑΜΦ-Β
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας
 
-Τελευταία ενημέρωση: 2/11/2023
+Τελευταία ενημέρωση: 5/11/2023
 
 <!-- * [Ύλη προόδου](./proodos-20211209.md) -->
 
@@ -70,8 +70,8 @@
 * [<mark>Παρουσίαση 4 - friend, κατασκευαστές μετατροπής, destructors</mark>](./OOP4.pdf)
 * [<mark>Παρουσίαση 5 - const</mark>](./OOP5.pdf)
 * [<mark>Παρουσίαση 6 - Υπερφόρτωση τελεστών</mark>](./OOP6.pdf)
-* [Παρουσίαση 7 - Σύνθεση](./OOP7.pdf)
-* [Παρουσίαση 8 - Πίνακες αντικειμένων](./OOP8.pdf)
+* [<mark>Παρουσίαση 7 - Σύνθεση</mark>](./OOP7.pdf)
+* [<mark>Παρουσίαση 8 - Πίνακες αντικειμένων</mark>](./OOP8.pdf)
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf)
 * [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf)
 * [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf)
@@ -103,10 +103,10 @@
 * [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
 * [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
 
-## Παράδειγμα με τη βιβλιοθήκη Catch2
+## Παράδειγμα 
 
-* [<mark>FizzBuzz</mark>](./catch2_examples/fizzbuzz/README.md)
-
+* [<mark>FizzBuzz</mark>](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2
+* [<mark>Ανακατεύθυνση εισόδου</mark>](./cpp_playground/ex112/README.md) 
 
 ## Tutorials για τη C++
 
