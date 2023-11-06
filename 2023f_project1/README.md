@@ -29,8 +29,10 @@ $ ./timer2_ncurses
 
 ## Εκκαθάριση περιεχομένων κονσόλας - clear screen
 
-*** Linux & MacOS ***
+***Linux & MacOS***
 
 * [clearscr_linux.cpp](./clearscr_linux.cpp)
 
-<!-- *** Windows *** -->
+***Windows***
+
+* [clearscr_windows.cpp](./clearscr_windows.cpp)
