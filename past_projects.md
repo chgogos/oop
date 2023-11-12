@@ -39,7 +39,7 @@
 
 Πληροφορίες για τους μιγαδικούς και τις πράξεις με αυτούς μπορείτε να βρείτε στο διαδίκτυο.
 
-Β) Ελέγξτε όλες τις λειτουργίες της κλάσης με unit tests της βιβλιοθήκης [catch2](https://github.com/catchorg/Catch2) και με τη χρήση της κλάσης std::complex που ορίζεται στο αρχείο επικεφαλίδας <complex>. Δείτε το [https://en.cppreference.com/w/cpp/numeric/complex](https://en.cppreference.com/w/cpp/numeric/complex).
+Β) Ελέγξτε όλες τις λειτουργίες της κλάσης με unit tests της βιβλιοθήκης [catch2](https://github.com/catchorg/Catch2) και με τη χρήση της κλάσης std::complex που ορίζεται στο αρχείο επικεφαλίδας <complex>. Δείτε το <https://en.cppreference.com/w/cpp/numeric/complex>.
 
 Γ) Δημιουργήστε ένα GUI (Graphical User Interface) χρησιμοποιώντας το framework wxWidgets <https://www.wxwidgets.org/>. To GUI να δίνει τη δυνατότητα στο χρήστη να συμπληρώσει τα στοιχεία 2 μιγαδικών αριθμών και να επιτρέπει τη διενέργεια των πράξεων πρόσθεση, αφαίρεση, πολλαπλασιασμός, διαίρεση και ύψωση σε ακέραια σύναμη πατώντας πλήκτρα σε μια γραφική διεπαφή. 
 
