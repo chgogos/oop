@@ -1,4 +1,3 @@
-
 # Παραδείγματα κώδικα και άλλα
 
 * Παράδειγμα χρήσης δείκτη, διεύθυνσης μεταβλητής και αποαναφοράς (dereference) του δείκτη [pointers1.cpp](./cpp_playground/ex001/pointers1.cpp)
@@ -416,6 +415,12 @@
 * Παραδείγματα χρήσης της βιβλιοθήκης fmt
   * [fmt1.cpp](./cpp_playground/ex027/fmt1.cpp)
   * [fmt2.cpp](./cpp_playground/ex027/fmt2.cpp)
+
+## Static dispatch (ealry binding) vs. dynamic dispatch (late binding)
+
+Topics: vtables, vpointers
+
+* [Understanding Virtual Tables in C++](https://pabloariasal.github.io/2017/06/10/understanding-virtual-tables/) 
 
 ---
 
