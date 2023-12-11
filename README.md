@@ -32,6 +32,9 @@
   * [Λύση θέματος 1](./preparation/proodos20190415b_1.cpp)
   * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp)
 * [Θέματα πρόοδου](./preparation/20231208%20-%20ΠΡΟΟΔΟΣ.pdf)
+  * [Λύση θέματος 1](./preparation/q1.cpp)
+  * [Λύση θέματος 2](./preparation/q2.cpp)
+  * [Λύση θέματος 3](./preparation/q3.cpp)
 
 
 

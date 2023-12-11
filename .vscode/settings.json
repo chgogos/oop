@@ -104,7 +104,8 @@
         "compare": "cpp",
         "concepts": "cpp",
         "ranges": "cpp",
-        "stop_token": "cpp"
+        "stop_token": "cpp",
+        "xstring": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#f9e64f",
