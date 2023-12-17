@@ -634,12 +634,14 @@ Topics: vtables, vpointers
 ## GIT + GITHUB
 
 * [Git & GitHub Class](http://git-class.gr/)
-* [Learn Git from Scratch](https://labex.io/courses/learn-git-from-scratch)
 * [A Plumber’s Guide to Git](https://alexwlchan.net/a-plumbers-guide-to-git/)
+
+<!-- * [Learn Git from Scratch](https://labex.io/courses/learn-git-from-scratch) -->
+
 
 ## Περιβάλλον Linux μέσα από Windows
 
-* [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* [How to install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 * [VirtualBox](https://www.virtualbox.org/) + Linux Distribution (Ubuntu, XUbuntu, Mint, Suse, Debian, ...)
 * [Vagrant](https://www.vagrantup.com/)
 * [Docker](https://www.docker.com/)

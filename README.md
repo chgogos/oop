@@ -19,7 +19,7 @@
 
 <!-- [<mark>Ύλη</mark>](./final-202201.md) -->
 
-<!-- * [<mark>Θέματα γενικής επανάληψης</mark>](./recitation/recitation.md) -->
+* [<mark>Θέματα γενικής επανάληψης</mark>](./recitation/recitation.md)
 
 * [Θέματα προετοιμασίας Α (για την πρόοδο)](./preparation/proodos.pdf)
   * [Λύση θέματος 1](./preparation/prepare01.cpp)
@@ -35,16 +35,14 @@
   * [Λύση θέματος 1](./preparation/q1.cpp)
   * [Λύση θέματος 2](./preparation/q2.cpp)
   * [Λύση θέματος 3](./preparation/q3.cpp)
-
-
-
-<!-- * [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
+* [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
   * [Λύση θέματος 1](./preparation/prepare04.cpp)
   * [Λύση θέματος 2](./preparation/prepare09.cpp)
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
   * [Λύση θέματος 4](./preparation/prepare06.cpp)
   * [Λύση θέματος 5](./preparation/prepare07.cpp)
-* [<mark>Προσομοίωση εξετάσεων</mark>](./preparation/20220120%20-%20ΠΡΟΣΟΜΟΙΩΣΗ%20ΕΞΕΤΑΣΗΣ.pdf)
+
+<!-- * [<mark>Προσομοίωση εξετάσεων</mark>](./preparation/20220120%20-%20ΠΡΟΣΟΜΟΙΩΣΗ%20ΕΞΕΤΑΣΗΣ.pdf)
   * [Λύση θέματος 1](./preparation/prepare20220120_q1.cpp)
   * [Λύση θέματος 2a](./preparation/prepare20220120_q2a.cpp)
   * [Λύση θέματος 2b](./preparation/prepare20220120_q2b.cpp)
@@ -88,9 +86,9 @@
 * [<mark>Παρουσίαση 14 - Κληρονομικότητα</mark>](./OOP14.pdf)
 * [<mark>Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις</mark>](./OOP15.pdf)
 * [<mark>Παρουσίαση 16 - Πρότυπα</mark>](./OOP16.pdf)
-* [Παρουσίαση 17 - Συνδεδεμένες λίστες](./OOP17.pdf)
+* [<mark>Παρουσίαση 17 - Συνδεδεμένες λίστες</mark>](./OOP17.pdf)
 * [<mark>Παρουσίαση 18 - Εξαιρέσεις</mark>](./OOP18.pdf)
-* [Παρουσίαση 19 - Χρήσιμες έννοιες στη C++ και μερικές ακόμα δομές δεδομένων](./OOP19.pdf)
+* [<mark>Παρουσίαση 19 - Χρήσιμες έννοιες στη C++ και μερικές ακόμα δομές δεδομένων</mark>](./OOP19.pdf)
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
@@ -112,7 +110,7 @@
 * [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
 * [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
 
-## Παράδειγμα 
+## Διάφορα παράδειγματα 
 
 * [<mark>FizzBuzz</mark>](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2
 * [<mark>Ανακατεύθυνση εισόδου</mark>](./cpp_playground/ex112/README.md) 
