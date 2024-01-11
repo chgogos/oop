@@ -9,15 +9,14 @@
 * Θεωρία κάθε Δευτέρα 14:00-16:00 στο ΑΜΦ-Α και Παρασκευή 14:00-16:00 στο ΑΜΦ-Β
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας
 
-Τελευταία ενημέρωση: 17/12/2023
+Τελευταία ενημέρωση: 11/1/2024
 
 * [Ύλη προόδου](./proodos-20231208.md) - ημερομηνία προόδου ~~8/12/2023 14:00-16:00~~
 
-<!-- **Τελική εξέταση στις 7/6/2022**-->
+* [<mark>Ύλη τελικής εξέτασης</mark>](./final-202401.md) - ημερομηνία τελικής εξέτασης 19/2/2024 12:00-15:00**
 
 [<mark>C++ reference card</mark>](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις (προόδου και τελικές)
 
-<!-- [<mark>Ύλη</mark>](./final-202201.md) -->
 
 * [Θέματα γενικής επανάληψης](./recitation/recitation.md)
 
@@ -92,7 +91,7 @@
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
-* [Παρουσίαση 20 - Δείκτες στη C και στη C++](https://github.com/chgogos/ceteiep_dsa/blob/master/appendix_pointers/Pointers%20in%20C%20and%20C%2B%2B.pdf) 
+* [Παρουσίαση 20 - Δείκτες στη C και στη C++](./various/pointers/Pointers%20in%20C%20and%20C++.pdf) 
 * [<mark>Παρουσίαση 21 - STL</mark>](./STL.pdf)
   * [<mark>example_with_vector.cpp</mark>](./cpp_playground//ex046/example_with_vector.cpp)
 * [Παρουσίαση 22 - C++ vs Java](./C++%20vs%20Java.pdf)
