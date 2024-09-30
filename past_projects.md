@@ -8,7 +8,7 @@
 
 * [rock_paper_scissors.cpp](./lab2020-2021/lab2020f_ex1_sol/rock_paper_scissors.cpp)
 
-## <mark>Εργασία 2 (λογαριασμός τράπεζας)</mark>
+## Εργασία 2 (λογαριασμός τράπεζας)
 
 * [Εκφώνηση (pdf)](./lab2020/exercise1/20200217_assignment1.pdf)
 
