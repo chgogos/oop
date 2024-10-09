@@ -14,7 +14,7 @@
 
 [Ύλη τελικής εξέτασης](./final-202401.md) - ημερομηνία τελικής εξέτασης 19/2/2024 12:00-15:00 -->
 
-[<mark>C++ reference card</mark>](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
+[C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
 
 <!-- * [Θέματα γενικής επανάληψης](./recitation/recitation.md)
 * [Θέματα προετοιμασίας Α (για την πρόοδο)](./preparation/proodos.pdf)
@@ -125,7 +125,7 @@
 
 ## Διάφορα παράδειγματα 
 
-* [<mark>FizzBuzz</mark>](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2
+* [FizzBuzz](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2
 
 <!-- * [<mark>Ανακατεύθυνση εισόδου</mark>](./cpp_playground/ex112/README.md)   -->
 
