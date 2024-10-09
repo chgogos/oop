@@ -38,6 +38,7 @@ void drive(float distance_kms) {
 int main() {
     set_car_details("Toyota", "Corolla", 2022);
     add_fuel(40);
+    add_fuel(20);
     drive(2000); 
     printf("Car: %s %s %d fuel = %.2f\n", make, model, year, fuel_level);
     return 0;

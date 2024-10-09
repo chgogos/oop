@@ -8,13 +8,13 @@
 * Θεωρία κάθε Τρίτη 13:00-15:00 στο ΑΜΦ-Β και κάθε Πέμπτη 12:00-14:00 στο ΑΜΦ-Β.
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας.
 
-Τελευταία ενημέρωση: 30/9/2024
+Τελευταία ενημέρωση: 9/10/2024
 
 <!-- [Ύλη προόδου](./proodos-20231208.md) - ημερομηνία προόδου ~~8/12/2023 14:00-16:00~~
 
 [Ύλη τελικής εξέτασης](./final-202401.md) - ημερομηνία τελικής εξέτασης 19/2/2024 12:00-15:00 -->
 
-<!-- [<mark>C++ reference card</mark>](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις -->
+[<mark>C++ reference card</mark>](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
 
 <!-- * [Θέματα γενικής επανάληψης](./recitation/recitation.md)
 * [Θέματα προετοιμασίας Α (για την πρόοδο)](./preparation/proodos.pdf)
@@ -86,22 +86,17 @@
 
 ---
 
-## Debugging με το GDB
+## Online μαθήματα για τη C++
 
-* [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
-* [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
-* [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
+* [C++ institute - C++ essentials 1 by OpenEDG](https://edube.org/study/cppe1)
+* [C++ institute - C++ essentials 2 by OpenEDG](https://edube.org/study/cppe2)
+* [Saylor.org Academy: CS107 C++ Programming](https://learn.saylor.org/course/view.php?id=65)
 
-<!-- ## Διάφορα παράδειγματα 
-
-* [<mark>FizzBuzz</mark>](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2
-* [<mark>Ανακατεύθυνση εισόδου</mark>](./cpp_playground/ex112/README.md)  -->
 
 ## Tutorials για τη C++
 
 * [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus)
 * [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
-* [Saylor.org Academy: CS107 C++ Programming](https://learn.saylor.org/course/view.php?id=65)
 * [learncpp](https://www.learncpp.com/)
 * [Udemy: C++ Tutorial for Complete Beginners](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
 * [Educative.io - Learn C++ from scratch](https://www.educative.io/courses/learn-cpp-from-scratch)
@@ -119,6 +114,21 @@
 * [zeal](https://zealdocs.org/) για offline χρήση
 * [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
 * [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
+
+
+## Debugging με το GDB
+
+* [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
+* [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
+* [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
+
+
+## Διάφορα παράδειγματα 
+
+* [<mark>FizzBuzz</mark>](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2
+
+<!-- * [<mark>Ανακατεύθυνση εισόδου</mark>](./cpp_playground/ex112/README.md)   -->
+
 
 ---
 
