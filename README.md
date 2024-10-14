@@ -97,7 +97,9 @@
 
 * [C++ institute - C++ essentials 1 by OpenEDG](https://edube.org/study/cppe1)
 * [C++ institute - C++ essentials 2 by OpenEDG](https://edube.org/study/cppe2)
-* [Saylor.org Academy: CS107 C++ Programming](https://learn.saylor.org/course/view.php?id=65)
+* CS107
+  * [Saylor.org Academy: CS107 C++ Programming](https://learn.saylor.org/course/view.php?id=65)
+  * [Stanford Engineering Everywhere - CS107 - Programming Paradigms](https://see.stanford.edu/Course/CS107/198)
 * [Modern C++ Programming - C++03 / C++11 / C++14 / C++17 / C++20 / C++23 / C++26 by Federico Busato](https://federico-busato.github.io/Modern-CPP-Programming/)
 
 
@@ -144,7 +146,7 @@
   * [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
   * [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
   * [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
-  * [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG)](./various/DEBUG_EXAMPLES/README.md) 
+  * [Παραδείγματα αποσφαλμάτωσης](./various/DEBUG_EXAMPLES/README.md) 
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software) <https://cmake.org/>
   * [Introduction to CMake](https://enccs.github.io/intro-cmake/)
   * <https://github.com/pr0g/cmake-examples>
