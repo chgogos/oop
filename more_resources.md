@@ -428,7 +428,6 @@ Topics: vtables, vpointers
 
 * [The C++ Programming Language (4th Edition)](http://www.stroustrup.com/4th.html)
 * [Η γλώσσα προγραμματισμού C++ (4η αμερικανική έκδοση)](http://www.klidarithmos.gr/h-glwssa-programmatismoy-cplus-4h-ekdosh)
-* [Εισαγωγή στη γλώσσα προγραμματισμού C++14, Σταμάτης Σταματιάδης](https://www.materials.uoc.gr/el/undergrad/courses/ETY215/notes.pdf)
 * [C++ Notes for Professionals book](https://goalkicker.com/CPlusPlusBook/)
 * [Δομές δεδομένων και αλγόριθμοι με τη C++, Γκόγκος Χρήστος](https://github.com/chgogos/ceteiep_dsa/raw/master/ceteiep_dsa_book.pdf)
 
@@ -620,16 +619,6 @@ Topics: vtables, vpointers
 * [Atom](https://atom.io/)
 * [Notepad++](https://notepad-plus-plus.org/)
 
-### Build tools
-
-* [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm)
-* CMAKE (An open-source, cross-platform family of tools designed to build, test and package software)
-  * <https://cmake.org/>
-  * <https://github.com/pr0g/cmake-examples>
-
-## DEBUG 
-
-* [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG)](./various/DEBUG_EXAMPLES/README.md) 
 
 ## GIT + GITHUB
 

@@ -8,7 +8,7 @@
 * Θεωρία κάθε Τρίτη 13:00-15:00 στο ΑΜΦ-Β και κάθε Πέμπτη 12:00-14:00 στο ΑΜΦ-Β.
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας.
 
-Τελευταία ενημέρωση: 9/10/2024
+Τελευταία ενημέρωση: 14/10/2024
 
 <!-- [Ύλη προόδου](./proodos-20231208.md) - ημερομηνία προόδου ~~8/12/2023 14:00-16:00~~
 
@@ -91,16 +91,19 @@
 * [C++ institute - C++ essentials 1 by OpenEDG](https://edube.org/study/cppe1)
 * [C++ institute - C++ essentials 2 by OpenEDG](https://edube.org/study/cppe2)
 * [Saylor.org Academy: CS107 C++ Programming](https://learn.saylor.org/course/view.php?id=65)
+* [Modern C++ Programming - C++03 / C++11 / C++14 / C++17 / C++20 / C++23 / C++26 by Federico Busato](https://federico-busato.github.io/Modern-CPP-Programming/)
 
 
 ## Tutorials για τη C++
 
-* [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus)
-* [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
 * [learncpp](https://www.learncpp.com/)
-* [Udemy: C++ Tutorial for Complete Beginners](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
-* [Educative.io - Learn C++ from scratch](https://www.educative.io/courses/learn-cpp-from-scratch)
+* [yet another insignificant... programming notes](https://www3.ntu.edu.sg/home/ehchua/programming/index.html#Cpp)
+* [wikibooks - C++ programming](https://en.wikibooks.org/wiki/C%2B%2B_Programming)
 * [cplusplus.com tutorials](http://www.cplusplus.com/doc/tutorial/)
+* [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
+* [Educative.io - Learn C++ from scratch](https://www.educative.io/courses/learn-cpp-from-scratch)
+* [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus)
+* [Udemy: C++ Tutorial for Complete Beginners](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
 
 ## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων 
 
@@ -116,19 +119,31 @@
 * [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
 
 
-## Debugging με το GDB
-
-* [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
-* [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
-* [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
-
-
-## Διάφορα παράδειγματα 
+## Παράδειγματα 
 
 * [FizzBuzz](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2
 
 <!-- * [<mark>Ανακατεύθυνση εισόδου</mark>](./cpp_playground/ex112/README.md)   -->
 
+## Βιβλία
+
+* [Καράλη, Ι. (2023). Αντικειμενοστραφής Προγραμματισμός: Έννοιες και Τεχνικές [Προπτυχιακό εγχειρίδιο]. Κάλλιπος, Ανοικτές Ακαδημαϊκές Εκδόσεις.](https://dx.doi.org/10.57713/kallipos-280)
+* [Αλεβίζος, Θ. (2014). Προγραμματισμός με τη γλώσσα C++ [Προπτυχιακό εγχειρίδιο]. Κάλλιπος, Ανοικτές Ακαδημαϊκές Εκδόσεις.](https://dx.doi.org/10.57713/kallipos-442)
+* [Εισαγωγή στη γλώσσα προγραμματισμού C++14, Σταμάτης Σταματιάδης](https://raw.githubusercontent.com/sstamat/mybooks/main/cppbook.pdf)
+
+## Διάφορα
+
+* Debugging
+  * [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
+  * [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
+  * [Using GNU's GDB Debugger by Peter Jay Salzman](http://www.dirac.org/linux/gdb/)
+  * [ΠΑΡΑΔΕΙΓΜΑΤΑ ΑΠΟΣΦΑΛΜΑΤΩΣΗΣ (DEBUG)](./various/DEBUG_EXAMPLES/README.md) 
+* CMAKE (An open-source, cross-platform family of tools designed to build, test and package software) <https://cmake.org/>
+  * [Introduction to CMake](https://enccs.github.io/intro-cmake/)
+  * <https://github.com/pr0g/cmake-examples>
+
+<!-- * make
+  * [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm) -->
 
 ---
 
