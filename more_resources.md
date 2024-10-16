@@ -42,7 +42,13 @@
 * Στατικά μέλη κλάσεων
   * [static_example1.cpp](./cpp_playground/ex013/static_example1.cpp)
   * [static_example2.cpp](./cpp_playground/ex013/static_example2.cpp) (πρόσβαση με static συνάρτηση στα ιδιωτικά μέλη κλάσης)
-* Φίλες (friend) συναρτήσεις [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) και φίλες κλάσεις [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
+* Φίλες (friend) συναρτήσεις και φίλες κλάσεις:
+  *  [friend_function1.cpp](./cpp_playground/ex012/friend_function1.cpp) 
+  *  [friend_class1.cpp](./cpp_playground/ex012/friend_class1.cpp)
+  *  Ένα ακόμα παράδειγμα χρήσης του friend:
+     *  [example_friend1.cpp](./cpp_playground/ex118/example_friend1.cpp)
+     *  [example_friend2.cpp](./cpp_playground/ex118/example_friend2.cpp)
+     *  [example_friend3.cpp](./cpp_playground/ex118/example_friend3.cpp)
 * Υπερφόρτωση τελεστών (δυαδικός τελεστής +)
   * Υπερφόρτωση τελεστή + με χρήση καθολικής συνάρτησης [operator_overload1.cpp](./cpp_playground/ex015/operator_overload1.cpp)
   * Υπερφόρτωση τελεστή + με χρήση συνάρτησης μέλους [operator_overload2.cpp](./cpp_playground/ex015/operator_overload2.cpp)
