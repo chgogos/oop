@@ -518,7 +518,7 @@ Topics: vtables, vpointers
   * <https://github.com/catchorg/Catch2>
 
 * fmt (Small, safe and fast formatting library)
-  * <http://fmtlib.net/latest/index.html>
+  * <https://fmt.dev/latest/index.html>
 
 * folly (An open-source C++ library developed and used at Facebook)
   * <https://github.com/facebook/folly>
@@ -527,9 +527,9 @@ Topics: vtables, vpointers
 
 ### IDEs (Integrated Development Environments)
 
-#### Visual Studio
+#### Visual Studio Community Edition
 
-* [Visual Studio with C++ 2019 Community Edition](https://visualstudio.microsoft.com/vs/features/cplusplus/)
+* [Visual Studio with C++ Community Edition](https://visualstudio.microsoft.com/vs/community/)
 
 #### CLION
 
