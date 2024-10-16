@@ -26,6 +26,7 @@
   * [const3.cpp](./cpp_playground/ex005/const3.cpp) const σε δείκτες
   * [const4.cpp](./cpp_playground/ex005/const4.cpp) const σε δηλώσεις μεταβλητών αντικειμένων και σε συναρτήσεις μέλη κλάσεων
   * [const5.cpp](./cpp_playground/ex005/const5.cpp) const σε αναφορές που επιστρέφουν συναρτήσεις μέλη
+  * [example_const.cpp](./cpp_playground/ex119/example_const.cpp) παράδειγμα με 7 διαφορερικές χρήσεις του const
 * Κατασκευαστής με default τιμή παραμέτρου, το παράδειγμα μιας στοίβας [Stack.cpp](./cpp_playground/ex007/Stack.cpp)
 * Copy constructor (shallow vs deep copy)
   * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
@@ -655,3 +656,8 @@ Topics: vtables, vpointers
 * [zeal](https://zealdocs.org/) για offline χρήση
 * [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
 * [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
+
+
+##  Διάφορα
+
+* [How to Read C++ Variable Declarations](https://faculty.cs.niu.edu/~mcmahon/CS241/Notes/reading_declarations.html)

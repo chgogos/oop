@@ -114,6 +114,12 @@
 * [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus)
 * [Udemy: C++ Tutorial for Complete Beginners](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
 
+## Βίντεο για τη C++
+
+* [CppCon](https://www.youtube.com/user/CppCon/videos)
+* [C++ The Cherno](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+* [C++ FULL COURSE For Beginners - CodeBeauty](https://www.youtube.com/watch?v=wN0x9eZLix4)
+
 ## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων 
 
 * [C++ reference card](./resources/Cpp_refcard.pdf)
