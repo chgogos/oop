@@ -15,7 +15,7 @@
 3. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 4. Βιβλίο [50659221]: C++ Προγραμματισμός, 9η Εκδ., Paul J. Deitel, Harvey M. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:50659221/0)
 
-Τελευταία ενημέρωση: 16/10/2024
+Τελευταία ενημέρωση: 21/10/2024
 
 <!-- [Ύλη προόδου](./proodos-20231208.md) - ημερομηνία προόδου ~~8/12/2023 14:00-16:00~~
 
@@ -148,6 +148,10 @@
 
 ## Διάφορα
 
+* [C++ insights by Andreas Fertig](https://cppinsights.io/)
+  * [C++ insights Youtube channel](https://www.youtube.com/watch?v=NhIubRbFfuM&list=PLm0Dc2Lp2ycaFyR2OqPkusuSB8LmifY8D)
+* [Compiler explorer by Matt Godbolt](https://godbolt.org/)
+* [Online C++ compiler and visual debugger - pythontutor](https://pythontutor.com/cpp.html#mode=edit)
 * Debugging
   * [All GDB by Kevin Elphinstone](https://www.cse.unsw.edu.au/~learn/debugging/modules/all_gdb/)
   * [Learn GDB debugger](https://www.bitdegree.org/learn/gdb-debugger)
