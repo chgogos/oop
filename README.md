@@ -15,7 +15,7 @@
 3. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 4. Βιβλίο [50659221]: C++ Προγραμματισμός, 9η Εκδ., Paul J. Deitel, Harvey M. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:50659221/0)
 
-Τελευταία ενημέρωση: 21/10/2024
+Τελευταία ενημέρωση: 23/10/2024
 
 <!-- [Ύλη προόδου](./proodos-20231208.md) - ημερομηνία προόδου ~~8/12/2023 14:00-16:00~~
 
@@ -23,12 +23,13 @@
 
 [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
 
-<!-- * [Θέματα γενικής επανάληψης](./recitation/recitation.md)
+<!-- * [Θέματα γενικής επανάληψης](./recitation/recitation.md) -->
+
 * [Θέματα προετοιμασίας Α (για την πρόοδο)](./preparation/proodos.pdf)
   * [Λύση θέματος 1](./preparation/prepare01.cpp)
   * [Λύση θέματος 2](./preparation/prepare02.cpp)
   * [Λύση θέματος 3](./preparation/prepare03.cpp)
-* [Θέματα προετοιμασίας Β (για την πρόοδο)](./preparation/20190415_proodos_a.pdf)
+<!-- * [Θέματα προετοιμασίας Β (για την πρόοδο)](./preparation/20190415_proodos_a.pdf)
   * [Λύση θέματος 1](./preparation/proodos20190415a_1.cpp)
   * [Λύση θέματος 2](./preparation/proodos20190415a_2.cpp)
 * [Θέματα προετοιμασίας Γ (για την πρόοδο)](./preparation/20190415_proodos_b.pdf)
@@ -119,6 +120,7 @@
 * [CppCon](https://www.youtube.com/user/CppCon/videos)
 * [C++ The Cherno](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 * [C++ FULL COURSE For Beginners - CodeBeauty](https://www.youtube.com/watch?v=wN0x9eZLix4)
+* [C++ Weekly With Jason Turner](https://www.youtube.com/channel/UCxHAlbZQNFU2LgEtiqd2Maw)
 
 ## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων 
 
