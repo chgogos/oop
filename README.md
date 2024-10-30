@@ -15,7 +15,7 @@
 3. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 4. Βιβλίο [50659221]: C++ Προγραμματισμός, 9η Εκδ., Paul J. Deitel, Harvey M. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:50659221/0)
 
-Τελευταία ενημέρωση: 23/10/2024
+Τελευταία ενημέρωση: 30/10/2024
 
 <!-- [Ύλη προόδου](./proodos-20231208.md) - ημερομηνία προόδου ~~8/12/2023 14:00-16:00~~
 
@@ -32,7 +32,9 @@
 
 <!-- * [Θέματα προετοιμασίας Β (για την πρόοδο)](./preparation/20190415_proodos_a.pdf)
   * [Λύση θέματος 1](./preparation/proodos20190415a_1.cpp)
-  * [Λύση θέματος 2](./preparation/proodos20190415a_2.cpp)
+  * [Λύση θέματος 2](./preparation/proodos20190415a_2.cpp) -->
+
+<!-- 
 * [Θέματα προετοιμασίας Γ (για την πρόοδο)](./preparation/20190415_proodos_b.pdf)
   * [Λύση θέματος 1](./preparation/proodos20190415b_1.cpp)
   * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp)

@@ -28,11 +28,13 @@
   * [const5.cpp](./cpp_playground/ex005/const5.cpp) const σε αναφορές που επιστρέφουν συναρτήσεις μέλη
   * [example_const.cpp](./cpp_playground/ex119/example_const.cpp) παράδειγμα με 7 διαφορερικές χρήσεις του const
 * Κατασκευαστής με default τιμή παραμέτρου, το παράδειγμα μιας στοίβας [Stack.cpp](./cpp_playground/ex007/Stack.cpp)
-* Copy constructor (shallow vs deep copy)
-  * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
-  * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment με deep copy
-  * [copy_constructor3.cpp](./cpp_playground/ex010/copy_constructor3.cpp) παράδειγμα που το shallow copy είναι αρκετό
-  * [copy_constructor4.cpp](./cpp_playground/ex010/copy_constructor4.cpp) παραλλαγή του προηγούμενου παραδείγματος στο οποίο γίνεται δυναμική δέσμευση μνήμης και απαιτείται deep copy
+* Κατασευαστής αντιγραφής Copy constructor 
+  * [copy_constructor_example.cpp](./cpp_playground/ex121/copy_constructor_example.cpp) απλό παράδειγμα με copy constructor
+  * Παραδείγμα με ρηχή αντιγραφή και βαθιά αντιγραφή (shallow vs deep copy)
+    * [copy_constructor1.cpp](./cpp_playground/ex010/copy_constructor1.cpp) shallow copy
+    * [copy_constructor2.cpp](./cpp_playground/ex010/copy_constructor2.cpp) deep copy και copy assignment με deep copy
+    * [copy_constructor3.cpp](./cpp_playground/ex010/copy_constructor3.cpp) παράδειγμα που το shallow copy είναι αρκετό
+    * [copy_constructor4.cpp](./cpp_playground/ex010/copy_constructor4.cpp) παραλλαγή του προηγούμενου παραδείγματος στο οποίο γίνεται δυναμική δέσμευση μνήμης και απαιτείται deep copy
 * "Αόρατες" αντιγραφές κατά την κλήση συναρτήσεων [copies.cpp](./cpp_playground/ex020/copies.cpp)
 * Λίστα αρχικοποίησης (initializer list)
   * [initializer_list1.cpp](./cpp_playground/ex044/initializer_list1.cpp)
@@ -76,6 +78,9 @@
   * [final2.cpp](./cpp_playground/ex049/final2.cpp) final κλάση
 * Παράδειγμα κληρονομικότητας (σχέση ISA) [Person.h](./cpp_playground/ex006/Person.h), [Person.cpp](./cpp_playground/ex006/Person.cpp), [Student.h](./cpp_playground/ex006/Student.h), [Main.cpp](./cpp_playground/ex006/Main.cpp)
 * Παράδειγμα σύνθεσης - composition (σχέση HAS) [composition.cpp](./cpp_playground/ex019/composition.cpp)
+* Παράδειγμα σύνθεσης (strong vs weak containment)
+  * [composition_strong_weak.cpp](./cpp_playground/ex122/composition_strong_weak.cpp) χρήση pointer για το weak containment
+  * [composition_strong_weak2.cpp](./cpp_playground/ex122/composition_strong_weak2.cpp) χρήση reference για το weak containment 
 * Upcasting (μετατροπή μιας αναφοράς ή ενός δείκτη μιας κληρονομούμενης κλάσης στην κλάση γονέα) / Downcasting (μετατροπή μιας αναφοράς ή ενός δείκτη της κλάσης γονέα σε κληρονομούμενη κλάση, το downcasting δεν επιτρέπεται αν δεν υπάρχει explicit type cast)
   * [upcasting_downcasting1.cpp](./cpp_playground/ex021/upcasting_downcasting1.cpp)
   * [upcasting1.cpp](./cpp_playground/ex021/upcasting1.cpp)
