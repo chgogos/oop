@@ -109,7 +109,9 @@
         "xstring": "cpp",
         "__verbose_abort": "cpp",
         "execution": "cpp",
-        "print": "cpp"
+        "print": "cpp",
+        "charconv": "cpp",
+        "span": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#f9e64f",
