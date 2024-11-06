@@ -15,10 +15,9 @@
 3. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 4. Βιβλίο [50659221]: C++ Προγραμματισμός, 9η Εκδ., Paul J. Deitel, Harvey M. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:50659221/0)
 
-Τελευταία ενημέρωση: 30/10/2024
+Τελευταία ενημέρωση: 6/11/2024
 
 <!-- [Ύλη προόδου](./proodos-20231208.md) - ημερομηνία προόδου ~~8/12/2023 14:00-16:00~~
-
 [Ύλη τελικής εξέτασης](./final-202401.md) - ημερομηνία τελικής εξέτασης 19/2/2024 12:00-15:00 -->
 
 [C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
@@ -34,26 +33,28 @@
   * [Λύση θέματος 1](./preparation/proodos20190415a_1.cpp)
   * [Λύση θέματος 2](./preparation/proodos20190415a_2.cpp) -->
 
-<!-- 
-* [Θέματα προετοιμασίας Γ (για την πρόοδο)](./preparation/20190415_proodos_b.pdf)
+<!-- * [Θέματα προετοιμασίας Γ (για την πρόοδο)](./preparation/20190415_proodos_b.pdf)
   * [Λύση θέματος 1](./preparation/proodos20190415b_1.cpp)
-  * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp)
-* [Θέματα πρόοδου](./preparation/20231208%20-%20ΠΡΟΟΔΟΣ.pdf)
-  * [Λύση θέματος 1](./preparation/q1.cpp)
-  * [Λύση θέματος 2](./preparation/q2.cpp)
-  * [Λύση θέματος 3](./preparation/q3.cpp)
-* [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
+  * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp) -->
+
+<!-- * [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
   * [Λύση θέματος 1](./preparation/prepare04.cpp)
   * [Λύση θέματος 2](./preparation/prepare09.cpp)
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
   * [Λύση θέματος 4](./preparation/prepare06.cpp)
-  * [Λύση θέματος 5](./preparation/prepare07.cpp)
+  * [Λύση θέματος 5](./preparation/prepare07.cpp) -->
+  
+<!-- * [Θέματα πρόοδου](./preparation/20231208%20-%20ΠΡΟΟΔΟΣ.pdf)
+  * [Λύση θέματος 1](./preparation/q1.cpp)
+  * [Λύση θέματος 2](./preparation/q2.cpp)
+  * [Λύση θέματος 3](./preparation/q3.cpp) -->
+
 * [Προσομοίωση εξετάσεων](./preparation/20220120%20-%20ΠΡΟΣΟΜΟΙΩΣΗ%20ΕΞΕΤΑΣΗΣ.pdf)
   * [Λύση θέματος 1](./preparation/prepare20220120_q1.cpp)
   * [Λύση θέματος 2a](./preparation/prepare20220120_q2a.cpp)
   * [Λύση θέματος 2b](./preparation/prepare20220120_q2b.cpp)
   * [Λύση θέματος 2c](./preparation/prepare20220120_q2c.cpp)
-  * [Λύση θέματος 3](./preparation/prepare20220120_q3.cpp) -->
+  * [Λύση θέματος 3](./preparation/prepare20220120_q3.cpp)
 
 ## ΕΡΓΑΣΙΕΣ
 
@@ -73,7 +74,7 @@
 * [Παρουσίαση 9 - Δείκτες](./OOP9.pdf)
 * [Παρουσίαση 10 - Δυναμική δέσμευση μνήμης](./OOP10.pdf)
 * [Παρουσίαση 11 - Αναδρομή](./OOP11.pdf)
-* [Παρουσίαση 12 - Κατασκευαστής αντιγραφής και αντιγραφή μέσω ανάθεσης](./OOP12.pdf)
+* [Παρουσίαση 12 - Κατασκευαστής αντιγραφής (copy constructor) και αντιγραφή μέσω τελεστή ανάθεσης (assignment operator)](./OOP12.pdf)
 * [Παρουσίαση 13 - Λεκτικά, υπερφόρτωση του τελεστή [] και του τελεστή &](./OOP13.pdf)
 * [Παρουσίαση 14 - Κληρονομικότητα](./OOP14.pdf)
 * [Παρουσίαση 15 - Πολυμορφισμός και ιδεατές συναρτήσεις](./OOP15.pdf)
@@ -134,6 +135,7 @@
 ## Τεκμηρίωση της C++ και της STL
 
 * [https://devdocs.io/](https://devdocs.io/) και με δυνατότητα για offline χρήση
+  * <https://devdocs.io/cpp/>
 * [zeal](https://zealdocs.org/) για offline χρήση
 * [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
 * [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
