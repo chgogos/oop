@@ -2,13 +2,12 @@
 // $ ./a.out
 // $ Hello from C++
 
-#include <iostream>
 #include <format>
+#include <iostream>
 
 using namespace std;
 
-int main()
-{
-const auto msg = std::format("Hello from {}", "C++");
-cout << msg << endl;
+int main() {
+  const auto msg = std::format("Hello from {}", "C++");
+  cout << msg << endl;
 }

@@ -15,12 +15,12 @@
 3. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 4. Βιβλίο [50659221]: C++ Προγραμματισμός, 9η Εκδ., Paul J. Deitel, Harvey M. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:50659221/0)
 
-Τελευταία ενημέρωση: 16/11/2024
+Τελευταία ενημέρωση: 20/11/2024
 
-<!-- [Ύλη προόδου](./proodos-20231208.md) - ημερομηνία προόδου ~~8/12/2023 14:00-16:00~~
-[Ύλη τελικής εξέτασης](./final-202401.md) - ημερομηνία τελικής εξέτασης 19/2/2024 12:00-15:00 -->
+[Ύλη προόδου](./proodos-20241203.md) - ημερομηνία προόδου 3/12/2024 13:00-15:00
+<!-- [Ύλη τελικής εξέτασης](./final-202401.md) - ημερομηνία τελικής εξέτασης 19/2/2024 12:00-15:00 -->
 
-[C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις
+[C++ reference card](./resources/Cpp_refcard.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις προόδου και τελικές.
 
 <!-- * [Θέματα γενικής επανάληψης](./recitation/recitation.md) -->
 
@@ -29,13 +29,13 @@
   * [Λύση θέματος 2](./preparation/prepare02.cpp)
   * [Λύση θέματος 3](./preparation/prepare03.cpp)
 
-<!-- * [Θέματα προετοιμασίας Β (για την πρόοδο)](./preparation/20190415_proodos_a.pdf)
+* [Θέματα προετοιμασίας Β (για την πρόοδο)](./preparation/20190415_proodos_a.pdf)
   * [Λύση θέματος 1](./preparation/proodos20190415a_1.cpp)
-  * [Λύση θέματος 2](./preparation/proodos20190415a_2.cpp) -->
+  * [Λύση θέματος 2](./preparation/proodos20190415a_2.cpp)
 
-<!-- * [Θέματα προετοιμασίας Γ (για την πρόοδο)](./preparation/20190415_proodos_b.pdf)
+* [Θέματα προετοιμασίας Γ (για την πρόοδο)](./preparation/20190415_proodos_b.pdf)
   * [Λύση θέματος 1](./preparation/proodos20190415b_1.cpp)
-  * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp) -->
+  * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp)
 
 <!-- * [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
   * [Λύση θέματος 1](./preparation/prepare04.cpp)
@@ -44,10 +44,10 @@
   * [Λύση θέματος 4](./preparation/prepare06.cpp)
   * [Λύση θέματος 5](./preparation/prepare07.cpp) -->
   
-<!-- * [Θέματα πρόοδου](./preparation/20231208%20-%20ΠΡΟΟΔΟΣ.pdf)
+* [Θέματα πρόοδου (8/12/2023)](./preparation/20231208%20-%20ΠΡΟΟΔΟΣ.pdf)
   * [Λύση θέματος 1](./preparation/q1.cpp)
   * [Λύση θέματος 2](./preparation/q2.cpp)
-  * [Λύση θέματος 3](./preparation/q3.cpp) -->
+  * [Λύση θέματος 3](./preparation/q3.cpp)
 
 * [Προσομοίωση εξετάσεων](./preparation/20220120%20-%20ΠΡΟΣΟΜΟΙΩΣΗ%20ΕΞΕΤΑΣΗΣ.pdf)
   * [Λύση θέματος 1](./preparation/prepare20220120_q1.cpp)
@@ -139,6 +139,11 @@
 * [zeal](https://zealdocs.org/) για offline χρήση
 * [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
 * [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
+
+
+##  C++ Style Guides
+
+* [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html) με εγκατάσταση του cpplint, μπορεί να γίνεται έλεγχος αυτόματος έλεγχος της συμμόρφωσης του κώδικα με τον οδηγό στυλ της Google, μέσα από το VSCode ή από τη γραμμή εντολών.
 
 
 ## Παράδειγματα 

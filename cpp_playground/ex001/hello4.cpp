@@ -1,15 +1,13 @@
 #include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-int main()
-{
-    vector<string> msg{"Hello", "World", "again!"};
-    for (const string &w : msg)
-    {
-        cout << w << " ";
-    }
-    cout << endl;
+int main() {
+  vector<string> msg{"Hello", "World", "again!"};
+  for (const string &w : msg) {
+    cout << w << " ";
+  }
+  cout << endl;
 }

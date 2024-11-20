@@ -2,44 +2,31 @@
 
 using namespace std;
 
-class Sphere
-{
-private:
-    double radius;
+class Sphere {
+ private:
+  double radius;
 
-public:
-    Sphere(double r) : radius(r) {}
-    double get_radius()
-    {
-        return radius;
-    }
-    void set_radius(double r)
-    {
-        radius = r;
-    }
-    double get_volume()
-    {
-        return 4.0 / 3.0 * 3.14159 * radius * radius * radius;
-    }
-    friend ostream &operator<<(ostream &os, Sphere &s)
-    {
-        return os << "RADIUS=" << s.radius << " VOLUME=" << s.get_volume();
-    }
+ public:
+  Sphere(double r) : radius(r) {}
+  double get_radius() { return radius; }
+  void set_radius(double r) { radius = r; }
+  double get_volume() { return 4.0 / 3.0 * 3.14159 * radius * radius * radius; }
+  friend ostream &operator<<(ostream &os, Sphere &s) {
+    return os << "RADIUS=" << s.radius << " VOLUME=" << s.get_volume();
+  }
 };
 
-int main()
-{
-    double sum = .0;
-    for (int i = 0; i < 5; i++)
-    {
-        double r;
-        cout << "Enter radius of sphere: ";
-        cin >> r;
-        Sphere s(r);
-        cout << s << endl;
-        sum += s.get_volume();
-    }
-    cout << sum / 5.0 << endl;
+int main() {
+  double sum = .0;
+  for (int i = 0; i < 5; i++) {
+    double r;
+    cout << "Enter radius of sphere: ";
+    cin >> r;
+    Sphere s(r);
+    cout << s << endl;
+    sum += s.get_volume();
+  }
+  cout << sum / 5.0 << endl;
 }
 
 /*
