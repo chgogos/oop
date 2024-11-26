@@ -60,7 +60,6 @@ void vector_sum() {
   // 3.
   cout << "SUM = " << accumulate(v.begin(), v.end(), 0) << endl;
 
-  // 4.
 }
 
 int main() {
