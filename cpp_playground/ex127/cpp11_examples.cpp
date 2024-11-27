@@ -32,13 +32,14 @@ int main() {
   // 7. scoped enumerators
 
   // 8. smart pointers
-  unique_ptr<int> p(new int(42));
-  cout << *p << endl;
+  unique_ptr<int> p1(new int(42));
+  // unique_ptr<int> p2 = p1; // error p1 is a unique pointer
+  cout << *p1 << endl;
 
-  shared_ptr<int> p1(new int(77));
-  shared_ptr<int> p2 = p1;
-  *p2 = 55;
-  cout << *p1 << " " << *p2 << endl;
+  shared_ptr<int> p3(new int(42));
+  shared_ptr<int> p4 = p3;
+  *p3 = 55;
+  cout << *p3 << " " << *p4 << endl;
 
   // 9. tuple
   tuple<int, char, double> t{42, 'a', 3.14};
