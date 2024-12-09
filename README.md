@@ -15,7 +15,7 @@
 3. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 4. Βιβλίο [50659221]: C++ Προγραμματισμός, 9η Εκδ., Paul J. Deitel, Harvey M. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:50659221/0)
 
-Τελευταία ενημέρωση: 5/12/2024
+Τελευταία ενημέρωση: 9/12/2024
 
 [Ύλη προόδου](./proodos-20241203.md) - ημερομηνία προόδου 3/12/2024 13:00-15:00
 <!-- [Ύλη τελικής εξέτασης](./final-202401.md) - ημερομηνία τελικής εξέτασης 19/2/2024 12:00-15:00 -->
@@ -37,12 +37,12 @@
   * [Λύση θέματος 1](./preparation/proodos20190415b_1.cpp)
   * [Λύση θέματος 2](./preparation/proodos20190415b_2.cpp)
 
-<!-- * [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
+* [Θέματα προετοιμασίας Δ](./preparation/telikes.pdf)
   * [Λύση θέματος 1](./preparation/prepare04.cpp)
   * [Λύση θέματος 2](./preparation/prepare09.cpp)
   * [Λύση θέματος 3](./preparation/prepare05.cpp)
   * [Λύση θέματος 4](./preparation/prepare06.cpp)
-  * [Λύση θέματος 5](./preparation/prepare07.cpp) -->
+  * [Λύση θέματος 5](./preparation/prepare07.cpp)
   
 * [Θέματα πρόοδου (8/12/2023)](./preparation/20231208%20-%20ΠΡΟΟΔΟΣ.pdf)
   * [Λύση θέματος 1](./preparation/q1.cpp)
