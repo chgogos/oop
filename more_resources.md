@@ -191,6 +191,17 @@
 * Μετατροπή από πεζά σε κεφαλαία
   * [touppercase.cpp](./cpp_playground/ex091/touppercase.cpp)
 
+## Standards της C++
+
+* C++98
+* C++03
+* C++11 [cpp11_examples.cpp](./cpp_playground/ex127/cpp11_examples.cpp)
+* C++14 [cpp14_examples.cpp](./cpp_playground/ex127/cpp14_examples.cpp)
+* C++17 [cpp17_examples.cpp](./cpp_playground/ex127/cpp17_examples.cpp)
+* C++20
+* C++23
+* C++26
+
 ## Βέλτιστες πρακτικές στη C++
 
 * Const correctness <http://www.possibility.com/Cpp/const.html>
@@ -307,18 +318,24 @@
     * [account.cpp](./cpp_playground/ex078/account.cpp) 
   * Δύο κλάσεις και one-way association μεταξύ τους: employee και company (η επιχείρηση μπορεί να έχει πολλούς υπαλλήλους - δίνεται η δυνατότητα μετάβασης από την επιχείρηση στους υπαλλήλους της)
     * [διάγραμμα UML](./uml/uml2.png)
-    * [employee.hpp](./cpp_playground/ex076/employee.hpp)
-    * [employee.cpp](./cpp_playground/ex076/employee.cpp)
-    * [company.hpp](./cpp_playground/ex076/company.hpp)
-    * [company.cpp](./cpp_playground/ex076/company.cpp)
-    * [main.cpp](./cpp_playground/ex076/main.cpp)
+    * Σε ένα αρχείο
+      * [main.cpp](./cpp_playground/ex076_single_file/main.cpp)
+    * Διαμερισμός σε αρχεία
+      * [employee.hpp](./cpp_playground/ex076/employee.hpp)
+      * [employee.cpp](./cpp_playground/ex076/employee.cpp)
+      * [company.hpp](./cpp_playground/ex076/company.hpp)
+      * [company.cpp](./cpp_playground/ex076/company.cpp)
+      * [main.cpp](./cpp_playground/ex076/main.cpp)
   * Δύο κλάσεις και two-way association μεταξύ τους: researcher και paper (ένας ερευνητής μπορεί να έχει δημοσιεύσει πολλά άρθρα και ένα άρθρο μπορεί να έχει συγγραφεί από πολλούς ερευνητές - δίνεται η δυνατότητα μετάβασης από τον ερευνητή στα άρθρα του καθώς και από τα άρθρα στους ερευνητές που τα έχουν συγγράψει)
     * [διάγραμμα UML](./uml/uml3.png)
-    * [paper.hpp](./cpp_playground/ex077/paper.hpp)
-    * [paper.cpp](./cpp_playground/ex077/paper.cpp)
-    * [researcher.hpp](./cpp_playground/ex077/researcher.hpp)
-    * [researcher.cpp](./cpp_playground/ex077/researcher.cpp)
-    * [main.cpp](./cpp_playground/ex077/main.cpp)
+      * Σε ένα αρχείο
+        * [main.cpp](./cpp_playground/ex077_single_file/main.cpp)
+      * Διαμερισμός σε αρχεία
+      * [paper.hpp](./cpp_playground/ex077/paper.hpp)
+      * [paper.cpp](./cpp_playground/ex077/paper.cpp)
+      * [researcher.hpp](./cpp_playground/ex077/researcher.hpp)
+      * [researcher.cpp](./cpp_playground/ex077/researcher.cpp)
+      * [main.cpp](./cpp_playground/ex077/main.cpp)
 * Σύζευξη (coupling)
   * [tight_coupling1.cpp](./cpp_playground/ex034/tight_coupling1.cpp) ισχυρή σύζευξη :( 
   * [tight_coupling2.cpp](./cpp_playground/ex034/tight_coupling2.cpp) ισχυρή σύζευξη :( 

@@ -8,7 +8,7 @@ std::vector<paper *> researcher::get_papers() { return papers; }
 
 void researcher::add_paper(paper *p) {
   papers.push_back(p);
-  p->add_author_internal(this);
+  p->add_author(this);
 }
 
 void researcher::display_info() {
