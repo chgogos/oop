@@ -198,7 +198,7 @@
 * [C++11](https://en.cppreference.com/w/cpp/11) Παραδείγματα προσθηκών στη γλώσσα με τη C++11 [cpp11_examples.cpp](./cpp_playground/ex127/cpp11_examples.cpp)
 * [C++14](https://en.cppreference.com/w/cpp/14) Παραδείγματα προσθηκών στη γλώσσα με τη C++14 [cpp14_examples.cpp](./cpp_playground/ex127/cpp14_examples.cpp)
 * [C++17](https://en.cppreference.com/w/cpp/17) Παραδείγματα προσθηκών στη γλώσσα με τη C++17 [cpp17_examples.cpp](./cpp_playground/ex127/cpp17_examples.cpp)
-* [C++20](https://en.cppreference.com/w/cpp/20)
+* [C++20](https://en.cppreference.com/w/cpp/20) Παραδείγματα προσθηκών στη γλώσσα με τη C++20 [cpp20_examples.cpp](./cpp_playground/ex127/cpp20_examples.cpp)
 * [C++23](https://en.cppreference.com/w/cpp/23)
 * [C++26](https://en.cppreference.com/w/cpp/26)
 

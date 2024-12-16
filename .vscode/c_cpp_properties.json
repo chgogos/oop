@@ -8,8 +8,20 @@
             "defines": [],
             "macFrameworkPath": [],
             "compilerPath": "/usr/bin/g++",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "g++-14 (OSX)",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/opt/homebrew/bin/g++-14",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
             "intelliSenseMode": "clang-x64"
         },
         {
@@ -20,8 +32,8 @@
             "defines": [],
             "macFrameworkPath": [],
             "compilerPath": "C:/ProgramData/chocolatey/bin/g++.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
                 "intelliSenseMode": "gcc-x64"
         }
     ],

@@ -111,7 +111,8 @@
         "execution": "cpp",
         "print": "cpp",
         "charconv": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "numbers": "cpp"
     },
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#f9e64f",
@@ -137,5 +138,6 @@
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
-    "code-runner.clearPreviousOutput": true
+    "code-runner.clearPreviousOutput": true,
+    "C_Cpp.default.cppStandard": "c++20"
 }
