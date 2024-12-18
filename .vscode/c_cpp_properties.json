@@ -25,7 +25,7 @@
             "intelliSenseMode": "clang-x64"
         },
         {
-            "name": "MINGW (WIN10)",
+            "name": "MINGW (chocolatey)",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
@@ -35,7 +35,20 @@
             "cStandard": "c23",
             "cppStandard": "c++23",
                 "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "MINGW64 (Windows)",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "C:/ProgramData/mingw64/mingw64/bin/g++.exe",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+                "intelliSenseMode": "gcc-x64"
         }
+
     ],
     "version": 4
 }
