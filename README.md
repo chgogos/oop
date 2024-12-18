@@ -15,14 +15,14 @@
 3. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 4. Βιβλίο [50659221]: C++ Προγραμματισμός, 9η Εκδ., Paul J. Deitel, Harvey M. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:50659221/0)
 
-Τελευταία ενημέρωση: 16/12/2024
+Τελευταία ενημέρωση: 18/12/2024
 
-[Ύλη προόδου](./proodos-20241203.md) - ημερομηνία προόδου 3/12/2024 13:00-15:00
+[Ύλη προόδου](./proodos-20241203.md)  ~~ημερομηνία προόδου 3/12/2024 13:00-15:00~~
 <!-- [Ύλη τελικής εξέτασης](./final-202401.md) - ημερομηνία τελικής εξέτασης 19/2/2024 12:00-15:00 -->
 
 [C++ reference card](./resources/Cpp_reference2.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις προόδου και στις τελικές εξετάσεις.
 
-<!-- * [Θέματα γενικής επανάληψης](./recitation/recitation.md) -->
+* [Θέματα γενικής επανάληψης](./recitation/recitation.md)
 
 * [Θέματα προετοιμασίας Α (για την πρόοδο)](./preparation/proodos.pdf)
   * [Λύση θέματος 1](./preparation/prepare01.cpp)
@@ -93,7 +93,7 @@
 * [Παρουσίαση 20 - Δείκτες στη C και στη C++](./various/pointers/Pointers%20in%20C%20and%20C++.pdf) 
 * [Παρουσίαση 21 - STL](./STL.pdf)
   * [example_with_vector.cpp](./cpp_playground//ex046/example_with_vector.cpp)
-* [Παρουσίαση 22 - C++ vs Java](./C++%20vs%20Java.pdf)
+* [Παρουσίαση 22 - C++ vs. Java](./C++%20vs%20Java.pdf)
 * [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./UML.pdf)
   
 ## ΕΡΓΑΣΤΗΡΙΟ
