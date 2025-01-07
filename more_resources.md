@@ -679,14 +679,6 @@ Topics: vtables, vpointers
 
 <!-- * [Εγκατάσταση JDK + IDE](https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/javainstallation.html) -->
 
-## Τεκμηρίωση γλώσσας C++ και STL
-
-* [https://devdocs.io/](https://devdocs.io/) και με δυνατότητα για offline χρήση
-* [zeal](https://zealdocs.org/) για offline χρήση
-* [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
-* [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
-
-
 ##  Διάφορα
 
 * [How to Read C++ Variable Declarations](https://faculty.cs.niu.edu/~mcmahon/CS241/Notes/reading_declarations.html)
