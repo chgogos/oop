@@ -1,23 +1,26 @@
 # Αντικειμενοστραφής Προγραμματισμός (OOP=Object Oriented Programming) με χρήση της C++
 
-  Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
+Πανεπιστήμιο Ιωαννίνων - Τμήμα Πληροφορικής και Τηλεπικοινωνιών
   
-  Γκόγκος Χρήστος - Άρτα@2025
+Διδάσκων: Γκόγκος Χρήστος
+
+Χειμερινό εξάμηνο ακαδημαϊκού έτους 2025-2026
+
+## Πληροφορίες για το μάθημα
 
 * e-course μαθήματος: <http://ecourse.uoi.gr/course/view.php?id=1944>
-* Θεωρία κάθε Τρίτη 13:00-15:00 στο ΑΜΦ-Β και κάθε Πέμπτη 12:00-14:00 στο ΑΜΦ-Β.
+* [Σελίδα στο Ed για ερωτήσεις/απαντήσεις και συζητήσεις για το μάθημα](https://edstem.org/eu/courses/2706/discussion/201718) (η πρόσκληση εγγραφής υπάρχει στο ecourse)
+* Θεωρία κάθε Τρίτη 10:00-12:00 στο ΑΜΦ-Β και κάθε Πέμπτη 10:00-12:00 στο ΑΜΦ-Β.
 * Εργαστήριο 2 ώρες κάθε δεύτερη εβδομάδα σύμφωνα με το πρόγραμμα της κάθε ομάδας.
 
-## Επιλογές Συγγραμμάτων (ΕΥΔΟΞΟΣ):
+## Επιλογές Συγγραμμάτων ([ΕΥΔΟΞΟΣ](https://service.eudoxus.gr/public/departments/courses/411681/2025))
 
-1. Βιβλίο [122077282]: C++: Από τη Θεωρία στην Εφαρμογή, Γ. Τσελίκης [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122077282/0) 
-2. Βιβλίο [77112469]: Προγραμματισμός με τη C++, 2η Έκδοση, Stroustrup Bjarne [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:77112469/0)
-3. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
-4. Βιβλίο [50659221]: C++ Προγραμματισμός, 9η Εκδ., Paul J. Deitel, Harvey M. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:50659221/0)
+1. Βιβλίο [122077282]: C++: Από τη Θεωρία στην Εφαρμογή, Γ. Τσελίκης [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122077282/0)
+2. Βιβλίο [143556617]: C++ 20 για Προγραμματιστές, Harvey M. Deitel, Paul J. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:143556617/0)
+3. Βιβλίο [77112469]: Προγραμματισμός με τη C++, 2η Έκδοση, Stroustrup Bjarne [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:77112469/0)
+4. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 
-Τελευταία ενημέρωση: 12/1/2025
-
-[Ύλη προόδου](./proodos-20241203.md)  ~~ημερομηνία και ώρα προόδου 3/12/2024 13:00-15:00~~
+<!-- [Ύλη προόδου](./proodos-20241203.md)  ~~ημερομηνία και ώρα προόδου 3/12/2024 13:00-15:00~~
 
 [Ύλη τελικής εξέτασης](./final-202501.md) - ημερομηνία και ώρα τελικής εξέτασης 23/1/2025 12:00-15:00
 
@@ -60,12 +63,12 @@
   * [Λύση θέματος 2a](./preparation/prepare20220120_q2a.cpp)
   * [Λύση θέματος 2b](./preparation/prepare20220120_q2b.cpp)
   * [Λύση θέματος 2c](./preparation/prepare20220120_q2c.cpp)
-  * [Λύση θέματος 3](./preparation/prepare20220120_q3.cpp)
+  * [Λύση θέματος 3](./preparation/prepare20220120_q3.cpp) -->
 
-## ΕΡΓΑΣΙΕΣ
+<!-- ## ΕΡΓΑΣΙΕΣ
 
 * [Εργασίες προηγούμενων ετών](./past_projects.md)
-* [Εργασία ακαδ. έτους 2024-2025](./2024f_project/2024f_oop_prj.pdf)
+* [Εργασία ακαδ. έτους 2024-2025](./2024f_project/2024f_oop_prj.pdf) -->
 
 ## ΘΕΩΡΙΑ
 
@@ -91,7 +94,7 @@
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
-* [Παρουσίαση 20 - Δείκτες στη C και στη C++](./various/pointers/Pointers%20in%20C%20and%20C++.pdf) 
+* [Παρουσίαση 20 - Δείκτες στη C και στη C++](./various/pointers/Pointers%20in%20C%20and%20C++.pdf)
 * [Παρουσίαση 21 - STL](./STL.pdf)
   * [example_with_vector.cpp](./cpp_playground//ex046/example_with_vector.cpp)
 * [Παρουσίαση 22 - C++ vs. Java](./C++%20vs%20Java.pdf)
@@ -99,8 +102,7 @@
   
 ## ΕΡΓΑΣΤΗΡΙΟ
 
-<!-- * [<mark>Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2023-2024</mark>](./lab2023-2024f/README.md) -->
-* [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2024-2025](./lab2024-2025f/README.md)
+* [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2025-2026](./lab2025-2026f/README.md)
 
 ---
 
@@ -112,7 +114,6 @@
   * [Saylor.org Academy: CS107 C++ Programming](https://learn.saylor.org/course/view.php?id=65)
   * [Stanford Engineering Everywhere - CS107 - Programming Paradigms](https://see.stanford.edu/Course/CS107/198)
 * [Modern C++ Programming - C++03 / C++11 / C++14 / C++17 / C++20 / C++23 / C++26 by Federico Busato](https://federico-busato.github.io/Modern-CPP-Programming/)
-
 
 ## Tutorials για τη C++
 
@@ -146,16 +147,13 @@
 * [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
 * [https://www.cplusplus.com/reference/](https://www.cplusplus.com/reference/)
 
+<!-- ## C++ Style Guides
 
-##  C++ Style Guides
+* [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html) με εγκατάσταση του cpplint, μπορεί να γίνεται έλεγχος αυτόματος έλεγχος της συμμόρφωσης του κώδικα με τον οδηγό στυλ της Google, μέσα από το VSCode ή από τη γραμμή εντολών. -->
 
-* [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html) με εγκατάσταση του cpplint, μπορεί να γίνεται έλεγχος αυτόματος έλεγχος της συμμόρφωσης του κώδικα με τον οδηγό στυλ της Google, μέσα από το VSCode ή από τη γραμμή εντολών.
+<!-- ## Παράδειγματα 
 
-
-## Παράδειγματα 
-
-* [FizzBuzz](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2
-
+* [FizzBuzz](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2 -->
 <!-- * [<mark>Ανακατεύθυνση εισόδου</mark>](./cpp_playground/ex112/README.md)   -->
 
 ## Βιβλία
