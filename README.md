@@ -18,7 +18,7 @@
 1. Βιβλίο [122077282]: C++: Από τη Θεωρία στην Εφαρμογή, Γ. Τσελίκης [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122077282/0)
 2. Βιβλίο [143556617]: C++ 20 για Προγραμματιστές, Harvey M. Deitel, Paul J. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:143556617/0)
 3. Βιβλίο [77112469]: Προγραμματισμός με τη C++, 2η Έκδοση, Stroustrup Bjarne [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:77112469/0)
-4. Βιβλίο [122078440]: Η ΓΛΩΣΣΑ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ C++, BJARNE STROUSTRUP [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
+4. Βιβλίο [122078440]: Η γλώσσα προγραμματισμού C++, Stroustrup Bjarne [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
 
 <!-- [Ύλη προόδου](./proodos-20241203.md)  ~~ημερομηνία και ώρα προόδου 3/12/2024 13:00-15:00~~
 
@@ -126,12 +126,12 @@
 * [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus)
 * [Udemy: C++ Tutorial for Complete Beginners](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
 
-## Βίντεο για τη C++
+<!-- ## Βίντεο για τη C++
 
 * [CppCon](https://www.youtube.com/user/CppCon/videos)
 * [C++ The Cherno](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 * [C++ FULL COURSE For Beginners - CodeBeauty](https://www.youtube.com/watch?v=wN0x9eZLix4)
-* [C++ Weekly With Jason Turner](https://www.youtube.com/channel/UCxHAlbZQNFU2LgEtiqd2Maw)
+* [C++ Weekly With Jason Turner](https://www.youtube.com/channel/UCxHAlbZQNFU2LgEtiqd2Maw) -->
 
 ## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων 
 
@@ -155,6 +155,8 @@
 
 * [FizzBuzz](./catch2_examples/fizzbuzz/README.md) παράδειγμα με τη βιβλιοθήκη Catch2 -->
 <!-- * [<mark>Ανακατεύθυνση εισόδου</mark>](./cpp_playground/ex112/README.md)   -->
+<!-- 
+
 
 ## Βιβλία
 
@@ -175,7 +177,7 @@
   * [Παραδείγματα αποσφαλμάτωσης](./various/DEBUG_EXAMPLES/README.md) 
 * CMAKE (An open-source, cross-platform family of tools designed to build, test and package software) <https://cmake.org/>
   * [Introduction to CMake](https://enccs.github.io/intro-cmake/)
-  * <https://github.com/pr0g/cmake-examples>
+  * <https://github.com/pr0g/cmake-examples> -->
 
 <!-- * make
   * [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm) -->
