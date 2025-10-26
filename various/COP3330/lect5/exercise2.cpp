@@ -14,7 +14,8 @@ class Book {
 
 void printBookInfo(Book book) { int dummy = book.pages; }
 void printBookInfoRef(Book& book) { int dummy = book.pages; }
-void printBookInfoConstRef(const Book& book) { int dummy = book.pages; }
+void printBookInfoConstRef(const Book& book) { int dummy = book.pages; 
+book.pages++;}
 
 int main() {
   string largeContent(10000, 'x');
@@ -24,19 +25,19 @@ int main() {
   for (int i = 0; i < 1000000; ++i) printBookInfo(b);
   auto end1 = high_resolution_clock::now();
   cout << "Pass by value: "
-       << duration_cast<milliseconds>(end1 - start1).count() << " ms\n";
+       << duration_cast<nanoseconds>(end1 - start1).count() << " ms\n";
 
   auto start2 = high_resolution_clock::now();
   for (int i = 0; i < 1000000; ++i) printBookInfoRef(b);
   auto end2 = high_resolution_clock::now();
   cout << "Pass by reference: "
-       << duration_cast<milliseconds>(end2 - start2).count() << " ms\n";
+       << duration_cast<nanoseconds>(end2 - start2).count() << " ms\n";
 
   auto start3 = high_resolution_clock::now();
   for (int i = 0; i < 1000000; ++i) printBookInfoConstRef(b);
   auto end3 = high_resolution_clock::now();
   cout << "Pass by const reference: "
-       << duration_cast<milliseconds>(end3 - start3).count() << " ms\n";
+       << duration_cast<nanoseconds>(end3 - start3).count() << " ms\n";
 
   return 0;
 }
