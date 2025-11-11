@@ -1,10 +1,10 @@
 #include <algorithm>
+#include <compare>  // <=>
 #include <iostream>
 #include <utility>
 #include <vector>
 
 using namespace std;
-using namespace std::rel_ops;
 
 class Book {
  private:
@@ -13,8 +13,8 @@ class Book {
 
  public:
   Book(string t, int p) : title(t), pages(p) {}
-  bool operator<(const Book& other) const { return pages < other.pages; }
-  bool operator==(const Book& other) const { return pages == other.pages; }
+  auto operator<=>(const Book& other) const { return pages <=> other.pages; }
+
   friend ostream& operator<<(ostream& os, const Book& other) {
     os << other.title << " " << other.pages;
     return os;
