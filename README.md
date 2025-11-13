@@ -130,7 +130,7 @@
 
 ## Σύνοψη των C++, STL, UML διαγραμμάτων κλάσεων 
 
-* [C++ reference card](./resources/Cpp_refcard.pdf)
+* [C++ reference card](./resources/Cpp_reference2.pdf)
 * [STL reference card](./resources/stlqr-a4-1.33.pdf)
 * [Basic UML Class Diagram Notation](./resources/UMLNotationSummary.pdf)
 
