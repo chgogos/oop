@@ -2,10 +2,9 @@
 
 using namespace std;
 
-int main()
-{
-    int *p = nullptr;
-    // int *p = NULL;
+int main() {
+  int* p = nullptr;
+  // int *p = NULL;
 
-    cout << std::hex << p << endl;
+  cout << std::hex << p << endl;
 }

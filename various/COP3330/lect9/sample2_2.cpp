@@ -2,24 +2,22 @@
 
 using namespace std;
 
-int *foo(int a)
-{
-    int *MyInt = new int;
+int* foo(int a) {
+  int* MyInt = new int;
 
-    *MyInt = a;
+  *MyInt = a;
 
-    return MyInt;
+  return MyInt;
 }
 
-int main()
-{
-    int *MyIntPtr, *p2;
+int main() {
+  int *MyIntPtr, *p2;
 
-    MyIntPtr = foo(5);
-    p2 = foo(7);
+  MyIntPtr = foo(5);
+  p2 = foo(7);
 
-    cout << *MyIntPtr << "\n";
+  cout << *MyIntPtr << "\n";
 
-    delete MyIntPtr;
-    delete p2;
+  delete MyIntPtr;
+  delete p2;
 }

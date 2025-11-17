@@ -2,50 +2,39 @@
 
 using namespace std;
 
-class Student
-{
-public:
-    void PrintReport();
+class Student {
+ public:
+  void PrintReport();
 };
 
-void Student::PrintReport()
-{
-    cout << "This is a general student report.\n";
-}
+void Student::PrintReport() { cout << "This is a general student report.\n"; }
 
-class Grad : public Student
-{
-public:
-    void PrintReport(); 
+class Grad : public Student {
+ public:
+  void PrintReport();
 };
 
-void Grad::PrintReport()
-{
-    cout << "This is a graduate student report.\n";
-}
+void Grad::PrintReport() { cout << "This is a graduate student report.\n"; }
 
-class UGrad : public Student
-{
-public:
-    void PrintReport(); 
+class UGrad : public Student {
+ public:
+  void PrintReport();
 };
 
-void UGrad::PrintReport()
-{
-    cout << "This is an undergraduate student report.\n";
+void UGrad::PrintReport() {
+  cout << "This is an undergraduate student report.\n";
 }
 
-int main()
-{
-    Student S;
-    Grad G;
-    UGrad UG;
+int main() {
+  Student S;
+  Grad G;
+  UGrad UG;
 
-    S.PrintReport();
-    G.PrintReport();
-    UG.PrintReport();
+  S.PrintReport();
+  G.PrintReport();
+  UG.PrintReport();
 
-    return 0;
+  return 0;
 }
 
 /*

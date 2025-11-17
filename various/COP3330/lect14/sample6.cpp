@@ -2,61 +2,50 @@
 
 using namespace std;
 
-class Student
-{
-public:
-    void PrintReport();
+class Student {
+ public:
+  void PrintReport();
 };
 
-void Student::PrintReport()
-{
-    cout << "This is a general student report.\n";
-}
+void Student::PrintReport() { cout << "This is a general student report.\n"; }
 
-class Grad : public Student
-{
-public:
-    void PrintReport(); /* overrides Student::PrintReport */
+class Grad : public Student {
+ public:
+  void PrintReport(); /* overrides Student::PrintReport */
 };
 
-void Grad::PrintReport()
-{
-    cout << "This is a graduate student report.\n";
-}
+void Grad::PrintReport() { cout << "This is a graduate student report.\n"; }
 
-class UGrad : public Student
-{
-public:
-    void PrintReport(); /* overrides Student::PrintReport */
+class UGrad : public Student {
+ public:
+  void PrintReport(); /* overrides Student::PrintReport */
 };
 
-void UGrad::PrintReport()
-{
-    cout << "This is an undergraduate student report.\n";
+void UGrad::PrintReport() {
+  cout << "This is an undergraduate student report.\n";
 }
 
-int main()
-{
-    Student S;
-    Grad G;
-    UGrad UG;
+int main() {
+  Student S;
+  Grad G;
+  UGrad UG;
 
-    S.PrintReport();
-    S.Student::PrintReport();
+  S.PrintReport();
+  S.Student::PrintReport();
 
-    cout << "\n\n*********\n\n";
+  cout << "\n\n*********\n\n";
 
-    G.PrintReport();
-    G.Grad::PrintReport();
-    G.Student::PrintReport();
+  G.PrintReport();
+  G.Grad::PrintReport();
+  G.Student::PrintReport();
 
-    cout << "\n\n*********\n\n";
+  cout << "\n\n*********\n\n";
 
-    UG.PrintReport();
-    UG.UGrad::PrintReport();
-    UG.Student::PrintReport();
+  UG.PrintReport();
+  UG.UGrad::PrintReport();
+  UG.Student::PrintReport();
 
-    return 0;
+  return 0;
 }
 
 /*

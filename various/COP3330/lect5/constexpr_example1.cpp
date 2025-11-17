@@ -4,9 +4,7 @@ using namespace std;
 
 using ull = unsigned long long;
 
-constexpr ull factorial(int n) { 
-    return (n <= 1) ? 1 : n * factorial(n - 1); 
-}
+constexpr ull factorial(int n) { return (n <= 1) ? 1 : n * factorial(n - 1); }
 
 int main() {
   int x = 5;

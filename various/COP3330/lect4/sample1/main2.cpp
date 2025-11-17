@@ -1,25 +1,23 @@
 #include <iostream>
+
 #include "Fraction.hpp"
 
 using namespace std;
 
-bool Equals(Fraction x, Fraction y)
-{
-    if (x.numer * y.denom == y.numer * x.denom)
-        return true;
-    else
-        return false;
+bool Equals(Fraction x, Fraction y) {
+  if (x.numer * y.denom == y.numer * x.denom)
+    return true;
+  else
+    return false;
 }
 
-int main()
-{
-    Fraction f1(1, 2);
-    Fraction f2(2, 4);
+int main() {
+  Fraction f1(1, 2);
+  Fraction f2(2, 4);
 
-    if (Equals(f1, f2))
-        cout << "The fractions are equal" << endl;
+  if (Equals(f1, f2)) cout << "The fractions are equal" << endl;
 
-    return 0;
+  return 0;
 }
 
 /* Compile error

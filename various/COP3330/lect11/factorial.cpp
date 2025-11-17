@@ -1,21 +1,18 @@
-#include <iostream>
 #include <cassert>
+#include <iostream>
 
 using namespace std;
 
-int factorial(int n)
-{
-    assert(n >= 0);
-    if (n <= 1)
-        return 1;
-    else
-        return n * factorial(n - 1);
+int factorial(int n) {
+  assert(n >= 0);
+  if (n <= 1)
+    return 1;
+  else
+    return n * factorial(n - 1);
 }
 
-int main()
-{
-    for (int i = 0; i < 10; i++)
-        cout << i << "!=" << factorial(i) << endl;
+int main() {
+  for (int i = 0; i < 10; i++) cout << i << "!=" << factorial(i) << endl;
 }
 
 /*

@@ -19,7 +19,10 @@ class Library {
   Library(const Library& other) { books = other.books; }
 
   void print() const {
-    for (auto b : books) cout << b->title << "\n";
+    int c = 0;
+    for (auto b : books) {
+      cout << ++c << ". " << b->title << "\n";
+    }
   }
 };
 
@@ -34,7 +37,6 @@ int main() {
   lib1.add_book(b2);
   Library lib2(lib1);
 
-  cout << "Αρχικό περιεχόμενο των βιβλιοθηκών:\n";
   cout << "lib1:\n";
   lib1.print();
   cout << "lib2:\n";
@@ -42,7 +44,6 @@ int main() {
 
   b1->title = "Advanced C++";
 
-  cout << "\nΜετά την αλλαγή τίτλου στο lib1:\n";
   cout << "lib1:\n";
   lib1.print();
   cout << "lib2:\n";

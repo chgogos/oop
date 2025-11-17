@@ -2,27 +2,26 @@
 
 using namespace std;
 
-int *foo(int a)
-{
-    int MyInt;
+int* foo(int a) {
+  int MyInt;
 
-    MyInt = a;
+  MyInt = a;
 
-    return &MyInt;
+  return &MyInt;
 }
 
-int main()
-{
-    int *MyIntPtr;
+int main() {
+  int* MyIntPtr;
 
-    MyIntPtr = foo(5);
-    foo(7);
-    cout << *MyIntPtr << "\n";
-    cout << *MyIntPtr << "\n";
+  MyIntPtr = foo(5);
+  foo(7);
+  cout << *MyIntPtr << "\n";
+  cout << *MyIntPtr << "\n";
 }
 
 /*
-sample2_1.cpp:11:13: warning: address of stack memory associated with local variable 'MyInt' returned
+sample2_1.cpp:11:13: warning: address of stack memory associated with local
+variable 'MyInt' returned
       [-Wreturn-stack-address]
     return &MyInt;
             ^~~~~

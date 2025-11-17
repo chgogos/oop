@@ -1,47 +1,31 @@
 #include "Fraction.hpp"
 
-Fraction::Fraction()
-{
-    numer = 0;
-    denom = 1;
+Fraction::Fraction() {
+  numer = 0;
+  denom = 1;
 }
 
-Fraction::Fraction(int n)
-{
-    numer = n;
-    denom = 1;
+Fraction::Fraction(int n) {
+  numer = n;
+  denom = 1;
 }
 
-Fraction::Fraction(int n, int d)
-{
-    numer = n;
+Fraction::Fraction(int n, int d) {
+  numer = n;
+  denom = d;
+}
+
+int Fraction::GetNumerator() { return numer; }
+
+int Fraction::GetDenominator() { return denom; }
+
+void Fraction::SetNumerator(int n) { numer = n; }
+
+void Fraction::SetDenominator(int d) {
+  if (d != 0)
     denom = d;
+  else
+    denom = 1;
 }
 
-int Fraction::GetNumerator()
-{
-    return numer;
-}
-
-int Fraction::GetDenominator()
-{
-    return denom;
-}
-
-void Fraction::SetNumerator(int n)
-{
-    numer = n;
-}
-
-void Fraction::SetDenominator(int d)
-{
-    if (d != 0)
-        denom = d;
-    else
-        denom = 1;
-}
-
-double Fraction::ToDecimal()
-{
-    return (double)numer / denom;
-}
+double Fraction::ToDecimal() { return (double)numer / denom; }

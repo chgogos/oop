@@ -3,43 +3,36 @@
 
 using std::string;
 
-class Thing
-{
-public:
-    Thing(const char *n);
-    ~Thing();
+class Thing {
+ public:
+  Thing(const char* n);
+  ~Thing();
 
-private:
-    string name;
+ private:
+  string name;
 };
 
-Thing::Thing(const char *n)
-{
-    name = n;
-    std::cout << "Constructor running for " << name << std::endl;
+Thing::Thing(const char* n) {
+  name = n;
+  std::cout << "Constructor running for " << name << std::endl;
 }
 
-Thing::~Thing()
-{
-    std::cout << "Destructor running for " << name << std::endl;
+Thing::~Thing() { std::cout << "Destructor running for " << name << std::endl; }
+
+void foo() {
+  Thing TFoo("Tfoo");
+  return;
 }
 
-void foo()
-{
-    Thing TFoo("Tfoo");
-    return;
-}
+int main() {
+  Thing T1("T1");
 
-int main()
-{
-    Thing T1("T1");
+  std::cout << "Hello" << std::endl;
 
-    std::cout << "Hello" << std::endl;
+  foo();
+  Thing T2("T2");
 
-    foo();
-    Thing T2("T2");
-
-    return 0;
+  return 0;
 }
 
 /* Έξοδος

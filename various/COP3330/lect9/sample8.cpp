@@ -1,22 +1,19 @@
-#include <iostream>
 #include <stdio.h>
+
+#include <iostream>
 
 using namespace std;
 
-void MyIncrement(int &x)
-{
-    x++;
-}
+void MyIncrement(int& x) { x++; }
 
-int main()
-{
-    int MyInt = 4;
+int main() {
+  int MyInt = 4;
 
-    MyIncrement(MyInt);
+  MyIncrement(MyInt);
 
-    cout << MyInt << "\n";
+  cout << MyInt << "\n";
 
-    return 0;
+  return 0;
 }
 
 /*

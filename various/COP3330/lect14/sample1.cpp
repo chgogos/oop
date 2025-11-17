@@ -2,64 +2,52 @@
 
 using namespace std;
 
-class Mammal
-{
-public:
-    void PrintInfo() const;
+class Mammal {
+ public:
+  void PrintInfo() const;
 };
 
-void Mammal::PrintInfo() const
-{
-    cout << "I am warm-blooded and breath air!\n";
+void Mammal::PrintInfo() const {
+  cout << "I am warm-blooded and breath air!\n";
 }
 
-class Cow : public Mammal
-{ /* a cow 'is a' mammal */
-public:
-    void Sound() const;
+class Cow : public Mammal { /* a cow 'is a' mammal */
+ public:
+  void Sound() const;
 };
 
-void Cow::Sound() const
-{
-    cout << "The cow goes Moooooo!\n";
-}
+void Cow::Sound() const { cout << "The cow goes Moooooo!\n"; }
 
-class Pig : public Mammal
-{ /* a pig 'is a' mammal */
-public:
-    void Sound() const;
+class Pig : public Mammal { /* a pig 'is a' mammal */
+ public:
+  void Sound() const;
 };
 
-void Pig::Sound() const
-{
-    cout << "The pig goes Oink!\n";
+void Pig::Sound() const { cout << "The pig goes Oink!\n"; }
+
+void mammal_info(const Mammal& M) {
+  cout << "Here is some interesting information on this mammal:\n";
+  M.PrintInfo();
 }
 
-void mammal_info(const Mammal &M)
-{
-    cout << "Here is some interesting information on this mammal:\n";
-    M.PrintInfo();
-}
+int main() {
+  Mammal M;
+  Cow C;
+  Pig P;
 
-int main()
-{
-    Mammal M;
-    Cow C;
-    Pig P;
+  mammal_info(M);
 
-    mammal_info(M);
+  cout << "\n\n*******\n\n";
 
-    cout << "\n\n*******\n\n";
+  mammal_info(C);
+  C.Sound();
 
-    mammal_info(C);
-    C.Sound();
+  cout << "\n\n*******\n\n";
 
-    cout << "\n\n*******\n\n";
+  mammal_info(P);
+  P.Sound();
 
-    mammal_info(P);
-    P.Sound();
-
-    return 0;
+  return 0;
 }
 
 /*

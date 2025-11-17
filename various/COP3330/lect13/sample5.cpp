@@ -2,22 +2,18 @@
 
 using namespace std;
 
-class MyClass
-{
-public:
-  MyClass()
-  {
-    for (int i = 0; i < 7; i++)
-      data[i] = i;
+class MyClass {
+ public:
+  MyClass() {
+    for (int i = 0; i < 7; i++) data[i] = i;
   }
 
-  const int &operator[](int index) const
-  {
+  const int& operator[](int index) const {
     cout << "Running const " << index << "!\n";
     return data[index];
   }
 
-  /*  
+  /*
   int operator[] (int index) const
   {
   cout<<"Running int "<<index<<"!\n";
@@ -25,18 +21,16 @@ public:
   }
   */
 
-  int &operator[](int index)
-  {
+  int& operator[](int index) {
     cout << "Running normal " << index << "!\n";
     return data[index];
   }
 
-private:
+ private:
   int data[7];
 };
 
-int main()
-{
+int main() {
   const MyClass c1;
   MyClass c2;
   int num;
@@ -47,14 +41,12 @@ int main()
   c2[2] = 8;
   cout << c2[2] << endl;
 
-  //security risks?
-  int &intref = c2[0];
+  // security risks?
+  int& intref = c2[0];
 
-  for (int i = 0; i < 7; i++)
-    *(&intref + i) = 99;
+  for (int i = 0; i < 7; i++) *(&intref + i) = 99;
 
-  for (int i = 0; i < 7; i++)
-    cout << "array[" << i << "] = " << c2[i] << endl;
+  for (int i = 0; i < 7; i++) cout << "array[" << i << "] = " << c2[i] << endl;
   return 0;
 }
 

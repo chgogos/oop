@@ -2,14 +2,13 @@
 
 using namespace std;
 
-int main()
-{
-    char MyChar = 'a';
-    int *MyIntPtr;
+int main() {
+  char MyChar = 'a';
+  int* MyIntPtr;
 
-    MyIntPtr = (int *)&MyChar;
-    cout << *MyIntPtr << "\n";
-    cout << *((char*)MyIntPtr) << "\n";
+  MyIntPtr = (int*)&MyChar;
+  cout << *MyIntPtr << "\n";
+  cout << *((char*)MyIntPtr) << "\n";
 }
 
 /*

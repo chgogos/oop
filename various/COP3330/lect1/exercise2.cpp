@@ -3,7 +3,7 @@
 using namespace std;
 
 class Temperature {
-public:
+ public:
   double celsius;
   void set_celsius(double c);
   double to_fahrenheit();

@@ -2,18 +2,17 @@
 
 using namespace std;
 
-int main()
-{
-    int val = 5;
-    int *valptr = &val;
+int main() {
+  int val = 5;
+  int* valptr = &val;
 
-    *valptr = 10;
-    cout << "val = " << val << endl;
-    cout << "&val = " << &val << endl;
-    cout << "valptr = " << valptr << endl;
-    cout << "*valptr = " << *valptr << endl;
-    cout << "&valptr = " << &valptr << endl;
-    return 0;
+  *valptr = 10;
+  cout << "val = " << val << endl;
+  cout << "&val = " << &val << endl;
+  cout << "valptr = " << valptr << endl;
+  cout << "*valptr = " << *valptr << endl;
+  cout << "&valptr = " << &valptr << endl;
+  return 0;
 }
 
 /*
