@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-main()
-{
+main() {
   int donuts, milk;
   double dpg;
 
@@ -11,16 +10,15 @@ main()
   cout << "Enter number of glasses of milk:\n";
   cin >> milk;
 
-  if (milk <=0) {
+  if (milk <= 0) {
     cout << donuts << " donuts. and No Milk!\n"
          << "Go buy some milk.\n";
-  } 
-  else {
+  } else {
     dpg = donuts / static_cast<double>(milk);
 
-    cout << donuts << " donuts.\n" 
-       << milk << " glasses of milk.\n"
-       << "You have " << dpg << " donuts for each glass of milk.\n";
+    cout << donuts << " donuts.\n"
+         << milk << " glasses of milk.\n"
+         << "You have " << dpg << " donuts for each glass of milk.\n";
   }
 }
 

@@ -3,8 +3,8 @@
 #include <vector>
 
 template <typename T>
-int index_of(const std::vector<T>& vec, int size, const T& target) {
-  for (int i = 0; i < size; ++i) {
+int index_of(const std::vector<T>& vec, const T& target) {
+  for (int i = 0; i < vec.size(); ++i) {
     if (vec[i] == target) {
       return i;
     }
@@ -24,8 +24,8 @@ int main() {
   std::vector<std::string> v_str = {"arta", "ioannina", "preveza",
                                     "igoumenitsa"};
 
-  int idx_int = index_of(v_int, v_int.size(), 30);
-  int idx_str = index_of(v_str, v_str.size(), std::string("preveza"));
+  int idx_int = index_of(v_int, 30);
+  int idx_str = index_of(v_str, std::string("preveza"));
 
   std::cout << "position of 30 in v_int: " << idx_int << std::endl;
   std::cout << "position of \"preveza\" in v_str: " << idx_str << std::endl;

@@ -1,32 +1,29 @@
 #include <iostream>
 using namespace std;
 
-main()
-{
-    int donuts, milk;
-    double dpg;
+main() {
+  int donuts, milk;
+  double dpg;
 
-    try
-    {
-        cout << "Enter number of donuts:\n";
-        cin >> donuts;
-        cout << "Enter number of glasses of milk:\n";
-        cin >> milk;
-        if (milk <= 0)
-            throw 0.1; // δεν συλλαμβάνεται η εξαίρεση διότι κάνει throw double τιμή και δεν υπάρχει αντίστοιχο catch
+  try {
+    cout << "Enter number of donuts:\n";
+    cin >> donuts;
+    cout << "Enter number of glasses of milk:\n";
+    cin >> milk;
+    if (milk <= 0)
+      throw 0.1;  // δεν συλλαμβάνεται η εξαίρεση διότι κάνει throw double τιμή
+                  // και δεν υπάρχει αντίστοιχο catch
 
-        dpg = donuts / static_cast<double>(milk);
-        cout << donuts << " donuts.\n"
-             << milk << " glasses of milk.\n"
-             << "You have " << dpg << " donuts for each glass of milk.\n";
-    }
-    catch (int e)
-    {
-        cout << e << " donuts. and No Milk!\n"
-             << "Go buy some milk.\n";
-    }
+    dpg = donuts / static_cast<double>(milk);
+    cout << donuts << " donuts.\n"
+         << milk << " glasses of milk.\n"
+         << "You have " << dpg << " donuts for each glass of milk.\n";
+  } catch (int e) {
+    cout << e << " donuts. and No Milk!\n"
+         << "Go buy some milk.\n";
+  }
 
-    cout << "I am done.\n";
+  cout << "I am done.\n";
 }
 
 /*

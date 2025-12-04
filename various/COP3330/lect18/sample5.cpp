@@ -1,36 +1,28 @@
-#include <iostream>
 #include <stdlib.h>
+
+#include <iostream>
 
 using namespace std;
 
-main()
-{
-    int i;
+main() {
+  int i;
 
-    for (i = 0; i < 10; i++)
-    {
-        try
-        {
-            if (i % 4 == 0)
-                throw i;
-            else if (i % 2 == 0)
-                throw 'a';
-            else
-                throw 0.5;
-        }
-        catch (int e)
-        {
-            cout << "get int exception no: " << e << endl;
-        }
-        catch (char)
-        {
-            cout << "get char exception\n";
-        }
-        catch (...)
-        {
-            cout << "get other exception\n";
-        }
+  for (i = 0; i < 10; i++) {
+    try {
+      if (i % 4 == 0)
+        throw i;
+      else if (i % 2 == 0)
+        throw 'a';
+      else
+        throw 0.5;
+    } catch (int e) {
+      cout << "get int exception no: " << e << endl;
+    } catch (char) {
+      cout << "get char exception\n";
+    } catch (...) {
+      cout << "get other exception\n";
     }
+  }
 }
 
 /*

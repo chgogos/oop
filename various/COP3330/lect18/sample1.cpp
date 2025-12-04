@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
   int donuts, milk;
   double dpg;
 
@@ -13,7 +12,7 @@ int main()
 
   dpg = donuts / (double)milk;
 
-  cout << donuts << " donuts.\n" 
+  cout << donuts << " donuts.\n"
        << milk << " glasses of milk.\n"
        << "You have " << dpg << " donuts for each glass of milk.\n";
 }
