@@ -91,7 +91,7 @@
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
 * [Παρουσίαση 20 - Δείκτες στη C και στη C++](./various/pointers/Pointers%20in%20C%20and%20C++.pdf)
-* [Παρουσίαση 21 - STL](./STL.pdf)
+* [Παρουσίαση 21 - STL](./OOP20_STL.pdf)
   * [example_with_vector.cpp](./cpp_playground//ex046/example_with_vector.cpp)
 * [Παρουσίαση 22 - C++ vs. Java](./C++%20vs%20Java.pdf)
 * [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./UML.pdf)
