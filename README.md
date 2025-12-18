@@ -94,7 +94,7 @@
 * [Παρουσίαση 21 - STL](./OOP20_STL.pdf)
   * [example_with_vector.cpp](./cpp_playground//ex046/example_with_vector.cpp)
 * [Παρουσίαση 22 - C++ vs. Java](./C++%20vs%20Java.pdf)
-* [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./UML.pdf)
+* [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./OOP23_UML.pdf)
   
 ## ΕΡΓΑΣΤΗΡΙΟ
 
@@ -119,7 +119,7 @@
 * [cplusplus.com tutorials](http://www.cplusplus.com/doc/tutorial/)
 * [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
 * [Educative.io - Learn C++ from scratch](https://www.educative.io/courses/learn-cpp-from-scratch)
-* [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus)
+<!-- * [Sololearn: C++](https://www.sololearn.com/Play/CPlusPlus) -->
 * [Udemy: C++ Tutorial for Complete Beginners](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
 
 <!-- ## Βίντεο για τη C++
