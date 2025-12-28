@@ -93,7 +93,7 @@
 * [Παρουσίαση 20 - Δείκτες στη C και στη C++](./various/pointers/Pointers%20in%20C%20and%20C++.pdf)
 * [Παρουσίαση 21 - STL](./OOP20_STL.pdf)
   * [example_with_vector.cpp](./cpp_playground//ex046/example_with_vector.cpp)
-* [Παρουσίαση 22 - C++ vs. Java](./OOP22_C++%20vs%20Java.pdf
+* [Παρουσίαση 22 - C++ vs. Java](./OOP22_C++%20vs%20Java.pdf)
 * [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./OOP23_UML.pdf)
   
 ## ΕΡΓΑΣΤΗΡΙΟ
