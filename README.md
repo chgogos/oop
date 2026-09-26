@@ -4,22 +4,22 @@
   
 Διδάσκων: Γκόγκος Χρήστος
 
-Χειμερινό εξάμηνο ακαδημαϊκού έτους 2025-2026
+Χειμερινό εξάμηνο ακαδημαϊκού έτους 2026-2027
 
 Σελίδα στο e-course του Πανεπιστημίου Ιωαννίνων για το μάθημα: <http://ecourse.uoi.gr/course/view.php?id=1944>
 
 ## Επιλογές Συγγραμμάτων ([ΕΥΔΟΞΟΣ](https://service.eudoxus.gr/public/departments/courses/411681/2025))
 
-1. Βιβλίο [122077282]: C++: Από τη Θεωρία στην Εφαρμογή, Γ. Τσελίκης [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122077282/0)
-2. Βιβλίο [143556617]: C++ 20 για Προγραμματιστές, Harvey M. Deitel, Paul J. Deitel [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:143556617/0)
-3. Βιβλίο [77112469]: Προγραμματισμός με τη C++, 2η Έκδοση, Stroustrup Bjarne [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:77112469/0)
-4. Βιβλίο [122078440]: Η γλώσσα προγραμματισμού C++, Stroustrup Bjarne [Λεπτομέρειες](https://service.eudoxus.gr/search/#a/id:122078440/0)
+1. Βιβλίο [143564158]: Προγραμματισμός με τη C++, 2η Έκδοση, Stroustrup Bjarne
+2. Βιβλίο [122077282]: C++: Από τη Θεωρία στην Εφαρμογή, Γ. Τσελίκης
+3. Βιβλίο [122078440]: Η γλώσσα προγραμματισμού C++, 4η έκδοση, Stroustrup Bjarne
+3. Βιβλίο [143556617]: C++ 20 για Προγραμματιστές, Harvey M. Deitel, Paul J. Deitel
 
-[Ύλη προόδου](./proodos-20251127.md)
+<!-- [Ύλη προόδου](./proodos-20251127.md)
 
 [Ύλη τελικής εξέτασης](./final-202601.md) - ημερομηνία και ώρα τελικής εξέτασης 23/1/2026 12:00-15:00
 
-[C++ reference card](./resources/Cpp_reference2.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις.
+[C++ reference card](./resources/Cpp_reference2.pdf) μπορείτε να το έχετε εκτυπωμένο μαζί σας στις εξετάσεις. -->
 
 <!--
 * [Θέματα γενικής επανάληψης](./recitation/recitation.md)
@@ -90,15 +90,15 @@
   
 Οι παραπάνω παρουσιάσεις αποτελούν προσαρμογή υλικού που έχει αναπτυχθεί από τους Robert Myers, Matthew Small, Xin Yuan στα πλαίσια μαθημάτων για τον αντικειμενοστραφή προγραμματισμό με τη C++ [COP3330/CGS5409: Object-oriented Programming in C++](http://www.cs.fsu.edu/~xyuan/cop3330/).
 
-* [Παρουσίαση 20 - Δείκτες στη C και στη C++](./various/pointers/Pointers%20in%20C%20and%20C++.pdf)
+* [Παρουσίαση 20 - Δείκτες στη C και στη C++](./various/pointers/pointers_in_C_and_C++.pdf)
 * [Παρουσίαση 21 - STL](./OOP20_STL.pdf)
   * [example_with_vector.cpp](./cpp_playground//ex046/example_with_vector.cpp)
-* [Παρουσίαση 22 - C++ vs. Java](./C++%20vs%20Java.pdf)
-* [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./UML.pdf)
+* [Παρουσίαση 22 - C++ vs. Java](./OOP22_C++_vs_Java.pdf)
+* [Παρουσίαση 23 - UML - Διαγράμματα κλάσεων](./OOP23_UML.pdf)
   
 ## ΕΡΓΑΣΤΗΡΙΟ
 
-* [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2025-2026](./lab2025-2026f/README.md)
+* [Εργαστήρια χειμερινού εξαμήνου ακαδημαϊκού έτους 2026-2027](./lab2026-2027f/README.md)
 
 ---
 
