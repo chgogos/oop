@@ -139,5 +139,6 @@
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
     "code-runner.clearPreviousOutput": true,
-    "C_Cpp.default.cppStandard": "c++20"
+    "C_Cpp.default.cppStandard": "c++20",
+    "cmake.sourceDirectory": "/Users/cgogos/git_repos/oop/build_tools/cmake2"
 }
