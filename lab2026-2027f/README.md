@@ -43,7 +43,9 @@
   * [static1.c](./../cpp_playground/ex013/static1.c)
   * [static2.cpp](./../cpp_playground/ex013/static2.cpp)
 * Η βιβλιοθήκη Catch2 για συγγραφή ελέγχων
-  * [Παραδείγματα](../catch2_examples/README.md) 
+  * [Παραδείγματα](../catch2_examples/README.md)
+
+[Προετοιμασία για το κουίζ του εργαστηρίου 1](./lab01/erg1.pdf)
 
 ## Εργαστήριο 2
 
