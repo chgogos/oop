@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-constexpr auto M_PI = 3.14159;
+constexpr auto PI = 3.14159;
 
 class circle
 {
@@ -23,7 +23,7 @@ public:
         std::cout << "The circle at memory position " << this << " is created" << std::endl;
     }
 
-    // ή εναλλακτικά ο 1ος constructor με αρχικοποίηση μελών δεοδομένων στο σώμα του κατασκευαστή
+    // ή εναλλακτικά ο 1ος constructor με αρχικοποίηση μελών δεδομένων στο σώμα του κατασκευαστή
     // circle()
     // {
     //     center_x = 0.0;
@@ -46,13 +46,13 @@ public:
 
     double area() const
     {
-        return M_PI * radius * radius;
-        // return M_PI * this->radius * this->radius; // εναλλακτικά
+        return PI * radius * radius;
+        // return PI * this->radius * this->radius; // εναλλακτικά
     }
 
     double perimeter() const
     {
-        return 2 * M_PI * radius;
+        return 2 * PI * radius;
     }
 
     bool is_point_inside(double x, double y) const
@@ -67,7 +67,6 @@ int main()
     {
         // δημιουργία αντικειμένου circle - κλήση constructor χωρίς παραμέτρους - κλήση destructor όταν βγει out of scope
         circle a;
-        // circle a(); // εναλλακτικά
         // circle a{}; // εναλλακτικά
     }
 
