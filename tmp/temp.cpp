@@ -7,7 +7,7 @@ class Person{
         int age;
     public:
         Person(string n, int a): name(n), age(a){}
-        virtual void say(string m){
+        virtual void say(const string& m) const{
             cout << "The person sayed: " << m << endl;
         }
 
@@ -18,7 +18,7 @@ class Student : public Person {
         int semester;
     public:
         Student(string n, int a, int s): Person(n,a), semester(s){}
-        void say(string msg) {
+        void say(const string& msg)  const override{
             cout << "The student sayed " << msg << endl;
         }
 
