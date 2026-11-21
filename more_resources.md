@@ -490,6 +490,7 @@ Topics: vtables, vpointers
 * [onlinegdb](https://www.onlinegdb.com/)
 * [techiedelight](https://techiedelight.com/compiler/)
 * [rextester - compile c++ gcc online](https://rextester.com/l/cpp_online_compiler_gcc)
+* [onlinecompiler.io](https://onlinecompiler.io/cpp-online-compiler)
 
 ## Εξάσκηση στη C++
 
@@ -676,6 +677,7 @@ Topics: vtables, vpointers
 
 * [techiedelight.com - online Java Compiler](https://techiedelight.com/compiler/)
 * [onlinegdb - online Java Compiler](https://www.onlinegdb.com/online_java_compiler)
+* [onlinecompiler.io (online Java compiler)](https://onlinecompiler.io/java-online-compiler)
 
 <!-- * [Εγκατάσταση JDK + IDE](https://vasnastos.github.io/Object_Oriented_Programming-CPP-Java/javainstallation.html) -->
 
