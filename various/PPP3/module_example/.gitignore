@@ -1,0 +1,40 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# CMake files (from an in-source build)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeUserPresets.json
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Ninja
+build.ninja
+.ninja_deps
+.ninja_log
+rules.ninja
+
+# Module build outputs
+*.pcm
+gcm.cache/
+*.ifc
+
+# Object files and binaries
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+app
+
+# Editor and OS files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+.cache/
+.DS_Store
